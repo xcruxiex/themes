@@ -1,0 +1,308 @@
+.markup-2BOw-j code,
+.markup-2BOw-j code.inline {
+  background: var(--dark);
+  box-sizing: border-box;
+}
+.markup-2BOw-j pre {
+  background: transparent;
+  border: none;
+}
+.markup-2BOw-j {position: relative;}
+.buttonContainer-KtQ8wc {
+  position: relative;
+}
+.buttonContainer-37UsAw > div {
+  z-index: 1000;
+}
+.markup-2BOw-j code{position: relative;}
+.hljs {overflow: visible !important;margin-top: 25px;border-radius: 0;}
+.css:before {
+  content: "CSS";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.js:before {
+  content: "Javascript";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.php:before {
+  content: "PHP";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.java:before {
+  content: "Java";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.csharp:before {
+  content: "C#";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.c:before {
+  content: "C";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.cpp:before {
+  content: "C++";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.coffeescript:before {
+  content: "Coffeescript";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.bash:before {
+  content: "Bash";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.bat:before {
+  content: "Batch";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.html:before {
+  content: "HTML";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.apache:before {
+  content: "Apache";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.diff:before {
+  content: "Diff";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.http:before {
+  content: "HTTP";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.json:before {
+  content: "JSON";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.markdown:before {
+  content: "Markdown";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.makfile:before {
+  content: "Makefile";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.nginx:before {
+  content: "Nginx";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.perl:before {
+  content: "Perl";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.properties:before {
+  content: "Properties";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.ruby:before {
+  content: "Ruby";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.python:before {
+  content: "Python";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.shell:before {
+  content: "Shell";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.sql:before {
+  content: "SQL";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.powershell:before {
+  content: "PowerShell";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.xml:before {
+  content: "XML";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.objectivec:before {
+  content: "Objective-C";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.CSS:before {
+  content: "CSS";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.py:before {
+  content: "PY";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}

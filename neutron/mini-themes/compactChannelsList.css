@@ -1,0 +1,41 @@
+/*
+Original Code by Satoru
+updated for Neutron X by Spectra
+*/
+.header-2o-2hj,.channels-Ie2l6A {width: 170px;transition:all .4s ease}
+
+.channels-Ie2l6A:hover,
+.channels-Ie2l6A:hover .header-2o-2hj,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A,
+.guildsWrapper-5TJh6A:hover + div .header-2o-2hj,
+.guildsWrapper-5TJh6A:hover + div .container-2Rl01u {width:240px;}
+.container-1UB9sr,.privateChannels-1nO12o header {font-size: .875rem}
+.content-20Aix8 {padding:0;transition:all .4s ease}
+.channels-Ie2l6A:hover .content-20Aix8,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .content-20Aix8 {padding:0 8px}
+.voiceUser-vT8g1p {left:-20px;transition:all .4s ease}
+.channels-Ie2l6A:hover .voiceUser-vT8g1p,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .voiceUser-vT8g1p {left:0}
+.inner-btChU7 .rtc-connection-status .ping {background-size: 10px 10px}
+.inner-btChU7 .rtc-connection-status {font-size:.7em;transition:all .3s ease}
+.channels-Ie2l6A:hover .inner-btChU7 .rtc-connection-status,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .inner-btChU7 .rtc-connection-status {font-size:.9em;transition:all .3s ease}
+.inner-btChU7 .channel-SEolQq {opacity: .8}
+.container-1UB9sr .button-2KyEfG {width: 26px}
+.container-2Thooq .avatar-small {background-size: 35px 35px;position:relative;height: 35px;width: 35px;right: 4px}
+.channels-Ie2l6A:hover .accountDetails-3k9g4n,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .accountDetails-3k9g4n {visibility:visible;transition: all .5 ease}
+.accountDetails-3k9g4n {visibility:hidden;position:relative;right:10px}
+.name-2WpE7M {flex-grow:0}
+/* Edited snippet from CompletelyUnbelievable's Mini-theme */
+.privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M {opacity:0}
+/*End*/
+.channels-Ie2l6A:hover .channel-2QD9_O .name-2WpE7M,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .channel-2QD9_O .name-2WpE7M {opacity:.6;transition: opacity 2s ease}
+.channel-2QD9_O .avatar-small {height:35px;width:35px;background-size:35px}
+.channel-2QD9_O .wrapper-2F3Zv8{left:50px;transition:all .5s ease}
+.channel-2QD9_O .linkButtonIcon-Mlm5d6 {margin-right: 0;margin-left: 55px;transition:all .5s ease}
+.channels-Ie2l6A:hover .channel-2QD9_O .wrapper-2F3Zv8,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .channel-2QD9_O .wrapper-2F3Zv8 {left:0;transition:all .5s ease}
+.channels-Ie2l6A:hover .channel-2QD9_O .linkButtonIcon-Mlm5d6,
+.guildsWrapper-5TJh6A:hover + div .channels-Ie2l6A .channel-2QD9_O .linkButtonIcon-Mlm5d6 {margin-left: 0;margin-right: 18px;}
