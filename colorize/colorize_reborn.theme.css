@@ -1,4 +1,4 @@
-//META{"name":"Colorize Reborn","description":"Allow you to change discord background & texts colors","author":"Spectra#7698","version":"1.0","website":"https://codedotspectra.github.io/me/"}*//{}
+//META{"name":"Colorize Reborn","description":"Allow you to change discord background & texts colors","author":"Spectra#7698","version":"1.0.1","website":"https://codedotspectra.github.io/me/"}*//{}
 /*###################################################################################################
 Colorize Reborn Theme for Better Discord
 
@@ -6,7 +6,7 @@ original idea : Maple
 
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-@import url("https://raw.githack.com/codedotspectra/colorize/master/importCSS/colorize.css");
+@import url("https://raw.githack.com/codedotspectra/themes/master/colorize/importCSS/colorize.css");
 /*###################################################################################################*/
 :root {
   --colorBrand: #7289da; /* Discord blue color, Default: 7289da */
