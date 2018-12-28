@@ -1,22 +1,31 @@
 # Spectra's Themes
 My main BD repo. Here you'll find all my themes
 
+help me to make my themes even better! Join the discord server!
+Suggestions and bugs reports are welcome
+https://discord.gg/Y8ZVyXz/
+
 # My Themes
 
 * Neutron X
-Download :
+
+Download : https://betterdiscord.net/ghdl?id=2648
 
 * Discord Electro
-Download :
+
+Download : https://betterdiscord.net/ghdl?id=2650
 
 * Dunes
-Download :
+
+Download : https://betterdiscord.net/ghdl?id=2651
 
 * Colorize Reborn
-Download :
+
+Download : https://betterdiscord.net/ghdl?id=2652
 
 * Chemical
-Download :
+
+Download : https://betterdiscord.net/ghdl?id=2649
 
 * Nocturnal (Unreleased)
 * Borderlands (Unreleased)
