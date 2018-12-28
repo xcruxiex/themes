@@ -8,42 +8,42 @@ https://discord.gg/Y8ZVyXz/
 
 # My Themes
 
-* Theme Generator
+## Theme Generator
 
 Link : https://codedotspectra.github.io/bdthemegenerator/
 
-* Neutron X
-
-Download : https://betterdiscord.net/ghdl?id=2648
-![Neutron X Demo](https://i.imgur.com/LNtTeZi.jpg)
-
-* Discord Electro
-
-Download : https://betterdiscord.net/ghdl?id=2650
-![Electro Demo](https://i.imgur.com/YA54mPy.jpg)
-
-* Dunes
-
-Download : https://betterdiscord.net/ghdl?id=2651
-![Dunes Demo](https://i.imgur.com/RATfN5X.jpg)
-
-* Colorize Reborn
-
-Download : https://betterdiscord.net/ghdl?id=2652
-![Colorize Demo](https://i.imgur.com/wIjnxPA.jpg)
-
-* Chemical
-
-Download : https://betterdiscord.net/ghdl?id=2649
-![Chemical Demo](https://i.imgur.com/hew7Wel.jpg)
-
-* Nocturnal
+## Nocturnal
 
 Download: https://betterdiscord.net/ghdl?id=2653
 ![Nocturnal Demo](https://i.imgur.com/cybNOBe.jpg)
 
-* Borderlands (Unreleased)
-* Steam (Unreleased)
+## Neutron X
+
+Download : https://betterdiscord.net/ghdl?id=2648
+![Neutron X Demo](https://i.imgur.com/LNtTeZi.jpg)
+
+## Discord Electro
+
+Download : https://betterdiscord.net/ghdl?id=2650
+![Electro Demo](https://i.imgur.com/YA54mPy.jpg)
+
+## Dunes
+
+Download : https://betterdiscord.net/ghdl?id=2651
+![Dunes Demo](https://i.imgur.com/RATfN5X.jpg)
+
+## Colorize Reborn
+
+Download : https://betterdiscord.net/ghdl?id=2652
+![Colorize Demo](https://i.imgur.com/wIjnxPA.jpg)
+
+## Chemical
+
+Download : https://betterdiscord.net/ghdl?id=2649
+![Chemical Demo](https://i.imgur.com/hew7Wel.jpg)
+
+## Borderlands (Unreleased)
+## Steam (Unreleased)
 
 # Tutorials
 
