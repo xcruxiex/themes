@@ -1,0 +1,24 @@
+//META{"name":"Colorize Reborn","description":"Allow you to change discord background & texts colors","author":"Spectra#7698","version":"1.0","website":"https://codedotspectra.github.io/me/"}*//{}
+/*###################################################################################################
+Colorize Reborn Theme for Better Discord
+
+original idea : Maple
+
+This theme is meant to be used with the dark version of discord
+###################################################################################################*/
+@import url("https://raw.githack.com/codedotspectra/colorize/master/importCSS/colorize.css");
+/*###################################################################################################*/
+:root {
+  --colorBrand: #7289da; /* Discord blue color, Default: 7289da */
+  --colorBrandTransparent: rgba(114, 137, 218,.3);
+  --bgColor05: #202225; /* Default: #202225 */
+  --bgColor04: #2f3136; /* Default: #2f3136 */
+  --bgColor03: #36393f; /* Default: #36393f */
+  --bgColor01: #72767d; /* Default: #72767d */
+  --links: purple; /* links text color, Default #0096cf */
+  --ChatTextColor: hsla(0, 100%, 100%, .8);
+  --ChannelsSelectedTextColor: hsla(0, 100%, 100%, .95); /* hsla(0, 100%, 100%, .95) */
+  --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .6); /* hsla(0, 100%, 100%, .6) */
+  --ChannelsDarkTextColor: hsla(0, 100%, 100%, .2); /* hsla(0, 100%, 100%, .2) */
+  --membersListTextsColor: hsla(0, 100%, 100%, .35); /* hsla(0, 100%, 100%, .35) */
+}
