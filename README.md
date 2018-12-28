@@ -3,6 +3,7 @@ My main BD repo. Here you'll find all my themes
 
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
+
 https://discord.gg/Y8ZVyXz/
 
 # My Themes
@@ -40,3 +41,15 @@ Download : https://betterdiscord.net/ghdl?id=2649
 * 3. Place your theme in this folder (must be named like this : `name.theme.css`)
 * 4. Reload Discord using `Ctrl + R` (or `Cmd + R`)
 * 5. Go to `Discord -> Settings -> Themes` and turn on your theme
+
+# Support
+
+You can find support for my themes here : https://discord.gg/Y8ZVyXz/
+
+How to ask :
+
+* Specify the theme
+* Explain your problem clearly
+* add a screenshot if needed
+
+PLEASE READ THE RULES BEFORE ASKING
