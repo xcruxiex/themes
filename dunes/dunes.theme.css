@@ -1,4 +1,4 @@
-//META{"name":"Dunes","description":"Minimalist, rounded and smooth","author":"Spectra#7698","version":"1.0","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
+//META{"name":"Dunes","description":"Minimalist, rounded and smooth","author":"Spectra#7698","version":"3.0.1","source":"https://github.com/codedotspectra/discordneutron","website":"https://codedotspectra.github.io/neutron/"}*//{}
 /*
 
 ██████╗ ██╗   ██╗███╗   ██╗███████╗███████╗
@@ -18,7 +18,7 @@ If you enjoy using the theme, help spread the word!
 
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-@import url("https://raw.githack.com/codedotspectra/dunes/master/importCSS/core.css");
+@import url("https://raw.githack.com/codedotspectra/themes/master/dunes/importCSS/core.css");
 /*###################################################################################################*/
 :root {
   --bgImage: url("https://i.imgur.com/ZoWEHGm.jpg");
