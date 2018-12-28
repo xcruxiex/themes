@@ -11,22 +11,27 @@ https://discord.gg/Y8ZVyXz/
 * Neutron X
 
 Download : https://betterdiscord.net/ghdl?id=2648
+![Neutron X Demo](https://i.imgur.com/LNtTeZi.jpg)
 
 * Discord Electro
 
 Download : https://betterdiscord.net/ghdl?id=2650
+![Electro Demo](https://i.imgur.com/YA54mPy.jpg)
 
 * Dunes
 
 Download : https://betterdiscord.net/ghdl?id=2651
+![Dunes Demo](https://i.imgur.com/RATfN5X.jpg)
 
 * Colorize Reborn
 
 Download : https://betterdiscord.net/ghdl?id=2652
+![Colorize Demo](https://i.imgur.com/wIjnxPA.jpg)
 
 * Chemical
 
 Download : https://betterdiscord.net/ghdl?id=2649
+![Chemical Demo](https://i.imgur.com/hew7Wel.jpg)
 
 * Nocturnal (Unreleased)
 * Borderlands (Unreleased)
