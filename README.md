@@ -8,6 +8,10 @@ https://discord.gg/Y8ZVyXz/
 
 # My Themes
 
+* Theme Generator
+
+Link : https://codedotspectra.github.io/bdthemegenerator/
+
 * Neutron X
 
 Download : https://betterdiscord.net/ghdl?id=2648
