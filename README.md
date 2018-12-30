@@ -1,10 +1,13 @@
-# Spectra's Themes
-My main BD repo. Here you'll find all my themes
+# BetterDiscord Themes
+
+All the themes/mini-themes/tools i made for Discord.
+
+Quick Reminder : do not use BetterDocs.us, this website steal themes/plugins, you may download a virus using this website /!\
 
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
-https://discord.gg/Y8ZVyXz/
+Discord server invite : https://discord.gg/Y8ZVyXz/
 
 # My Themes
 
