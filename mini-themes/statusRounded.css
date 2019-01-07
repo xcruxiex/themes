@@ -1,38 +1,32 @@
-:root {
-  --DangerColor: #dc3545;
-  --WarningColor: #ffc107;
-  --SuccesColor: #28a745;
-}
-
 .statusProfile-3ynqtt.idle-3DEnRT {
   left: -1px;
   top: -1px;
   height: 93px;
   width: 93px;
-  border: 4px solid var(--WarningColor) !important;
+  border: 4px solid #ffc107 !important;
   box-sizing: border-box;
   background-color: transparent !important;
-  box-shadow: 0 0 20px 4px var(--WarningColor);
+  box-shadow: 0 0 20px 4px #ffc107;
 }
 .statusProfile-3ynqtt.online-2S838R {
   left: -1px;
   top: -1px;
   height: 93px;
   width: 93px;
-  border: 4px solid var(--SuccesColor) !important;
+  border: 4px solid #28a745 !important;
   box-sizing: border-box;
   background-color: transparent !important;
-  box-shadow: 0 0 20px 4px var(--SuccesColor);
+  box-shadow: 0 0 20px 4px #28a745;
 }
 .statusProfile-3ynqtt.dnd-1_xrcq {
   left: -1px;
   top: -1px;
   height: 93px;
   width: 93px;
-  border: 4px solid var(--DangerColor) !important;
+  border: 4px solid #dc3545 !important;
   box-sizing: border-box;
   background-color: transparent !important;
-  box-shadow: 0 0 20px 4px var(--DangerColor);
+  box-shadow: 0 0 20px 4px #dc3545;
 }
 .statusProfile-3ynqtt.offline-3qoTek {
   left: -1px;
@@ -74,9 +68,9 @@
   box-sizing: border-box;
   background-color: transparent !important;
 }
-.online-2S838R {border: 2px solid var(--SuccesColor) !important;}
-.dnd-1_xrcq {border: 2px solid var(--DangerColor) !important;}
-.idle-3DEnRT {border: 2px solid var(--WarningColor) !important;}
+.online-2S838R {border: 2px solid #28a745 !important;}
+.dnd-1_xrcq {border: 2px solid #dc3545 !important;}
+.idle-3DEnRT {border: 2px solid #ffc107 !important;}
 .invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {border: 2px solid #747f8d !important;}
 .avatar-small .status {
   height: 32px;
@@ -88,9 +82,9 @@
   height: 15px;
   width: 15px;
 }
-.menu-Sp6bN1 .online-2S838R {background-color: var(--SuccesColor) !important;}
-.menu-Sp6bN1 .idle-3DEnRT {background-color: var(--WarningColor) !important;}
-.menu-Sp6bN1 .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
+.menu-Sp6bN1 .online-2S838R {background-color: #28a745 !important;}
+.menu-Sp6bN1 .idle-3DEnRT {background-color: #ffc107 !important;}
+.menu-Sp6bN1 .dnd-1_xrcq {background-color: #dc3545 !important;}
 .menu-Sp6bN1 .invisible-1kp8Z0,
 .menu-Sp6bN1 .offline-3qoTek,
 .menu-Sp6bN1 .unknown-Ms2zdV {
@@ -111,9 +105,9 @@
   height: 32px !important;
   width: 32px !important;
 }
-.titleText-3X-zRE .online-2S838R {background-color: var(--SuccesColor) !important;}
-.titleText-3X-zRE .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
-.titleText-3X-zRE .idle-3DEnRT {background-color: var(--WarningColor) !important;}
+.titleText-3X-zRE .online-2S838R {background-color: #28a745 !important;}
+.titleText-3X-zRE .dnd-1_xrcq {background-color: #dc3545 !important;}
+.titleText-3X-zRE .idle-3DEnRT {background-color: #ffc107 !important;}
 .titleText-3X-zRE .invisible-1kp8Z0,
 .titleText-3X-zRE .offline-3qoTek,
 .titleText-3X-zRE .unknown-Ms2zdV {background-color: #747f8d !important;}
@@ -128,9 +122,9 @@
 #friends .unknown-Ms2zdV {
   background-color: #747f8d !important;
 }
-#friends .online-2S838R {background-color: var(--SuccesColor) !important;}
-#friends .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
-#friends .idle-3DEnRT {background-color: var(--WarningColor) !important;}
+#friends .online-2S838R {background-color: #28a745 !important;}
+#friends .dnd-1_xrcq {background-color: #dc3545 !important;}
+#friends .idle-3DEnRT {background-color: #ffc107 !important;}
 .side-8zPYf6 .item-PXvHYJ .status-oxiHuE {
   height: 23px !important;
   width: 23px !important;
