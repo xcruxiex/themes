@@ -141,3 +141,8 @@
   height: 33px !important;
   width: 33px !important;
 }
+.callAvatar-v-u4BM.video-3GgX2M,
+.callAvatarBorder-1D_KaE {
+  border-radius: 50% !important;
+}
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {box-shadow: inset 0 0 0 2px var(--SuccesColor);}
