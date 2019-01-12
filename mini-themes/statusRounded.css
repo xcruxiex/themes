@@ -146,3 +146,14 @@
   border-radius: 50% !important;
 }
 .callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {box-shadow: inset 0 0 0 2px var(--SuccesColor);}
+.friendsColumnStatus-ZH4ho2 .online-2S838R {background-color: var(--SuccesColor) !important;}
+.friendsColumnStatus-ZH4ho2 .idle-3DEnRT {background-color: var(--WarningColor) !important;}
+.friendsColumnStatus-ZH4ho2 .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
+.friendsColumnStatus-ZH4ho2 .invisible-1kp8Z0,
+.friendsColumnStatus-ZH4ho2 .offline-3qoTek,
+.friendsColumnStatus-ZH4ho2 .unknown-Ms2zdV {background-color: #747f8d !important;}
+.friendsColumnStatus-ZH4ho2 .status-oxiHuE {
+  height: 15px;
+  width: 15px;
+  background-color: inherit;
+}
