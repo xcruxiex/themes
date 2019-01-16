@@ -157,16 +157,13 @@
   width: 15px;
   background-color: inherit;
 }
-.avatarSmall-3ACRaI .status-2zcSVk {
-  element.style {
-}
 .channel-2QD9_O .status-1ibiUI {
     border: 2px solid #2f3136;
 }
 .avatarSmall-3ACRaI .status-2zcSVk {
   border-radius: 50%;
   top: -1px;
-  height: 32px;
+  height: 32px !important;
   left: -1px;
-  width: 32px;
+  width: 32px !important;
 }

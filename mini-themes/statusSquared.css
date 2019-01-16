@@ -169,7 +169,7 @@
 .avatarSmall-3ACRaI .status-2zcSVk {
   border-radius: 0;
   top: -1px;
-  height: 32px;
+  height: 32px !important;
   left: -1px;
-  width: 32px;
+  width: 32px !important;
 }
