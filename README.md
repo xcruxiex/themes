@@ -60,7 +60,7 @@ Download : https://betterdiscord.net/ghdl?id=2649
 
 # Support
 
-You can find support for my themes here : https://discord.gg/Y8ZVyXz/
+You can find support for my themes here : https://discord.gg/Y8ZVyXz
 
 How to ask :
 
