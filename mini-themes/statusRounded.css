@@ -166,4 +166,5 @@
   height: 32px !important;
   left: -1px;
   width: 32px !important;
+  pointer-events: none;
 }
