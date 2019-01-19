@@ -306,6 +306,46 @@
   border-radius: 4px 4px 0 0;
   background: rgba(0,0,0,.9);
 }
+.ts:before {
+  content: "TypeScript";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.typescript:before {
+  content: "TypeScript";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.scss:before {
+  content: "SCSS";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
+.less:before {
+  content: "Less CSS";
+  padding: 1px 7px 1px 7px;
+  position: absolute;
+  top: -18px;
+  left: -1px;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  background: rgba(0,0,0,.9);
+}
 code[class="scrollbarGhost-2F9Zj2 scrollbar-3dvm_9 da-scrollbarGhost da-scrollbar hljs"] {
   margin-top:0;
   border-radius:6px;
