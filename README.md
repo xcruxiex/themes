@@ -9,6 +9,8 @@ Suggestions and bugs reports are welcome
 
 Discord server invite : https://discord.gg/Y8ZVyXz/
 
+## Much love to donators <3
+
 # My Themes
 
 ## Theme Generator
