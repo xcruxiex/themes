@@ -7,7 +7,7 @@ Quick Reminder : do not use BetterDocs.us, this website steal themes/plugins, yo
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
-Discord server invite : https://discord.gg/Y8ZVyXz/
+Discord server invite : https://discord.gg/Y8ZVyXz
 
 ## Much love to donators <3
 
