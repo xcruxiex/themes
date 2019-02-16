@@ -77,7 +77,7 @@
 .avatar-small .status {
   height: 32px;
   width: 32px;
-  border-radius: 50%;
+  border-radius: 50% !important;
   pointer-events: none;
 }
 .menu-Sp6bN1 .status-3fQvEa {
@@ -163,7 +163,7 @@
     border: 2px solid #2f3136;
 }
 .avatarSmall-3ACRaI .status-2zcSVk {
-  border-radius: 50%;
+  border-radius: 50% !important;
   top: -1px;
   height: 32px !important;
   left: -1px;
