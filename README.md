@@ -17,6 +17,11 @@ Discord server invite : https://discord.gg/Y8ZVyXz
 
 Link : https://codedotspectra.github.io/bdthemegenerator/
 
+## Discord Dark
+
+Download : https://betterdiscord.net/ghdl?id=2788
+![DiscordDark Demo](https://i.imgur.com/8kFbvFy.jpg)
+
 ## Nocturnal
 
 Download: https://betterdiscord.net/ghdl?id=2653
