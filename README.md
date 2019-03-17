@@ -9,7 +9,7 @@ Suggestions and bugs reports are welcome
 
 Discord server invite : https://discord.gg/Y8ZVyXz
 
-## Much love to donators <3
+## Much love to donators <3 i can now buy a taco
 
 # My Themes
 
@@ -18,54 +18,48 @@ Discord server invite : https://discord.gg/Y8ZVyXz
 Link : https://codedotspectra.github.io/bdthemegenerator/
 
 ## Discord Dark
+A dark theme for discord, inspired by Github dark (https://github.com/StylishThemes/GitHub-Dark)
 
 Download : https://betterdiscord.net/ghdl?id=2788
 ![DiscordDark Demo](https://i.imgur.com/8kFbvFy.jpg)
 
 ## Nocturnal
+An easy on the eye theme, for thoses who live at night
 
 Download: https://betterdiscord.net/ghdl?id=2653
 ![Nocturnal Demo](https://i.imgur.com/cybNOBe.jpg)
 
 ## Neutron X
+Highly customizable
 
 Download : https://betterdiscord.net/ghdl?id=2648
 ![Neutron X Demo](https://i.imgur.com/LNtTeZi.jpg)
 
 ## Discord Electro
+Squared minimalist theme
 
 Download : https://betterdiscord.net/ghdl?id=2650
 ![Electro Demo](https://i.imgur.com/YA54mPy.jpg)
 
 ## Dunes
+Highly customizable
 
 Download : https://betterdiscord.net/ghdl?id=2651
 ![Dunes Demo](https://i.imgur.com/RATfN5X.jpg)
 
 ## Colorize Reborn
+Allow you to change discord color, keep the default ui
 
 Download : https://betterdiscord.net/ghdl?id=2652
 ![Colorize Demo](https://i.imgur.com/wIjnxPA.jpg)
 
 ## Chemical
+Squared minimalist theme
 
 Download : https://betterdiscord.net/ghdl?id=2649
 ![Chemical Demo](https://i.imgur.com/hew7Wel.jpg)
 
-## Borderlands (Unreleased)
-## Steam (Unreleased)
-
-# Tutorials
-
-### Installation
-
-* 1. Download the theme file
-* 2. open the themes folder `Discord -> Settings -> Themes -> Open themes` folder
-* 3. Place your theme in this folder (must be named like this : `name.theme.css`)
-* 4. Reload Discord using `Ctrl + R` (or `Cmd + R`)
-* 5. Go to `Discord -> Settings -> Themes` and turn on your theme
-
-# Support
+# Find help
 
 You can find support for my themes here : https://discord.gg/Y8ZVyXz
 
