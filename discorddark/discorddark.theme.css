@@ -25,3 +25,18 @@
 /*###################################################################################################*/
 @import url("https://raw.githack.com/codedotspectra/themes/master/discorddark/import/core.css");
 /*###################################################################################################*/
+/*
+  Customization :
+  Changing colors may not change ALL colors, especialy red, green & purple
+*/
+:root {
+  --main-blue:#224466; /*  blue (main color)  */
+  --main-blue-light:#3973ac; /*  light blue  */
+  --main-blue-light-alt:#4080bf; /*  another light blue (channels categories & member list roles)  */
+  --main-green:#498947; /*  green color  */
+  --main-red:#712828; /*  red color  */
+  --main-purple:#4e377b; /*  purple (twitch)  */
+  --main-dark:#181818; /*  dark grey  */
+  --main-light:#484848; /*  light grey  */
+  --bgImage:url("IMAGE URL HERE"); /*  background-image (it will repeat, best is a 70x70px image)  */
+}
