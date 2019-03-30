@@ -20,8 +20,8 @@ This theme is meant to be used with the dark version of discord
 /*###################################################################################################*/
 :root {
     /* Images */
-    --bgImage: url('https://img5.goodfon.com/original/2560x1440/9/24/astronaut-propast-noch-nebo-planeta-fantastika-skafandr.jpg');
-    --HomeButtonImg: url("https://raw.githubusercontent.com/codedotspectra/discordneutron/master/import/homeBtn.png");
+    --bgImage: url('IMAGE URL HERE');
+    --HomeButtonImg: url("IMAGE URL HERE");
     --brightness: 0.4;
 
     /* font */
