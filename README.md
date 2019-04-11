@@ -7,15 +7,14 @@ Quick Reminder : do not use BetterDocs.us, this website steal themes/plugins, yo
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
-Discord server invite : https://discord.gg/Y8ZVyXz
-
-## Much love to donators <3 i can now buy a taco
-
-# My Themes
+Discord server invite : https://discord.gg/PZdnCVD
+## PLEASE TELL WICH THEME YOU'RE USING WHEN ASKING
 
 ## Theme Generator
 
 Link : https://codedotspectra.github.io/bdthemegenerator/
+
+# My Themes
 
 ## Discord Dark
 A dark theme for discord, inspired by Github dark (https://github.com/StylishThemes/GitHub-Dark)
@@ -61,7 +60,7 @@ Download : https://betterdiscord.net/ghdl?id=2649
 
 # Find help
 
-You can find support for my themes here : https://discord.gg/Y8ZVyXz
+You can find support for my themes here : https://discord.gg/PZdnCVD
 
 How to ask :
 
