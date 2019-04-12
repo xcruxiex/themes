@@ -38,5 +38,5 @@
   --main-purple:#4e377b; /*  purple (twitch)  */
   --main-dark:#181818; /*  dark grey  */
   --main-light:#484848; /*  light grey  */
-  --bgImage:url("IMAGE URL HERE"); /*  background-image (it will repeat, best is a 70x70px image)  */
+  --bgImage:url(https://i.imgur.com/CZlzgPG.png); /*  background-image (it will repeat, best is a 70x70px image)  */
 }
