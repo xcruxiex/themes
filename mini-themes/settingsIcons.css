@@ -12,63 +12,32 @@
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item,
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/account.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/privacy.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/apps.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/connections.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/billing.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before,
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(7)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/nitro.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/hype.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/voice.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/overlay.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/notifications.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/keybinds.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/joystick.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/activity_feed.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/gamepad.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/text.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/eye.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/twitch.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/language.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/windows.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/changelog.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/experiments.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/dev_options.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/core.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/bandages.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/emote.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/css.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/plugins.png) center}
-.platform-osx .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before,
-.platform-win .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/theme.png) center}
-.platform-osx #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(28)::before,
-.platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/icons/logout.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/account.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/privacy.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/apps.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/connections.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(6)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/billing.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/nitro.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/hype.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(12)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/voice.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(13)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/overlay.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/notifications.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/keybinds.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/games.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/activity_feed.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/gamepad.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/text.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/eye.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/twitch.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/language.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/windows.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/changelog.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/experiments.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/dev_options.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/core.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/bandages.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/emote.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/css.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/plugins.png) center}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/theme.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url(https://raw.githubusercontent.com/codedotspectra/themes/master/icons/logout.png) center}
