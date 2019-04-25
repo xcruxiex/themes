@@ -197,3 +197,22 @@
   height: 36px !important;
   width: 36px !important;
 }
+.container-1r6BKw .status-oxiHuE {
+  height: 13px;
+  width: 13px;
+  margin-top: 3px;
+}
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .invisible-1kp8Z0,
+.container-1r6BKw .invisible-1kp8Z0,
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .offline-3qoTek,
+.container-1r6BKw .offline-3qoTek,
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .unknown-Ms2zdV,
+.container-1r6BKw .unknown-Ms2zdV {background-color: #747f8d !important}
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .online-2S838R,
+.container-1r6BKw .online-2S838R {background-color: #28a745 !important}
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .dnd-1_xrcq,
+.container-1r6BKw .dnd-1_xrcq {background-color: #dc3545 !important}
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .idle-3DEnRT,
+.container-1r6BKw .idle-3DEnRT{background-color: #ffc107 !important}
+.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .streaming-2_dnHe,
+.container-1r6BKw .streaming-2_dnHe {background-color: #593695 !important}
