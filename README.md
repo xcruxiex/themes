@@ -2,6 +2,15 @@
 
 All the themes/mini-themes/tools i made for Discord.
 
+some of my theme were discontinued.
+if you want to download the code & images its on mediafire :
+https://www.mediafire.com/file/dsl65vuwkl8bu3r/colorize.rar/file
+https://www.mediafire.com/file/up8qf1brpp8uzv6/dunes.rar/file
+https://www.mediafire.com/file/xfvww06ekh34tae/discordelectro.rar/file
+
+Do whatever you want with them.
+
+
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
