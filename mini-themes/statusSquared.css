@@ -32,6 +32,10 @@
   width: 40px;
   height: 40px;
 }
+.autocompleteRow-2OthDa [role="img"][aria-label]:before {
+  width: 24px;
+  height: 24px;
+}
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
 .avatarOffline-3GF27z {filter: grayscale(100%);}
 
