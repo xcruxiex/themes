@@ -1,248 +1,171 @@
-.statusProfile-3ynqtt.idle-3DEnRT {
-  left: -1px;
-  top: -1px;
-  height: 93px;
-  width: 93px;
-  border: 4px solid #ffc107 !important;
-  box-sizing: border-box;
-  background-color: transparent !important;
-  box-shadow: 0 0 20px 4px #ffc107;
-}
-.statusProfile-3ynqtt.online-2S838R {
-  left: -1px;
-  top: -1px;
-  height: 93px;
-  width: 93px;
-  border: 4px solid #28a745 !important;
-  box-sizing: border-box;
-  background-color: transparent !important;
-  box-shadow: 0 0 20px 4px #28a745;
-}
-.statusProfile-3ynqtt.dnd-1_xrcq {
-  left: -1px;
-  top: -1px;
-  height: 93px;
-  width: 93px;
-  border: 4px solid #dc3545 !important;
-  box-sizing: border-box;
-  background-color: transparent !important;
-  box-shadow: 0 0 20px 4px #dc3545;
-}
-.statusProfile-3ynqtt.invisible-1kp8Z0,
-.statusProfile-3ynqtt.unknown-Ms2zdV-3qoTek,
-.statusProfile-3ynqtt.offline-3qoTek {
-  left: -1px;
-  top: -1px;
-  height: 93px;
-  width: 93px;
-  border: 4px solid #747f8d !important;
-  box-sizing: border-box;
-  background-color: transparent !important;
-  box-shadow: 0 0 20px 4px #747f8d;
-}
-.mask-3OgeRz,
-.maskProfile-1ObLFT {
-  -webkit-mask-size: 0%;
-  -webkit-mask: none !important;
-  mask: none !important;
-}
-.status-oxiHuE {
+[role="img"][aria-label]:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 2px solid #43b581;
+  position: absolute;
   left: -2px;
   top: -2px;
-  height: 43px;
-  width: 43px;
-  border-radius: 50% !important;
-  border: 2px solid transparent;
-  box-sizing: border-box;
-  background-color: transparent !important;
+  border-radius: 50%;
+  z-index: 10;
+  pointer-events: none;
 }
-.container-1r6BKw .status-oxiHuE {
-  height: 13px;
-  width: 13px;
-  margin-top: 3px;
+.header-QKLPzZ [role="img"][aria-label]:before,
+.header-2BwW8b [role="img"][aria-label]:before {
+  width: 80px;
+  height: 80px;
+  left: -3px;
+  top: -3px;
+  border-width: 3px;
 }
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .invisible-1kp8Z0,
-.container-1r6BKw .invisible-1kp8Z0,
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .offline-3qoTek,
-.container-1r6BKw .offline-3qoTek,
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .unknown-Ms2zdV,
-.container-1r6BKw .unknown-Ms2zdV {background-color: #747f8d !important}
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .online-2S838R,
-.container-1r6BKw .online-2S838R {background-color: #28a745 !important}
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .dnd-1_xrcq,
-.container-1r6BKw .dnd-1_xrcq {background-color: #dc3545 !important}
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .idle-3DEnRT,
-.container-1r6BKw .idle-3DEnRT{background-color: #ffc107 !important}
-.friendsTable-133bsv .friendsColumnStatus-ZH4ho2 .streaming-2_dnHe,
-.container-1r6BKw .streaming-2_dnHe {background-color: #593695 !important}
-.videoBackground-3AY_fu .status-oxiHuE {
-  left: 0;
-  top: 0;
-  border-radius: 50% !important;
-  height: 100px;
+.userSettingsAccount-2eMFVR [role="img"][aria-label]:before {
   width: 100px;
+  height: 100px;
+  left: -3px;
+  top: -3px;
+  border-width: 3px;
 }
-.status-2s6iDp {
-  left: -2.5px;
-  top: -2.5px;
-  border-radius: 50% !important;
-  height: 34.5px !important;
-  width: 34.5px !important;
-  border: 2px solid transparent;
-  box-sizing: border-box;
-  background-color: transparent !important;
+.header-GwIGlr [role="img"][aria-label]:before,
+.bannedUser-1IalTM [role="img"][aria-label]:before,
+.member-1q7VfX [role="img"][aria-label]:before {
+  width: 40px;
+  height: 40px;
 }
-.online-2S838R {border: 2px solid #28a745 !important;}
-.dnd-1_xrcq {border: 2px solid #dc3545 !important;}
-.idle-3DEnRT {border: 2px solid #ffc107 !important;}
-.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV {border: 2px solid #747f8d !important;}
-.avatar-small .status {
-  height: 32px;
-  width: 32px;
-  border-radius: 50% !important;
-  pointer-events: none;
-}
-.menu-Sp6bN1 .status-3fQvEa {
-  height: 15px;
-  width: 15px;
-  border-radius: 50% !important;
-}
-.menu-Sp6bN1 .online-2S838R {background-color: #28a745 !important;}
-.menu-Sp6bN1 .idle-3DEnRT {background-color: #ffc107 !important;}
-.menu-Sp6bN1 .dnd-1_xrcq {background-color: #dc3545 !important;}
-.menu-Sp6bN1 .invisible-1kp8Z0,
-.menu-Sp6bN1 .offline-3qoTek,
-.menu-Sp6bN1 .unknown-Ms2zdV {
-  background-color: rgb(116, 127, 141) !important;
-}
-.pulsingEllipsis-3YiXRF {width: 33px;}
-.titleText-3X-zRE .status-oxiHuE {
-  height: 15px;
-  width: 15px;
-  margin-top: 5px;
-  margin-left: 5px;
-  border-radius: 50% !important;
-}
-.autocompleteRowVertical-q1K4ky .status-oxiHuE {
-  height: 25px;
-  width: 25px;
-  border-radius: 50% !important;
-}
-.channel-2QD9_O.selected-1HYmZZ .status {
-  height: 32px !important;
-  width: 32px !important;
-  border-radius: 50% !important;
-}
-.xsmall-3afG_L .status-oxiHuE {
-  height: 23px;
-  width: 23px;
-  border-radius: 50% !important;
-}
-.titleText-3X-zRE .online-2S838R {background-color: #28a745 !important;}
-.titleText-3X-zRE .dnd-1_xrcq {background-color: #dc3545 !important;}
-.titleText-3X-zRE .idle-3DEnRT {background-color: #ffc107 !important;}
-.titleText-3X-zRE .invisible-1kp8Z0,
-.titleText-3X-zRE .offline-3qoTek,
-.titleText-3X-zRE .unknown-Ms2zdV {background-color: #747f8d !important;}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
+.avatarOffline-3GF27z {filter: grayscale(100%);}
 
-#friends .status-oxiHuE {
-  height: 13px;
-  width: 13px;
-  top: 0;
-}
-#friends .invisible-1kp8Z0,
-#friends .offline-3qoTek,
-#friends .unknown-Ms2zdV {
-  background-color: #747f8d !important;
-}
-#friends .online-2S838R {background-color: #28a745 !important;}
-#friends .dnd-1_xrcq {background-color: #dc3545 !important;}
-#friends .idle-3DEnRT {background-color: #ffc107 !important;}
-.side-8zPYf6 .item-PXvHYJ .status-oxiHuE {
-  height: 23px !important;
-  width: 23px !important;
-  border-radius: 50% !important;
-}
-.typingSpinnerItem-35chrT {box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5) !important;}
-#autocomplete-popout .status-oxiHuE,
-.status-oxiHuE.typing-1KJk_j,
-.players-2Tcfos .status-oxiHuE,
-.scroller-2CvAgC .status-oxiHuE {
-  height: 33px !important;
-  width: 33px !important;
-  border-radius: 50% !important;
-}
-.callAvatar-v-u4BM.video-3GgX2M,
-.callAvatarBorder-1D_KaE {
-  border-radius: 50% !important;
-}
-.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {box-shadow: inset 0 0 0 2px var(--SuccesColor);}
-.friendsColumnStatus-ZH4ho2 .online-2S838R {background-color: var(--SuccesColor) !important;}
-.friendsColumnStatus-ZH4ho2 .idle-3DEnRT {background-color: var(--WarningColor) !important;}
-.friendsColumnStatus-ZH4ho2 .dnd-1_xrcq {background-color: var(--DangerColor) !important;}
-.friendsColumnStatus-ZH4ho2 .invisible-1kp8Z0,
-.friendsColumnStatus-ZH4ho2 .offline-3qoTek,
-.friendsColumnStatus-ZH4ho2 .unknown-Ms2zdV {background-color: #747f8d !important;}
-.friendsColumnStatus-ZH4ho2 .status-oxiHuE {
-  height: 15px;
-  width: 15px;
-  background-color: inherit;
-}
-.channel-2QD9_O .status-1ibiUI {
-    border: 2px solid #2f3136;
-    border-radius: 50% !important;
-}
-.avatarSmall-3ACRaI .status-2zcSVk {
-  border-radius: 50% !important;
-  top: -1px;
-  height: 32px !important;
-  left: -1px;
-  width: 32px !important;
-  pointer-events: none;
-}
-.header-2UBPnS .status-oxiHuE {
-  top: -1px;
-  height: 34px !important;
-  left: -1px;
-  width: 34px !important;
-}
-.partyMembers-1fgYyj .status-oxiHuE {
-  top: -1px;
-  height: 26px !important;
-  left: -1px;
-  width: 26px !important;
-}
-.avatar-261BSX .status-oxiHuE {
-  top: -1px;
-  height: 26px !important;
-  left: -1px;
-  width: 26px !important;
-}
-.streaming-2_dnHe {border-color: #593695 !important;}
+[role="img"][aria-label] foreignObject {mask: none;}
+[role="img"][aria-label] foreignObject img {border-radius: 50%;}
+[role="img"][aria-label] svg rect {display: none;}
 
-.row-rrHHJU .small-5Os1Bb .status-oxiHuE {
-  width: 34px;
-  height: 34px;
+[role="img"][aria-label*="Online"]:before,
+[role="img"][aria-label*="Conectado"]:before,
+[role="img"][aria-label*="En ligne"]:before,
+[role="img"][aria-label*="Na mreži"]:before,
+[role="img"][aria-label*="Prisijungęs"]:before,
+[role="img"][aria-label*="Elérhető"]:before,
+[role="img"][aria-label*="Pålogget"]:before,
+[role="img"][aria-label*="Dostępny"]:before,
+[role="img"][aria-label*="Disponível"]:before,
+[role="img"][aria-label*="Paikalla"]:before,
+[role="img"][aria-label*="Trực tuyến"]:before,
+[role="img"][aria-label*="Çevrimiçi"]:before,
+[role="img"][aria-label*="Συνδεδεμένος"]:before,
+[role="img"][aria-label*="На линия"]:before,
+[role="img"][aria-label*="В сети"]:before,
+[role="img"][aria-label*="В мережі"]:before,
+[role="img"][aria-label*="ออนไลน์"]:before,
+[role="img"][aria-label*="在线"]:before,
+[role="img"][aria-label*="オンライン"]:before,
+[role="img"][aria-label*="線上"]:before,
+[role="img"][aria-label*="온라인"]:before {
+  border-color: #43b581;
 }
-.videoBackground-3-Y-dL .wrapper-2F3Zv8 .status-oxiHuE {
-  width: 93px;
-  height: 93px;
-  top: -1px;
-  left: -1px;
+[role="img"][aria-label*="Do Not Disturb"]:before,
+[role="img"][aria-label*="Vil ikke forstyrres"]:before,
+[role="img"][aria-label*="Bitte nicht stören"]:before,
+[role="img"][aria-label*="No molestar"]:before,
+[role="img"][aria-label*="Ne pas déranger"]:before,
+[role="img"][aria-label*="Ne uznemiravaj"]:before,
+[role="img"][aria-label*="Non disturbare"]:before,
+[role="img"][aria-label*="Netrukdyti"]:before,
+[role="img"][aria-label*="Niet storen"]:before,
+[role="img"][aria-label*="Ikke forstyrr"]:before,
+[role="img"][aria-label*="Nie przeszkadzać"]:before,
+[role="img"][aria-label*="Elfoglalt"]:before,
+[role="img"][aria-label*="Não perturbar"]:before,
+[role="img"][aria-label*="Nu deranja"]:before,
+[role="img"][aria-label*="Älä häiritse"]:before,
+[role="img"][aria-label*="Stör ej"]:before,
+[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
+[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
+[role="img"][aria-label*="Nerušit"]:before,
+[role="img"][aria-label*="Μην ενοχλείτε"]:before,
+[role="img"][aria-label*="Не ме безпокой"]:before,
+[role="img"][aria-label*="Не беспокоить"]:before,
+[role="img"][aria-label*="Не турбувати"]:before,
+[role="img"][aria-label*="ห้ามรบกวน"]:before,
+[role="img"][aria-label*="请勿打扰"]:before,
+[role="img"][aria-label*="取り込み中"]:before,
+[role="img"][aria-label*="請勿打擾"]:before,
+[role="img"][aria-label*="다른 용무 중"]:before {
+  border-color: #f04747;
 }
-.popoutContainer-3WC9HR .status-oxiHuE {
-  height: 28px !important;
-  width: 28px !important;
+[role="img"][aria-label*="Idle"]:before,
+[role="img"][aria-label*="Inaktiv"]:before,
+[role="img"][aria-label*="Abwesend"]:before,
+[role="img"][aria-label*="Ausente"]:before,
+[role="img"][aria-label*="Inactif"]:before,
+[role="img"][aria-label*="U mirovanju"]:before,
+[role="img"][aria-label*="Inattivo"]:before,
+[role="img"][aria-label*="Pasitraukęs"]:before,
+[role="img"][aria-label*="Tétlen"]:before,
+[role="img"][aria-label*="Inactief"]:before,
+[role="img"][aria-label*="Zaraz wracam"]:before,
+[role="img"][aria-label*="Inactiv"]:before,
+[role="img"][aria-label*="Toimeton"]:before,
+[role="img"][aria-label*="Chờ"]:before,
+[role="img"][aria-label*="Boşta"]:before,
+[role="img"][aria-label*="Nečinný"]:before,
+[role="img"][aria-label*="Αδρανής"]:before,
+[role="img"][aria-label*="Не се използва"]:before,
+[role="img"][aria-label*="Не активен"]:before,
+[role="img"][aria-label*="Відійшов"]:before,
+[role="img"][aria-label*="ไม่อยู่"]:before,
+[role="img"][aria-label*="闲置"]:before,
+[role="img"][aria-label*="退席中"]:before,
+[role="img"][aria-label*="閒置"]:before,
+[role="img"][aria-label*="자리비움"]:before {
+  border-color: #faa61a;
 }
-.headerAvatar-zl6ti_ .status-oxiHuE  {
-  height: 36px !important;
-  width: 36px !important;
+[role="img"][aria-label*="Streaming"]:before,
+[role="img"][aria-label*="Streamer"]:before,
+[role="img"][aria-label*="Transmitiendo"]:before,
+[role="img"][aria-label*="En direct"]:before,
+[role="img"][aria-label*="In diretta"]:before,
+[role="img"][aria-label*="Transliuojama"]:before,
+[role="img"][aria-label*="Közvetítés"]:before,
+[role="img"][aria-label*="Streamt"]:before,
+[role="img"][aria-label*="Strømmer"]:before,
+[role="img"][aria-label*="Streamowanie"]:before,
+[role="img"][aria-label*="Transmitindo"]:before,
+[role="img"][aria-label*="Transmite live"]:before,
+[role="img"][aria-label*="Striimaa"]:before,
+[role="img"][aria-label*="Streamar"]:before,
+[role="img"][aria-label*="Đang stream"]:before,
+[role="img"][aria-label*="Yayın Yapıyor"]:before,
+[role="img"][aria-label*="Streamuje"]:before,
+[role="img"][aria-label*="Ζωντανά"]:before,
+[role="img"][aria-label*="Стрийминг"]:before,
+[role="img"][aria-label*="Стримит"]:before,
+[role="img"][aria-label*="Трансляція"]:before,
+[role="img"][aria-label*="ถ่ายทอดสด"]:before,
+[role="img"][aria-label*="正在直播"]:before,
+[role="img"][aria-label*="配信"]:before,
+[role="img"][aria-label*="直播中"]:before,
+[role="img"][aria-label*="配信"]:before {
+  border-color: #6441a5;
 }
-.content-OzHfo4 .status-oxiHuE {
-  width: 33px;
-  height: 33px;
-}
-.videoBackground-3-Y-dL .wrapper-2F3Zv8 .status-oxiHuE {
-  width: 103px;
-  height: 103px;
+[role="img"][aria-label*="Offline"]:before,
+[role="img"][aria-label*="Hors ligne"]:before,
+[role="img"][aria-label*="Nem elérhető"]:before,
+[role="img"][aria-label*="Neprisijungęs"]:before,
+[role="img"][aria-label*="Niedostępny"]:before,
+[role="img"][aria-label*="Izvan mreže"]:before,
+[role="img"][aria-label*="오프라인"]:before,
+[role="img"][aria-label*="離線"]:before,
+[role="img"][aria-label*="オフライン"]:before,
+[role="img"][aria-label*="离线"]:before,
+[role="img"][aria-label*="ออฟไลน์"]:before,
+[role="img"][aria-label*="Не в мережі"]:before,
+[role="img"][aria-label*="Не в сети"]:before,
+[role="img"][aria-label*="Извън линия"]:before,
+[role="img"][aria-label*="Αποσυνδεδεμένος"]:before,
+[role="img"][aria-label*="Çevrimdışı"]:before,
+[role="img"][aria-label*="Ngoại tuyến"]:before,
+[role="img"][aria-label*="Ei paikalla"]:before,
+[role="img"][aria-label*="Frakoblet"]:before,
+[role="img"][aria-label*="Desconectado"]:before {
+  border-color: #747f8d;
 }
