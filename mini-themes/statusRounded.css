@@ -1,40 +1,13 @@
 [role="img"][aria-label]:before {
-  content: "";
-  width: 32px;
-  height: 32px;
-  background-color: transparent;
-  border: 2px solid #43b581;
-  position: absolute;
-  left: -2px;
-  top: -2px;
-  border-radius: 50%;
-  z-index: 10;
-  pointer-events: none;
-}
-.header-QKLPzZ [role="img"][aria-label]:before,
-.header-2BwW8b [role="img"][aria-label]:before {
-  width: 80px;
-  height: 80px;
-  left: -3px;
-  top: -3px;
-  border-width: 3px;
-}
-.userSettingsAccount-2eMFVR [role="img"][aria-label]:before {
-  width: 100px;
-  height: 100px;
-  left: -3px;
-  top: -3px;
-  border-width: 3px;
-}
-.header-GwIGlr [role="img"][aria-label]:before,
-.bannedUser-1IalTM [role="img"][aria-label]:before,
-.member-1q7VfX [role="img"][aria-label]:before {
-  width: 40px;
-  height: 40px;
-}
-.autocompleteRow-2OthDa [role="img"][aria-label]:before {
-  width: 24px;
-  height: 24px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 2px #666;
+    z-index: 20;
+    border: none !important
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
 .avatarOffline-3GF27z {filter: grayscale(100%);}
@@ -64,7 +37,7 @@
 [role="img"][aria-label*="オンライン"]:before,
 [role="img"][aria-label*="線上"]:before,
 [role="img"][aria-label*="온라인"]:before {
-  border-color: #43b581;
+  box-shadow: 0 0 0 2px #43b581;
 }
 [role="img"][aria-label*="Do Not Disturb"]:before,
 [role="img"][aria-label*="Vil ikke forstyrres"]:before,
@@ -94,7 +67,7 @@
 [role="img"][aria-label*="取り込み中"]:before,
 [role="img"][aria-label*="請勿打擾"]:before,
 [role="img"][aria-label*="다른 용무 중"]:before {
-  border-color: #f04747;
+  box-shadow: 0 0 0 2px #f04747;
 }
 [role="img"][aria-label*="Idle"]:before,
 [role="img"][aria-label*="Inaktiv"]:before,
@@ -121,7 +94,7 @@
 [role="img"][aria-label*="退席中"]:before,
 [role="img"][aria-label*="閒置"]:before,
 [role="img"][aria-label*="자리비움"]:before {
-  border-color: #faa61a;
+  box-shadow: 0 0 0 2px #faa61a;
 }
 [role="img"][aria-label*="Streaming"]:before,
 [role="img"][aria-label*="Streamer"]:before,
@@ -149,7 +122,7 @@
 [role="img"][aria-label*="配信"]:before,
 [role="img"][aria-label*="直播中"]:before,
 [role="img"][aria-label*="配信"]:before {
-  border-color: #6441a5;
+  box-shadow: 0 0 0 2px #6441a5;
 }
 [role="img"][aria-label*="Offline"]:before,
 [role="img"][aria-label*="Hors ligne"]:before,
@@ -170,6 +143,37 @@
 [role="img"][aria-label*="Ngoại tuyến"]:before,
 [role="img"][aria-label*="Ei paikalla"]:before,
 [role="img"][aria-label*="Frakoblet"]:before,
-[role="img"][aria-label*="Desconectado"]:before {
-  border-color: #747f8d;
+[role="img"][aria-label*="Desconectado"]:before,
+.avatarOffline-3GF27z {
+  box-shadow: 0 0 0 2px #747f8d;
+}
+[role="img"][aria-label*="Invisible"]:before,
+[role="img"][aria-label*="Usynlig"]:before,
+[role="img"][aria-label*="Unsichtbar"]:before,
+[role="img"][aria-label*="Nevidljiv/a"]:before,
+[role="img"][aria-label*="Nematomas"]:before,
+[role="img"][aria-label*="Izvan mreže"]:before,
+[role="img"][aria-label*="Nevidljiv/a"]:before,
+[role="img"][aria-label*="Nematomas"]:before,
+[role="img"][aria-label*="Láthatatlan"]:before,
+[role="img"][aria-label*="Onzichtbaar"]:before,
+[role="img"][aria-label*="Usynlig"]:before,
+[role="img"][aria-label*="Niewidoczny"]:before,
+[role="img"][aria-label*="Invisível"]:before,
+[role="img"][aria-label*="Invizibil"]:before,
+[role="img"][aria-label*="Näkymätön"]:before,
+[role="img"][aria-label*="Osynlig"]:before,
+[role="img"][aria-label*="Vô hình"]:before,
+[role="img"][aria-label*="Görünmez"]:before,
+[role="img"][aria-label*="Neviditelný"]:before,
+[role="img"][aria-label*="Αόρατος"]:before,
+[role="img"][aria-label*="Невидим"]:before,
+[role="img"][aria-label*="Невидимый"]:before,
+[role="img"][aria-label*="Невидимий"]:before,
+[role="img"][aria-label*="ไม่ระบุ"]:before,
+[role="img"][aria-label*="隐身"]:before,
+[role="img"][aria-label*="オンライン状態を隠す"]:before,
+[role="img"][aria-label*="隱形"]:before,
+[role="img"][aria-label*="오프라인 표시"]:before {
+  box-shadow: 0 0 0 2px #747f8d;
 }
