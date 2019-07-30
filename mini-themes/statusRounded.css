@@ -178,3 +178,22 @@
 [role="img"][aria-label*="오프라인 표시"]:before {
   box-shadow: 0 0 0 2px #747f8d;
 }
+.cursorDefault-dsQJ1n,
+.dots-3Bkt3k {
+    overflow:visible;
+}
+
+.dots-3Bkt3k [cx="2.5"] {
+    cy:-8;
+    cx: -8.5;
+}
+
+.dots-3Bkt3k [cx="8.75"] {
+    cy:-8;
+    cx: -2.25;
+}
+
+.dots-3Bkt3k [cx="15"] {
+    cy:-8;
+    cx: 4;
+}
