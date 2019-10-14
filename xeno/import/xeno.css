@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 @import url('https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css');
+@import url('https://codedotspectra.github.io/themes/mini-themes/hljs.css');
 :root {
   --backgroundColor: #121212;
   --backgroundImage: url('https://img5.goodfon.com/original/1920x1080/5/22/cyberpunk-warrior-robot-sword-weapon-red-eyes-science-fictio.jpg');
@@ -17,7 +18,6 @@
   --channelsHover: #ebebeb;
   --channelsActive: #fff;
   --channelsMuted: #7d7d7d;
-
   --succes: #17e81d;
   --error: #f30c0c;
   --warning: #e7a418;
@@ -92,7 +92,7 @@
   .friendsTable-133bsv .friendsTableBody-1ZhKif,
   .layer-3QrUeG.baseLayer-35bLyl,
   .app-2rEoOp {background: transparent!important;}
-  .bg-AYqtMd {-webkit-mask: linear-gradient(to bottom, #000, transparent)}
+  .bg-AYqtMd {display: none;}
   /* remove shadows */
   .container-1r6BKw,
   .searchBar-6Kv8R2,
@@ -116,6 +116,8 @@
   /* remove borders */
   .header-39GIC8,
   .channelTextArea-rNsIhG,
+  .leaveActionWrapper-34XGz6,
+  .featureBorder-7j4v58,
   .card-FDVird:before,
   .divider-3wNib3,
   .rowWrapper-2fB6P0+.rowWrapper-2fB6P0 .row-ZLfFhY,
@@ -277,12 +279,14 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 /*  == embeds ==  */
 .attachment-33OFj0,
+.wrapper-35wsBm,
 .embedInner-1-fpTo {
   background-color: var(--backgroundColor)!important;
   border: none!important;
   position: relative;
   overflow: hidden;
 }
+.wrapper-35wsBm:after,
 .attachment-33OFj0:after,
 .embedInner-1-fpTo:after {
   content: "";
@@ -304,10 +308,19 @@ svg[name="Nova_Discord"] {display: none!important;}
   opacity: .25;
   filter: blur(10px);
 }
+.wrapper-35wsBm>*,
 .attachment-33OFj0>*,
 .embedInner-1-fpTo>* {
   z-index: 100;
   position: relative;
+}
+.wrapper-39oAo3 {background-color: var(--backgroundColor)!important;}
+/* == reactions == */
+.reaction-1ELvT8 {background-color: var(--backgroundColor)!important;}
+.wanderingCubesItem-WPXqao {
+  border-radius: 50%;
+  background-color: var(--uiGradient1);
+  background-image: radial-gradient(var(--uiGradient1), var(--uiGradient2));
 }
 /* == welcome message == */
 .welcomeMessage-3_Mcht .h1-1IDj26 {color:var(--main-blue-light) !important;}
@@ -422,6 +435,11 @@ svg[name="Nova_Discord"] {display: none!important;}
   opacity: .15;
   filter: blur(10px);
 }
+.inner-1ilYF7 {background-color: var(--backgroundColor);}
+.emptyPlayers-dx3qig,
+.players-1zg2l8,
+.footer-3J5oP4,
+.news-2KwXHF {background-color: transparent!important;}
 /* == Pings == */
 .wrapper-3WhCwL {
   color: #fff!important;
@@ -492,6 +510,127 @@ svg[name="Nova_Discord"] {display: none!important;}
   background-color: transparent;
   padding: 0 8px 0 16px;
 }
+/* == settings == */
+#bd-settings-sidebar .ui-tab-bar-item,
+.side-8zPYf6 .item-PXvHYJ {transition: padding .2s ease;}
+#bd-settings-sidebar .ui-tab-bar-item:after,
+.side-8zPYf6 .item-PXvHYJ:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .5px;
+  height: 98%;
+  width: 4px;
+  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2));
+  border-radius: 50px;
+  transition:
+    transform .4s ease,
+    opacity .2s ease;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {background-color: var(--backgroundColor)!important;}
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
+#bd-settings-sidebar .ui-tab-bar-item:hover,
+.topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {background-color: transparent!important;}
+#bd-settings-sidebar .ui-tab-bar-item.selected:after,
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* == custom css == */
+.bda-dark~div #ace_settingsmenu {
+  background-color: var(--backgroundColor)!important;
+  position: relative;
+  flex-direction: column;
+  padding: 15px 50px;
+}
+.bda-dark~div #ace_settingsmenu:after {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  background-image: var(--backgroundImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  background-origin: border-box;
+  z-index: -1;
+  opacity: .18;
+  filter: blur(10px);
+}
+.bda-dark~div #ace_settingsmenu>* {z-index: 10;}
+.ace_optionsMenuEntry {margin-bottom: 5px;}
+.bda-dark~div #ace_settingsmenu select,
+.bda-dark~div #ace_settingsmenu input[type=text] {
+  border-radius: 4px;
+  margin-bottom: 5px;
+  padding: 0 7px;
+  background-color: var(--backgroundColor)!important;
+  border: none!important;
+}
+.ace_editor {
+  border-radius: 8px 8px 0 0 !important;
+  background-color: var(--backgroundColor)!important;
+}
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+  border-radius: 0 0 8px 8px !important;
+  background-color: var(--backgroundColor)!important;
+  box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.25)!important;
+}
+.ace_gutter-layer {
+  background-color: var(--backgroundColor)!important;
+  box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.25);
+}
+.ace-monokai .ace_marker-layer .ace_active-line {
+  background-color: var(--uiGradient1)!important;
+  box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.55);
+}
+#bd-customcss-attach-controls .help-text {
+  box-sizing: border-box;
+  padding: 5px 0;
+}
+#bd-customcss-attach-controls .help-text .inline {
+  background-color: var(--backgroundColor)!important;
+  box-shadow: inset 0 0 10000px 0 rgba(0255,255,255,.15);
+  padding: 2px 5px;
+}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+  background-color: var(--uiGradient1)!important;
+  border-radius: 12px!important;
+  border: none!important;
+  transition: all .2s ease;
+}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+  border-radius: 8px!important;
+  box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.25);
+}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:nth-child(2),
+.bd-detached-css-editor #bd-customcss-attach-controls button:nth-child(2) {
+  margin: 0 5px;
+}
+/* == add role popout == */
+.autocompleteArrow-Zxoy9H,
+.autocompleteShadow-iiGWFU {box-shadow: none!important;}
+.autocompleteArrow-Zxoy9H,
+.autocompleteHeaderBackground-30T70q,
+.container-VSDcQc .sectionTag-pXyto9 {
+  color: #e6e6e6;
+  background-color: var(--backgroundColor)!important;
+}
+.row-rrHHJU.selected-1pIgLL {
+  background: var(--backgroundColor)!important;
+  box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
+}
 /* == server folder == */
 .footer-3rDWdC,
 .root-1gCeng {
@@ -549,6 +688,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 .inner-2P4tQO,
 .item-26Dhrx,
 .note-3kmerW textarea:focus,
+.searchBox-3Y2Vi7,
 .container-CpszHS,
 .formNotice-2_hHWR,
 .container-1RjyoP .preview-2nSL_2,
@@ -557,9 +697,9 @@ svg[name="Nova_Discord"] {display: none!important;}
 .cardPrimaryOutline-29Ujqw,
 .quickMessage-1yeL4E,
 .container-3ayLPN,
+.css-1wqqa50-container,
 .paymentPane-3bwJ6A,
 .inputDefault-_djjkz,
-#bd-settingspane-container .ui-switch-item,
 .codeRedemptionRedirect-1wVR4b,
 .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
@@ -567,19 +707,52 @@ svg[name="Nova_Discord"] {display: none!important;}
   background-color: var(--backgroundColor) !important;
   box-shadow: 0 0 7px 3px rgba(0,0,0,.25);
   border-color: rgba(0,0,0,.5)!important;
+  border-radius: 8px!important;
 }
+.searchBox-3Y2Vi7 .inputDefault-_djjkz {
+  background-color: transparent !important;
+  box-shadow: none;
+  border-color: none!important;
+}
+.cardPrimaryEditable-3KtE4g[style*="rgb(67, 181, 129)"] {background-color: var(--succes)!important;}
+.cardPrimaryEditable-3KtE4g[style*="rgb(250, 166, 26)"] {background-color: var(--warning)!important;}
+.cardPrimaryEditable-3KtE4g[style*="rgb(240, 71, 71)"] {background-color: var(--error)!important;}
+#bd-settingspane-container .ui-switch-item {
+  background-color: var(--backgroundColor) !important;
+  box-shadow: 0 0 7px 3px rgba(0,0,0,.25);
+  border-color: rgba(0,0,0,.5)!important;
+  padding: 7px 12px;
+  border-radius: 8px;
+}
+.bda-slist .bda-footer,
+.bda-slist .bda-header,
+#bd-settingspane-container .ui-switch-item .style-description {border: none!important;}
 .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {border: none!important;}
 .css-1gnr91b-option,
+.tier1Banner-1B_WXY,
 .css-12o7ek3-option {
   background-color: var(--backgroundColor) !important;
 }
+.checked-3_4uQ9[style*="rgb(114, 137, 218)"] {
+  background-color: var(--backgroundColor)!important;
+  border-color: var(--uiGradient1)!important;
+}
+.checked-3_4uQ9[style*="rgb(114, 137, 218)"] svg g polyline {stroke: var(--uiGradient1)!important;}
 .css-181m2lf-menu {
   border-radius: 0 0 10px 10px;
   border: 1px solid rgba(0,0,0,.5)!important;
   border-top: none!important;
 }
+.rowBody-10yI-R {color: #e6e6e6!important;}
+.installationPath-24giJj {box-shadow: none!important}
 .css-1ye7vu0 {border-radius: 0 0 9px 9px;}
+.foreground-2aE44H {stroke: var(--uiGradient1) !important;}
+.background-yZEZik {stroke: var(--backgroundColor) !important;}
 .bar-2Qqk5Z {background-color: var(--backgroundColor) !important;}
+.defaultIndicator-2X8Auf {
+  background-color: var(--uiGradient1)!important;
+  padding: 2px 7px;
+}
 .barFill-23-gu- {background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2));}
 .item-26Dhrx[style*="rgb(114, 137, 218)"] {
   background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2))!important;
@@ -588,7 +761,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
-  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2))!important;
+  background: linear-gradient(50deg, var(--uiGradient1), var(--uiGradient2))!important;
   box-shadow: inset 0 0 10000px rgba(0,0,0,.25);
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
@@ -598,7 +771,7 @@ svg[name="Nova_Discord"] {display: none!important;}
 }
 .option-96V44q:after {display: none;}
 .option-96V44q.selected-rZcOL- {
-  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2))!important;
+  background: linear-gradient(40deg, var(--uiGradient1), var(--uiGradient2))!important;
   box-shadow: inset 0 0 10000px rgba(0,0,0,.75);
   border-radius: 30px;
 }
@@ -678,6 +851,65 @@ svg[name="Nova_Discord"] {display: none!important;}
   opacity: .15;
   filter: blur(10px);
 }
+/* == activities / library & more == */
+.card-3DjzTQ,
+.outer-2IVh5n,
+.empty-hejAOj,
+.unwrapped-37iUtM,
+.wrapped-15rg6t,
+.recentlyPlayedContainer-2F3MqS,
+.popoutContainer-3WC9HR:hover,
+.popout-2sKjHu,
+.popout-3G62UL,
+.cardPlaceholder-1zrbbe {
+  background-color: var(--backgroundColor)!important;
+}
+.gameUpdates-2GPqBU {background-color: transparent!important}
+.popout-2sKjHu {border-color: #040405 #040405 rgba(0,0,0,.3)!important;}
+.memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
+  background-color: var(--uiGradient1)!important;
+  box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
+}
+.running-ol_ES1 {background-color: var(--uiGradient1)!important;}
+.wrapper-9ppXpy {box-shadow: none!important;}
+.rowWrapperActive-2L7i9f {
+  background-color: var(--backgroundColor)!important;
+  position: relative;
+}
+.rowWrapperActive-2L7i9f:after {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  background-image: var(--backgroundImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  background-origin: border-box;
+  z-index: 0;
+  opacity: .15;
+  filter: blur(10px);
+}
+.divider-38zUJA {background-color: transparent!important;}
+.rowWrapperActive-2L7i9f>* {z-index: 100;}
+.installSize-1eXbBX {
+  background-color: var(--uiGradient1)!important;
+  box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
+}
+.lookFilled-1h1y05.select-1Pkeg4:focus {
+  border-color: var(--uiGradient1)!important;
+  box-shadow: 0 0 5px 0 var(--uiGradient1)!important;
+}
+.marginTop20-3TxNs6 .input-1Rv96N {
+  background-color: var(--backgroundColor)!important;
+  border: 1px solid var(--uiGradient1) !important;
+  box-shadow: none !important;
+}
 /* == pinned messages / mentions == */
 .messagesPopoutWrap-1MQ1bW {
   background-color: var(--backgroundColor)!important;
@@ -739,6 +971,48 @@ svg[name="Nova_Discord"] {display: none!important;}
 .name-3YKhmS,
 .name-uJV0GL {
   text-shadow: 1px 1px 5px rgba(0,0,0,.95);
+}
+/* == spoilers == */
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+  border-radius: 8px;
+  background-color: var(--backgroundColor)!important;
+}
+.spoilerText-3p6IlD {
+  border-radius: 8px;
+  background-color: var(--backgroundColor)!important;
+  position: relative;
+  overflow: hidden;
+  padding: 2px 6px;
+  color: #fff;
+}
+/* == buttons == */
+.questionMark-CWEQZn,
+.lookOutlined-3sRXeN,
+.lookFilled-1Gx00P {
+  background-color: var(--backgroundColor)!important;
+  transition: all .2s ease;
+  border-radius: 13px;
+  color: #fff!important;
+  border: none!important;
+}
+.questionMark-CWEQZn:hover,
+.lookOutlined-3sRXeN:hover,
+.lookFilled-1Gx00P:hover {
+  box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.15)!important;
+  border-radius: 8px!important;
+}
+.questionMark-CWEQZn,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--uiGradient1)!important;
+  background-image: linear-gradient(-30deg, var(--uiGradient1), var(--uiGradient2))!important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {background-color: var(--succes)!important;}
+.lookOutlined-3sRXeN.colorRed-1TFJan {background-color: var(--error)!important;}
+/* == hljs == */
+.markup-2BOw-j code,
+.markup-2BOw-j code.inline {
+  background-color: var(--backgroundColor);
+  border-radius: 0 8px 8px 8px;
 }
 /* == text colors == */
 .text-GwUZgS,
