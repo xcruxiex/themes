@@ -1,4 +1,4 @@
-//META{"name":"Xeno","description":"Xeno v1.0.0 BETA","author":"Spectra","version":"1.0.0"}*//
+//META{"name":"Xeno","description":"Discord Xen\nYou can change colors & images in the theme file\nHelp: https://discord.gg/PZdnCVD","author":"Spectra","version":"AutoUpdate"}*//
 /*
 ██╗  ██╗███████╗███╗   ██╗ ██████╗
 ╚██╗██╔╝██╔════╝████╗  ██║██╔═══██╗
@@ -18,27 +18,30 @@ If you enjoy using the theme, help spread the word!
 !!This theme is meant to be used with the dark version of discord !!
 
 ###################################################################################################*/
-
-@import url("https://codedotspectra.github.io/themes/xeno/import/xeno.css");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url("https://codedotspectra.github.io/themes/xeno/import/core.css");
+@import url("https://codedotspectra.github.io/themes/mini-themes/hljs.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
+@import url('https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css');
 
 :root {
   /* Background color */
   --backgroundColor: #121212;
 
   /* Background image */
-  --backgroundImage: url('https://img5.goodfon.com/original/1920x1080/5/22/cyberpunk-warrior-robot-sword-weapon-red-eyes-science-fictio.jpg');
+  --backgroundImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
   --backgroundImageOpacity: .75;
 
   /* Home button image */
-  --homeButtonImage: url('https://img4.goodfon.com/original/1920x1080/4/b8/dragon-fire-flames-wings-horns-tail-rocks-fantasy-art-artwor.jpg');
+  --homeButtonImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
 
   /* Theme Colors */
-  --uiGradient1: #fc0361;
-  --uiGradient2: #0aeaf5;
+  --uiGradient1: #f4690d;
+  --uiGradient2: #f8cb16;
   /* Text Colors */
   --textNormal: #dcddde;
   --textMuted: #72767d;
-  --textLinks: pink;
+  --textLinks: Orange;
   --channelsDefault: #e4e4e4;
   --channelsNormal: #d6d6d6;
   --channelsHover: #ebebeb;
