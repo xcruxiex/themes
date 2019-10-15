@@ -29,7 +29,7 @@ Link : http://themegen.codedotspectra.me/
 A minimalistic theme with nice gradients & a background image feature
 you can change colors & images in the theme file
 
-Download : https://betterdiscord.net/ghdl?id=3018
+Download : https://betterdiscord.net/ghdl?id=3019
 ![Xeno Demo](https://i.imgur.com/1unBN33.jpg)
 
 ## Nocturnal
