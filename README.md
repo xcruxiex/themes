@@ -2,15 +2,6 @@
 
 All the themes/mini-themes/tools i made for Discord.
 
-some of my theme were discontinued.
-if you want to download the code & images its on mediafire :
-https://www.mediafire.com/file/dsl65vuwkl8bu3r/colorize.rar/file
-https://www.mediafire.com/file/up8qf1brpp8uzv6/dunes.rar/file
-https://www.mediafire.com/file/xfvww06ekh34tae/discordelectro.rar/file
-
-Do whatever you want with them.
-
-
 help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
@@ -30,30 +21,37 @@ PLEASE READ THE RULES BEFORE ASKING
 
 ## Theme Generator
 
-Link : https://codedotspectra.github.io/bdthemegenerator/
+Link : http://themegen.codedotspectra.me/
 
 # My Themes
 
-## Discord Dark
-A dark theme for discord, inspired by Github dark (https://github.com/StylishThemes/GitHub-Dark)
+## Xeno
+A minimalistic theme with nice gradients & a background image feature
+you can change colors & images in the theme file
 
-Download : https://betterdiscord.net/ghdl?id=2788
-![DiscordDark Demo](https://i.imgur.com/8kFbvFy.jpg)
+Download : https://betterdiscord.net/ghdl?id=3018
+![Xeno Demo](https://i.imgur.com/1unBN33.jpg)
 
 ## Nocturnal
 An easy on the eye theme, for thoses who live at night
 
 Download: https://betterdiscord.net/ghdl?id=2653
-![Nocturnal Demo](https://i.imgur.com/cybNOBe.jpg)
+![Nocturnal Demo](https://i.imgur.com/sdkskok.jpg)
 
 ## Neutron X
 Highly customizable
 
 Download : https://betterdiscord.net/ghdl?id=2648
-![Neutron X Demo](https://i.imgur.com/LNtTeZi.jpg)
+![Neutron X Demo](https://i.imgur.com/di0liGt.jpg)
+
+## Discord Dark
+A dark theme for discord, inspired by Github dark (https://github.com/StylishThemes/GitHub-Dark)
+
+Download : https://betterdiscord.net/ghdl?id=2788
+![DiscordDark Demo](https://i.imgur.com/1eh6N2c.jpg)
 
 ## Chemical
 Squared minimalist theme
 
 Download : https://betterdiscord.net/ghdl?id=2649
-![Chemical Demo](https://i.imgur.com/hew7Wel.jpg)
+![Chemical Demo](https://i.imgur.com/UG6NT4b.jpg)
