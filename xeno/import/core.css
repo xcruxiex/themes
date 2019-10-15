@@ -461,6 +461,41 @@ svg[name="Nova_Discord"] {display: none!important;}
 .wrapper-3WhCwL.popout-open {
   box-shadow: inset 0 0 10000px 0 rgba(0,0,0,0);
 }
+.isMentioned-N-h9aa {
+  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2)) !important;
+  box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.85);
+}
+.isMentioned-N-h9aa>* {z-index: 10;}
+.isMentioned-N-h9aa:before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  background-image: var(--backgroundImage);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  background-origin: border-box;
+  z-index: 0;
+  opacity: .15;
+  filter: blur(10px);
+}
+.isMentionedCozy-3isp7y:after {
+  position: absolute;
+  top: 0;
+  left: -6px;
+  bottom: 0;
+  content: " ";
+  width: 4px;
+  background: linear-gradient(80deg, var(--uiGradient1), var(--uiGradient2));
+  border: none;
+  border-radius: 3px 0 0 3px;
+}
 /* == Chat == */
 .dividerContent-2L12VI:after,
 .dividerContent-2L12VI:before {
@@ -566,12 +601,22 @@ svg[name="Nova_Discord"] {display: none!important;}
   transform: translateX(-100%);
   opacity: 0;
 }
+.side-8zPYf6 .item-PXvHYJ {color: #fff!important;}
+.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218)"],
+.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218)"]:hover,
 #bd-settings-sidebar .ui-tab-bar-item.selected,
+#bd-settings-sidebar .ui-tab-bar-item.selected:hover,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
-.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {background-color: var(--backgroundColor)!important;}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+  background-color: var(--backgroundColor)!important;
+  color: #fff!important;
+}
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
 #bd-settings-sidebar .ui-tab-bar-item:hover,
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {background-color: transparent!important;}
+.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218)"]:after,
 #bd-settings-sidebar .ui-tab-bar-item.selected:after,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:after {
   transform: translateX(0);
@@ -719,6 +764,8 @@ svg[name="Nova_Discord"] {display: none!important;}
 .searchBar-TUoVPN,
 .searchBar-s2JxlI,
 .wrapper-1cBijl,
+.emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.message-2qRu38,
 .css-15ejc46-control,
 .css-13kbzi0-control,
 .css-2yldzf-control,
@@ -754,6 +801,16 @@ svg[name="Nova_Discord"] {display: none!important;}
   background-color: transparent !important;
   box-shadow: none;
   border-color: none!important;
+}
+.container-3PXSwK {border-radius: 4px;}
+.progress-1IcQ3A {
+  background-color: var(--backgroundColor)!important;
+  box-shadow: inset 0 0 10000px rgba(150,150,150,.15);
+}
+.notches-1sAcEM {
+  background-image: linear-gradient(var(--backgroundColor),var(--backgroundColor))!important;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+
 }
 .cardPrimaryEditable-3KtE4g[style*="rgb(67, 181, 129)"] {background-color: var(--succes)!important;}
 .cardPrimaryEditable-3KtE4g[style*="rgb(250, 166, 26)"] {background-color: var(--warning)!important;}
@@ -892,6 +949,9 @@ svg[name="Nova_Discord"] {display: none!important;}
   opacity: .15;
   filter: blur(10px);
 }
+svg[aria-label="Verified"] path {
+  fill: var(--succes) !important;
+}
 /* == activities / library & more == */
 .card-3DjzTQ,
 .outer-2IVh5n,
@@ -952,6 +1012,7 @@ svg[name="Nova_Discord"] {display: none!important;}
   box-shadow: none !important;
 }
 /* == pinned messages / mentions == */
+
 .messagesPopoutWrap-1MQ1bW {
   background-color: var(--backgroundColor)!important;
   border: none!important;
