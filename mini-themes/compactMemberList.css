@@ -1,1 +1,18 @@
- .membersWrap-2h-GB4 {width: 55px;position: relative;min-width:unset;transition: all .25s ease;}.membersWrap-2h-GB4 .scrollerWrap-2lJEkd {width: 55px;}.membersWrap-2h-GB4:hover {width: 240px;}.membersGroup-v9BXpm {transition: all .5s ease;transform: translateX(100%);}.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {transform: translateX(0);}
+/* Compact member list */
+.membersWrap-2h-GB4 {
+  width: 55px;
+  position: relative;
+  min-width:unset;
+  transition: all .25s ease;
+}
+.membersWrap-2h-GB4 .scrollerWrap-2lJEkd {width: 55px;}
+.membersWrap-2h-GB4:hover {
+  width: 240px;
+}
+.membersGroup-v9BXpm {
+  transition: all .5s ease;
+  transform: translateX(100%);
+}
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(0);
+}
