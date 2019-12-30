@@ -2,7 +2,7 @@
 
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 
-@import url('https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/settingsIcons.css');
+@import url('https://arudarin.github.io/themes/mini-themes/settingsIcons.css');
 
 .buttonContainer-KtQ8wc,.markup-2BOw-j code,.theme-dark .markup-2BOw-j {
 	position: relative
@@ -19,7 +19,7 @@
 
 :root {
 	--bgImage: url(https://img5.goodfon.com/original/2560x1440/9/24/astronaut-propast-noch-nebo-planeta-fantastika-skafandr.jpg);
-	--HomeButtonImg: url(https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/import/homeBtn.png);
+	--HomeButtonImg: url(https://arudarin.github.io/themes/neutron/import/homeBtn.png);
 	--brightness: 0.4;
 	--customFont: 'Montserrat';
 	--PrimaryColor01: rgb(32, 197, 119);
@@ -1747,7 +1747,7 @@ svg[class=premiumHeaderIcon-bTc_nQ] path {
 
 .headerStreaming-2FjmGz .activity-11LB_k {
 	background-color: #432970;
-	background-image: url(https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/import/twitch-background.jpg);
+	background-image: url(https://arudarin.github.io/themes/neutron/import/twitch-background.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: 100% 105%
@@ -2077,7 +2077,7 @@ svg[class=premiumHeaderIcon-bTc_nQ] path {
 }
 
 .wordmark-2iDDfm svg {
-	background-image: url(https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/import/wordMark.png);
+	background-image: url(https://arudarin.github.io/themes/neutron/import/wordMark.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;

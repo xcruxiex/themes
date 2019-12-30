@@ -1,8 +1,8 @@
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 
-@import url('https://raw.githack.com/Arudarin/themes/personal/mini-themes/settingsIcons.css');
+@import url('https://arudarin.github.io/themes/mini-themes/settingsIcons.css');
 
-@import url('https://raw.githack.com/Arudarin/themes/personal/mini-themes/statusBorderRight.css');
+@import url('https://arudarin.github.io/themes/mini-themes/statusBorderRight.css');
 
 .attachButtonInner-1iyZ9F svg path,.guildInner-3DSoA4 a svg g,.messageGroupBlocked-3wrQQX,.welcomeMessage-3_Mcht {
 	display: none
@@ -664,7 +664,7 @@
 
 .headerStreaming-2FjmGz .activity-11LB_k {
 	background-color: #432970;
-	background-image: url(https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/import/twitch-background.jpg);
+	background-image: url(https://arudarin.github.io/themes/neutron/import/twitch-background.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-size: 100% 105%
@@ -755,14 +755,14 @@
 }
 
 .headerText-1HLrL7::before {
-	background: url(https://raw.githubusercontent.com/Arudarin/themes/personal/icons/joystick.png) center no-repeat;
+	background: url(https://arudarin.github.io/themes/icons/joystick.png) center no-repeat;
 	background-size: contain;
 	left: 6px;
 	top: 6px
 }
 
 .topSectionPlaying-1J5E4n .headerText-1HLrL7::before {
-	background: url(https://raw.githubusercontent.com/Arudarin/themes/personal/icons/joystick.png) center no-repeat;
+	background: url(https://arudarin.github.io/themes/icons/joystick.png) center no-repeat;
 	background-size: contain;
 	left: 16px;
 	top: 147px

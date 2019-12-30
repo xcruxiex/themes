@@ -16,12 +16,12 @@ If you enjoy using the theme, help spread the word!
 
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
-@import url("https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/importCSS/xcore.css");
+@import url("https://arudarin.github.io/themes/neutron/importCSS/xcore.css");
 /*###################################################################################################*/
 :root {
     /* Images */
     --bgImage:url("https://img5.goodfon.com/original/2560x1440/9/24/astronaut-propast-noch-nebo-planeta-fantastika-skafandr.jpg");
-    --HomeButtonImg:url("https://raw.githubusercontent.com/Arudarin/themes/personal/neutron/import/homeBtn.png");
+    --HomeButtonImg:url("https://arudarin.github.io/themes/neutron/import/homeBtn.png");
     --brightness: 0.4;
 
     /* font */

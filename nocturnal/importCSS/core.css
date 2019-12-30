@@ -1,8 +1,8 @@
-@import url(https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/statusRounded.css);
+@import url(https://arudarin.github.io/themes/mini-themes/statusRounded.css);
 
-@import url(https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/hljs.css);
+@import url(https://arudarin.github.io/themes/mini-themes/hljs.css);
 
-@import url(https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/settingsIcons.css);
+@import url(https://arudarin.github.io/themes/mini-themes/settingsIcons.css);
 
 :root {
 	--backgroundDark: rgb(24, 28, 37);
@@ -204,6 +204,10 @@
 	padding: 1px 4px 1px 4px
 }
 
+div[data-contents="true"] {
+	padding-left: 2px
+}
+
 .searchBar-2_Yu-C,.searchBar-2_Yu-C .searchBarInner-1_Tg2R,.searchBar-2_Yu-C.searchBarLight-1NxoDG {
 	background-color: transparent;
 	border-color: transparent
@@ -231,8 +235,13 @@
 	background-color: var(--backgroundDark)!important
 }
 
-.search .DraftEditor-root {
-	line-height: 19px
+.da-search .da-searchBar .DraftEditor-root {
+	line-height: 14px;
+	padding: 2px 0px 2px 0px
+}
+
+.da-search .da-searchBar .da-iconLayout.da-icon {
+	padding-bottom: 4px
 }
 
 .search .search-bar .icon {
@@ -642,6 +651,10 @@ svg[name=Nova_Discord] * {
 
 .chat-3bRxxu form {
 	margin: 0 2px 0 2px
+}
+
+.chat-3bRxxu form .da-buttons {
+	margin-right: 0px
 }
 
 .channelTextArea-rNsIhG {
@@ -1581,10 +1594,12 @@ svg[name=Nitro] g path {
 	background: 0 0!important
 }
 
+
 .wrapper-1BJsBx[aria-label=Home] {
 	transition: all .3s ease;
 	background-image: linear-gradient(to left,var(--primaryGradient1),var(--primaryGradient2));
-	-webkit-mask-image: url(https://i.imgur.com/lYXFpXr.png);
+	/*-webkit-mask-image: url(https://i.imgur.com/lYXFpXr.png);*/
+	-webkit-mask-image: url(https://maxcdn.icons8.com/Share/icon/Logos/discord_logo1600.png);
 	-webkit-mask-position: center;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain

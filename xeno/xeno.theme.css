@@ -19,10 +19,10 @@ If you enjoy using the theme, help spread the word!
 
 ###################################################################################################*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-@import url("https://raw.githubusercontent.com/Arudarin/themes/personal/xeno/import/core.css");
-@import url("https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/hljs.css");
+@import url("https://arudarin.github.io/themes/xeno/import/core.css");
+@import url("https://arudarin.github.io/themes/mini-themes/hljs.css");
 @import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
-@import url('https://raw.githubusercontent.com/Arudarin/themes/personal/mini-themes/settingsIcons.css');
+@import url('https://arudarin.github.io/themes/mini-themes/settingsIcons.css');
 
 :root {
   /* Background color */
