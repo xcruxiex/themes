@@ -19,7 +19,7 @@ You are allowed to edit the theme for personal use only.
 If you enjoy using the theme, help spread the word!
 */
 /*###################################################################################################*/
-@import url("https://codedotspectra.github.io/themes/chemical/import/core.css");
+@import url("https://raw.githubusercontent.com/Arudarin/themes/personal/chemical/import/core.css");
 /*###################################################################################################*/
 :root{
   --primary:#0066ff;
