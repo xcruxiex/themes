@@ -237,7 +237,7 @@ div[data-contents="true"] {
 
 .da-search .da-searchBar .DraftEditor-root {
 	line-height: 14px;
-	padding: 2px 0px 2px 0px
+	float: left
 }
 
 .da-search .da-searchBar .da-iconLayout.da-icon {
