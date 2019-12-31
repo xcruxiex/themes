@@ -7,7 +7,9 @@
   background: transparent;
   border: none;
 }
+/* This screws up message bar alignment
 .markup-2BOw-j {position: relative;}
+*/
 .buttonContainer-KtQ8wc {
   position: relative;
 }
