@@ -29,29 +29,44 @@ Link : http://themegen.codedotspectra.me/
 A minimalistic theme with nice gradients & a background image feature
 you can change colors & images in the theme file
 
-Download : https://betterdiscord.net/ghdl?id=3019
+[BD Download](https://betterdiscord.net/ghdl?id=3019)
+
+[Powercord Download](https://github.com/codedotspectra/themes/raw/master/xeno/Xeno.zip)
+
 ![Xeno Demo](https://i.imgur.com/1unBN33.jpg)
 
 ## Nocturnal
 An easy on the eye theme, for thoses who live at night
 
-Download: https://betterdiscord.net/ghdl?id=2653
+[BD Download](https://betterdiscord.net/ghdl?id=2653)
+
+[Powercord Download](https://github.com/codedotspectra/themes/raw/master/nocturnal/Nocturnal.zip)
+
 ![Nocturnal Demo](https://i.imgur.com/sdkskok.jpg)
 
 ## Neutron X
 Highly customizable
 
-Download : https://betterdiscord.net/ghdl?id=2648
+[BD Download](https://betterdiscord.net/ghdl?id=2648)
+
+[Powercord Download](https://github.com/codedotspectra/themes/raw/master/neutron/NeutronX.zip)
+
 ![Neutron X Demo](https://i.imgur.com/di0liGt.jpg)
 
 ## Discord Dark
 A dark theme for discord, inspired by Github dark (https://github.com/StylishThemes/GitHub-Dark)
 
-Download : https://betterdiscord.net/ghdl?id=2788
+[BD Download](https://betterdiscord.net/ghdl?id=2788)
+
+[Powercord Download](https://github.com/codedotspectra/themes/raw/master/discorddark/DiscordDark.zip)
+
 ![DiscordDark Demo](https://i.imgur.com/1eh6N2c.jpg)
 
 ## Chemical
 Squared minimalist theme
 
-Download : https://betterdiscord.net/ghdl?id=2649
+[BD Download](https://betterdiscord.net/ghdl?id=2649)
+
+[Powercord Download](https://github.com/codedotspectra/themes/raw/master/chemical/Chemical.zip)
+
 ![Chemical Demo](https://i.imgur.com/UG6NT4b.jpg)
