@@ -1,4 +1,7 @@
 # BetterDiscord Themes
+[![star this repo](https://githubbadges.com/star.svg?user=codedotspectra&repo=themes&style=default&color=fff&background=1a75ff)](https://github.com/codedotspectra/themes)
+[![fork this repo](https://githubbadges.com/fork.svg?user=codedotspectra&repo=themes&style=default&color=fff&background=1a75ff)](https://github.com/codedotspectra/themes/fork)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
 All the themes/mini-themes/tools i made for Discord.
 
@@ -21,7 +24,7 @@ PLEASE READ THE RULES BEFORE ASKING
 
 ## Theme Generator
 
-Link : http://themegen.codedotspectra.me/
+Link : http://theme.codedotspectra.me/
 
 # My Themes
 
