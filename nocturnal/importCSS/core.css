@@ -201,7 +201,7 @@
 	box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
 	border: 1px solid rgba(0,0,0,.25)!important;
 	border-radius: 50px!important;
-	padding: 1px 4px 1px 4px
+	padding: 1px 4px;
 }
 
 div[data-contents="true"] {
@@ -320,7 +320,7 @@ div[data-contents="true"] {
 	background-color: rgba(0,0,0,.23)!important;
 	color: var(--primary)!important;
 	border-radius: 50px;
-	padding: .5px 5px .5px 5px;
+	padding: .5px 5px;
 	transition: all .2s ease
 }
 
@@ -650,16 +650,16 @@ svg[name=Nova_Discord] * {
 }
 
 .chat-3bRxxu form {
-	margin: 0 2px 0 2px
+	margin: 0 2px;
 }
 
 .chat-3bRxxu form .da-buttons {
-	margin-right: 0px
+	margin-right: 0;
 }
 
 .channelTextArea-rNsIhG {
 	padding-top: 0;
-	margin: 4px 0 4px 0;
+	margin: 4px 0;
 	border: none!important
 }
 
