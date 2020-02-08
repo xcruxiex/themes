@@ -16,7 +16,7 @@
 	--bgImage: url(https://i.imgur.com/CZlzgPG.png)
 }
 
-.base-3dtUhz,.theme-dark .contentRegion-3nDuYy,.theme-light .contentRegion-3nDuYy,.themeDark-3Ap_7i,.uploadModal-2ifh8j {
+.base-3dtUhz,.theme-dark .contentRegion-3nDuYy,.theme-light .contentRegion-3nDuYy,.themeDark-3Ap_7i,.uploadModal-2ifh8j, .nowPlayingScroller-2XrVUt {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -26,7 +26,7 @@
 	background-position: left top!important
 }
 
-.appMount-3lHmkl,.article-3kb3qm,.attachment-33OFj0,.bd-modal-wrapper .bd-modal-body,.bd-modal-wrapper .header,.bda-slist li,.body-SKIE6r,.calendarPicker-2yf6Ci .react-datepicker,.calendarPicker-2yf6Ci .react-datepicker__header,.card-1KzkE6,.card-7JP0BX,.card-FDVird.active-nvdKfC:before,.card-FDVird:before,.card-FDVird:hover:before,.cardPrimary-1Hv-to,.cardPrimaryEditable-3KtE4g,.cardPrimaryOutline-29Ujqw,.carousel-2WxMes,.container-2lgZY8,.container-3ayLPN,.container-VSDcQc,.container-VSDcQc .sectionTag-pXyto9,.contextMenu-HLZMGh,.embedInner-1-fpTo,.focused-2bY0OD,.footer-2yfCgX,.guild-1EfMGQ .guildInner-3DSoA4,.guildsAdd-21_IdK,.header-1RC2Wb:hover,.headerClickable-2IVFo9,.headerDefault-1wrJcN,.itemBackground-2vEldQ,.keyboardShortcutsModal-3piNz7,.menu-Sp6bN1,.messageGroupBlocked-3wrQQX,.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.messagesPopoutWrap-1MQ1bW,.modal-3HD5ck,.news-2GDtLJ,.paginator-166-09,.payment-xT17Mq,.paymentPane-3bwJ6A,.popoutList-T9CKZQ,.reactionInner-rRPZdY,.rowWrapperActive-2L7i9f,.searchAnswer-3Dz2-q,.searchBarTag-2xRzm8,.searchFilter-2ESiM3,.select-2TCrqx .Select-menu-outer,.sidebar-1-SQro,.sidebarRegion-VFTUkN,.standardSidebarView-3F1I7i,.tier1Banner-1B_WXY,.tile-367QuY,.tileMedia-1q3guD,.wrapper-1Rf91z,.wrapper-35wsBm {
+.appMount-3lHmkl,.article-3kb3qm,.attachment-33OFj0,.bd-modal-wrapper .bd-modal-body,.bd-modal-wrapper .header,.bda-slist li,.body-SKIE6r,.calendarPicker-2yf6Ci .react-datepicker,.calendarPicker-2yf6Ci .react-datepicker__header,.card-1KzkE6,.card-7JP0BX,.card-FDVird.active-nvdKfC:before,.card-FDVird:before,.card-FDVird:hover:before,.cardPrimary-1Hv-to,.cardPrimaryEditable-3KtE4g,.cardPrimaryOutline-29Ujqw,.carousel-2WxMes,.container-2lgZY8,.container-3ayLPN,.container-VSDcQc,.container-VSDcQc .sectionTag-pXyto9,.contextMenu-HLZMGh,.embedInner-1-fpTo,.focused-2bY0OD,.footer-2yfCgX,.guild-1EfMGQ .guildInner-3DSoA4,.guildsAdd-21_IdK,.header-1RC2Wb:hover,.headerClickable-2IVFo9,.headerDefault-1wrJcN,.itemBackground-2vEldQ,.keyboardShortcutsModal-3piNz7,.menu-Sp6bN1,.messageGroupBlocked-3wrQQX,.messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,.messagesPopoutWrap-1MQ1bW,.modal-3HD5ck,.news-2GDtLJ,.paginator-166-09,.payment-xT17Mq,.paymentPane-3bwJ6A,.popoutList-T9CKZQ,.reactionInner-rRPZdY,.rowWrapperActive-2L7i9f,.searchAnswer-3Dz2-q,.searchBarTag-2xRzm8,.searchFilter-2ESiM3,.select-2TCrqx .Select-menu-outer,.sidebar-1-SQro,.sidebarRegion-VFTUkN,.standardSidebarView-3F1I7i,.tier1Banner-1B_WXY,.tile-367QuY,.tileMedia-1q3guD,.wrapper-1Rf91z,.wrapper-35wsBm, .container-1D34oG, .emptyCard-1RJw8n, .itemCard-v9viV7 {
 	background-color: var(--main-dark)!important
 }
 
