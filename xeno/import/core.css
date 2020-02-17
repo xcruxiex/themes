@@ -1222,12 +1222,6 @@ svg[aria-label="Verified"] path {
   border: 1px solid rgba(0,0,0,.45)!important;
   background-color: var(--uiGradient1)!important;
 }
-:root {
-  --dark01: #121214;
-  --dark02: #181820;
-  --dark03: #282830;
-  --dark04: #404044;
-}
 .mask-1l8v16 { filter: none; } .container-1D34oG { background-color: transparent; } .peopleList-3c4jOR { background-color: rgba(0, 0, 0, 0.2); } .nowPlayingColumn-2sl4cE { background-color: rgba(0, 0, 0, 0.2); min-width: 240px; } .wrapper-Lii66c { border: none !important; } .popoutContainer-3WC9HR:hover, .wrapper-3UweLa, .actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE { background-color: rgba(0, 0, 0, 0.2); } .separator-2c4hi3 { display: none; } .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover, .enabled-5QKLzu:hover, .popout-3G62UL, .popoutContainer-3WC9HR { background-color: rgba(1,1,1,0.2); }
 .itemCard-v9viV7, .emptyCard-1RJw8n {
   background-color: var(--backgroundColor) !important;}
