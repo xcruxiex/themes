@@ -1268,13 +1268,15 @@ svg[aria-label="Verified"] path {
   background-clip: border-box;
   background-attachment: fixed;
   filter: blur(8px);
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
+  box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
+  height: 120%;
+  width: 120%;
+  left: -10%;
+  top: -10%;
   position: absolute;
   z-index: -1;
 }
+.embedFull-2tM8-- {overflow: hidden;}
 .markup-2BOw-j code, .markup-2BOw-j code.inline {background-color: rgba(1,1,1,0.4) !important;}
 .wrapper-2aW0bm {
     background-color: var(--backgroundDark);
