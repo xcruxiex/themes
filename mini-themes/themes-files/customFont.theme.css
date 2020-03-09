@@ -1,0 +1,22 @@
+//META{"name":"Custom discord font","description":"Change the discord font","author":"Spectra","version":"AutoUpdate"}*//{}
+/*
+
+  Discord custom font mini theme
+
+  How to change the font :
+
+  1. go to fonts.google.com
+  2. Select a font by clicking the + icon
+  3. Open the popup and select @import
+  4. copy the line from the popup : "@import url('the font url');"
+  5. paste the line in this file under the first @import
+  6. change the --customFont value to your font name (Ex: 'Open sans')
+  7. Enjoy
+
+*/
+@import url('https://codedotspectra.github.io/themes/mini-themes/customFont.css');
+/* import your font here */
+
+:root {
+  --customFont: 'FONT NAME';
+}
