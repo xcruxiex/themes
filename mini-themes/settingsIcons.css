@@ -23,20 +23,20 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url(https://codedotspectra.github.io/themes/icons/hype.png) center}
 
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url(https://codedotspectra.github.io/themes/icons/voice.png) center}
-/*#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/overlay.png) center}*/
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
-/*#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/activity_feed.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/gamepad.png) center}*/
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
-/*#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/windows.png) center}*/
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://codedotspectra.github.io/themes/icons/experiments.png) center}
-#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before{background:url(https://codedotspectra.github.io/themes/icons/dev_options.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url(https://codedotspectra.github.io/themes/icons/overlay.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url(https://codedotspectra.github.io/themes/icons/notifications.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url(https://codedotspectra.github.io/themes/icons/keybinds.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url(https://codedotspectra.github.io/themes/icons/games.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url(https://codedotspectra.github.io/themes/icons/activity_feed.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url(https://codedotspectra.github.io/themes/icons/gamepad.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url(https://codedotspectra.github.io/themes/icons/text.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url(https://codedotspectra.github.io/themes/icons/eye.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://codedotspectra.github.io/themes/icons/twitch.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(24)::before{background:url(https://codedotspectra.github.io/themes/icons/language.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url(https://codedotspectra.github.io/themes/icons/windows.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url(https://codedotspectra.github.io/themes/icons/experiments.png) center}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(28)::before{background:url(https://codedotspectra.github.io/themes/icons/dev_options.png) center}
 
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before{background:url(https://codedotspectra.github.io/themes/icons/core.png) center}
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before{background:url(https://codedotspectra.github.io/themes/icons/bandages.png) center}
