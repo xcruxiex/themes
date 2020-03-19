@@ -8,8 +8,8 @@
   border: 1px solid var(--backgroundName);
   border-radius: 6px;
 }
-.markup-2BOw-j code,
-.markup-2BOw-j code.inline {
+.markup-2BOw-j code.hljs,
+.markup-2BOw-j code.hljs.inline {
   background: var(--backgroundCode);
   box-sizing: border-box;
   padding-top: 27px;
