@@ -1,8 +1,6 @@
 :root {
   --backgroundCode: #2f3136;
-  --backgroundCodeLine: #3b3e45;
   --backgroundName: #202225;
-  --nameShadow: #268bd2;
 }
 .markup-2BOw-j pre {
   position: relative;
@@ -53,8 +51,6 @@
   height: calc(100% - 29px);
   overflow: hidden;
   color: rgba(255, 255, 255, 0.75);
-  background: var(--backgroundCodeLine);
-  box-shadow: inset 0 1000000px 0 0 rgba(255,255,255,.05);
   -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 5px, black 11px);
   z-index: 1;
 }
