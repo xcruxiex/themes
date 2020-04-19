@@ -1,0 +1,1 @@
+:root{--customFont:"Montserrat"}::-webkit-input-placeholder,body:not([class*=hljs]):not(code):not([class*=ace_]){font-family:var(--customFont)!important}.ace_editor{font:17px/normal Monaco,Menlo,'Ubuntu Mono',Consolas,source-code-pro,monospace!important}

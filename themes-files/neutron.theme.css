@@ -1,0 +1,70 @@
+/*
+
+$$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\
+$$$\  $$ |$$  _____|$$ |  $$ |\__$$  __|$$  __$$\ $$  __$$\ $$$\  $$ |
+$$$$\ $$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ /  $$ |$$$$\ $$ |
+$$ $$\$$ |$$$$$\    $$ |  $$ |   $$ |   $$$$$$$  |$$ |  $$ |$$ $$\$$ |
+$$ \$$$$ |$$  __|   $$ |  $$ |   $$ |   $$  __$$< $$ |  $$ |$$ \$$$$ |
+$$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
+$$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
+\__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
+
+* @name Neutron
+* @version 8.0 (AutoUpdate)
+* @description A simple but highly customizable theme, now sugar free!
+* @source https://github.com/codedotspectra/themes
+* @donate https://paypal.me/JackNeth
+* @invite PZdnCVD
+* @authorId 286208664623120384
+* @author Spectra
+
+*/
+@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link */
+@import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Code blocks mini theme */
+/*##########################################################################
+
+                 CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
+            + see codedotspectra.me/guides/customize your theme +
+
+##########################################################################*/
+:root {
+  /* COLORS */
+  --themeColor1: #36D1DC; /* Theme's color 1 */
+  --themeColor2: #5B86E5; /* Theme's color 2 */
+
+  /* CUSTOM FONT */
+  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
+
+  /* HOME BUTTON */
+  --homeImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" tu see the entire image */
+
+  /* BACKGROUND */
+  --backgroundColor: #0d0d0d; /* Background color */
+  --backgroundImage: url('https://img5.goodfon.com/original/1280x1024/b/3f/mm-nnnnnnnn-bbbbbbbb-vvvvvv-ggggggggggg.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
+  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" tu see the entire image */
+  --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
+  --backgroundBlur: 100px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: .65; /* 0 is transparent */
+
+  /* CODE BLOCKS */
+  --backgroundCode: rgba(0,0,0,.5);
+  --backgroundName: rgba(0,0,0,.5);
+}
+/*###############################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+#################################################################################################################################
+###############################################################################################################################*/
