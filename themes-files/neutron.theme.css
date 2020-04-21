@@ -1,3 +1,4 @@
+//META{"name":"Neutron","description":"A simple but highly customizable theme, now sugar free!","author":"Spectra","version":"8.0 AutoUpdate"}*//
 /*
 
 $$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\
@@ -9,18 +10,9 @@ $$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
 $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 \__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
 
-* @name Neutron
-* @version 8.0 (AutoUpdate)
-* @description A simple but highly customizable theme, now sugar free!
-* @source https://github.com/codedotspectra/themes
-* @donate https://paypal.me/JackNeth
-* @invite PZdnCVD
-* @authorId 286208664623120384
-* @author Spectra
-
 */
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
 @import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Code blocks mini theme */
 /*##########################################################################
 
