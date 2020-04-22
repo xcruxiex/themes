@@ -54,10 +54,10 @@ Link : http://theme.codedotspectra.me/
 
 # 4. Themes list
 ## 4.a Neutron v8.0.0
-Highly customizable
+A simple but highly customizable theme, now sugar free!
 
-Download : https://betterdiscord.net/ghdl?id=2648
-![Neutron X Demo](https://i.imgur.com/di0liGt.jpg)
+Download : https://betterdiscord.net/ghdl?id=3220
+![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
 
 ## 4.b Nocturnal v2.2.0 (currently being reworked)
 An easy on the eye theme, for thoses who live at night
