@@ -2340,3 +2340,22 @@ svg[name=Discord] {
 .bg-h5JY_x {
 	background: transparent!important
 }
+
+.appMount-3lHmkl {
+  margin-top: 20px;
+  overflow: visible;
+}
+.appMount-3lHmkl::before {
+  content: "This theme is outdated and will be deleted soon, please download the new 8.0 version : https://betterdiscord.net/ghdl?id=3220, for more infos : https://discord.gg/PZdnCVD";
+  position: absolute;
+  left: 0;
+  top: -20px;
+  height: 20px;
+  width: 100%;
+  background-color: crimson;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 0 10%;
+}
