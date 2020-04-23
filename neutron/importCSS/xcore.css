@@ -2342,20 +2342,25 @@ svg[name=Discord] {
 }
 
 .appMount-3lHmkl {
-  margin-top: 20px;
+  margin-top: 30px;
   overflow: visible;
 }
 .appMount-3lHmkl::before {
-  content: "This theme is outdated and will be deleted soon, please download the new 8.0 version : https://betterdiscord.net/ghdl?id=3220, for more infos : https://discord.gg/PZdnCVD";
+  content: "This theme is outdated. Please download the new version from here --> https://codedotspectra.me/themes/neutron <--";
+  text-align: center;
   position: absolute;
-  left: 0;
-  top: -20px;
-  height: 20px;
+  left: 0px;
+  top: -30px;
+  z-index: 10000;
+  height: 30px;
+  box-sizing: border-box;
   width: 100%;
-  background-color: crimson;
-  color: #fff;
+  background-color: #9a1919;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: bold;
   line-height: 22px;
-  padding: 0 10%;
+  padding: 5px 15px;
+  word-wrap: break-word;
+  word-spacing: normal;
 }
