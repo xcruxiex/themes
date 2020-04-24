@@ -29,13 +29,13 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 
   /* HOME BUTTON */
   --homeImage: url('https://i.imgur.com/oOKwCVJ.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
-  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" tu see the entire image */
+  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
   --backgroundColor: #0d0d0d; /* Background color */
   --backgroundImage: url('https://img5.goodfon.com/original/1280x1024/b/3f/mm-nnnnnnnn-bbbbbbbb-vvvvvv-ggggggggggg.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
-  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" tu see the entire image */
+  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
   --backgroundBlur: 100px; /* Set to 0 to remove blur | Set to 10px for average blur */
   --backgroundOpacity: .65; /* 0 is transparent */
