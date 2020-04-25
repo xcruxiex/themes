@@ -13,7 +13,6 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 */
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
-@import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Code blocks mini theme */
 /*##########################################################################
 
                  CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
@@ -33,7 +32,7 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 
   /* BACKGROUND */
   --backgroundColor: #0d0d0d; /* Background color */
-  --backgroundImage: url('https://img5.goodfon.com/original/1280x1024/b/3f/mm-nnnnnnnn-bbbbbbbb-vvvvvv-ggggggggggg.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url('https://i.imgur.com/zxXBhw1.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
