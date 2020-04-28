@@ -1,6 +1,6 @@
-@import url(https://codedotspectra.github.io/themes/mini-themes/statusRounded.css);
+@import url(https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css);
 
-@import url(https://codedotspectra.github.io/themes/mini-themes/hljs.css);
+@import url(https://codedotspectra.github.io/themes/core/hljs.css);
 
 @import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
 
@@ -8,18 +8,26 @@
 	--backgroundDark: rgb(24, 28, 37);
 	--backgroundDarker: rgb(20, 23, 31);
 	--primary: #008ae6;
-	--primaryGradient1: #008ae6;
+	--primaryGradient1: var(--primary);
 	--primaryGradient2: #00e68a;
 	--DangerColor: #dc3545;
 	--WarningColor: #ffc107;
-	--SuccesColor: #28a745
+	--SuccesColor: #28a745;
+	--rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+
+	--backgroundCode: rgba(0,0,0,.35);
+	--backgroundName: rgba(0,0,0,.2);
 }
 
-#app-mount {animation: themeStart .5s linear 0s 1 normal}
-@keyframes themeStart {
-	from {filter: blur(100px)}
-	to {filter: blur(0)}
-}
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-2sl4cE,.peopleList-3c4jOR,.container-1D34oG,#friends,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD, .da-peopleList, .da-nowPlayingScroller, .da-itemCard {
 	background-color: var(--backgroundDark)!important
 }
