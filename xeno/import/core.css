@@ -1,4 +1,3 @@
-@import url("https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css");
 :root {
   --backgroundColor: #101010;
   --backgroundImage: url('https://img4.goodfon.com/original/1920x1080/0/80/materyi-volk-past-klyki-goriashchie-glaza-oboroten-tma-iazyk.jpg');
@@ -19,6 +18,22 @@
   --error: #f30c0c;
   --warning: #e7a418;
 }
+
+#app-mount::before {
+	content: "I'm sorry but this theme will stop working by 03/05. It has been discontinued. Please use another theme";
+	position: absolute;
+	top: 5px;
+	left: calc(50% - 250px);
+	width: 500px;
+	background-color: rgba(204, 0, 0,.35);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	padding: 10px 15px;
+	border-radius: 8px;
+	z-index: 500000;
+}
+
 /* == Theme core == */
   /* app font */
   ::-webkit-input-placeholder,body:not([class*=hljs]):not(code):not([class*=ace_]){font-family:var(--customFont)!important}
