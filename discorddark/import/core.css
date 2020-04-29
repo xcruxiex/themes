@@ -1,7 +1,4 @@
 @import url(https://arudarin.github.io/themes/mini-themes/hljs.css);
-
-@import url(https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css);
-
 @import url(https://arudarin.github.io/themes/mini-themes/settingsIcons.css);
 
 :root {
@@ -14,6 +11,21 @@
 	--main-dark: #181818;
 	--main-light: #484848;
 	--bgImage: url(https://i.imgur.com/CZlzgPG.png)
+}
+
+#app-mount::before {
+	content: "I'm sorry but this theme will stop working by 03/05. It has been discontinued. Please use another theme";
+	position: absolute;
+	top: 5px;
+	left: calc(50% - 250px);
+	width: 500px;
+	background-color: rgba(204, 0, 0,.35);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	padding: 10px 15px;
+	border-radius: 8px;
+	z-index: 500000;
 }
 
 .base-3dtUhz,.theme-dark .contentRegion-3nDuYy,.theme-light .contentRegion-3nDuYy,.themeDark-3Ap_7i,.uploadModal-2ifh8j, .nowPlayingScroller-2XrVUt {
