@@ -60,7 +60,7 @@ Download : https://betterdiscord.net/ghdl?id=3220
 ![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
 
 ## 4.b Nocturnal v2.2.0 (currently being reworked)
-An easy on the eye theme, for thoses who live at night
+An easy on the eye theme, for those who live at night
 
-Download: https://betterdiscord.net/ghdl?id=2653
+Download : https://betterdiscord.net/ghdl?id=2653
 ![Nocturnal Demo](https://i.imgur.com/sdkskok.jpg)
