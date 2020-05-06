@@ -1,8 +1,7 @@
 @import url(https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css);
-
 @import url(https://codedotspectra.github.io/themes/core/hljs.css);
-
-@import url(https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css);
+@import url(https://codedotspectra.github.io/themes/core/settings-icons.css);
+@import url(https://xcruxiex.github.io/BBDThemes/Fixes/NocturnalFixes.css);
 
 :root {
 	--backgroundDark: rgb(24, 28, 37);
