@@ -63,4 +63,4 @@ Download : https://betterdiscord.net/ghdl?id=3220
 An easy on the eye theme, for those who live at night
 
 Download : https://betterdiscord.net/ghdl?id=2653
-![Nocturnal Demo](https://i.imgur.com/sdkskok.jpg)
+![Nocturnal Demo](https://i.imgur.com/86AhI4f.png)
