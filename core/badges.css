@@ -1,1 +1,103 @@
-.zalgo-jN1Ica.cozy-3raOZG .header-23xsNx{overflow:visible}.avatar-1BDn8e + h2 > .username-1A8OIy::before{content:"";width:17px;height:17px;background-color:transparent;background-position:center;background-repeat:no-repeat;background-size:contain;border-radius:50%;position:absolute;bottom:-23px;left:-31px;z-index:2;display:block}.avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy::before{background-image:url('https://i.imgur.com/8BYhop3.png')}.avatar-1BDn8e[src*="448413278075617303"] + h2 > .username-1A8OIy::before{background-image:url('https://i.imgur.com/8BYhop3.png')}.avatar-1BDn8e[src*="503535106124808199"] + h2 > .username-1A8OIy::before{background-image:url('https://i.imgur.com/8BYhop3.png')}
+.avatar-1BDn8e + h2 > .username-1A8OIy::after {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  line-height: 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('');
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+.avatar-1BDn8e + h2 > .username-1A8OIy:hover::after {
+  width: auto;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-image: none!important;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-size: 12px;
+  top: -1px;
+  font-weight: normal;
+  animation-timing-function: linear;
+  transition: 
+    color .2s ease,
+    background-color .2s ease;
+}
+
+  /*==|CUSTOM BADGES|==*/
+    /* ME */
+    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/owner.svg');}
+    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
+      content: "Theme developer";
+      background-color: #1c1c1c;
+      color: rgb(255, 134, 134);
+      animation: rainbow 3s linear infinite, scaleIn .2s linear 1;
+    }
+
+    /* this person */
+    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
+    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy:hover::after {content: "Cutie";}
+
+    /* Nooody */
+    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
+    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy:hover::after {content: "Best sysadmin ever";}
+
+
+
+  /*==| MODS |==*/
+    /*cruxie*/
+    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
+      content: "CodedotSpectra Moderator";
+      color: #4ce949;
+    }
+    /*discordchan*/
+    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy:hover::after {
+      content: "Will probably ban you";
+      color: #4ce949;
+    }
+
+  /*==|STREAMERS|==*/
+    /* yb_concept */
+    .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy::after {
+      content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+    }
+    .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy:hover::after {
+      content: "twitch.tv/yb_concept";
+      background-color: #6441a5;
+      color: #fff;
+    }
+    /* valentinbraem */
+    .avatar-1BDn8e[src*="577574927893266433"] + h2 > .username-1A8OIy::after {
+      content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+    }
+    .avatar-1BDn8e[src*="577574927893266433"] + h2 > .username-1A8OIy:hover::after {
+      content: "twitch.tv/valentinbraem";
+      background-color: #6441a5;
+      color: #fff;
+    }
+
+
+    @keyframes rainbow {
+      from{filter: hue-rotate(0deg)}
+      to{filter: hue-rotate(360deg);}
+    }
+    @keyframes scaleIn {
+      from{transform: scale(.1);}
+      to{transform: scale(1);}
+    }
+    @keyframes fadeIn {
+      from{opacity: 0;}
+      to{opacity: 1;}
+    }

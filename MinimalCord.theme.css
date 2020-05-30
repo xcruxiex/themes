@@ -1,0 +1,34 @@
+/**
+ * @name MinimalCord
+ * @author Gibbu#1211
+ * @version 1.0.0
+ * @description Changes Discord enough to give it a fresh feel while also making it darker. Supports both Light and Dark themes.
+ * @source https://github.com/Gibbu/BetterDiscord-Themes/tree/master/MinimalCord
+ * @website https://www.gibbu.me
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/MinimalCord/base.css");
+
+/* Black Box user tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+:root {
+    /*
+        Accent variable
+        Use this website: https://htmlcolorcodes.com/color-picker/
+        to get your desired RGB numbers. Then simply put each number in their respective area.
+        R,G,B
+    */
+    --accent: 0, 105, 255; /* DEFAULT: 22, 188, 249 */
+    --search-results-width: 25vw; /* Width of server results. For a fixed width use px. | DEFAULT: 25vw */
+    --emoji-picker-height: 260px; /* Height of Emoji picker | DEFAULT: 260px */
+    --chat-message-padding: 20px; /* Spacing around messages | DEFAULT: 20px */
+    --chat-message-spacing: 20px; /* Spacing between message | DEFAULT: 20px */
+
+    /*
+        To use a custom font. Visit https://fonts.google.com and select one to your liking.
+        Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+    */
+    --font: 'Roboto';
+}
