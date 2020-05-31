@@ -30,9 +30,9 @@
   /*==|CUSTOM BADGES|==*/
     /* ME */
     .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/owner.svg');}
+      background-image: url('https://i.redd.it/fuhgxlee99131.png');}
     .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
-      content: "Theme developer";
+      content: "Anime tiddies expert";
       background-color: #1c1c1c;
       color: rgb(255, 134, 134);
       animation: rainbow 3s linear infinite, scaleIn .2s linear 1;
@@ -51,7 +51,12 @@
     /* vanillaspace */
     .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy::after {content: "";
       background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
-    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy:hover::after {content: "5 Star Trader";}
+    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy:hover::after {
+      content: "5 Star Trader";
+      color: white;
+      animation: scaleIn .2s linear 1;
+      background-color: #2eb82e;
+    }
 
     /* Anthony Decoux */
     .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy::after {content: "";
