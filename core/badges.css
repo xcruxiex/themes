@@ -48,6 +48,11 @@
       background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
     .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy:hover::after {content: "Best sysadmin ever";}
 
+    /* vanillaspace */
+    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
+    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy:hover::after {content: "5 Star Trader";}
+
 
 
   /*==| MODS |==*/
