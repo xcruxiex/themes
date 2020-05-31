@@ -53,7 +53,13 @@
       background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
     .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy:hover::after {content: "5 Star Trader";}
 
-
+    /* Anthony Decoux */
+    .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/349918228824326145/716756361626648676/ad_logo.svg');}
+    .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy:hover::after {
+      content: "adx74.fr";
+      animation: scaleIn .2s linear 1;
+    }
 
   /*==| MODS |==*/
     /*cruxie*/
