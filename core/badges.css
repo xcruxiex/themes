@@ -60,7 +60,7 @@
 
     /* Anthony Decoux */
     .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/349918228824326145/716756361626648676/ad_logo.svg');}
+      background-image: url('http://adx74.fr/assets/img/ad_logo.svg');}
     .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy:hover::after {
       content: "adx74.fr";
       animation: scaleIn .2s linear 1;
