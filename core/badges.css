@@ -27,6 +27,36 @@
     background-color .2s ease;
 }
 
+    @keyframes rainbow {
+      from{filter: hue-rotate(0deg)}
+      to{filter: hue-rotate(360deg);}
+    }
+    @keyframes scaleIn {
+      from{transform: scale(.1);}
+      to{transform: scale(1);}
+    }
+    @keyframes fadeIn {
+      from{opacity: 0;}
+      to{opacity: 1;}
+    }
+
+
+  /*==| MODS |==*/
+    /*cruxie*/
+    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
+      content: "CodedotSpectra Moderator";
+      color: #4ce949;
+    }
+    /*discordchan*/
+    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy:hover::after {
+      content: "Will probably ban you";
+      color: #4ce949;
+    }
+
   /*==|CUSTOM BADGES|==*/
     /* ME */
     .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {content: "";
@@ -66,20 +96,20 @@
       animation: scaleIn .2s linear 1;
     }
 
-  /*==| MODS |==*/
-    /*cruxie*/
-    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
-    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
-      content: "CodedotSpectra Moderator";
-      color: #4ce949;
+    /* Chewboko */
+    .avatar-1BDn8e[src*="239506110363467797"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://i.imgur.com/n4CLusQ.png');}
+    .avatar-1BDn8e[src*="239506110363467797"] + h2 > .username-1A8OIy:hover::after {
+      content: "Chewy";
+      animation: scaleIn .2s linear 1;
     }
-    /*discordchan*/
-    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
-    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy:hover::after {
-      content: "Will probably ban you";
-      color: #4ce949;
+
+    /* ウィザード */
+    .avatar-1BDn8e[src*="285569855506219018"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/emojis/398885947204173824.png?v=1');}
+    .avatar-1BDn8e[src*="285569855506219018"] + h2 > .username-1A8OIy:hover::after {
+      content: "Certified Weeb";
+      animation: scaleIn .2s linear 1;
     }
 
   /*==|STREAMERS|==*/
@@ -104,16 +134,13 @@
       color: #fff;
     }
 
-
-    @keyframes rainbow {
-      from{filter: hue-rotate(0deg)}
-      to{filter: hue-rotate(360deg);}
+    /* Mr.Nate 🍉 */
+    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy::after {
+      content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
     }
-    @keyframes scaleIn {
-      from{transform: scale(.1);}
-      to{transform: scale(1);}
-    }
-    @keyframes fadeIn {
-      from{opacity: 0;}
-      to{opacity: 1;}
+    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy:hover::after {
+      content: "twitch.tv/nategaming9535";
+      background-color: #6441a5;
+      color: #fff;
     }
