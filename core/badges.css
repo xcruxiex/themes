@@ -101,6 +101,8 @@
       background-image: url('https://i.imgur.com/n4CLusQ.png');}
     .avatar-1BDn8e[src*="239506110363467797"] + h2 > .username-1A8OIy:hover::after {
       content: "Chewy";
+      color: white;
+      background-color: #b300cc;
       animation: scaleIn .2s linear 1;
     }
 
@@ -120,6 +122,7 @@
     }
     .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy:hover::after {
       content: "twitch.tv/yb_concept";
+      animation: scaleIn .2s linear 1;
       background-color: #6441a5;
       color: #fff;
     }
@@ -130,6 +133,16 @@
     }
     .avatar-1BDn8e[src*="577574927893266433"] + h2 > .username-1A8OIy:hover::after {
       content: "twitch.tv/valentinbraem";
+      animation: scaleIn .2s linear 1;
+      background-color: #6441a5;
+      color: #fff;
+    }
+    /* Mr.Nate (Nathan/Nate) */
+    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy:hover::after {
+      content: "https://twitch.tv/nategaming9535";
+      animation: scaleIn .2s linear 1;
       background-color: #6441a5;
       color: #fff;
     }
