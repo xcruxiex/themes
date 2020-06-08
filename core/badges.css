@@ -58,25 +58,43 @@
     }
 
   /*==|CUSTOM BADGES|==*/
-    /* ME */
+    /* Spectra */
     .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://i.redd.it/fuhgxlee99131.png');}
+      background-image: url('https://i.imgur.com/gLCkHB5.png');}
     .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
-      content: "Anime tiddies expert";
-      background-color: #1c1c1c;
-      color: rgb(255, 134, 134);
-      animation: rainbow 3s linear infinite, scaleIn .2s linear 1;
+      content: "Roses are red, violets are blue, this text is too long";
+      background-color: #ff8c1a;
+      color: #fff;
+      animation: scaleIn .2s linear 1;
+    }
+
+    /* Also Spectra */
+    .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://i.imgur.com/M2rulQo.png');}
+    .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy:hover::after {
+      content: "The real someone is in my basement";
+      background-color: #990000;
+      color: #fff;
+      animation: scaleIn .2s linear 1;
     }
 
     /* this person */
     .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy::after {content: "";
       background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
-    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy:hover::after {content: "Cutie";}
+    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy:hover::after {
+      content: "Cutie";
+      animation: scaleIn .2s linear 1;
+    }
 
     /* Nooody */
     .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy::after {content: "";
       background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
-    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy:hover::after {content: "Best sysadmin ever";}
+    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy:hover::after {
+      content: "Best sysadmin ever";
+      animation: scaleIn .2s linear 1;
+      background-color: #99ccff;
+      color: #fff;
+    }
 
     /* vanillaspace */
     .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy::after {content: "";
@@ -116,7 +134,7 @@
 
     /* Board™ */
     .avatar-1BDn8e[src*="719565310641963018"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io//themes/badges/diamond.svg');}
+      background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
     .avatar-1BDn8e[src*="719565310641963018"] + h2 > .username-1A8OIy:hover::after {
       content: "Slightly less toxic than DB ;)";
       animation: scaleIn .2s linear 1;
@@ -156,7 +174,7 @@
       color: #fff;
     }
 
-    /* Mr.Nate 🍉 */
+    /* Mr.Nate */
     .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy::after {
       content: "";
       background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
