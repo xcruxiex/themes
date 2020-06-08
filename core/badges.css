@@ -147,7 +147,8 @@
 
     /* TechieC */
     .avatar-1BDn8e[src*="492077614404730903"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/703240281155436554/708721981280878682/e-logo-glitched.gif');}
+      background-image: url('https://cdn.discordapp.com/attachments/703240281155436554/708721981280878682/e-logo-glitched.gif');			
+      border-radius: 50%;}
     .avatar-1BDn8e[src*="492077614404730903"] + h2 > .username-1A8OIy:hover::after {
       content: "CodedotSpectra Help Team";
       animation: scaleIn .2s linear 1;
