@@ -114,6 +114,15 @@
       animation: scaleIn .2s linear 1;
     }
 
+    /* Board™ */
+    .avatar-1BDn8e[src*="719565310641963018"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io//themes/badges/diamond.svg');}
+    .avatar-1BDn8e[src*="719565310641963018"] + h2 > .username-1A8OIy:hover::after {
+      content: "Slightly less toxic than DB ;)";
+      animation: scaleIn .2s linear 1;
+    }
+
+
   /*==|STREAMERS|==*/
     /* yb_concept */
     .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy::after {
