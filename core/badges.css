@@ -154,6 +154,17 @@
       animation: scaleIn .2s linear 1;
     }
 
+    /* Azael */
+    .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/721926347189911552/358278238675664896.png');			
+      border-radius: 5px;}
+    .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy:hover::after {
+      content: "Vanilla";
+      animation: scaleIn .2s linear 1;
+      color: #fff;
+      background-color: #00eeff;
+    }
+
 
   /*==|STREAMERS|==*/
     /* yb_concept */
