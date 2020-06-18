@@ -169,7 +169,7 @@
       background-image: url('https://cdn.discordapp.com/emojis/275211491274260480.png');			
       border-radius: 5px;}
     .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy:hover::after {
-      content: "Vanilla";
+      content: "Chocola";
       animation: scaleIn .2s linear 1;
     }
 
