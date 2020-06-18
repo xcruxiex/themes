@@ -171,6 +171,7 @@
     .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy:hover::after {
       content: "Chocola";
       animation: scaleIn .2s linear 1;
+      background-color: #ff0066;
     }
 
   /*==|STREAMERS|==*/
