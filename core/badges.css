@@ -164,6 +164,14 @@
       background-image: linear-gradient(to right, #2193b0, #6dd5ed) !important;
     }
 
+    /* Akashii */
+    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/emojis/275211491274260480.png');			
+      border-radius: 5px;}
+    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy:hover::after {
+      content: "Vanilla";
+      animation: scaleIn .2s linear 1;
+    }
 
   /*==|STREAMERS|==*/
     /* yb_concept */
