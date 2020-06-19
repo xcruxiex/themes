@@ -48,11 +48,11 @@
     .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
       content: "Best Boi Mod";
       animation: fadeIn .5s linear 1;
-			color: #ff8080;
-			width: 75px;
-			text-align: center;
-			background-color: transparent;
-			background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+      color: #ff8080;
+      width: 75px;
+      text-align: center;
+      background-color: transparent;
+      background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
     }
     /*discordchan*/
     .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
