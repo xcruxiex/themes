@@ -48,11 +48,11 @@
     .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
       content: "Best Boi Mod";
       animation: fadeIn .5s linear 1;
-			color: #ff8080;
-			width: 75px;
-			text-align: center;
-			background-color: transparent;
-			background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+      color: #ff8080;
+      width: 75px;
+      text-align: center;
+      background-color: transparent;
+      background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
     }
     /*discordchan*/
     .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
@@ -150,17 +150,38 @@
       content: "CodedotSpectra Help Team";
       animation: scaleIn .2s linear 1;
     }
+
     /* Azael */
     .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/721926347189911552/358278238675664896.png');			
+      background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723255763228688465/0dd78ced986cdeaafffcbea04389b75a.png');			
       border-radius: 5px;}
     .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy:hover::after {
       content: "Vanilla";
-      animation: scaleIn .2s linear 1;
       color: #fff;
-      background-color: #00eeff;
+      text-shadow: 0px 0px 5px #000;
+      animation: scaleIn .2s linear 1;
+      background-color: transparent;
+      background-image: linear-gradient(to right, #2193b0, #6dd5ed) !important;
     }
 
+    /* Akashii */
+    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723453087011962930/300905816292211_colored_toned.png');			
+      border-radius: 5px;}
+    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy:hover::after {
+      content: "Chocola";
+      animation: scaleIn .2s linear 1;
+      background-color: #ff0066;
+    }
+
+    /* 初音美玖 (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * */
+    .avatar-1BDn8e[src*="591994499069116417"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/716088201181397012/723526611776962560/159257248826988995.png');			
+      border-radius: 5px;}
+    .avatar-1BDn8e[src*="591994499069116417"] + h2 > .username-1A8OIy:hover::after {
+      content: "Pro Wii + Wii U Modder";
+      animation: scaleIn .2s linear 1;
+    }
 
   /*==|STREAMERS|==*/
     /* yb_concept */
