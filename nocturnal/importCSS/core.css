@@ -642,7 +642,7 @@ svg[name=Nova_Discord] * {
 	transform: translateX(-250px);
 	transition: all .2s ease
 }
-
+.members-1998pB, .members-1998pB>div {background-color: var(--backgroundDark);}
 .channel-2QD9_O.selected-1HYmZZ::after,.channel-2QD9_O:hover::after,.contentConnectedVoice-qL-YrL::after,.contentLockedText-1aHuz8:hover::after,.contentLockedVoice-1gx-SP:hover::after,.contentSelectedText-3wUhMi::after,.contentSelectedVoice-1WDIBM::after,.da-containerDefault:hover .content-20Aix8::after,.member-3W1lQa.popout-open .content-OzHfo4::after,.member-3W1lQa.popout-open:hover .content-OzHfo4::after,.member-3W1lQa:hover .content-OzHfo4::after {
 	transform: translateX(0)
 }
