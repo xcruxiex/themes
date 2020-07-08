@@ -225,3 +225,13 @@
       background-color: #6441a5;
       color: #fff;
     }
+
+    /* YoiLikeOrange */
+    .avatar-1BDn8e[src*="222915166319280128"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+    .avatar-1BDn8e[src*="222915166319280128"] + h2 > .username-1A8OIy:hover::after {
+      content: "twitch.tv/yoilikeorange";
+      animation: scaleIn .2s linear 1;
+      background-color: #6441a5;
+      color: #fff;
+    }
