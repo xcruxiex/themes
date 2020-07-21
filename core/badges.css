@@ -188,6 +188,8 @@
       background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/733778563970367508/unknown.png');}
     .avatar-1BDn8e[src*="365136623668690944"] + h2 > .username-1A8OIy:hover::after {
       content: "Meinar";
+      background-color: #55ff50;
+      color: #000;
       animation: scaleIn .2s linear 1;
     }
 
