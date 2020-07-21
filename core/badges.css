@@ -183,6 +183,14 @@
       animation: scaleIn .2s linear 1;
     }
 
+    /* KarinnHaru */
+    .avatar-1BDn8e[src*="365136623668690944"] + h2 > .username-1A8OIy::after {content: "";
+      background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/733778563970367508/unknown.png');}
+    .avatar-1BDn8e[src*="365136623668690944"] + h2 > .username-1A8OIy:hover::after {
+      content: "Meinar";
+      animation: scaleIn .2s linear 1;
+    }
+
   /*==|STREAMERS|==*/
     /* yb_concept */
     .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy::after {
