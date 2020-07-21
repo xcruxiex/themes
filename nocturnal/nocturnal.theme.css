@@ -20,6 +20,7 @@ This theme is meant to be used with the dark version of discord
 @import url('https://codedotspectra.github.io/themes/core/hljs.css');
 @import url('https://codedotspectra.github.io/themes/core/settings-icons.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+@import url("https://codedotspectra.github.io/themes/core/badges.css);
 /* Fixes */
 @import url('https://xcruxiex.github.io/BBDThemes/Fixes/NocturnalFixes.css');
 /*#################################################################################################*/
