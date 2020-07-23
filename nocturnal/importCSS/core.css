@@ -2136,3 +2136,8 @@ input.da-input, input.da-input:focus {
 .wrapper-2aW0bm {
     background-color: var(--backgroundDark)!important;
 }
+
+/*Emoji Picker Fix (again)*/
+.wrapper-2Gsate, .contentWrapper-SvZHNd, .wrapper-1-Fsb8 {
+  background: var(--backgroundDark);
+}
