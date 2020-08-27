@@ -1,12 +1,12 @@
 /* Compact member list */
-.membersWrap-2h-GB4 {
+.membersWrap-2h-GB4, .members-1998pB {
   width: 55px;
   position: relative;
   min-width:unset;
   transition: all .25s ease;
 }
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd {width: 55px;}
-.membersWrap-2h-GB4:hover {
+.membersWrap-2h-GB4:hover, .members-1998pB:hover {
   width: 240px;
 }
 .membersGroup-v9BXpm {
