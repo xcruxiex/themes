@@ -78,12 +78,9 @@
       transform: none!important;
       display: inline-block;
       height: 14px;
-      width: 3px;
+      width: 30px;
       line-height: 14px;
       background-position: left, right;
-      background-repeat: no-repeat;
-      background-size: contain;
-      position: relative;
       top: 2px;
       margin-left: 5px;
     }
