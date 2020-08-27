@@ -64,25 +64,37 @@
 
   /*==|CUSTOM BADGES|==*/
     /* Spectra */
-    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://i.imgur.com/gLCkHB5.png');}
-    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
-      content: "Theme Developer";
-      background-image: linear-gradient(30deg, #5433FF, #20BDFF) !important;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: #fff;
-      animation: fadeIn .2s linear 1;
-      letter-spacing: 1px;
+    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {
+      content: "";
+      width: 30px;
+      background-position: left, right;
+      background-image: url('https://svgur.com/i/P3x.svg'), url('https://svgshare.com/i/P5f.svg');
     }
+    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
+      content: "";
+      background-image: url('https://svgur.com/i/P3x.svg'), url('https://svgshare.com/i/P5f.svg') !important;
+      background-color: transparent !important;
+      padding: 0 !important;
+      transform: none!important;
+      display: inline-block;
+      height: 14px;
+      width: 3px;
+      line-height: 14px;
+      background-position: left, right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      top: 2px;
+      margin-left: 5px;
+    }
+      
     /* Also Spectra */
     .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy::after {content: "";
       background-image: url('https://i.imgur.com/M2rulQo.png');}
     .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy:hover::after {
-      content: "The real someone is in my basement";
-      background-color: #990000;
-      color: #fff;
+      content: "Hello there";
+      background-color: #fff;
+      color: #000;
       animation: scaleIn .2s linear 1;
     }
     /* yura */
