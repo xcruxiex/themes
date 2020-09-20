@@ -2143,3 +2143,5 @@ input.da-input, input.da-input:focus {
 .wrapper-2Gsate, .contentWrapper-SvZHNd, .wrapper-1-Fsb8 {
   background: var(--backgroundDark);
 }
+.inspector-3LQtX9{background-color: var(--backgroundDark);}
+.theme-dark .wrapper-1-Fsb8 {background-color: var(--backgroundDark);}
