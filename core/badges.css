@@ -203,6 +203,17 @@
     }
 
   /*==|STREAMERS|==*/
+    /* yummy */
+    .avatar-1BDn8e[src*="747918201613975673"] + h2 > .username-1A8OIy::after {
+      content: "";
+      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+    }
+    .avatar-1BDn8e[src*="747918201613975673"] + h2 > .username-1A8OIy:hover::after {
+      content: "twitch.tv/yumsta";
+      animation: scaleIn .2s linear 1;
+      background-color: #6441a5;
+      color: #fff;
+    }
     /* yb_concept */
     .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy::after {
       content: "";
