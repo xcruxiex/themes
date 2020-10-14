@@ -1,6 +1,12 @@
-//META{"name":"Neutron","description":"A simple but highly customizable theme, now sugar free!","author":"Spectra","version":"8.0 AutoUpdate","invite":"PZdnCVD","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.me/"}*//
-/*
-
+/**
+ * @name Neutron
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @authorId 286208664623120384
+ * @invite PZdnCVD
+ * @source https://github.com/codedotspectra/themes
+ * @website https://codedotspectra.me/
+ *//*
 $$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\
 $$$\  $$ |$$  _____|$$ |  $$ |\__$$  __|$$  __$$\ $$  __$$\ $$$\  $$ |
 $$$$\ $$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ /  $$ |$$$$\ $$ |
@@ -9,7 +15,6 @@ $$ \$$$$ |$$  __|   $$ |  $$ |   $$ |   $$  __$$< $$ |  $$ |$$ \$$$$ |
 $$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
 $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 \__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
-
 */
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
