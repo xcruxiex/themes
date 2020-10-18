@@ -2145,3 +2145,24 @@ input.da-input, input.da-input:focus {
 }
 .inspector-3LQtX9{background-color: var(--backgroundDark);}
 .theme-dark .wrapper-1-Fsb8 {background-color: var(--backgroundDark);}
+
+/* New Settings */
+.accountList-33MS45, .connectionHeader-2MDqhu, .background-1QDuV2, .phoneField-38N1bJ, .phoneField-38N1bJ .inputField-aNPXsv, .banner-WELp4M, .theme-dark .feature-2w65J5, .theme-dark .gemIndicatorContainer-2jdECl {
+  background-color: transparent;
+}
+.fieldList-21DyL8, .connection-1fbD7X {
+  background-color: var(--backgroundDarker);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
+}
+.hero-EvfTTA {
+  max-width: inherit;
+}
+svg.slider-TkfMQL svg {
+  display: none;
+}
+.container-3auIfb:not([style*="125"]) {
+  background-color: var(--primaryGradient1) !important;
+}
