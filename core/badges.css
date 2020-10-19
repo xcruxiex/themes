@@ -210,6 +210,14 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* zxzxcv */
+.avatar-1BDn8e[src*="507149114488651797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/767098858357522432.gif?v=1');}
+.avatar-1BDn8e[src*="507149114488651797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Pro Among Us Player";
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
 /* yummy */
 .avatar-1BDn8e[src*="747918201613975673"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
