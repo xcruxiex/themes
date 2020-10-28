@@ -292,3 +292,13 @@
   background-color: #6441a5;
   color: #fff;
 }
+
+/* jsjhax34 */
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/jsjfree34";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
