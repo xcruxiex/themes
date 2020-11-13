@@ -1,4 +1,4 @@
-.avatar-1BDn8e + h2 > .username-1A8OIy::after {
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   display: inline-block;
   height: 14px;
   width: 14px;
@@ -11,7 +11,7 @@
   top: 2px;
   margin-left: 5px;
 }
-.avatar-1BDn8e + h2 > .username-1A8OIy:hover::after {
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   width: auto;
   border-radius: 4px;
   padding: 2px 5px;
@@ -27,241 +27,339 @@
     background-color .2s ease;
 }
 
-    @keyframes rainbow {
-      from{filter: hue-rotate(0deg)}
-      to{filter: hue-rotate(360deg);}
-    }
-    @keyframes scaleIn {
-      from{transform: scale(.1);}
-      to{transform: scale(1);}
-    }
-    @keyframes fadeIn {
-      from{opacity: 0;}
-      to{opacity: 1;}
-    }
+@keyframes rainbow {
+  from{filter: hue-rotate(0deg)}
+  to{filter: hue-rotate(360deg);}
+}
+@keyframes scaleIn {
+  from{transform: scale(.1);}
+  to{transform: scale(1);}
+}
+@keyframes fadeIn {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
 
 
   /*==| MODS |==*/
-    /*cruxie*/
-    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
-    .avatar-1BDn8e[src*="332394843743584256"] + h2 > .username-1A8OIy:hover::after {
-      content: "Best Boi Mod";
-      animation: fadeIn .5s linear 1;
-      color: #ff8080;
-      width: 75px;
-      text-align: center;
-      background-color: transparent;
-      background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
-    }
-    /*discordchan*/
-    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
-    .avatar-1BDn8e[src*="706169896228225080"] + h2 > .username-1A8OIy:hover::after {
-      content: "Will probably ban you";
-      color: #4ce949;
-    }
+/*cruxie*/
+.avatar-1BDn8e[src*="332394843743584256"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+.avatar-1BDn8e[src*="332394843743584256"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Best Boi Mod";
+  animation: fadeIn .5s linear 1;
+  color: #ff8080;
+  width: 75px;
+  text-align: center;
+  background-color: transparent;
+  background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+}
+
+/*discordchan*/
+.avatar-1BDn8e[src*="706169896228225080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
+.avatar-1BDn8e[src*="706169896228225080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Will probably ban you";
+  color: #4ce949;
+}
 
   /*==|CUSTOM BADGES|==*/
-    /* Spectra */
-    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy::after {
-      content: "";
-      width: 30px;
-      background-position: left, right;
-      background-image: url('https://i.imgur.com/q3aIwjM.png'), url('https://svgshare.com/i/P5f.svg');
-    }
-    .avatar-1BDn8e[src*="286208664623120384"] + h2 > .username-1A8OIy:hover::after {
-      content: "";
-      background-image: url('https://i.imgur.com/q3aIwjM.png'), url('https://svgshare.com/i/P5f.svg') !important;
-      background-color: transparent !important;
-      padding: 0 !important;
-      transform: none!important;
-      display: inline-block;
-      height: 14px;
-      width: 30px;
-      line-height: 14px;
-      background-position: left, right;
-      top: 2px;
-      margin-left: 5px;
-    }
-      
-    /* Also Spectra */
-    .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://i.imgur.com/M2rulQo.png');}
-    .avatar-1BDn8e[src*="210902690555756544"] + h2 > .username-1A8OIy:hover::after {
-      content: "Hello there";
-      background-color: #fff;
-      color: #000;
-      animation: scaleIn .2s linear 1;
-    }
-    /* yura */
-    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
-    .avatar-1BDn8e[src*="517447785491070987"] + h2 > .username-1A8OIy:hover::after {
-      content: "Cutie";
-      background-color: #fa73ff;
-      color: #fff;
-      animation: scaleIn .2s linear 1;
-    }
-    /* Nooody */
-    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
-    .avatar-1BDn8e[src*="206167460997496836"] + h2 > .username-1A8OIy:hover::after {
-      content: "Best sysadmin ever";
-      animation: scaleIn .2s linear 1;
-      background-color: #99ccff;
-      color: #fff;
-    }
-    /* vanillaspace */
-    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
-    .avatar-1BDn8e[src*="227648235097817089"] + h2 > .username-1A8OIy:hover::after {
-      content: "5 Star Trader";
-      color: white;
-      animation: scaleIn .2s linear 1;
-      background-color: #2eb82e;
-    }
-    /* Anthony Decoux */
-    .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('http://adx74.fr/assets/img/ad_logo.svg');}
-    .avatar-1BDn8e[src*="344137897492086804"] + h2 > .username-1A8OIy:hover::after {
-      content: "adx74.fr";
-      animation: scaleIn .2s linear 1;
-    }
-    /* Chewboko */
-    .avatar-1BDn8e[src*="239506110363467797"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://i.imgur.com/n4CLusQ.png');}
-    .avatar-1BDn8e[src*="239506110363467797"] + h2 > .username-1A8OIy:hover::after {
-      content: "Chewy";
-      color: white;
-      background-color: #b300cc;
-      animation: scaleIn .2s linear 1;
-    }
-    /* ウィザード */
-    .avatar-1BDn8e[src*="285569855506219018"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/emojis/398885947204173824.png?v=1');}
-    .avatar-1BDn8e[src*="285569855506219018"] + h2 > .username-1A8OIy:hover::after {
-      content: "Certified Weeb";
-      animation: scaleIn .2s linear 1;
-    }
-    /* Board™ */
-    .avatar-1BDn8e[src*="285475344817848320"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
-    .avatar-1BDn8e[src*="285475344817848320"] + h2 > .username-1A8OIy:hover::after {
-      content: "The One and only Board";
-      animation: scaleIn .2s linear 1;
-    }
-    /* TechieC */
-    .avatar-1BDn8e[src*="492077614404730903"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/703240281155436554/708721981280878682/e-logo-glitched.gif');			
-      border-radius: 5px;}
-    .avatar-1BDn8e[src*="492077614404730903"] + h2 > .username-1A8OIy:hover::after {
-      content: "CodedotSpectra Help Team";
-      animation: scaleIn .2s linear 1;
-    }
+/* Spectra */
+.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  width: 30px;
+  background-position: left, right;
+  background-image: url('https://i.imgur.com/q3aIwjM.png'), url('https://svgshare.com/i/P5f.svg');}
+.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "";
+  background-image: url('https://i.imgur.com/q3aIwjM.png'), url('https://svgshare.com/i/P5f.svg') !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  transform: none!important;
+  display: inline-block;
+  height: 14px;
+  width: 30px;
+  line-height: 14px;
+  background-position: left, right;
+  top: 2px;
+  margin-left: 5px;
+}
+  
+/* Also Spectra */
+.avatar-1BDn8e[src*="210902690555756544"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://i.imgur.com/M2rulQo.png');}
+.avatar-1BDn8e[src*="210902690555756544"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Hello there";
+  background-color: #fff;
+  color: #000;
+  animation: scaleIn .2s linear 1;
+}
 
-    /* Azael */
-    .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723255763228688465/0dd78ced986cdeaafffcbea04389b75a.png');			
-      border-radius: 5px;}
-    .avatar-1BDn8e[src*="323030822267518977"] + h2 > .username-1A8OIy:hover::after {
-      content: "Vanilla";
-      color: #fff;
-      text-shadow: 0px 0px 5px #000;
-      animation: scaleIn .2s linear 1;
-      background-color: transparent;
-      background-image: linear-gradient(to right, #2193b0, #6dd5ed) !important;
-    }
+/* yura */
+.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
+.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Cutie";
+  background-color: #fa73ff;
+  color: #fff;
+  animation: scaleIn .2s linear 1;
+}
 
-    /* Akashii */
-    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723453087011962930/300905816292211_colored_toned.png');			
-      border-radius: 5px;}
-    .avatar-1BDn8e[src*="495604921534775306"] + h2 > .username-1A8OIy:hover::after {
-      content: "Chocola";
-      animation: scaleIn .2s linear 1;
-      background-color: #ff0066;
-    }
+/* Nooody */
+.avatar-1BDn8e[src*="206167460997496836"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
+.avatar-1BDn8e[src*="206167460997496836"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Best sysadmin ever";
+  animation: scaleIn .2s linear 1;
+  background-color: #99ccff;
+  color: #fff;
+}
 
-    /* 初音美玖 (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * */
-    .avatar-1BDn8e[src*="591994499069116417"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/716088201181397012/723526611776962560/159257248826988995.png');			
-      border-radius: 5px;}
-    .avatar-1BDn8e[src*="591994499069116417"] + h2 > .username-1A8OIy:hover::after {
-      content: "Pro Wii + Wii U Modder";
-      animation: scaleIn .2s linear 1;
-    }
+/* vanillaspace */
+.avatar-1BDn8e[src*="227648235097817089"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
+.avatar-1BDn8e[src*="227648235097817089"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "5 Star Trader";
+  color: white;
+  animation: scaleIn .2s linear 1;
+  background-color: #2eb82e;
+}
 
-    /* KarinnHaru */
-    .avatar-1BDn8e[src*="365136623668690944"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/733778563970367508/unknown.png');}
-    .avatar-1BDn8e[src*="365136623668690944"] + h2 > .username-1A8OIy:hover::after {
-      content: "Meinar";
-      background-color: #55ff50;
-      color: #000;
-      animation: scaleIn .2s linear 1;
-    }
+/* Anthony Decoux */
+.avatar-1BDn8e[src*="344137897492086804"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('http://adx74.fr/assets/img/ad_logo.svg');}
+.avatar-1BDn8e[src*="344137897492086804"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "adx74.fr";
+  animation: scaleIn .2s linear 1;
+}
+
+/* Chewboko */
+.avatar-1BDn8e[src*="239506110363467797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://i.imgur.com/n4CLusQ.png');}
+.avatar-1BDn8e[src*="239506110363467797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Chewy";
+  color: white;
+  background-color: #b300cc;
+  animation: scaleIn .2s linear 1;
+}
+
+/* ウィザード */
+.avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/398885947204173824.png?v=1');}
+.avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Certified Weeb";
+  animation: scaleIn .2s linear 1;
+}
+
+/* Board™ */
+.avatar-1BDn8e[src*="285475344817848320"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/diamond.svg');}
+.avatar-1BDn8e[src*="285475344817848320"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "The One and only Board";
+  animation: scaleIn .2s linear 1;
+}
+
+/* TechieC */
+.avatar-1BDn8e[src*="492077614404730903"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/703240281155436554/708721981280878682/e-logo-glitched.gif');			
+  border-radius: 5px;}
+.avatar-1BDn8e[src*="492077614404730903"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "CodedotSpectra Help Team";
+  animation: scaleIn .2s linear 1;
+}
+
+/* Azael */
+.avatar-1BDn8e[src*="323030822267518977"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723255763228688465/0dd78ced986cdeaafffcbea04389b75a.png');			
+  border-radius: 5px;}
+.avatar-1BDn8e[src*="323030822267518977"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Vanilla";
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+  animation: scaleIn .2s linear 1;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #2193b0, #6dd5ed) !important;
+}
+
+/* Akashii */
+.avatar-1BDn8e[src*="495604921534775306"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/697502924837748818/723453087011962930/300905816292211_colored_toned.png');			
+  border-radius: 5px;}
+.avatar-1BDn8e[src*="495604921534775306"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Chocola";
+  animation: scaleIn .2s linear 1;
+  background-color: #ff0066;
+}
+
+/* 初音美玖 (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * */
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/716088201181397012/723526611776962560/159257248826988995.png');			
+  border-radius: 5px;}
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Pro Wii + Wii U Modder";
+  animation: scaleIn .2s linear 1;
+}
+
+/* KarinnHaru */
+.avatar-1BDn8e[src*="365136623668690944"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/696581398533767228/733778563970367508/unknown.png');}
+.avatar-1BDn8e[src*="365136623668690944"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Meinar";
+  background-color: #55ff50;
+  color: #000;
+  animation: scaleIn .2s linear 1;
+}
+
+/* zxzxcv */
+.avatar-1BDn8e[src*="507149114488651797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/767098858357522432.gif?v=1');}
+.avatar-1BDn8e[src*="507149114488651797"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Pro Among Us Player";
+  animation: scaleIn .2s linear 1;
+}
+
+/* ღHenbo */
+.avatar-1BDn8e[src*="333187565559611393"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/759412412360425472.gif?v=1');}
+.avatar-1BDn8e[src*="333187565559611393"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Pro Rager";
+  animation: scaleIn .2s linear 1;
+}
+
+/* nanyo */
+.avatar-1BDn8e[src*="305064794183172119"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://i.imgur.com/PzRlMc3.png');}
+.avatar-1BDn8e[src*="305064794183172119"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Velox";
+  animation: scaleIn .2s linear 1;
+}
+
+/* DragonUnited */
+.avatar-1BDn8e[src*="125807914794483712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://i.imgur.com/wADDz68.png');}
+.avatar-1BDn8e[src*="125807914794483712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "The Dragon Uniter";
+  animation: scaleIn .2s linear 1;
+}
+
+/* Peach */
+.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/avatars/273858357130035201/1da9ffc96ddb3ee35ab8ba11470236e0.png');}
+.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "PEACH";
+  animation: scaleIn .2s linear 1;
+}
+
+/* Peach */
+.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/avatars/273858357130035201/1da9ffc96ddb3ee35ab8ba11470236e0.png');}
+.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "PEACH";
+  animation: scaleIn .2s linear 1;
+}
+
+/* AshPikachu */
+.avatar-1BDn8e[src*="294406287519776769"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/678757027987587091.gif?v=1');}
+.avatar-1BDn8e[src*="294406287519776769"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "RGB";
+  animation: scaleIn .2s linear 1;
+}
+
+/* ™Terrance */
+.avatar-1BDn8e[src*="331230694841909248"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/635256436477132816.gif?v=1');}
+.avatar-1BDn8e[src*="331230694841909248"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "PANTOMATH";
+  animation: scaleIn .2s linear 1;
+}
+
+
+
 
   /*==|STREAMERS|==*/
-    /* yummy */
-    .avatar-1BDn8e[src*="747918201613975673"] + h2 > .username-1A8OIy::after {
-      content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
-    }
-    .avatar-1BDn8e[src*="747918201613975673"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/yumsta";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
-    /* yb_concept */
-    .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy::after {
-      content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
-    }
-    .avatar-1BDn8e[src*="412185847379525632"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/yb_concept";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
-    /* valentinbraem */
-    .avatar-1BDn8e[src*="577574927893266433"] + h2 > .username-1A8OIy::after {
-      content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
-    }
-    .avatar-1BDn8e[src*="577574927893266433"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/valentinbraem";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
-    /* Mr.Nate */
-    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
-    .avatar-1BDn8e[src*="600047402807721984"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/nategaming9535";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
+/* yummy */
+.avatar-1BDn8e[src*="747918201613975673"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+}
+.avatar-1BDn8e[src*="747918201613975673"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/yumsta";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
 
-    /* [TLGC] はっぉ */
-    .avatar-1BDn8e[src*="233592823562240000"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
-    .avatar-1BDn8e[src*="233592823562240000"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/noobmaster108";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
+/* yb_concept */
+.avatar-1BDn8e[src*="412185847379525632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+}
+.avatar-1BDn8e[src*="412185847379525632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/yb_concept";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
 
-    /* YoiLikeOrange */
-    .avatar-1BDn8e[src*="222915166319280128"] + h2 > .username-1A8OIy::after {content: "";
-      background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
-    .avatar-1BDn8e[src*="222915166319280128"] + h2 > .username-1A8OIy:hover::after {
-      content: "twitch.tv/yoilikeorange";
-      animation: scaleIn .2s linear 1;
-      background-color: #6441a5;
-      color: #fff;
-    }
+/* valentinbraem */
+.avatar-1BDn8e[src*="577574927893266433"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');
+}
+.avatar-1BDn8e[src*="577574927893266433"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/valentinbraem";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* Mr.Nate */
+.avatar-1BDn8e[src*="600047402807721984"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="600047402807721984"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/nategaming9535";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* [TLGC] はっぉ */
+.avatar-1BDn8e[src*="233592823562240000"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="233592823562240000"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/noobmaster108";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* YoiLikeOrange */
+.avatar-1BDn8e[src*="222915166319280128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="222915166319280128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/yoilikeorange";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* jsjhax34 */
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="591994499069116417"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/jsjfree34";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* andreww */
+.avatar-1BDn8e[src*="255805278753259521"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="255805278753259521"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/moonie_ww";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}

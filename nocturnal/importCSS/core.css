@@ -2145,3 +2145,59 @@ input.da-input, input.da-input:focus {
 }
 .inspector-3LQtX9{background-color: var(--backgroundDark);}
 .theme-dark .wrapper-1-Fsb8 {background-color: var(--backgroundDark);}
+
+/* New Settings */
+.accountList-33MS45, .connectionHeader-2MDqhu, .background-1QDuV2, .phoneField-38N1bJ, .phoneField-38N1bJ .inputField-aNPXsv, .banner-WELp4M, .theme-dark .feature-2w65J5, .theme-dark .gemIndicatorContainer-2jdECl {
+  background-color: transparent;
+}
+.fieldList-21DyL8, .connection-1fbD7X {
+  background-color: var(--backgroundDarker);
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
+}
+.hero-EvfTTA {
+  max-width: inherit;
+}
+svg.slider-TkfMQL svg {
+  display: none;
+}
+.container-3auIfb:not([style*="125"]) {
+  background-color: var(--primaryGradient1) !important;
+}
+
+/* Channels Nov 2020 */
+.container-3w7J-x {
+    background: var(--backgroundDark)!important;
+}
+
+.panels-j1Uci_ {
+    background: var(--backgroundDark)!important;
+}
+
+.content-1x5b-n::after, .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after {
+    content: "";
+    height: 2px;
+    width: 98.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 7.5px;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+    transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,.wrapper-2jXpOf:hover .content-1x5b-n {
+    background-color: rgba(0,0,0,.25)!important
+}
+
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n {
+    background-color: rgba(0,0,0,.45)!important
+}
+
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after,.wrapper-2jXpOf:hover .content-1x5b-n::after {
+    transform: translateX(0)
+}
