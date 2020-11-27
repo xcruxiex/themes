@@ -250,14 +250,6 @@
   animation: scaleIn .2s linear 1;
 }
 
-/* Peach */
-.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://cdn.discordapp.com/avatars/273858357130035201/1da9ffc96ddb3ee35ab8ba11470236e0.png');}
-.avatar-1BDn8e[src*="273858357130035201"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "PEACH";
-  animation: scaleIn .2s linear 1;
-}
-
 /* AshPikachu */
 .avatar-1BDn8e[src*="294406287519776769"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://cdn.discordapp.com/emojis/678757027987587091.gif?v=1');}
@@ -274,8 +266,21 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* DarK' | */
+.avatar-1BDn8e[src*="267316272650387457"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://media.tenor.com/images/d6121704077cd3184bbf7ef69815d83d/tenor.gif');}
+.avatar-1BDn8e[src*="267316272650387457"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Clown";
+  animation: scaleIn .2s linear 1;
+}
 
-
+/* firmin */
+.avatar-1BDn8e[src*="416371373464748051"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/icons/741362812684861532/2468b05d6b609a3a1b6008af6d371477.png?size=2048');}
+.avatar-1BDn8e[src*="416371373464748051"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "NNetHeberg Staff";
+  animation: scaleIn .2s linear 1;
+}
 
   /*==|STREAMERS|==*/
 /* yummy */
@@ -359,6 +364,16 @@
   background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
 .avatar-1BDn8e[src*="255805278753259521"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "twitch.tv/moonie_ww";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* 𝖖𝖚𝖎𝖉𝕿 */
+.avatar-1BDn8e[src*="414104522592485378"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="414104522592485378"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/quidT_ ";
   animation: scaleIn .2s linear 1;
   background-color: #6441a5;
   color: #fff;
