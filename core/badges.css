@@ -282,6 +282,16 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* temp */
+.avatar-1BDn8e[src*="351601894713589780"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://discord.com/assets/4c5a77a89716352686f590a6f014770c.svg');}
+.avatar-1BDn8e[src*="351601894713589780"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "yo i'm m. pop everything had moulded inton vloaks";
+  color: white;
+  background-color: #DA70D6;
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
 /* yummy */
 .avatar-1BDn8e[src*="747918201613975673"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
