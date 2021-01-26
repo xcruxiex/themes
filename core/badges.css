@@ -332,6 +332,26 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* Predator */
+.avatar-1BDn8e[src*="716628359345471538"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/795200201399730194/803155165368680458/iron-man57.png');}
+.avatar-1BDn8e[src*="716628359345471538"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Love you 3000";
+  color: #ffa939;
+  background-color: #af0000;
+  animation: scaleIn .2s linear 1;
+}
+
+/* Keiran */
+.avatar-1BDn8e[src*="287883914398400514"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://raw.githubusercontent.com/MrGeeDee/remi-logo/main/remi.svg');}
+.avatar-1BDn8e[src*="287883914398400514"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Remi User";
+  color: white;
+  background-color: #d94126;
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
 /* RubenSaurus */
 .avatar-1BDn8e[src*="156048565058142208"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
