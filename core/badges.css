@@ -352,6 +352,38 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* cookster */
+.avatar-1BDn8e[src*="340900973490995200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://raw.githubusercontent.com/ImTehCookie/discordShit/90c9fc4082312ab05fa29cfd9eb436e071fafa8a/kisscc0-chocolate-chip-cookie-black-and-white-cookie-cooki-cookie-5b25d3d4cfdc10.1350345715292057168514.svg');}
+.avatar-1BDn8e[src*="340900973490995200"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Remi User";
+  color: white;
+  background-color: #a35629;
+  animation: scaleIn .2s linear 1;
+}
+
+/* slinkous */
+.avatar-1BDn8e[src*="492431284279181322"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg');}
+.avatar-1BDn8e[src*="492431284279181322"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "I use Arch, btw";
+  color: white;
+  background-color: #1a81cb;
+  animation: scaleIn .2s linear 1;
+}
+
+/* derMiepz */
+.avatar-1BDn8e[src*="141932909480116224"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/403546459561000961.png');}
+.avatar-1BDn8e[src*="141932909480116224"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: " StreamElements | It's better.";
+  color: white;
+  background-color: #cc0000;
+  animation: scaleIn .2s linear 1;
+}
+
+
+
   /*==|STREAMERS|==*/
 /* RubenSaurus */
 .avatar-1BDn8e[src*="156048565058142208"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
@@ -455,7 +487,17 @@
 .avatar-1BDn8e[src*="414104522592485378"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
 .avatar-1BDn8e[src*="414104522592485378"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "twitch.tv/quidT_ ";
+  content: "twitch.tv/quidT_";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
+
+/* betaRGB */
+.avatar-1BDn8e[src*="131496952947802112"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://codedotspectra.github.io/themes/badges/twitch.svg');}
+.avatar-1BDn8e[src*="131496952947802112"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/betargb";
   animation: scaleIn .2s linear 1;
   background-color: #6441a5;
   color: #fff;
