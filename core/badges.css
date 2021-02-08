@@ -69,20 +69,12 @@
   content: "";
   width: 30px;
   background-position: left, right;
-  background-image: url('https://i.imgur.com/lK7NUcb.png'), url('https://i.imgur.com/03ZLkA6.png');}
+  background-image: url('https://i.imgur.com/M486zn0.png'), url('https://i.imgur.com/vuPoQZ3.png');}
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "";
-  background-image: url('https://i.imgur.com/lK7NUcb.png'), url('https://i.imgur.com/03ZLkA6.png') !important;
-  background-color: transparent !important;
-  padding: 0 !important;
-  transform: none!important;
-  display: inline-block;
-  height: 14px;
-  width: 30px;
-  line-height: 14px;
-  background-position: left, right;
-  top: 2px;
-  margin-left: 5px;
+  content: "Made you look";
+  background-color: #000;
+  color: red;
+  animation: scaleIn .2s linear 1, rainbow 2s linear infinite;
 }
   
 /* Also Spectra */
