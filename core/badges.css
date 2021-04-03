@@ -371,6 +371,51 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* Vince */
+.avatar-1BDn8e[src*="723977420364840970"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/808009671423164437/808328899166863400/697995591921172532.gif');
+}
+.avatar-1BDn8e[src*="723977420364840970"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: none;
+}
+
+/* Please? */
+.avatar-1BDn8e[src*="723055594403004458"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://ch3rry.red/images/mufUFttb1.png');
+}
+.avatar-1BDn8e[src*="723055594403004458"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Heartbeat";
+  color: black;
+  background-color: #e85656;
+  animation: scaleIn .2s linear 1;
+}
+
+/* ebullience */
+.avatar-1BDn8e[src*="755163362400403507"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/ksmYA5a.gif');
+}
+.avatar-1BDn8e[src*="755163362400403507"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "UGB Admin";
+  background-color: #fff;
+  color: red;
+  animation: scaleIn .2s linear 1, rainbow 5s linear infinite;
+}
+
+/* slaplog */
+.avatar-1BDn8e[src*="470265348260757511"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/796627278507278367.png');
+}
+
+.avatar-1BDn8e[src*="470265348260757511"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Bruh Cult";
+  background-color: rgb(29, 87, 233);
+  color: white;
+  animation: scaleIn .2s linear 1;
+}
 
 
   /*==|STREAMERS|==*/
