@@ -395,11 +395,11 @@
 /* ebullience */
 .avatar-1BDn8e[src*="755163362400403507"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
   content: "";
-  background-image: url('https://i.imgur.com/ksmYA5a.gif');
+  background-image: url('https://cdn.discordapp.com/attachments/755167341024641175/827913766733479936/YhTayI1.gif');
 }
 .avatar-1BDn8e[src*="755163362400403507"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
   content: "UGB Admin";
-  background-color: #fff;
+  background-color: #000;
   color: red;
   animation: scaleIn .2s linear 1, rainbow 5s linear infinite;
 }
