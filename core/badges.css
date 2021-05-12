@@ -55,10 +55,11 @@
   background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
 }
 
-/*discordchan*/
-.avatar-1BDn8e[src*="706169896228225080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+/*limesharkbot*/
+.avatar-1BDn8e[src*="828009658403913768"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
   background-image: url('https://codedotspectra.github.io/themes/badges/sword.svg');}
-.avatar-1BDn8e[src*="706169896228225080"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+.avatar-1BDn8e[src*="828009658403913768"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
   content: "Will probably ban you";
   color: #4ce949;
 }
@@ -66,12 +67,13 @@
   /*==|CUSTOM BADGES|==*/
 /* Spectra */
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  background-image: url('https://i.imgur.com/M486zn0.png');}
+  content: "";
+  background-image: url('https://limeshark.dev/images/favicon.png');
+  }
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "Made you look";
-  background-color: #000;
-  color: red;
-  animation: scaleIn .2s linear 1, rainbow 2s linear infinite;
+  content: "Limeshark.dev";
+  background-color: #000000;
+  color: #ffffff;
 }
   
 /* Also Spectra */
