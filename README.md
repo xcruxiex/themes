@@ -21,45 +21,42 @@ Discord server invite : https://discord.gg/PZdnCVD
    * add a screenshot if needed
 
 ## 2. Installing a theme
-1. Download the theme using the download link in the theme list (4.)
-2. Save the file somewhere you can find it
-3. Open the themes folder
-  * Go to discord setting
-  * Go to themes
-  * Click on "open themes folder"
-4. Put the theme file inside the themes folder
-5. Reload discord using CTRL+R (Windows/Linux) or CMD+R (MacOS)
-6. Enable the theme
-  * Go to discord setting
-  * Go to themes
-  * Enable your theme
+First of all, make sure you have installed BetterDiscord (https://betterdiscord.app/)
+
+Step 1: Download the theme
+Step 2: Save the file somewhere you can find it
+Step 3: Open the themes folder :
+◽️ Go to your Discord's settings
+◽️ Under themes, click on the "Open themes folder" button
+
+Step 4: Put the theme file inside the themes folder
+Step 5: Reload Discord using CTRL+R (or CMD+R on MacOS)
+Step 6: Enable the theme :
+◽️ Go to your Discord's settings
+◽️ Under themes, enable your theme by clicking the switch on the right
 
 ## 3. Customize your theme
-All themes are provided with images & color, but you can easily customize your theme.
+All themes are provided with images & color, but you can easily customize your theme by following these steps
 
-1. Open the theme file
-  * Go to discord setting
-  * Go to themes
-  * Click on "open themes folder"
-  * Open the theme file with any text editor (notepadd++, atom, vscode, sublime text, ...)
-2. Find the ":root" part, this is where all color and images are defined
-3. Change values to your liking
-  * For images, replace the link, must be a direct link (www.website.com/exemple-img.png) (you can use .png/.jpg/.jpeg/.gif)
-  * For colors, replace the color code, you can use this website to get color codes https://www.w3schools.com/colors/colors_picker.asp
+METHOD 1: Editing the theme file
 
-## 3.a Customize your theme - Theme Generator
-Use this tool to customize you theme super easily
-Link : https://limeshark.dev/editor
+Step 1: Open the theme file using any text editor (please don't use notepad :c)
+Step 2: Find the ":root" part, this is where all color and images are defined
+Step 3: Change values to your liking
+◽️ For images, replace the link, it must be a direct link
+(www.website.com/exemple-img.png)
+(you can use .png/.jpg/.jpeg/.gif)
+◽️ For colors, replace the color code, you can use this website to get color codes (https://www.w3schools.com/colors/colors_picker.asp)
 
+METHOD 2: Using my theme editor
+
+this tool let you edit Discord themes without any programming skills required
+
+◽️ https://limeshark.dev/editor
 
 # 4. Themes list
-## 4.a Neutron v8.0.0
+## Neutron v8.2.0
 A simple but highly customizable theme, now sugar free!
 
 Download : https://betterdiscord.app/theme/Neutron
 ![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
-
-## 4.b Nocturnal v2.2.0 (currently being reworked)
-An easy on the eye theme, for those who live at night
-
-![Nocturnal Demo](https://i.imgur.com/86AhI4f.png)
