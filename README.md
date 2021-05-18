@@ -49,18 +49,17 @@ All themes are provided with images & color, but you can easily customize your t
 
 ## 3.a Customize your theme - Theme Generator
 Use this tool to customize you theme super easily
-Link : http://theme.codedotspectra.me/
+Link : https://limeshark.dev/editor
 
 
 # 4. Themes list
 ## 4.a Neutron v8.0.0
 A simple but highly customizable theme, now sugar free!
 
-Download : https://betterdiscord.net/ghdl?id=3220
+Download : https://betterdiscord.app/theme/Neutron
 ![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
 
 ## 4.b Nocturnal v2.2.0 (currently being reworked)
 An easy on the eye theme, for those who live at night
 
-Download : https://betterdiscord.net/ghdl?id=2653
 ![Nocturnal Demo](https://i.imgur.com/86AhI4f.png)
