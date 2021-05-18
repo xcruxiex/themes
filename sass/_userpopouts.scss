@@ -1,0 +1,156 @@
+@use 'base';
+
+.userPopout-3XzG_A {
+    background-color: base.$bg01 !important;
+    @include base.shadows(0 0 10px 0 rgba(0, 0, 0, .5));
+}
+
+.body-3ND3kc,
+.body-3iLsc4,
+.footer-1fjuF6 {
+    background-color: base.$bg01 !important;
+}
+
+/* header normal */
+.topSectionNormal-2-vo2m,
+.headerNormal-T_seeN {
+    background-color: base.$bg01 !important;
+    @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3));
+}
+
+/* header playing */
+.topSectionPlaying-1J5E4n,
+.headerPlaying-j0WQBV {
+    background-color: base.$grd1;
+    background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
+    @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.2));
+
+    .assets-VMAukC {
+        @include base.shadows(0 7px 10px -4px rgba(0,0,0,.3));
+    }
+}
+
+/* header streaming */
+.topSectionStreaming-1Tpf5X,
+.headerStreaming-2FjmGz {
+    background-color: #593695;
+    background-image: linear-gradient(-45deg, #593695, #7651b6) !important;
+    @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.2));
+}
+
+/* header spotify */
+.topSectionSpotify-1lI0-P,
+.headerSpotify-zpWxgT {
+    background-color: #1db954;
+    background-image: linear-gradient(-45deg, #1db954, #1db944) !important;
+    @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.2));
+}
+
+/* header xbox */
+
+
+
+/* send msg */
+.footer-1fjuF6 {
+    input {
+        background-color: rgba($color: #000, $alpha: 0.3) !important;
+        border: 1px solid rgba($color: #000, $alpha: 0.3);
+    }
+    input:hover {
+        border-color: base.$bg02;
+    }
+    input:focus,
+    input:focus:hover {
+        border-color: base.$accent;
+    }
+}
+
+/* note */
+.note-QfFU8y,
+.note-3HfJZ5 {
+    margin: 0 !important;
+
+    textarea {
+        background-color: rgba($color: #000, $alpha: 0.3) !important;
+        border: 1px solid rgba($color: #000, $alpha: 0.3);
+    }
+    textarea:hover {
+        border-color: base.$bg02;
+    }
+
+    textarea:focus,
+    textarea:focus:hover {
+        background-color: rgba($color: #000, $alpha: 0.3) !important;
+        border-color: base.$accent;
+    }
+}
+
+/* roles */
+.rolesList-22qj2L {
+    >div {
+        border-radius: 4px;
+        background-color: rgba($color: #000, $alpha: 0.3);
+        border: none !important;
+    }
+    >button {
+        padding: 0;
+        border-radius: 4px;
+        border: none !important;
+        background-color: rgba($color: #000, $alpha: 0.3) !important;
+
+        >svg {
+            color: rgba($color: #ffffff, $alpha: 0.5);
+            width: 20px;
+            height: 20px;
+            @include base.transition(color .2s);
+        }
+    }
+    >button:hover>svg,
+    >button[aria-expanded="true"]>svg {
+        color: base.$accent;
+    }
+}
+
+.container-3XJ8ns {
+    background-color: base.$bg01 !important;
+    @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3), 0 0 10px 0 rgba(0,0,0,.5));
+    border: none !important;
+
+    .inner-2P4tQO {
+        background-color: base.$bg02 !important;
+        border: 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .focused-dKLoQt,
+    .item-2J2GlB:hover {
+        background-color: base.$bg02 !important;
+    }
+}
+
+/* big popout navbar */
+.tabBarContainer-1s1u-z {
+    border: none !important;
+    background-color: base.$bg02 !important;
+
+    .tabBarItem-1b8RUP {
+        color: rgba($color: #ffffff, $alpha: 0.5) !important;
+    }
+    .tabBarItem-1b8RUP:hover {
+        border-color: rgba($color: #ffffff, $alpha: 0.5) !important;
+    }
+
+    .tabBarItem-1b8RUP[aria-selected='true'],
+    .tabBarItem-1b8RUP[aria-selected='true']:hover {
+        color: #fff !important;
+        border-color: base.$accent !important;
+    }
+}
+
+.userInfoSection-2acyCx:nth-child(2) {
+    border: none !important;
+}
+
+.connectedAccount-36nQx7 {
+    background-color: base.$bg02;
+    border: none !important;
+}

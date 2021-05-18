@@ -1,0 +1,131 @@
+/**
+* @name Comfy
+* @author Nyria#3863
+* @description Stay comfy while talking to your friends
+* @invite rtBQX5D3bD
+* @version 1.0
+*/
+
+@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+
+/* If you don't like one of those variables until "Other settings" you can delete them or you can also
+    try to change those if you have some css knowledge */
+
+/* User popout animation */
+.headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px;}.headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important;}.header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { position: absolute;content: "";bottom: -1px;left: 0;width: 250px;height: 20px;z-index: -1;animation: animate2 4s linear infinite;animation-delay: 0s;opacity: 0.5;}.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 20px;}.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 20px;}.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 20px;}.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 20px;}@keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}@keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
+
+/* No scrollbars */
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
+
+/* Better Spotify plugin seek bar */
+.container-6sXIoE { border-bottom: none !important; padding-top: 0 !important; margin: 0 !important;}
+.container-6sXIoE .timeline-UWmgAx { position: absolute !important; left: 0px !important;width: 240px !important; height: 53px !important;margin: 0;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.bar-g2ZMIm .barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 87px !important;}.container-6sXIoE .button-14-BFJ:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}.container-6sXIoE .bar-g2ZMIm { width: 100% !important; height: 100% !important; margin-bottom: 0 !important;}    
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--user-buttons-color);
+}
+.homeIcon-FuNwkv {transition: color .2s ease;}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 .homeIcon-FuNwkv,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 .homeIcon-FuNwkv {
+    color: var(--background-tertiary);
+}
+
+:root {
+/* -- Others settings -- */
+
+/* User button spacing */
+--user-buttons-spacing: 5px;
+
+/* Avatar position */
+--avatar-left: 327.5px;
+--avatar-bottom: 26.5px;
+
+/* Avatar roundess */
+--avatar-radius: 10px;  
+
+/* Status roundness */
+--status-radius: 5px; 
+
+/* Server roundess */
+--server-radius: 8px;
+
+/* Avatar width in modals */
+--avatar-width: 130px;
+
+/* Change bonfire in modals */
+--bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
+
+/* Colored emoji picker */
+--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the basic one */
+
+/* Mention color */
+--mention-color: #f0da60;
+--unread-color: #f0da60;
+
+/* Mention color in chat */
+--mention-color-bar: #f0da60;
+--mention-color-background: #f0c3472d;
+--mention-color-hover: #c6a66226;
+
+/* User settings color (Mute, Deafen and settings) */
+--user-buttons-color: #f0da60;
+
+/* Chat buttons color */
+--chat-buttons: #f0da60;
+
+/* Spotify plugin seek bar */
+--spotify-color: #1EDC62;
+
+/* Status color */
+--online: #43b543;
+--iddle: #FAA61A;
+--dnd: #F04747;
+--offline: #747F8D;
+
+/* Circles next to role names */
+--role-circle: 5px;
+
+/* Tooltips */
+--tooltips: block; /* Set it to "none" if you don't want it */
+
+/* Discord logo */
+--discord-logo: none; /* Set it to "block" if you want it */
+
+}
+ 
+.theme-dark {
+    --background-tertiary: #0c0c0f;
+    --background-secondary: #131620;
+    --background-secondary-alt: #131620;
+    --background-primary: #131620;
+    --background-mobile-primary: #23283d;
+    --background-mobile-secondary: #1e2233;
+    --channeltextarea-background: #191f2e;
+    --background-accent: #f0da60;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #1c2030;
+    --background-modifier-active: #1a1e2e;
+    --background-modifier-selected: #191f2e;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191f2e;
+    --scrollbar-thin-thumb: #141925;
+    --activity-card-background: #101320;
+}
+ 
+.theme-light { /* I don't support light theme it's just for the "Create a server" popup */
+    --background-tertiary: #101320;
+    --background-secondary: #1e2233;
+    --background-secondary-alt: #191f2e;
+    --background-primary: #23283d;
+    --background-accent: #f0da60;
+    --background-modifier-hover: #262b41;
+    --background-modifier-active: #262b41;
+    --header-primary: #fff;
+    --header-secondary: #b1b5b9;
+    --text-normal: #8e9297;
+}

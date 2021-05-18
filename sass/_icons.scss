@@ -1,0 +1,67 @@
+@use 'base';
+
+.icon-1S6UIr,
+.icon-1DeIlz,
+.actionIcon-PgcMM2,
+.icon-LYJorE,
+.iconContainer-2-XQPY,
+.icon-35-fSh,
+.linkButtonIcon-Mlm5d6,
+.button-14-BFJ svg,
+.attachButtonPlus-jWVFah,
+.buttonWrapper-1ZmCpA svg,
+.icon-22AiRD {
+    color: base.$accent !important;
+    fill: base.$accent !important;
+}
+
+/* Discord text svg */
+.wordmarkWindows-1v0lYD {
+    color: base.$accent !important;
+}
+/* nocturnal watermark 
+.wordmarkWindows-1v0lYD::after {
+    position: absolute;
+    content: '';
+    top: 7px;
+    height: 10px;
+    width: 100px;
+    margin-left: -10px;
+    color: base.$accentAlt;
+    background-image: url('https://i.imgur.com/eWgrSua.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+*/
+.wordmarkWindows-1v0lYD::after {
+    position: absolute;
+    content: 'NOCTURNAL';
+    top: 7px;
+    height: 10px;
+    width: 100px;
+    margin-left: -10px;
+    color: base.$accent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tutorialContainer-2sGCg9 .childWrapper-anI2G9::after {
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 36px;
+    top: 6px;
+    left: 6px;
+    -webkit-mask-image: url("https://limeshark.dev/bd/i/nocturnal.svg");
+    background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.homeIcon-FuNwkv {
+    display: none;
+}
