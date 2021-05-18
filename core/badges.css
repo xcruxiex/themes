@@ -134,12 +134,12 @@
   animation: scaleIn .2s linear 1;
 }
 
-/* ウィザード */
+/* w1zard*/
 .avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/0OPQKLG.png');}
+  background-image: url('https://i.imgur.com/ZeJRRH0.gif');
+  }
 .avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "Certified Weeb";
-  animation: scaleIn .2s linear 1;
+  content: none;
 }
 
 /* Board™ */
@@ -379,7 +379,10 @@
   background-image: url('https://cdn.discordapp.com/attachments/808009671423164437/808328899166863400/697995591921172532.gif');
 }
 .avatar-1BDn8e[src*="723977420364840970"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
-  content: none;
+  content: "Don't do anything";
+  color: black;
+  background-color: #fff;
+  animation: scaleIn .2s linear 1;
 }
 
 /* Please? */
@@ -419,6 +422,43 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* potatoking */
+.avatar-1BDn8e[src*="265400036509220866"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://media.discordapp.net/attachments/512011694310948877/829859789538197524/yentThonkThinkSpin.gif');
+}
+.avatar-1BDn8e[src*="265400036509220866"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Potato";
+  background-color: #eeeeee;
+  color: #00aa7f;
+  animation: scaleIn .2s linear 1;
+}
+
+/* blazerod */
+.avatar-1BDn8e[src*="766759403365597235"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://teamcofh.com/assets/images/thermal-foundation-2/basalz-powder.gif');
+}
+
+.avatar-1BDn8e[src*="766759403365597235"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Exist";
+  background-color: #ff0400;
+  color: #FFD700;
+  animation: scaleIn .2s linear 1;
+}
+
+/* germ */
+.avatar-1BDn8e[src*="769719386407567360"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/842194096848371727/842195197101342776/32ce812355e09cd9b958b7da9f6269ba.png');
+}
+
+.avatar-1BDn8e[src*="769719386407567360"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "sOb";
+  background-color: #001cff;
+  color: #000000;
+  animation: scaleIn .2s linear 1;
+}
 
   /*==|STREAMERS|==*/
 /* RubenSaurus */
