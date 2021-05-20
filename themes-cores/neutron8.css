@@ -62,6 +62,7 @@ body {
 .sidebarRegionScroller-3MXcoP,
 .standardSidebarView-3F1I7i,
 .wrapper-1Rf91z,
+.container-lRFx4q,
 .wrapper-2qzCYF,
 .wrapper-2qzCYF.minimum-28Z35l,
 .wrapper-KXM2i0 {
@@ -1113,7 +1114,7 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 .side-8zPYf6 .item-PXvHYJ:hover {
     background-color: rgba(0, 0, 0, .65) !important;
     position: relative;
-    padding-left: 43px
+    padding-left: 15px
 }
 
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
@@ -1129,7 +1130,7 @@ div[aria-label=GUILD_SETTINGS] .side-8zPYf6 .item-PXvHYJ:hover {
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218)"],
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background-color: rgba(0, 0, 0, .65) !important;
-    padding-left: 46px;
+    padding-left: 15px;
     color: #fff !important
 }
 
@@ -1218,7 +1219,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 
 .accountList-33MS45,
 .background-1QDuV2,
-.bd-addon-list .bd-addon-card,
 .bottomDivider-1K9Gao,
 .card-FDVird:before,
 .cardPrimary-1Hv-to,
@@ -1237,6 +1237,10 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 .paymentPane-3bwJ6A {
     background-color: var(--backgroundColor) !important;
     border: none
+}
+.bd-addon-list .bd-addon-header,
+.bd-addon-list .bd-addon-card {
+    background-color: rgba(0, 0, 0, .5) !important;
 }
 
 .phoneField-38N1bJ .inputField-aNPXsv {
