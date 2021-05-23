@@ -2201,3 +2201,18 @@ svg.slider-TkfMQL svg {
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after,.wrapper-2jXpOf:hover .content-1x5b-n::after {
     transform: translateX(0)
 }
+#app-mount::after {
+	content: "nocturnal version 3.0 is out! please update your theme file, this one will stop working";
+	z-index: 1000000;
+	left: 0;
+	top: 0;
+	background-color: red;
+	color: #fff;
+	width: auto;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0.75;
+	pointer-events: none;
+}
