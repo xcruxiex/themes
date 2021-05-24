@@ -1,0 +1,66 @@
+/**
+* @name Nocturnal.Community
+* @author Spectra#4577
+* @description For when default discord just isn't dark enough, a theme for those who live a night (Community version)
+* @invite PZdnCVD
+* @version 1.0.0
+*/
+@import url("https://codedotspectra.github.io/themes/themes-cores/nocturnal.css");
+@import url("https://codedotspectra.github.io/themes/themes-cores/nocturnal.community.css");
+/*
+
+ /$$   /$$                       /$$                                             /$$                                                                              
+| $$$ | $$                      | $$                                            | $$                                                                              
+| $$$$| $$  /$$$$$$   /$$$$$$$ /$$$$$$   /$$   /$$  /$$$$$$  /$$$$$$$   /$$$$$$ | $$                                                                              
+| $$ $$ $$ /$$__  $$ /$$_____/|_  $$_/  | $$  | $$ /$$__  $$| $$__  $$ |____  $$| $$                                                                              
+| $$  $$$$| $$  \ $$| $$        | $$    | $$  | $$| $$  \__/| $$  \ $$  /$$$$$$$| $$                                                                              
+| $$\  $$$| $$  | $$| $$        | $$ /$$| $$  | $$| $$      | $$  | $$ /$$__  $$| $$                                                                              
+| $$ \  $$|  $$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$/| $$      | $$  | $$|  $$$$$$$| $$                                                                              
+|__/  \__/ \______/  \_______/   \___/   \______/ |__/      |__/  |__/ \_______/|__/                                                                              
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                  
+  /$$$$$$                                                            /$$   /$$                     /$$    /$$                              /$$                    
+ /$$__  $$                                                          |__/  | $$                    | $$   | $$                             |__/                    
+| $$  \__/  /$$$$$$  /$$$$$$/$$$$  /$$$$$$/$$$$  /$$   /$$ /$$$$$$$  /$$ /$$$$$$   /$$   /$$      | $$   | $$ /$$$$$$   /$$$$$$   /$$$$$$$ /$$  /$$$$$$  /$$$$$$$ 
+| $$       /$$__  $$| $$_  $$_  $$| $$_  $$_  $$| $$  | $$| $$__  $$| $$|_  $$_/  | $$  | $$      |  $$ / $$//$$__  $$ /$$__  $$ /$$_____/| $$ /$$__  $$| $$__  $$
+| $$      | $$  \ $$| $$ \ $$ \ $$| $$ \ $$ \ $$| $$  | $$| $$  \ $$| $$  | $$    | $$  | $$       \  $$ $$/| $$$$$$$$| $$  \__/|  $$$$$$ | $$| $$  \ $$| $$  \ $$
+| $$    $$| $$  | $$| $$ | $$ | $$| $$ | $$ | $$| $$  | $$| $$  | $$| $$  | $$ /$$| $$  | $$        \  $$$/ | $$_____/| $$       \____  $$| $$| $$  | $$| $$  | $$
+|  $$$$$$/|  $$$$$$/| $$ | $$ | $$| $$ | $$ | $$|  $$$$$$/| $$  | $$| $$  |  $$$$/|  $$$$$$$         \  $/  |  $$$$$$$| $$       /$$$$$$$/| $$|  $$$$$$/| $$  | $$
+ \______/  \______/ |__/ |__/ |__/|__/ |__/ |__/ \______/ |__/  |__/|__/   \___/   \____  $$          \_/    \_______/|__/      |_______/ |__/ \______/ |__/  |__/
+                                                                                   /$$  | $$                                                                      
+                                                                                  |  $$$$$$/                                                                      
+                                                                                   \______/       
+
+*/
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+
+@import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Better Hljs */
+@import url("https://discordstyles.github.io/RadialStatus/base.css"); /* Radial Status */
+:root {
+  --backgroundColor01: #1e2731;
+  --backgroundColor02: #12171d;
+  --mainColor: #2275c9;
+  --gradientColor01: #00F260;
+  --gradientColor02: #0575E6;
+
+  /* Better Hljs */
+  --backgroundCode: #1e2731;
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+}
