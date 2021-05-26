@@ -99,6 +99,51 @@
   color: #fff;
 }
 
+/* four */
+.avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/716088201181397012/846184553844178965/AfraidHeavenlyCrossbill-max-1mb.gif');}
+.avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "The illusion";
+  color: white;
+  background-color: black;
+}
+
+/* beast */
+.avatar-1BDn8e[src*="484743472306192385"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/497136740486873108.gif?v=1');}
+.avatar-1BDn8e[src*="484743472306192385"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Beast";
+  color: white;
+  background-color: green;
+}
+
+/* p0rtl */
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://i.imgur.com/FBud75Q.png');}
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Ø";
+  color: #00adef;
+  background-color: black;
+}
+
+/* thoomin */
+.avatar-1BDn8e[src*="248910149442338816"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/667395143266992128.gif?v=1');}
+.avatar-1BDn8e[src*="248910149442338816"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "One with the force";
+  color: white;
+  background-color: black;
+}
+
+/* Gaming4thefuture */
+.avatar-1BDn8e[src*="531292687345778709"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/633906616747687937/845138486474571776/YLG.gif');}
+.avatar-1BDn8e[src*="531292687345778709"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "</>";
+  color: black;
+  background-color: gold;
+}
+
 /* vanillaspace */
 .avatar-1BDn8e[src*="227648235097817089"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://cdn.discordapp.com/emojis/705612765561094174.png');}
