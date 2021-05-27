@@ -40,8 +40,7 @@
   to{opacity: 1;}
 }
 
-
-  /*==| MODS |==*/
+/*==| MODS |==*/
 /*cruxie*/
 .avatar-1BDn8e[src*="332394843743584256"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://i.imgur.com/D9NgKJs.png');
@@ -101,11 +100,29 @@
 
 /* four */
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/xtSa7dC.gif');}
+  background-image: url('https://i.imgur.com/YP2x642.gif');}
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "The illusion";
   color: white;
   background-color: black;
+}
+
+/* paz */
+.avatar-1BDn8e[src*="131990779890630656"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://paz.pw/99ffb022a3097a2dc21e751c279cd38a.png');}
+.avatar-1BDn8e[src*="131990779890630656"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "peachy.host";
+  color: #ffa500;
+  background-color: black;
+}
+
+/* liolanse */
+.avatar-1BDn8e[src*="156049484151914496"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/728163710614634508/847498957046284338/hadpadastolo.gif');}
+.avatar-1BDn8e[src*="156049484151914496"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Trap";
+  color: #000000;
+  background-color: #E368dd;
 }
 
 /* beast */
