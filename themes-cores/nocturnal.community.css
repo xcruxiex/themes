@@ -1,3 +1,38 @@
 /* 
  * Nocturnal community version
  */
+
+
+/* Revert for discords new pop-out UI */
+
+#app-mount .profileBanner-33-uE1 {
+  display: none
+}
+.headerTop-2y3V6H {
+  padding: 124px 16px 16px;
+}
+.avatar-22FtUu{
+    border: 0px;
+}
+.avatarWrapper-1-5NA0{
+    left: 84px !important;
+    
+}
+.avatarPositionNormal-1CZUPk{
+    top: 25px !important;
+}
+.headerText-2WJ44e.userSelectText-1o1dQ7{
+    text-align: center;
+}
+.userPopout-3XzG_A .date-YN6TCS{
+    text-align: center;
+}
+.customStatus-3NamXG{
+    text-align: center;
+}
+.userPopout-3XzG_A{
+    width: 260px !important;
+}
+.profileBadges-1dm1_q{
+    max-width: 80px;
+}
