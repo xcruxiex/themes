@@ -516,6 +516,32 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* Keiretsu */
+.avatar-1BDn8e[src*="514436990234656779"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/B4GXxr2.gif');
+}
+
+.avatar-1BDn8e[src*="514436990234656779"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "chika";
+  background-color: #181c25;
+  color: #ffffff;
+  animation: scaleIn .2s linear 1;
+}
+
+/* The Flamer */
+.avatar-1BDn8e[src*="462658397951623168"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.ibb.co/T1gYqYX/The-Flamer-Logo.png');
+}
+
+.avatar-1BDn8e[src*="462658397951623168"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "The Flamer";
+  background-color: #000000;
+  color: #FF0000;
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
 /* RubenSaurus */
 .avatar-1BDn8e[src*="156048565058142208"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
