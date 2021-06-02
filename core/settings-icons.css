@@ -3,7 +3,9 @@
     content: "";
     width: 20px;
     height: 20px;
-    background-size: cover !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     left: 9px;
     top: 50%;
@@ -14,34 +16,34 @@
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /* discord settings */
-.side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/account.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/privacy.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/authorized.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Connections-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/connections.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/nitro.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/account.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/privacy.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/apps.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Connections-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/connection.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/nitro.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Discord Nitro-tab"] svg {display: none;}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/boost.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Billing-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/billing.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Library Inventory-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/giftbox.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Appearance-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/appearance.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Accessibility-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/accesibility.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Voice & Video-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/microphone.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Text & Images-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/text.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Notifications-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/notification.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Keybinds-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/keyboard.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Language-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/language.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Windows-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/windows.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Streamer Mode-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/twitch.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Advanced-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/settings.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Game Activity-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/activity.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Overlay-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/overlay.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="changelog-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/update.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/hype.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/logout.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/boost.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Billing-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/billing.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Library Inventory-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/giftbox.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Appearance-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/appearance.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Accessibility-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/accesibility.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Voice & Video-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/microphone.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Text & Images-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/text.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Notifications-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/notification.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Keybinds-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/keyboard.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Language-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/language.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Windows-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/windows.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Streamer Mode-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/streamer.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Advanced-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/settings.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Game Activity-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/activity.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Overlay-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/overlay.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="changelog-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/changelog.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/hype.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="logout-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/logout.png');}
 
 
 /* better discord settings */
-.side-8zPYf6 .item-PXvHYJ[aria-controls="Settings-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/bdsettings.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="customcss-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/css.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="plugins-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/addons.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="themes-tab"]::before {background-image: url('https://limeshark.dev/bd/icons/theme.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Settings-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/bdsettings.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="customcss-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/css.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="plugins-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/plugin.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="themes-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/theme.png');}
