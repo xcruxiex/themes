@@ -8,17 +8,19 @@
 :root {
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
-    --customFont: 'Open sans', sans-serif;
+    --customFont: 'Roboto', sans-serif;
     --font-display: var(--customFont);
-    --homeImage: url('https://i.imgur.com/oOKwCVJ.png');
+    --homeImage: url('https://limeshark.dev/img/bdi/n8h.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://i.imgur.com/zxXBhw1.jpg');
+    --backgroundImage: url('https://limeshark.dev/img/bdi/n8b.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
     --backgroundBlur: 100px;
     --backgroundOpacity: .65;
+    --backgroundCode: rgba(0,0,0,.5);
+    --backgroundName: rgba(0,0,0,.5);
 }
 
 .appMount-3lHmkl,
@@ -57,6 +59,8 @@ body {
 .panels-j1Uci_,
 .privateChannels-1nO12o,
 .scroller-1IIF0A,
+.wrapper-3vR61M,
+.wrapper-1F5TKx,
 .scroller-1JbKMe,
 .scroller-2TZvBN,
 .scroller-2XE8rp,
@@ -107,7 +111,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: 0 0;
+    background: rgba(0, 0, 0, .05) !important;
     border: none !important
 }
 
@@ -118,7 +122,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, .5) !important;
-    border-radius: 0 !important;
+    border-radius: 50px !important;
     border: none !important
 }
 
@@ -127,23 +131,27 @@ body {
     scrollbar-color: var(--backgroundColor) !important
 }
 
-::-webkit-input-placeholder,
-body:not([class*=hljs]):not(code):not([class*=ace_]) {
-    font-family: var(--customFont) !important
-}
-
-.ace_editor {
-    font: 17px/normal Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, monospace !important
-}
-
 .guildsError-b7zR5H {
     background-color: rgba(0, 0, 0, .5);
     color: var(--themeColor1)
 }
 
-.listItem-2P_4kh .circleButtonMask-2VNJsN .circleIconButton-jET_ig {
+.childWrapper-anI2G9 {
+    background-color: rgba(0, 0, 0, .5);
+    color: var(--themeColor2)
+}
+.childWrapper-anI2G9:hover {
+    background-color: var(--themeColor2) !important;
+    color: #fff;
+}
+
+.circleIconButton-1QV--U {
     background-color: rgba(0, 0, 0, .5);
     color: var(--themeColor1)
+}
+.circleIconButton-1QV--U:hover {
+    background-color: var(--themeColor1);
+    color: #fff;
 }
 
 .join-33Tr-7 .actionIcon-2IISM_ {
@@ -154,12 +162,12 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDkuNjYgMjE0LjUiPjxwYXRoIGQ9Ik0yOTAuOTYgMjIuOTRWMy41aC05LjI5djE5LjQ0aC0xOC42OXY4Ljk2aDE4LjY5djE5LjZoOS4yOVYzMS45aDE4LjY5di04Ljk2aC0xOC42OXpNMTI4LjUgMjE0LjVjLTEyLjYxIDAtMzYuMDkgMC01MS44NC03LjM2QTE2Ljg2IDE2Ljg2IDAgMDE2NyAxOTEuOTJ2LTEyYTE2Ljc0IDE2Ljc0IDAgMDExMC40NS0xNS41NkwxMTYgMTQ4LjY1di01LjkzYy0yNC43My0xMC0yOC41LTQwLjU1LTI4LjUtNTguMjJDODcuNSA0MS4xMSAxMTAuMDcgMzIgMTI5IDMyczQxLjUgOS4xMSA0MS41IDUyLjVjMCA0MC43NS0xNy4xNCA1NC4yNS0yOSA1OC43MXY1LjQ1bDM4LjA1IDE1LjcyQTE2Ljc1IDE2Ljc1IDAgMDExOTAgMTc5Ljk0djEyYTE2Ljg1IDE2Ljg1IDAgMDEtOS42NyAxNS4yMmMtMTUuNzQgNy4zNC0zOS4yMiA3LjM0LTUxLjgzIDcuMzR6TTEyOSAzOWMtMjMuMjEgMC0zNC41IDE0Ljg4LTM0LjUgNDUuNSAwIDM2LjE3IDE0LjIgNDguNDkgMjYuMTEgNTIuNDZsMi4zOS43OXYxNS42bC00Mi45IDE3LjUxYTkuNzcgOS43NyAwIDAwLTYuMSA5LjA4djEyYTkuODIgOS44MiAwIDAwNS42MyA4Ljg3YzE0LjMzIDYuNzEgMzYuOCA2LjcxIDQ4Ljg3IDYuNzFzMzQuNTQgMCA0OC44Ny02LjcxYTkuODIgOS44MiAwIDAwNS42My04Ljg3di0xMmE5Ljc3IDkuNzcgMCAwMC02LjEtOS4wOGwtNDIuNC0xNy41MnYtMTUuMjZsMi41MS0uNzRjMjMuMDUtNi44IDI2LjQ5LTM2IDI2LjQ5LTUyLjg0IDAtMzAuNjItMTEuMjktNDUuNS0zNC41LTQ1LjV6IiBmaWxsPSIjZmZmIi8+PGcgb3BhY2l0eT0iLjUiIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0yNDUuNTUgMTMyLjM4bC0zOC4wNS0xNS43MnYtNS40NWMxMS44Ni00LjQ2IDI5LTE4IDI5LTU4LjcxQzIzNi41IDkuMTEgMjEzLjkzIDAgMTk1IDBjLTE1LjI4IDAtMzIuOTMgNi0zOS4xNyAzMS4wN2E0MS4xMiA0MS4xMiAwIDAxNi4wOCA0LjdDMTY1LjU5IDE2LjQ2IDE3Ni41MSA3IDE5NSA3YzIzLjIxIDAgMzQuNSAxNC44OCAzNC41IDQ1LjUgMCAxNi44MS0zLjQ0IDQ2LTI2LjQ5IDUyLjg0bC0yLjUxLjc0djE1LjI2bDQyLjM5IDE3LjUyYTkuNzcgOS43NyAwIDAxNi4xIDkuMDh2MTJhOS44MiA5LjgyIDAgMDEtNS42MyA4Ljg3Yy0xMy4xOSA2LjE3LTMzLjI2IDYuNjctNDUuNzggNi43MWEyNSAyNSAwIDAxLjQxIDQuNDR2Mi41NWMxMy4xMS0uMDUgMzMuOTUtLjYzIDQ4LjMzLTcuMzVhMTYuODUgMTYuODUgMCAwMDkuNjgtMTUuMjR2LTEyYTE2Ljc1IDE2Ljc1IDAgMDAtMTAuNDUtMTUuNTR6Ii8+PHBhdGggZD0iTTE3Ny41MyAxMDAuMmMtLjMxIDIuNDktLjcyIDUtMS4yNCA3LjYxYTM3LjI5IDM3LjI5IDAgMDA1LjcxIDIuOTF2NS45M2wtOS4yOCAzLjc4YTYzLjIzIDYzLjIzIDAgMDEtNC4zNCA5LjM0bDIwLjYyLTguNDJ2LTE1LjZsLTIuMzktLjc5YTMxLjY4IDMxLjY4IDAgMDEtOS4wOC00Ljc2eiIvPjwvZz48ZyBvcGFjaXR5PSIuNSIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTY3LjUgMTA2LjA4djE1LjI2bDIzLjA3IDkuNTNhNjAuMyA2MC4zIDAgMDEtNC44Ni05LjU4bC0xMS4yMS00LjYzdi01LjQ1YTM2LjI2IDM2LjI2IDAgMDA3LjE1LTMuNjNxLS43NS0zLjY0LTEuMjUtNy43MWEyOS4zOCAyOS4zOCAwIDAxLTEwLjQgNS40N3oiLz48cGF0aCBkPSJNNTkgMTc5Ljk0YTI1LjExIDI1LjExIDAgMDEuNDEtNC40NGMtMTIuNDMgMC0zMy4yNC0uMzctNDYuNzgtNi43MUE5LjgyIDkuODIgMCAwMTcgMTU5Ljkydi0xMmE5Ljc3IDkuNzcgMCAwMTYuMS05LjA4TDU2IDEyMS4zNXYtMTUuNmwtMi4zOS0uNzVDNDEuNyAxMDEgMjcuNSA4OC42NyAyNy41IDUyLjUgMjcuNSAyMS44OCAzOC43OSA3IDYyIDdjMTguNzUgMCAyOS43MiA5LjcyIDMzLjI0IDI5LjU5LjEyLS4xMi4yNC0uMjYuMzctLjM4YTQwLjg0IDQwLjg0IDAgMDE1LjctNC41OEM5NS4yIDYgNzcuNCAwIDYyIDAgNDMuMDcgMCAyMC41IDkuMTEgMjAuNSA1Mi41YzAgMTcuNjcgMy43NyA0OC4yMiAyOC41IDU4LjIydjUuOTNsLTM4LjU1IDE1LjczQTE2Ljc0IDE2Ljc0IDAgMDAwIDE0Ny45NHYxMmExNi44NiAxNi44NiAwIDAwOS42NiAxNS4yMkMyNC40MiAxODIgNDYgMTgyLjQ3IDU5IDE4Mi41eiIvPjwvZz48L3N2Zz4=) !important
 }
 
-.expandedFolderBackground-2sPsd- {
+.expandedFolderBackground-1cujaW {
     background-color: rgba(0, 0, 0, .5)
 }
 
-.wrapper-21YSNc .listItem-2P_4kh .folder-21wGz3 {
-    background-color: rgba(0, 0, 0, .5)
+.folder-1hbNCn {
+    background-color: var(--backgroundColor);
 }
 
 .wrapper-21YSNc[aria-expanded=true] .listItem-2P_4kh .folder-21wGz3 {
@@ -635,7 +643,7 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 .attachment-33OFj0,
 .embedFull-2tM8--,
 .wrapper-35wsBm {
-    background: var(--backgroundColor);
+    background: rgba(0, 0, 0, .65);
     position: relative;
     overflow: hidden
 }
@@ -813,10 +821,12 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 
 .root-SR8cQa,
 .userPopout-3XzG_A {
-    background-color: var(--backgroundColor);
+    background-color: rgba(0, 0, 0, .35);
+    backdrop-filter: blur(50px);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2) !important
 }
 
+.body-3ND3kc,
 .body-3iLsc4,
 .bodyInner-245q0L,
 .footer-1fjuF6 {
@@ -860,6 +870,7 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
     border-radius: 6px
 }
 
+
 .autocompleteArrow-Zxoy9H,
 .header-2bNvm4 {
     background-color: var(--backgroundColor) !important;
@@ -879,25 +890,10 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
     text-shadow: 0 0 5px #000
 }
 
-.headerNormal-T_seeN,
-.topSectionNormal-2-vo2m {
-    background-color: var(--backgroundColor) !important;
-    background-size: cover;
-    background-image: url(https://discordapp.com/assets/da840b1a6c5d073ca1c6710f8967502a.svg);
-    background-repeat: no-repeat
-}
-
-.headerPlaying-j0WQBV,
-.topSectionPlaying-1J5E4n {
-    background-image: linear-gradient(to top right, var(--themeColor1), var(--themeColor2))
-}
-
-.headerStreaming-2FjmGz {
-    background-image: linear-gradient(to top right, #6441a4, #7841a5)
-}
-
-.headerSpotify-zpWxgT {
-    background-image: linear-gradient(to top right, #1db954, #1dba28)
+.headerTop-2y3V6H,
+.headerNormal-1l1Znk {
+    background-color: transparent !important;
+    border: none;
 }
 
 .activity-11LB_k,
@@ -1118,7 +1114,7 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 .side-8zPYf6 .item-PXvHYJ:hover {
     background-color: rgba(0, 0, 0, .65) !important;
     position: relative;
-    padding-left: 15px
+    padding-left: 40px
 }
 
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218)"] {
@@ -1134,7 +1130,7 @@ div[aria-label=GUILD_SETTINGS] .side-8zPYf6 .item-PXvHYJ:hover {
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218)"],
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background-color: rgba(0, 0, 0, .65) !important;
-    padding-left: 15px;
+    padding-left: 40px;
     color: #fff !important
 }
 
@@ -1221,6 +1217,10 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
     box-shadow: -80px 50px 30px 0 var(--themeColor1)
 }
 
+.detailsBlock-FoDTGA,
+.table-39R0Oe,
+.cardWrapper-2Min21,
+.feature-2w65J5,
 .accountList-33MS45,
 .background-1QDuV2,
 .bottomDivider-1K9Gao,
@@ -1236,10 +1236,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 .css-181m2lf-menu,
 .css-1yegjoj-control,
 .css-2yldzf-control,
+.item-26Dhrx,
 .css-2yldzf-control:hover,
 .paginator-166-09,
 .paymentPane-3bwJ6A {
-    background-color: var(--backgroundColor) !important;
+    background-color: rgba(0, 0, 0, .35) !important;
     border: none
 }
 .bd-addon-list .bd-addon-header,
@@ -1300,12 +1301,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
     text-shadow: 0 0 5px rgba(0, 0, 0, .8)
 }
 
+.bd-switch-body,
 .container-3auIfb {
-    background-color: var(--backgroundColor) !important
+    background-color: rgba(0, 0, 0, .35) !important
 }
 
-.container-3auIfb[style*="rgb(67, 181, 129)"] {
-    background-image: linear-gradient(to top right, #44b566, #43b581) !important
+.container-3auIfb[style*="rgb(59, 165, 92)"] {
+    background-image: linear-gradient(to top right, var(--themeColor1), var(--themeColor2)) !important
 }
 
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
@@ -1519,15 +1521,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
     background-color: var(--backgroundColor)
 }
 
-.bd-switch,
-.themeDefault-24hCdX {
-    background-color: var(--backgroundColor)
-}
-
-.bd-switch-checked,
+.bd-switch input:checked+.bd-switch-body,
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
     background-color: var(--themeColor1);
-    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2))
+    background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
+}
+.bd-switch {
+    border-radius: 50px !important;
 }
 
 .bd-addon-list .bd-addon-card {
@@ -2171,4 +2171,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 
 .childWrapper-anI2G9 .homeIcon-FuNwkv {
     display: none
+}
+
+.container-3XJ8ns {
+    background-color: var(--backgroundColor);
+    border: none !important;
+}
+.focused-dKLoQt, .item-2J2GlB:hover {
+    background-color: var(--themeColor2);
+    color: #fff;
 }
