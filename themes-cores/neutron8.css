@@ -88,9 +88,7 @@ body {
     box-shadow: none !important
 }
 
-.wrapper-25eVIn .wrapper-1BJsBx[href*="/channels/@me"] .childWrapper-anI2G9,
-.wrapper-25eVIn .wrapper-1BJsBx[href="/library"] .childWrapper-anI2G9,
-.wrapper-25eVIn .wrapper-1BJsBx[href="/store"] .childWrapper-anI2G9 {
+.tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,9 +97,12 @@ body {
     background-clip: border-box
 }
 
-.wrapper-25eVIn .wrapper-1BJsBx[href*="/channels/@me"] .homeIcon-tEMBK1,
-.wrapper-25eVIn .wrapper-1BJsBx[href="/library"] .homeIcon-tEMBK1,
-.wrapper-25eVIn .wrapper-1BJsBx[href="/store"] .homeIcon-tEMBK1 {
+.tutorialContainer-2sGCg9 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.tutorialContainer-2sGCg9 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--themeColor1) !important;
+}
+
+.tutorialContainer-2sGCg9 .childWrapper-anI2G9 .homeIcon-tEMBK1 {
     display: none
 }
 
