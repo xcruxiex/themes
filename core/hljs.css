@@ -4,7 +4,6 @@
 }
 .markup-2BOw-j pre {
     position: relative;
-    border: 1px solid var(--backgroundName);
     border-radius: 6px;
 }
 .modalTextContainer-ITvzbi,
@@ -17,7 +16,6 @@
     border: none;
     scrollbar-color: var(--backgroundCode) var(--backgroundName);
     background: var(--backgroundCode) !important;
-    border: 1px solid var(--backgroundName) !important;
 }
 .footer-2yA7Ep,
 .markup-2BOw-j code,
@@ -25,7 +23,6 @@
     box-sizing: border-box;
     scrollbar-color: var(--backgroundCode) var(--backgroundName);
     background: var(--backgroundCode) !important;
-    border: 1px solid var(--backgroundName) !important;
 }
 .textContainer-C0szpm {
     overflow: hidden;
@@ -65,7 +62,7 @@
     left: 0;
     top: 0;
     text-align: right;
-    line-height: 1.125rem;
+    line-height: 1.128rem;
     height: calc(100% - 29px);
     overflow: hidden;
     color: rgba(255, 255, 255, 0.75);
