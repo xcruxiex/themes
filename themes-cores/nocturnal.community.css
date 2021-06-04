@@ -8,31 +8,32 @@
 #app-mount .profileBanner-33-uE1 {
   display: none
 }
-.headerTop-2y3V6H {
-  padding: 124px 16px 16px;
-}
-.avatar-22FtUu{
-    border: 0px;
-}
 .avatarWrapper-1-5NA0{
-    left: 84px !important;
-    
+	left: 82px !important;
 }
 .avatarPositionNormal-1CZUPk{
-    top: 25px !important;
+	top: 25px !important;
 }
-.headerText-2WJ44e.userSelectText-1o1dQ7{
-    text-align: center;
+.headerTop-2cWpdB{
+	text-align: center;
+	border-bottom: none;
+	padding: 124px 16px 1px;
 }
 .userPopout-3XzG_A .date-YN6TCS{
-    text-align: center;
+	text-align: center;
 }
 .customStatus-3NamXG{
-    text-align: center;
+	text-align: center;
 }
 .userPopout-3XzG_A{
-    width: 260px !important;
+	width: 260px !important;
 }
-.profileBadges-1dm1_q{
-    max-width: 80px;
+.profileBadges-3cJaE1{
+	max-width: 80px;
+}
+
+/* Blur for main pop-outs */
+.backdrop-1wrmKB{
+	backdrop-filter: blur(2.5px);
+	background: rgba(0, 0, 0, 0.75) !important;
 }
