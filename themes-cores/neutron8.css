@@ -1103,7 +1103,7 @@ body {
 
 .contentColumn-2hrIYH,
 .customColumn-Rb6toI {
-    max-width: 95%
+    max-width: 95% !important
 }
 
 #bd-settings-sidebar .ui-tab-bar-item,
