@@ -5,8 +5,18 @@
 
 /* Revert for discords new pop-out UI */
 
-#app-mount .profileBanner-33-uE1 {
-  display: none
+.profileBanner-33-uE1{
+	height: 78px;
+}
+.avatarWrapper-3r9PdD{
+	left: 82px;
+}
+.avatarPositionPremium-3We5Ho{
+	top: 140px;
+}
+
+.popoutBanner-19WKGg{
+	display: none !important;
 }
 .avatarPositionNormal-aZjAsn{
 	left: 82px !important;
