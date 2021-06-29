@@ -17,6 +17,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /* discord settings */
 .side-8zPYf6 .item-PXvHYJ[aria-controls="My Account-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/account.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="Profile Customization-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/profile.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/privacy.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/apps.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Connections-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/connection.png');}
