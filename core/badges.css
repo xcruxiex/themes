@@ -73,26 +73,43 @@
   line-height: 14px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url('https://limeshark.dev/bd/i/badge.png'), url('https://i.imgur.com/MuhwvAG.png');
+  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp');
   background-position: left, right;
   position: relative;
   top: 2px;
   margin-left: 5px;
   content: "";
 }
+.userPopout-xaxa6l[data-user-id="286208664623120384"] .clickable-17BDii:nth-child(1)::before {
+  content: "";
+  width: 35px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  left: -35px;
+  top: -1px;
+  background-color: transparent;
+  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp') !important;
+  background-position: left, right;
+  background-size: 17px 17px, 17px 17px;
+  background-repeat: no-repeat;
+}
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "";
-  background-image: url('https://limeshark.dev/bd/i/badge.png'), url('https://i.imgur.com/MuhwvAG.png');
+  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp');
   background-position: left, right;
   width: 30px;
 }
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "";
   background-color: transparent;
-  background-image: url('https://limeshark.dev/bd/i/badge.png'), url('https://i.imgur.com/MuhwvAG.png') !important;
+  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp') !important;
   background-position: left, right;
   padding: 0;
   top: 2px;
+}
+.avatar-37jOim[data-user-id="286208664623120384"] + .headerTop-3vNv-a .profileBadges-ohc0Vu::after {
+  content: "zad";
 }
 
 /* yura */
