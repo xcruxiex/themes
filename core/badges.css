@@ -135,10 +135,11 @@
 
 /* four */
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/YP2x642.gif');}
+  background-image: url('https://i.imgur.com/YP2x642.gif'), url('https://cdn.discordapp.com/emojis/804379282218549268.gif');}
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "The illusion";
+  content: "The illusion | BMO";
   color: white;
+  background-position: left, right;
   background-color: black;
 }
 
@@ -149,6 +150,15 @@
   content: "peachy.host";
   color: #ffa500;
   background-color: black;
+}
+
+/* bonziu */
+.avatar-1BDn8e[src*="852987980758253648"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/840719301416976385.gif?');}
+.avatar-1BDn8e[src*="852987980758253648"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "YALLA";
+  color: blue;
+  background-color: transparent;
 }
 
 /* liolanse */
@@ -171,11 +181,11 @@
 
 /* p0rtl */
 .avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/FBud75Q.png');}
+  background-image: url('https://i.imgur.com/eXtjvv3.gif');}
 .avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "Ø";
-  color: #00adef;
-  background-color: black;
+  content: "D̷̨͋o̵̯̍ǩ̶̛k̵̔̀a̸̋͛ḙ̵͘b̶̆̓i̶̽̈";
+  color: #c100ff;
+  background-color: transparent;
 }
 
 /* thoomin */
@@ -577,7 +587,44 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* wolfie */
+.avatar-1BDn8e[src*="282978672711827456"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/emojis/842827641824477225.gif');
+}
+
+.avatar-1BDn8e[src*="282978672711827456"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Best dev u will meet";
+  background-color: #03ffea;
+  color: #ffffff;
+  animation: scaleIn .2s linear 1;
+}
+
+/* kusakave */
+.avatar-1BDn8e[src*="153617374388551680"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/843498694149013506/852992322023194634/Primogem.png');
+}
+
+.avatar-1BDn8e[src*="153617374388551680"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Always a Leviathan";
+  background-color: #9932CC;
+  color: #ffffff;
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
+  /* mesicek */
+.avatar-1BDn8e[src*="812242528677396491"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/DgupKzH.png');
+}
+.avatar-1BDn8e[src*="812242528677396491"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "twitch.tv/moonie_ww";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
+}
 /* RubenSaurus */
 .avatar-1BDn8e[src*="156048565058142208"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "";
