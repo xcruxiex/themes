@@ -40,7 +40,27 @@
   to{opacity: 1;}
 }
 
-/*==| MODS |==*/
+/* spectra */
+.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+  background-image: url('https://limeshark.dev/img/b/skull.svg');
+}
+.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "I probably hate you";
+  background-color: #171718;
+  color: rgb(206, 55, 55);
+}
+
+/* yura */
+.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
+.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  content: "Cutie";
+  background-color: #fa73ff;
+  color: #fff;
+  animation: scaleIn .2s linear 1;
+}
+
 /*cruxie*/
 .avatar-1BDn8e[src*="332394843743584256"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://i.imgur.com/D9NgKJs.png');
@@ -65,63 +85,6 @@
   color: #4ce949;
 }
 
-  /*==|CUSTOM BADGES|==*/
-.member-3-YXUe[data-user-id="286208664623120384"] .layout-2DM8Md .content-3QAtGj .roleColor-rz2vM0::after {
-  display: inline-block;
-  height: 14px;
-  width: 30px;
-  line-height: 14px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp');
-  background-position: left, right;
-  position: relative;
-  top: 2px;
-  margin-left: 5px;
-  content: "";
-}
-.userPopout-xaxa6l[data-user-id="286208664623120384"] .clickable-17BDii:nth-child(1)::before {
-  content: "";
-  width: 35px;
-  height: 22px;
-  display: block;
-  position: absolute;
-  left: -35px;
-  top: -1px;
-  background-color: transparent;
-  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp') !important;
-  background-position: left, right;
-  background-size: 17px 17px, 17px 17px;
-  background-repeat: no-repeat;
-}
-.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "";
-  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp');
-  background-position: left, right;
-  width: 30px;
-}
-.avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "";
-  background-color: transparent;
-  background-image: url('https://limeshark.dev/img/b/sb1.webp'), url('https://limeshark.dev/img/b/sb2.webp') !important;
-  background-position: left, right;
-  padding: 0;
-  top: 2px;
-}
-.avatar-37jOim[data-user-id="286208664623120384"] + .headerTop-3vNv-a .profileBadges-ohc0Vu::after {
-  content: "zad";
-}
-
-/* yura */
-.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://cdn.discordapp.com/attachments/706165692608806933/708809414437634089/YinYangCats.gif');}
-.avatar-1BDn8e[src*="517447785491070987"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "Cutie";
-  background-color: #fa73ff;
-  color: #fff;
-  animation: scaleIn .2s linear 1;
-}
-
 /* Nooody */
 .avatar-1BDn8e[src*="206167460997496836"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
   background-image: url('https://i.imgur.com/yuLqs2v.png');
@@ -135,12 +98,19 @@
 
 /* four */
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/YP2x642.gif'), url('https://cdn.discordapp.com/emojis/804379282218549268.gif');}
+  height: 14px;
+  width: 30px;
+  line-height: 14px;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  background-size: contain;
+  background-image: url('https://i.imgur.com/YP2x642.gif'), url('https://cdn.discordapp.com/emojis/804379282218549268.gif');
+}
 .avatar-1BDn8e[src*="707721584382836808"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "The illusion | BMO";
   color: white;
-  background-position: left, right;
   background-color: black;
+  width: auto;
 }
 
 /* paz */
