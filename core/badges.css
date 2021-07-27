@@ -206,10 +206,14 @@
 
 /* w1zard*/
 .avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
-  background-image: url('https://i.imgur.com/ZeJRRH0.gif');
-  }
+  background-image: url('https://i.imgur.com/ZeJRRH0.gif');}
 .avatar-1BDn8e[src*="285569855506219018"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: none;
+  content: "";
+  background-image: url('https://i.imgur.com/ZeJRRH0.gif') !important;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  top: 1px;
 }
 
 /* Board™ */
