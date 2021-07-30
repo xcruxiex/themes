@@ -1,4 +1,5 @@
 .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
+/* Idk what is the problem here but Emotes icon is not loading */
 .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
     content: "";
     width: 20px;
