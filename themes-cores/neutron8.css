@@ -1223,7 +1223,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 .cardWrapper-2Min21,
 .feature-2w65J5,
 .accountList-33MS45,
-.background-1QDuV2,
 .bottomDivider-1K9Gao,
 .card-FDVird:before,
 .cardPrimary-1Hv-to,
@@ -2181,4 +2180,30 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 .focused-dKLoQt, .item-2J2GlB:hover {
     background-color: var(--themeColor2);
     color: #fff;
+}
+
+.container-6sXIoE {
+  border: none !important;
+}
+.circleIconButton-1XqULR {
+    background-color: rgba(0, 0, 0, .5);
+    color: var(--themeColor2);
+}
+
+.avatar-1uQSZT,
+.subscriptionsRedirectContainer-21LuI0,
+.notice-2OK8bw,
+.accountProfileCard-1XCH88,
+.noItemsCard-3TSAgO {
+    background-color: rgba(0, 0, 0, .35) !important;
+}
+
+.fieldList-21DyL8,
+.background-1QDuV2 {
+    background-color: transparent !important;
+}
+
+.side-8zPYf6 .separator-gCa7yv {display: none !important;}
+#bd-settings-sidebar .ui-tab-bar-header, .side-8zPYf6 .header-2RyJ0Y {
+    width: 100%;
 }
