@@ -1,3 +1,10 @@
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://codedotspectra.github.io/themes/core/custom-font.css");
+@import url("https://codedotspectra.github.io/themes/core/hljs.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+:root {
+  --customFont: "Open Sans";
+}
 .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
 .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
     content: "";
@@ -12,7 +19,7 @@
     transform: translateY(-50%);
     opacity: .8;
 }
-.side-8zPYf6 .item-PXvHYJ {padding-left: 35px;}
+.side-8zPYf6 .item-PXvHYJ {padding-left: 35px !important;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /* discord settings */
@@ -22,8 +29,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="authorized-apps-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/apps.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="connections-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/connection.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="discord-nitro-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/nitro.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="nitro-server-boost-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/nitro.png');}
-.side-8zPYf6 .item-PXvHYJ[aria-controls="nitro-server-boost-tab"] svg {display: none;}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="nitro-server-boost-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/boost.png');}
+.side-8zPYf6 .item-PXvHYJ[aria-controls="discord-nitro-tab"] svg {display: none;}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/boost.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="billing-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/billing.png');}
 .side-8zPYf6 .item-PXvHYJ[aria-controls="subscriptions-tab"]::before {background-image: url('https://limeshark.dev/img/bdi/billing.png');}
