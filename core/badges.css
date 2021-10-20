@@ -43,12 +43,12 @@
 /* spectra */
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "";
-  background-image: url('https://limeshark.dev/img/b/skull.svg');
+  background-image: url('https://limeshark.dev/img/b/soundcloud.png');
 }
 .avatar-1BDn8e[src*="286208664623120384"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "I probably hate you";
-  background-color: #171718;
-  color: rgb(206, 55, 55);
+  content: "soundcloud.com/yundcore";
+  background-color: #30363D;
+  color: #FF5500;
 }
 
 /* yura */
@@ -81,7 +81,7 @@
   background-image: url('https://i.imgur.com/D9NgKJs.png');
   }
 .avatar-1BDn8e[src*="828009658403913768"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
-  content: "Will probably ban you";
+  content: "bip boop";
   color: #4ce949;
 }
 
