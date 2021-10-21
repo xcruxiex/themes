@@ -1,4 +1,7 @@
-#app-mount {
+:root {
     --font-primary: var(--customFont) ,"Whitney";
     --font-display: var(--customFont) ,"Whitney";
+}
+::placeholder, body, button, input, select, textarea{
+    font-family: var(--customFont) !important;
 }
