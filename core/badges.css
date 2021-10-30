@@ -587,6 +587,45 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* hola peter */
+.avatar-1BDn8e[src*="721831770173079554"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/793127494806798387/875061390652624906/codedotspectrabadge.png');
+}
+
+.avatar-1BDn8e[src*="721831770173079554"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Absolute Queen";
+  background-color: #fcd400;
+  color: #000;
+  animation: scaleIn .2s linear 1;
+}
+
+/* madmagic */
+.avatar-1BDn8e[src*="401795293797941290"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://media.discordapp.net/attachments/851706940673359873/886279724119236639/1631375796596.png');
+}
+
+.avatar-1BDn8e[src*="401795293797941290"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "Shark King";
+  background-color: #0071fd;
+  color: #000;
+  animation: scaleIn .2s linear 1;
+}
+
+/* christian */
+.avatar-1BDn8e[src*="226447651917266944"]+h2>.headerText-3Uvj1Y>.username-1A8OIy::after {
+  content: "";
+  background-image: url('https://i.imgur.com/4HFMrJ3.png');
+}
+
+.avatar-1BDn8e[src*="226447651917266944"]+h2>.headerText-3Uvj1Y>.username-1A8OIy:hover::after {
+  content: "swag";
+  background-color: #252628;
+  color: #fff;
+  animation: scaleIn .2s linear 1;
+}
+
   /*==|STREAMERS|==*/
   /* mesicek */
 .avatar-1BDn8e[src*="812242528677396491"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
