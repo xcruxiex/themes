@@ -2212,18 +2212,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
     background-color: transparent !important;
 }
 
-.tabBody-3YRQ8W:before,
-.homeIcon-AaowEC > * {
-    display: none !important;
-}
-.homeIcon-AaowEC {
-    background-color: transparent !important;
-    background-image: var(--homeImage);
-    background-position: var(--backgroundPosition);
-    background-repeat: var(--backgroundRepeat);
-    background-size: var(--backgroundSize);
-}
-
 .circleIconButton-hZmpE8 {
     background-color: rgba(0,0,0,.25) !important;
     color: var(--themeColor1) !important;
@@ -2240,4 +2228,18 @@ div[aria-label=GUILD_SETTINGS] .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.it
 .container-_phMUq,
 .emptyCard-1RJw8n {
     background-color: rgba(0,0,0,.25) !important;
+}
+
+.tabBody-3YRQ8W:before,
+.homeIcon-AaowEC > * {
+    display: none !important;
+}
+.homeIcon-AaowEC {
+    background-color: transparent !important;
+    background-image: var(--homeImage);
+    background-position: var(--backgroundPosition);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    height: 48px;
+    width: 48px;
 }
