@@ -88,7 +88,7 @@ body {
     box-shadow: none !important
 }
 
-.tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
+.tutorialContainer-11ICd5 .childWrapper-anI2G9 {
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,12 +97,13 @@ body {
     background-clip: border-box
 }
 
-.tutorialContainer-2sGCg9 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.tutorialContainer-2sGCg9 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+.tutorialContainer-11ICd5 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.tutorialContainer-11ICd5 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--themeColor1) !important;
 }
 
-.tutorialContainer-2sGCg9 .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+.tutorialContainer-11ICd5 .childWrapper-anI2G9 > svg,
+.tutorialContainer-11ICd5 .childWrapper-anI2G9 .homeIcon-tEMBK1 {
     display: none
 }
 
