@@ -1,0 +1,60 @@
+@use 'base';
+
+#app-mount {
+    .wrapper-2aW0bm {
+        background-color: base.$bg01 !important;
+    }
+    .lookInverted-2D7oAl.colorBrand-21Le_q,
+    .lookInverted-2D7oAl.colorBrand-21Le_q.disabled,
+    .bd-button:not(.bd-button-danger),
+    .lookFilled-yCfaCM.colorPrimary-1arORx.disabled,
+    .lookFilled-yCfaCM.colorPrimary-1arORx,
+    .lookFilled-yCfaCM.colorGrey-2iAG-B.disabled,
+    .lookFilled-yCfaCM.colorGrey-2iAG-B,
+    .lookFilled-yCfaCM.colorBrand-21Le_q.disabled,
+    .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+    .lookFilled-yCfaCM.colorGreen-3y-Z79:disabled,
+    .lookFilled-yCfaCM.colorGreen-3y-Z79 {
+        background-color: base.$accent !important;
+        @include base.transition(box-shadow .2s ease);
+        color: #fff !important;
+    }
+
+    .lookInverted-2D7oAl.colorBrand-21Le_q:hover,
+    .bd-button:not(.bd-button-danger):hover,
+    .lookFilled-yCfaCM.colorPrimary-1arORx:hover,
+    .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+    .lookFilled-yCfaCM.colorBrand-21Le_q:hover,
+    .lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+        background-color: base.$accent;
+        @include base.shadows(inset 0 0 0 10000px rgba($color: #fff, $alpha: 0.2));
+    }
+
+    .lookLink-9FtZy-.colorLink-35jkBc {
+        color: base.$accent;
+    }
+    .closeButton-1tv5uR,
+    .lookOutlined-3sRXeN.colorBrand-21Le_q {
+        color: base.$accent !important;
+        border-color: base.$accent !important;
+    }
+    .closeButton-1tv5uR:hover {
+        background-color: base.$accent;
+    }
+    .keybindShortcut-1BD6Z1 span {
+        border: 1px solid rgba($color: #000, $alpha: 0.2) !important;
+        color: #fff !important;
+        background-color: base.$accent !important;
+        box-shadow: none !important;
+    }
+    .colorable-1bkp8v.primaryDark-3mSFDl {
+        background-color: base.$bg01 !important;
+    }
+
+    .button-14-BFJ.enabled-2cQ-u7:hover {
+        background-color: base.$bg01 !important;
+    }
+    .button-1ZiXG9:hover {
+        background-color: base.$bg02 !important;
+    }
+}

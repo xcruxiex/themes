@@ -1,0 +1,27 @@
+#app-mount {
+
+    .guildSeparator-33mFX6,
+    .libraryHeader-3g95kE:before,
+    .tabBody-3YRQ8W:before,
+    .content-yTz4x3:before,
+    .divider-3573oO,
+    .children-19S4PO:after,
+    .roleRow-30TwGe:before,
+    .roleRow-30TwGe:last-child:after,
+    .form-2fGMdU:before {
+        display: none !important;
+    }
+
+    .bannedUser-1IalTM,
+    .inviteSettingsInviteRow-3p2O-N,
+    .member-1q7VfX,
+    .header-2V-4Sw,
+    .searchBar-6Kv8R2,
+    .header-2o-2hj {
+        box-shadow: none !important;
+    }
+
+    .container-1giJp5 {
+        border: none !important;
+    }
+}

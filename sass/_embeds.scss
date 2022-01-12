@@ -1,0 +1,47 @@
+@use 'base';
+
+#app-mount {
+    .bar-AokMp3,
+    .selected-3B2w1z,
+    .selected-3B2w1z:hover,
+    .autocomplete-1vrmpx,
+    .folder-1hbNCn,
+    .role-23oyrw,
+    .role-23oyrw:hover,
+    .wrapper-1HIH0j,
+    .bumpBox-1Pp4td,
+    .wrapperAudio-1Bzv_Z,
+    .attachment-1PZZB2 {
+        background: base.$bg01 !important;
+        border: none !important;
+    }
+    .selected-3H3-RC {background-color: base.$bg02 !important;}
+
+    .embedFull-1HGV2S {
+        background: base.$bg01 !important;
+    }
+
+    .anchor-3Z-8Bb,
+    .executedCommand-14-SNW .commandName-1KhvGm,
+    .markup-eYLPri a {
+        color: base.$grd1 !important;
+    }
+
+    .lookLink-9FtZy-.colorBrand-3pXr91 {
+        color: base.$accent !important;
+    }
+    .buffer-3eVqKK,
+    .buffer-3eVqKK:after,
+    .buffer-3eVqKK:before,
+    .mediaBarWrapper-33h1oY,
+    .mediaBarWrapper-33h1oY:after,
+    .mediaBarWrapper-33h1oY:before {
+        background-color: base.$bg01 !important;
+    }
+    .mediaBarGrabber-FvJKJg,
+    .mediaBarProgress-38I317,
+    .mediaBarProgress-38I317:after,
+    .mediaBarProgress-38I317:before {
+        background-color: base.$accent !important;
+    }
+}

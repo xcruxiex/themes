@@ -1,0 +1,396 @@
+@use 'base';
+
+#app-mount {
+    .avatarUploaderInner-Oiob_P {
+        border-color: base.$bg01 !important;
+    }
+    .profileBannerPreview-3_l0Wd {
+        background-color: base.$bg01 !important;
+    }
+    .accountProfileCard-1XCH88 {
+        background-color: base.$bg01 !important;
+
+        .fieldList-21DyL8 {
+            background-color: base.$bg02 !important;
+            padding: 15px;
+        }
+
+        .avatar-1uQSZT {
+            border-color: base.$bg01 !important;
+        }
+    }
+
+    .contentColumn-2hrIYH,
+    .customColumn-Rb6toI {
+        max-width: 100%;
+    }
+    .sidebarRegion-VFTUkN {
+        justify-content: flex-start;
+        flex: 0 0;
+    }
+
+    .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+    .pageActions-1SVAnA,
+    .codeRedemptionRedirect-1wVR4b,
+    .paymentPane-3bwJ6A,
+    .connection-1fbD7X,
+    .accountList-33MS45,
+    .cardPrimaryOutline-29Ujqw,
+    .cardPrimary-1Hv-to,
+    .cardPrimaryEditable-3KtE4g {
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+    .previewMessage-1ZN7YG,
+    .paginator-166-09,
+    .payment-xT17Mq,
+    .popoutList-T9CKZQ,
+    .phoneField-38N1bJ .inputField-aNPXsv,
+    .phoneField-38N1bJ,
+    .background-1QDuV2 {
+        background-color: base.$bg01 !important;
+    }
+    .paymentHeader-3QlZQi,
+    .bottomDivider-1K9Gao {border: none !important;}
+
+    .expandedInfo-3kfShd,
+    .accountBtn-2Nozo3 .accountBtnInner-sj5jLs,
+    .integration-3kMeY4,
+    .connectionHeader-2MDqhu {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 10000px rgba($color: #000000, $alpha: 0.3);
+    }
+    .fieldList-21DyL8 {
+        background-color: base.$bg02 !important;
+        box-shadow: 0 4px 5px -2px rgba($color: #000000, $alpha: 0.3);
+    }
+
+    .popoutListInput-1l9TUI .inner-2P4tQO {
+        border-radius: 4px;
+        background-color: base.$bg02 !important;
+        padding: 4px;
+    }
+
+    .popoutList-T9CKZQ {
+        box-shadow: 0 0 5px 5px rgba($color: #000000, $alpha: 0.3);
+    }
+    .selectableItem-1MP3MQ:hover {
+        background-color: base.$bg02 !important;
+    }
+
+    .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+        background-color: base.$accent !important;
+    }
+
+    .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ[style*='rgb(237, 66, 69)']:hover:not(.disabled-1Hwwfb),
+    .side-8zPYf6 .item-PXvHYJ[style*='rgb(237, 66, 69)']:hover {
+        background: rgb(237, 66, 69) !important;
+        color: #fff !important;
+    }
+
+
+    .wrapper-3jrx9n {
+        border-color: base.$accent !important;
+    }
+    .option-n0icdO:hover,
+    .selected-mKYnfr.option-n0icdO {
+        background-color: base.$accent !important;
+    }
+    .option-n0icdO {
+        background-color: base.$bg01 !important;
+    }
+    .disabled-3I9jyo {color: base.$bg01 !important;}
+    .disabled-3I9jyo:hover {
+        color: #ed4245 !important;
+    }
+
+    .radioBar-bMNUI- {
+        background-color: base.$bg01 !important;
+
+        svg {
+            path {
+                fill: base.$accent;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: base.$accent;
+            }
+        }
+    }
+
+    .radioBar-bMNUI-[style*='#ed4245'] {
+        svg {
+            path {
+                fill: #ed4245;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #ed4245;
+            }
+        }
+    }
+    .radioBar-bMNUI-[style*='#cb8615'] {
+        svg {
+            path {
+                fill: #cb8615;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #cb8615;
+            }
+        }
+    }
+    .radioBar-bMNUI-[style*='#3ba55c'] {
+        svg {
+            path {
+                fill: #3ba55c;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #3ba55c;
+            }
+        }
+    }
+
+
+ 
+    .container-3auIfb[style*='rgb'] {
+        background-color: base.$accent !important;
+    }
+    .container-3auIfb[style*='rgb(114, 118, 125)'] {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.05);
+    }
+
+    .bd-switch {
+        background-color: transparent !important;
+    }
+    .bd-switch .bd-switch-body {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.05);
+    }
+    .bd-switch input:checked+.bd-switch-body {
+        --switch-color: base.$accent;
+        background-color: base.$accent !important;
+    }
+
+
+    .slider-1PF9SW {
+        .bar-2Qqk5Z {
+            background: base.$bg01;
+            box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.01);
+        }
+
+        .barFill-23-gu- {
+            background: base.$accent;
+        }
+
+        .defaultValue-3gC7yw .markValue-2DwdXI {
+            color: #fff !important;
+            letter-spacing: 1px;
+        }
+    }
+
+
+    .popout-VcNcHB,
+    .lookFilled-22uAsw.select-2fjwPw,
+    .bd-search-wrapper,
+    .gameNameInput-385LoS:focus,
+    .gameNameInput-385LoS:hover {
+        border: none !important;
+        background-color: base.$bg02 !important;
+    }
+    .option-3KoAJB.focused-1T6PE5,
+    .option-3KoAJB:focus,
+    .option-3KoAJB:hover,
+    .option-3KoAJB[aria-selected=true],
+    .addGamePopout-2RY8Ju {
+        background-color: base.$bg01 !important;
+
+        .select-2TCrqx {
+            margin-bottom: 10px;
+        }
+
+        .css-3vaxre-menu {
+            background-color: base.$bg02 !important;
+            border: none !important;
+
+            
+            .css-rzbxvl-option {
+                background-color: base.$bg02 !important;
+                box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15);
+            }
+        }
+    }
+    .css-3vaxre-menu {
+        background-color: base.$bg01 !important;
+        border: 1px solid rgba($color: #000000, $alpha: 0.5) !important;
+        border-top: none !important;
+    }
+    .css-1ba14n5-option {
+        background-color: base.$bg02 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15);
+    }
+    .row-2okwlC {
+        box-shadow: none !important;
+    }
+    .bd-select .bd-select-options {
+        background: base.$bg01 !important;
+        box-shadow: none !important;
+    }
+    .bd-select .bd-select-option.selected {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15) !important;
+    }
+
+    .wrapper-1prNyd {
+        background-color: base.$bg01 !important;
+    }
+
+
+    .game-1ipmAa {
+        box-shadow: none !important;
+    }
+    .default-3oAQTF {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+        border: none !important;
+    }
+    .card-FDVird:before {
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+
+
+    .bd-addon-list .bd-addon-card {
+        background: base.$bg01 !important;
+    }
+    .bd-addon-list .bd-addon-header {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+    }
+
+
+    .cardFolder-28dwxo,
+    .settingCard-3w2mVL,
+    .descriptionBox-1EKQKL,
+    .tierInProgress-3mBoXq,
+    .tierBody-x9kBBp,
+    .previewContainer-1SS3uO,
+    .editButton-1MavoF,
+    .settingsFormItem-103g1I,
+    .enableContainer-2DIT9Q,
+    .container-2w0lh0,
+    .checklistContainer-mFJZEJ,
+    .featureCard-1RR4Tl,
+    .analyticsCard-qckucw,
+    .developerPortalCtaWrapper-2XNafh,
+    .upsellFooter-ZYsio_,
+    .upsellContainer-L9xv7w,
+    .container-1eFT6O,
+    .memberRow-1wwtfV:hover,
+    .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT),
+    .container-_phMUq {
+        background-color: base.$bg01 !important;
+    }
+    .scroller-305q3I,
+    .welcomeChannel-1rFrIO,
+    .focused-dKLoQt,
+    .item-2J2GlB:hover,
+    .selected-2114Fj,
+    .titleContainer-2CXtJo,
+    .header-2mZ9Ov {
+        background-color: base.$bg02 !important;
+    }
+    .settingsFormFieldWrapper-3Y77Pr {
+        background-color: base.$bg02 !important;
+        border: none !important;
+    }
+    .auditLog-3jNbM6 {
+        border: none !important;
+    }
+    .headerClickable-2IVFo9,
+    .headerDefault-1wrJcN {
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+
+    .top-28JiJ- .brand-1Zl8en.item-PXvHYJ:hover,
+    .top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active,
+    .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
+        border-bottom-color: base.$accent !important;
+    }
+    .primary-2McadE:hover:not(.disabled-3Njyym),
+    .secondary-dIudih,
+    .featureIcon-3p1TC_,
+    .icon-3_8HGa {
+        background-color: base.$bg02 !important;
+
+        svg {
+            color: base.$accent !important;
+            path {
+                fill: base.$accent !important;
+            }
+        }
+    }
+    .button-2TV-eO:hover,
+    .notice-18685F {
+        background-color: base.$accent !important;
+    }
+    .checklistIcon-6Kez2J .checkbox-1ix_J3 {
+        background-color: base.$accent !important;
+        border: none !important;
+    }
+    .checkbox-1ix_J3[style*='rgb(114, 137, 218)'] {
+        background-color: base.$accent !important;
+        border: none !important;
+    }
+
+
+    .group-1WdBVp {
+        border: none !important;
+    }
+    .item-1yAxl1 {
+        background-color: base.$bg01 !important;
+    }
+    .item-1yAxl1.deny-3nAuT6.selected-2YhbGh {
+        background-color: #ed4245 !important;
+    }
+    .item-1yAxl1.allow-1PzSY3.selected-2YhbGh {
+        background-color: #4fdc7b !important;
+    }
+
+ 
+    .wrapper-3nSjSv,
+    .tier1-1ttHRY.banner-3Kac2g {
+        background-image: linear-gradient(8.62deg, base.$grd2, base.$grd1 75.25%);
+    }
+
+    .cardWrapper-2Min21 {
+        background-color: base.$bg01 !important;
+    }
+    .tierHeaderLocked-1a2opw,
+    .enableContainer-6E-puu,
+    .header-2Y0-A-,
+    .checklistHeader-1KWcEY,
+    .defaultIndicator-G3c16x,
+    .gemIndicatorContainer-2jdECl {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+    }
+    .tierLock-1oFMOZ {
+        color: base.$accent !important;
+    }
+    .background-3xPPFc,
+    .gemWithoutLabel-7-ZvB_ {
+        color: base.$bg01 !important;
+    }
+
+    .premiumIndicator-1XvbfM {
+        background-color: base.$accent !important;
+    }
+}

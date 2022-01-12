@@ -1,0 +1,37 @@
+@use 'base';
+
+#app-mount {
+    .reaction-1hd86g {
+        background-color: base.$bg01 !important;
+    }
+
+    .reaction-1hd86g.reactionMe-wv5HKu {
+        background-color: base.$accent !important;
+        border-color: rgba($color: #ffffff, $alpha: 0.5) !important;
+    }
+
+    .root-1gCeng {
+        .reactionSelected-1pqISm,
+        .reactors-Blmlhw {
+            background-color: base.$bg01 !important;
+        }
+
+        .scroller-1-nKid {
+            background-color: base.$bg02 !important;
+        }
+    }
+    .inspector-S2gM3e,
+    .wrapper-1-Fsb8,
+    .emojiPicker-3PwZFl {
+        background-color: base.$bg01 !important;
+    }
+    .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
+    .wrapper-2Gsate,
+    .container-2XeR5Z {
+        background-color: base.$bg02 !important;
+    }
+    .categoryItemDefaultCategorySelected-_HCKoz,
+    .categoryItemDefaultCategorySelected-_HCKoz:hover {
+        background-color: base.$accent !important;
+    }
+}

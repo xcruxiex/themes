@@ -1,0 +1,95 @@
+@use 'base';
+
+#app-mount {
+    .wrapper-NhbLHG:hover .content-1gYQeQ,
+    .modeSelected-3DmyhH .content-1gYQeQ,
+    .modeSelected-3DmyhH:hover .content-1gYQeQ {
+        background-color: base.$bg01;
+    }
+
+    .content-1gYQeQ {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .content-1gYQeQ::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        background-color: base.$grd1;
+        background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
+        @include base.transition(transform .2s ease);
+        @include base.transform(translateX(-100%));
+    }
+
+    .wrapper-NhbLHG:hover .content-1gYQeQ::after,
+    .modeSelected-3DmyhH .content-1gYQeQ::after {
+        @include base.transform(translateX(0));
+    }
+
+    .wrapper-2fEmwW {
+        color: rgba(255, 255, 255, 0.5);
+
+        .users-2JoyGL {
+            background-color: base.$bg01;
+        }
+
+        .total-1c5KCN {
+            background-color: base.$bg01 !important;
+        }
+
+        .total-1c5KCN:after {
+            border-right-color: base.$bg01 !important;
+        }
+    }
+
+    .unread-36eUEm {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+        left: 4px;
+        @include base.transition(box-shadow .2s ease);
+        background-color: #ffffff00;
+        z-index: 10;
+        position: absolute;
+    }
+    .unread-36eUEm:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: base.$accent;
+        border-radius: 100%;
+        z-index: -2;
+        animation: pulse 2s infinite;
+        will-change: transform;
+    }
+    .unread-36eUEm:hover:after {
+        animation: none;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+
+    .newMessagesBar-1hF-9G {
+        background-color: base.$accent;
+    }
+    .jumpToPresentBar-1cEnH0 {
+        background-color: base.$bg01;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15);
+    }
+}
