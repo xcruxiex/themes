@@ -1,0 +1,28 @@
+@use 'base';
+
+
+.container-2McqkF {
+    background-color: base.$bg01 !important;
+}
+.option-2KkUJO:after {
+    display: none;
+}
+.option-2KkUJO.selected-rZcOL-, // ?? select
+.focused-2FU0YH,
+.searchAnswer-23w-CH,
+.searchFilter-2UfsDk {
+    background-color: base.$bg02 !important;
+}
+
+
+.button-cfOvv-,
+.channelName-3w2Y3c,
+.searchHeader-1r_ZSh,
+.searchResultsWrap-5RVOkx {
+    background-color: base.$bg02 !important;
+}
+
+.tab-2Jo-cu.selected-2LAck8, // ? are these two.
+.searchResult-O9NDji {
+    background-color: base.$bg01 !important;
+} // Shack

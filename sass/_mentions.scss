@@ -1,0 +1,77 @@
+@use 'base';
+
+#app-mount {
+    .container-2ebMPP,
+    .jumpButton-1ZwI_j,
+    .jumpButton-1V_1FA,
+    .channelHeader-DFRX8q,
+    .header-145e10 .button-1_oXub,
+    .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy,
+    .messagesPopoutWrap-3zryHW {
+        background-color: base.$bg01 !important;
+    }
+
+    .messagesPopout-eVzQcI {
+        padding: 8px 8px 2px 8px!important;
+    }
+
+    .messages-23can0,
+    .tutorial-Nb3Zz5,
+    .footer-5ji8u1,
+    .messageGroupWrapper-1jf_7C,
+    .messageContainer-3VTXBC,
+    .tertiary-1e-lAP,
+    .header-1w9Q93 {
+        background-color: base.$bg01 !important;
+        @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3));
+    }
+
+    .header-145e10 .button-1_oXub {
+        width: 32px;
+        height: 32px;
+    }
+
+    .messageGroupWrapper-1jf_7C {
+        border: none !important;
+    }
+
+    .base-21yXnu.pro-3GwLMX[style*='rgb(59, 165, 92)'] {
+        color: base.$accent !important;
+    }
+    .mentioned-Tre-dv:before {
+        background-color: base.$grd1;
+        width: 4px;
+        border-radius: 8px 0 0 8px;
+    }
+
+    .mentioned-Tre-dv {
+        background-color: transparent !important;
+        border-radius: 0 8px 8px 0;
+        position: relative;
+    }
+    .mentioned-Tre-dv::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: base.$grd1;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        opacity: .15;
+        border-radius: 8px;
+    }
+
+    .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
+    .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+        background-color: base.$accent;
+    }
+
+    .wrapper-1ZcZW- { // Checkpoint
+        background-color: base.$grd2 !important;
+        color: #fff !important;
+        text-shadow: 0 1px rgba($color: #000000, $alpha: 0.7);
+    }
+}

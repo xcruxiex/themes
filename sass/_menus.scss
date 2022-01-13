@@ -1,0 +1,99 @@
+@use 'base';
+
+#app-mount {
+    .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
+    .menu-1QACrS {
+        background-color: base.$bg01;
+    }
+
+    .colorDefault-CDqZdO.focused-3qFvc8 {
+        background-color: base.$accent !important;
+    }
+
+    .colorDefault-CDqZdO.focused-3qFvc8 .icon-E4cW1l {
+        color: #fff !important;
+    }
+
+    .colorDanger-3n-KnP .icon-E4cW1l {
+        color: #ed4245 !important;
+    }
+
+    .colorDanger-3n-KnP.focused-3qFvc8 {
+        background-color: #ed4245 !important;
+    }
+
+
+    .colorBrand-3cPPsm .label-2gNW3x,
+    .colorBrand-3cPPsm .icon-E4cW1l {
+        color: rgb(58, 153, 66) !important;
+    }
+
+    .colorBrand-3cPPsm.focused-3qFvc8 {
+        background-color: rgb(58, 153, 66) !important;
+    }
+
+    .colorBrand-3cPPsm.focused-3qFvc8 .label-2gNW3x,
+    .colorBrand-3cPPsm.focused-3qFvc8 .icon-E4cW1l {
+        color: #fff !important;
+    }
+
+    .scroller-1bVxF5 {
+        padding: 6px 8px !important;
+
+        .separator-1So4YB {display: none;}
+    }
+
+    .clickable-vvKY2q .header-3OsQeK:hover,
+    .selected-1GtAC5 .header-3OsQeK {
+        background-color: base.$bg02 !important;
+    }
+
+    .bf-toolbar::before {
+        background: base.$bg01 !important;
+    }
+
+    .bf-toolbar .format:hover {
+        background-color: base.$bg02 !important;
+    }
+
+    .autocomplete-3l_oCd {
+        background-color: base.$bg01 !important;
+
+        .selected-3H3-RC {
+            background-color: base.$bg02 !important;
+        }
+    }
+
+    .contentWrapper-3vHNP2 {
+        background-color: base.$bg01 !important;
+
+        .inspector-DFKXwB,
+        .wrapper-1NNaWG {
+            background-color: base.$bg01 !important;
+        }
+
+        .navButtonActive-1EqC5l,
+        .container-1SX9VC,
+        .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+            background-color: base.$bg02 !important;
+        }
+
+        .wrapper-22rqw6 {
+            background-color: base.$bg01 !important;
+            box-shadow: inset 0 0 0 1000px rgba($color: #000000, $alpha: 0.3);
+        }
+    }
+
+    .categoryFadeBlurple-1HuV1x {
+        background-color: transparent !important;
+    }
+    .focused-q9B2e4:after,
+    .result-3OpoO7:hover:after {
+        box-shadow: inset 0 0 0 2px base.$accent,
+        inset 0 0 0 3px #2f3136 !important;
+    }
+
+    .bar-2MWHzg{
+        background-color: base.$bg02;
+    }
+} 

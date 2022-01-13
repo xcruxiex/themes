@@ -1,0 +1,24 @@
+@use 'base';
+
+#app-mount {
+    .replyBar-1oi75v,
+    .threadSuggestionBar-3ExSyc,
+    .inner-2pOSmK,
+    .searchBar-3TnChZ .searchBarComponent-3N7dCG,
+    .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi),
+    .channelTextArea-1FufC0,
+    .circleIconButton-3lUBQk,
+    .circleIconButton-1VxDrg,
+    .scrollableContainer-15eg7h,
+    .searchBar-zdmu7v {
+        background: base.$bg01 !important;
+    }
+
+    .divider-2rZFJK:not(.isUnread-3Lojb-) {
+        border-color: base.$bg01 !important;
+    }
+
+    .content-3spvdd {
+        background: base.$bg01 !important;
+    }
+}

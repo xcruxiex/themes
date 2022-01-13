@@ -1,0 +1,321 @@
+@use 'base';
+
+#app-mount {
+    .divider-1wtgZ3 {
+        display: none;
+    }
+    .bodyInnerWrapper-2bQs1k {
+        padding: 0;
+    }
+    .bodyTitle-2Az3VQ {
+        padding: 0 16px;
+    }
+    .body-2wLx-E {
+        padding: 0 !important;
+        padding-bottom: 16px !important;
+    }
+
+    .aboutMeSection-PUghFQ{
+        padding: 16px;
+    }
+
+    .avatar-3QF_VA {
+        border-color: base.$bg02 !important;
+    }
+
+    .topSection-13QKHs {
+        background-color: base.$bg02 !important;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, .4);
+        position: relative;
+        z-index: 200;
+    }
+
+    .tabBarContainer-sCZC4w{
+        border: none !important;
+        background-color: rgba(0, 0, 0, .2);
+
+        .selected-g-kMVV.item-3XjbnG,
+        .selected-g-kMVV.item-3XjbnG:hover {
+            color: base.$accent;
+            border-bottom-color: base.$accent;
+        }
+    }
+
+    .body-1Ukv50 {
+        background-color: base.$bg01 !important;
+    }
+    .infoScroller-1QMpon {
+        padding: 16px !important;
+    }
+    .userInfoSection-2u2hir {
+        padding: 0 !important;
+
+        .note-367eZJ {
+            margin: 0 0 16px 0;
+
+            textarea {
+                background-color: base.$bg02 !important;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .userInfoSection-2u2hir+.userInfoSection-2u2hir {
+        border: none !important;
+    }
+
+    .connectedAccount-1xKpli {
+        border: none !important;
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    .listScroller-entkMk {
+        padding: 8px 16px !important;
+
+        .listRow-2nO1T6 {
+            margin: 0;
+        }
+        .listRow-2nO1T6:hover {
+            background-color: base.$bg02 !important;
+            border-radius: 6px;
+        }
+    }
+
+    .activity-1gTu-L {
+        overflow: hidden;
+        position: relative;
+        background-color: base.$bg01;
+        padding: 16px;
+        margin-bottom: 16px;
+
+        .headerText-3g1XK9,
+        .headerText-3g1XK9,
+        .anchor-1MIwyf,
+        .executedCommand-14-SNW .commandName-1KhvGm,
+        .markup-eYLPri a {
+            color: #fff !important;
+        }
+
+        .lookFilled-1GseHa.colorGrey-2DXtkV {
+            background-color: #ffffff !important;
+            color: #1DB954 !important;
+            box-shadow: 0 2px 10px 0 rgba($color: #000, $alpha: 0.35);
+        }
+
+        .bar-1GpknY {
+            background-color: rgba(0, 0, 0, .5);
+        }
+
+        >* {
+            position: relative;
+            z-index: 10;
+        }
+    }
+    .activity-1gTu-L::before {
+        background-color: base.$accent;
+        background-image: linear-gradient(-45deg, base.$grd1, base.$grd2);
+        opacity: .75;
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    .spotifyIcon-2J9kSv {
+        position: absolute !important;
+        top: 16px;
+        right: 16px;
+        
+        path {
+            fill: #fff !important;
+        }
+    }
+
+    .avatar-2Vndt_ {
+        background-color: base.$bg01 !important;
+        border-color: base.$bg01 !important;
+    }
+
+    .headerTop-2cWpdB {
+        background-color: base.$bg01;
+        border: none !important;
+    }
+
+    .activity-fViXj7 {
+        padding: 16px !important;
+
+        .anchor-1MIwyf,
+        .headerText-3g1XK9 {color: white !important;}
+
+        >svg {
+            top: 16px;
+            right: 16px;
+            position: absolute;
+
+            path {fill: white;}
+        }
+        .timeBarUserPopout-qLXZaR .bar-1GpknY {
+            background-color: base.$bg01;
+        }
+    }
+
+    .customStatus-3XAoF9 {
+        padding: 0 16px;
+    }
+
+    .userPopout-2j1gM4 {
+        background-color: base.$bg01 !important;
+        @include base.shadows(0 0 10px 0 rgba(0, 0, 0, .5));
+    }
+
+    .footer-3naVBw,
+    .bodyInnerWrapper-2bQs1k,
+    .userPopout-2j1gM4 {
+        background-color: base.$bg01 !important;
+    }
+
+    .avatar-22FtUu {
+        border: 6px solid base.$bg01;
+        background-color: base.$bg02;
+    }
+
+    .footer-1fjuF6 {
+        input {
+            background-color: rgba($color: #000, $alpha: 0.3) !important;
+            border: 1px solid rgba($color: #000, $alpha: 0.3);
+        }
+
+        input:hover {
+            border-color: base.$bg02;
+        }
+
+        input:focus,
+        input:focus:hover {
+            background-color: base.$bg02 !important;
+            border-color: base.$accent;
+        }
+    }
+
+    .rolesList-3uZoaa {
+        padding: 0 16px;
+    }
+
+
+    .note-Go5ZP2 {
+        margin: 0 16px !important;
+
+        textarea {
+            background-color: rgba($color: #000, $alpha: 0.3) !important;
+            border: 1px solid rgba($color: #000, $alpha: 0.3);
+        }
+
+        textarea:hover {
+            border-color: base.$bg02;
+        }
+
+        textarea:focus,
+        textarea:focus:hover {
+            background-color: base.$bg02 !important;
+            border-color: base.$accent;
+        }
+    }
+    .note-3HfJZ5 {
+        margin: 0 8px 0 0 !important;
+    }
+
+
+    .role-2TIOKu{
+        background-color: transparent !important;
+        border: 2px solid currentColor;
+        border-radius: 50px;
+    }
+
+    .addButton-1_dZYu {
+        border: none !important;
+    }
+
+    .container-2O1UgZ {
+        background-color: base.$bg01 !important;
+        @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3), 0 0 10px 0 rgba(0, 0, 0, .5));
+        border: none !important;
+
+        .inner-2pOSmK{
+            background-color: base.$bg02 !important;
+            border: 1px solid rgba(0, 0, 0, .2);
+        }
+
+        .focused-qp-W9B,
+        .item-1BCeuB:hover {
+            background-color: base.$bg02 !important;
+        }
+    }
+
+
+    .tabBarContainer-1IbuvX {
+        border: none !important;
+        background-color: base.$bg02 !important;
+
+        .tabBarItem-1b8RUP {
+            color: rgba($color: #ffffff, $alpha: 0.5) !important;
+        }
+
+        .tabBarItem-1b8RUP:hover {
+            border-color: rgba($color: #ffffff, $alpha: 0.5) !important;
+        }
+
+        .tabBarItem-1b8RUP[aria-selected='true'],
+        .tabBarItem-1b8RUP[aria-selected='true']:hover {
+            color: #fff !important;
+            border-color: base.$accent !important;
+        }
+    }
+
+    .userInfoSection-2u2hir:nth-child(2) {
+        border: none !important;
+    }
+
+    .connectedAccount-1xKpli {
+        background-color: base.$bg02;
+        border: none !important;
+    }
+
+    .listRow-hutiT_:hover {
+        background-color: base.$bg02;
+    }
+
+
+
+    .topSectionNormal-2-vo2m {
+        background-color: base.$bg01 !important;
+        @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3));
+    }
+    .topSectionPlaying-1J5E4n {
+        background-color: base.$grd1;
+        background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
+
+        .assets-3PQvAh {
+            @include base.shadows(0 7px 10px -4px rgba(0, 0, 0, .3));
+        }
+    }
+    .topSectionStreaming-1Tpf5X {
+        background-color: #593695;
+        background-image: linear-gradient(-45deg, #593695, #7651b6) !important;
+        @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.2));
+    }
+    .topSectionSpotify-1lI0-P {
+        background-color: #1db954;
+        background-image: linear-gradient(-45deg, #1db954, #1db944) !important;
+        @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.2));
+    }
+
+
+    .aboutMeSection-PUghFQ {
+        background-color: transparent !important;
+    }
+    .newBrand .textBadge-1fdDPJ[style*="rgb(88, 101, 242)"] {
+        background-color: base.$accent !important;
+    }
+}

@@ -1,0 +1,53 @@
+@use 'base';
+
+#app-mount {
+    .container-2o3qEW {
+        background: transparent !important;
+        flex-direction: unset;
+    }
+
+    .members-3WRCEx,
+    .members-3WRCEx>div {
+        background-color: base.$bg02 !important;
+    }
+
+    .clickable-28SzVr.container-1oeRFJ .activity-2EQDZv {
+        color: rgba($color: #fff, $alpha: 0.5) !important;
+    }
+
+    .clickable-28SzVr.container-1oeRFJ:hover .activity-2EQDZv {
+        color: rgba($color: #fff, $alpha: 0.9) !important;
+    }
+
+    .selected-1-Z6gm .layout-1qmrhw,
+    .clickable-28SzVr.container-1oeRFJ:hover .layout-1qmrhw {
+        background-color: base.$bg01 !important;
+    }
+
+    .selected-1-Z6gm .activity-2EQDZv {
+        color: rgba($color: #fff, $alpha: 0.9) !important;
+    }
+
+    .layout-1qmrhw {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .layout-1qmrhw::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        background-color: base.$grd1;
+        background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
+        @include base.transition(transform .2s ease);
+        @include base.transform(translateX(100%));
+    }
+
+    .clickable-28SzVr.container-1oeRFJ:hover .layout-1qmrhw::after,
+    .selected-1-Z6gm .layout-1qmrhw::after {
+        @include base.transform(translateX(0));
+    }
+}

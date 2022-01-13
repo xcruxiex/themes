@@ -1,0 +1,24 @@
+@use 'base';
+
+.container-18GwIk {
+    background-color: base.$bg01 !important;
+
+    .container-2rzKKA {
+        background-color: base.$bg02 !important;
+        border: none !important;
+    }
+
+    .icon-mJhEWn,
+    .header-3_zmOb {
+        background-color: rgba($color: #000000, $alpha: 0.15);
+    }
+
+    .checkbox-f1HnKB.checked-1pZh2h {
+        background-color: base.$accent !important;
+        border-color: base.$accent !important;
+    }
+}
+
+.chatHeaderBar-2fUORh {
+    background-color: rgba($color: #000000, $alpha: 0.15);
+}

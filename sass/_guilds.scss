@@ -1,0 +1,50 @@
+@use 'base';
+
+#app-mount {
+    .pageWrapper-2PwDoS {
+        background-color: base.$bg02 !important;
+    }
+
+    .card-2TuZPZ,
+    .iconMask-2fMR98 {
+        background-color: base.$bg01 !important;
+    }
+
+    .search-25t1e9 .searchBox-pyIJJj .input-2g-os5 {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .childWrapper-1j_1ub {
+        background-color: base.$bg01 !important;
+    }
+
+    .tutorialContainer-1pL9QS .childWrapper-1j_1ub > svg {display: none !important;}
+    .tutorialContainer-1pL9QS .childWrapper-1j_1ub::after {
+        position: absolute;
+        content: '';
+        width: 36px;
+        height: 36px;
+        top: 6px;
+        left: 6px;
+        background-image: linear-gradient(-45deg, base.$grd1, base.$grd2);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        -webkit-mask-box-image: url("https://i.imgur.com/6gPQfIO.png");
+        mask-image: url('https://i.imgur.com/6gPQfIO.png');
+    }
+
+    .folder-241Joy {
+        background-color: transparent !important;
+    }
+
+    .expandedFolderBackground-1kSAf6 {
+        background-color: var(--backgroundColor01) !important;
+    }
+
+    .circleIconButton-1VxDrg {
+        color: var(--mainColor) !important;
+        background-color: var(--backgroundColor01) !important;
+    }
+}

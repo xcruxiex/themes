@@ -1,0 +1,61 @@
+@use 'base';
+
+#app-mount {
+    .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
+    .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+        background-color: base.$accent !important;
+    }
+    .side-8zPYf6 .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
+    .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+        background-color: base.$bg01 !important;
+    }
+
+    .actionButton-3-B2x- {
+        background-color: base.$bg02 !important;
+    }
+    .peopleListItem-u6dGxF {
+        border: none !important;
+    }
+
+    .peopleListItem-u6dGxF.active-2UF8Zh,
+    .peopleListItem-u6dGxF:hover {
+        background-color: base.$bg01 !important;
+
+        .actionButton-3-B2x- {
+            background-color: base.$bg01 !important;
+        }
+    }
+
+    .akaBadge-3i7V3p {
+        background-color: base.$accent;
+        color: #fff !important;
+    }
+    .container-1oAagU {
+        background-color: base.$bg02 !important;
+
+        .scroller-hE2gWq {
+            border: none !important;
+            margin-left: 0 !important;
+        }
+    }
+
+    .divider-q3P9HC {display: none;}
+    .emptyCard-KDifrB,
+    .wrapper-2RrXDg {
+        background-color: base.$bg01 !important;
+        border: none !important;
+
+        .section-3G9aLW,
+        .inset-SbsSFp {
+            background-color: base.$bg02 !important;
+            box-shadow: 0 4px 5px -2px rgba($color: #000000, $alpha: 0.3);
+        }
+    }
+    .detailsBlock-24pLFz { // detailsBlock-24pLFz Unsure, but might work. (Old v. detailsBlock-FoDTGA)
+        background-color: base.$bg01 !important;
+    }
+
+    .feature-2IUcBI {
+        background-color: base.$bg01 !important;
+    }
+}

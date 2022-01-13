@@ -1,0 +1,51 @@
+$bg01: var(--backgroundColor01);
+$bg02: var(--backgroundColor02);
+$accent: var(--mainColor);
+$grd1: var(--gradientColor01);
+$grd2: var(--gradientColor02);
+
+@mixin transform($properties...) {
+    -webkit-transform: $properties;
+    -ms-transform: $properties;
+    -moz-transform: $properties;
+    -o-transform: $properties;
+    transform: $properties;
+}
+
+@mixin transition($properties...) {
+    -webkit-transition: $properties;
+    -ms-transition: $properties;
+    -o-transition: $properties;
+    -moz-transition: $properties;
+    transition: $properties;
+}
+
+@mixin shadows($properties...) {
+    -webkit-box-shadow: $properties;
+    -ms-box-shadow: $properties;
+    -moz-box-shadow: $properties;
+    -o-box-shadow: $properties;
+    box-shadow: $properties;
+}
+
+@mixin flex($type, $direction, $wrap, $justify, $align) {
+    display: -ms-flexbox;
+    display: $type;
+    flex-flow: $direction $wrap;
+    -ms-flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    -ms-flex-pack: $align;
+}
+
+@mixin user-select($property) {
+    -webkit-user-select: $property;
+    -moz-user-select: $property;
+    -ms-user-select: $property;
+    user-select: $property;
+}
+
+@mixin blur($property) {
+    -webkit-backdrop-filter: blur($property);
+    backdrop-filter: blur($property);
+}

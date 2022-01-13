@@ -1,0 +1,53 @@
+@use 'base';
+
+#bd-editor-panel {
+    border-radius: 8px;
+    overflow: hidden;
+}
+#bd-editor-controls {
+    background-color: base.$bg01;
+    border-radius: 8px 8px 0 0;
+}
+.monaco-editor, .monaco-editor .inputarea.ime-input {
+    color: rgba($color: #ffffff, $alpha: 0.09) !important;
+}
+.monaco-editor, .monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+    background-color: rgba($color: #000000, $alpha: 0.09) !important;
+}
+.monaco-editor .margin {
+    background-color: rgba($color: #000000, $alpha: 0.15) !important;
+}
+#bd-editor-controls button:hover {
+    background-color: base.$bg02 !important;
+}
+.controls-section .checkbox-inner {
+    width: 20px;
+    height: 20px;
+}
+.controls-section .checkbox-label {
+    line-height: 20px;
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    background-color: base.$accent;
+    border-color: base.$accent !important;
+}
+.controls-section .checkbox-inner .checkbox:checked+span::after {
+    left: 5px;
+    top: 1px;
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe span {
+    background-color: #f54748;
+    border-color: #f54748 !important;
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe span::after {
+    content: "×";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

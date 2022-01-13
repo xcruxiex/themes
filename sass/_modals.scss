@@ -1,0 +1,132 @@
+@use 'base';
+
+
+#app-mount {
+    .noiseCancellationPopout-2-e5Xz {
+        background-color: base.$bg02 !important;
+    }
+    .notches-2w7UZJ.black-11MaxJ,
+    .notches-2w7UZJ.gray-3wP137 {
+        background-image: linear-gradient(to left, base.$bg02, base.$bg02);
+        -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+        mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+    }
+
+    .progress-1S-TDF,
+    .tag-15zcD_,
+    .friendSelected-3cwmD7,
+    .guildSection-2Zyzy8,
+    .container-20TyK0[style="background-color: rgba(32, 34, 37, 0.9);"],
+    .content-38N-4k .message-G6O-Wv {
+        background-color: base.$bg01 !important;
+    }
+
+    .scroller-2qwVWY,
+    .quickswitcher-pKcM9U,
+    .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF {
+        background: base.$accent;
+    }
+
+    .quickSelectPopoutOption-2E2UmS:hover,
+    .input-3r5zZY {
+        background-color: base.$bg02;
+        color: #fff;
+    }
+    .attachedBars-2BCP3l,
+    .quickSelectPopout-2F0PXw,
+    .root-1e2tfc,
+    .resultFocused-3aIoYe {
+        background-color: base.$bg01;
+    }
+
+    .root-g14mjS {
+        background: base.$bg02 !important;
+        box-shadow: none !important;
+
+        .title-2Giw-4,
+        .title-OdeD-o,
+        .backButton-2Ps-B8,
+        .lookBlank-3eh9lL,
+        .footerTitle-3Bslxi,
+        .title-1_TkpU {
+            color: #fff !important;
+        }
+
+        .close-1mLglB,
+        .colorHeaderSecondary-g5teka {
+            color: #ccc !important;
+        }
+
+        .footer-31IekZ {
+            background: base.$bg02 !important;
+            box-shadow: none !important;
+        }
+
+        .container-x8Y1ix {
+            border: none !important;
+            background-color: base.$bg01;
+
+            .colorStandard-21JIj7 {
+                color: #fff !important;
+            }
+        }
+
+        .uploadIcon-2wV7s_ svg circle {
+            fill: base.$accent !important;
+        }
+    }
+
+    .input-2g-os5 {
+        background-color: base.$bg01 !important;
+        color: #fff !important;
+        border-color: transparent !important;
+    }
+
+    .input-2g-os5:hover,
+    .input-2g-os5:focus {
+        border-color: base.$accent !important;
+    }
+
+    .emojiSection-3QtaWO,
+    .tooltipPrimary-3qLMbS {
+        background-color: base.$accent !important;
+    }
+
+    .tooltipPointer-3L49xb {
+        border-top-color: base.$accent !important;
+    }
+
+    .uploadModal-2ie9O_{
+        background-color: base.$bg02 !important;
+    }
+    .footer-VCsJQY {
+        background-color: base.$bg02 !important;
+        box-shadow: inset 0 0 0 1000px rgba($color: #000000, $alpha: 0.3);
+    }
+
+    .checkbox-f1HnKB {
+        border-color: rgba($color: #ffffff, $alpha: 0.15);
+    }
+    .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] {
+        border-color: base.$accent !important;
+        background-color: base.$accent !important;
+    }
+    .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] svg path {
+        fill: #fff !important;
+    }
+}
+
+.bd-modal-wrapper .bd-modal-inner {
+    background-color: base.$bg02 !important;
+}
+
+.bd-toast {
+    background: base.$bg01;
+    border: none !important;
+}
+
+.bd-toast.toast-success {
+    background: base.$accent;
+    background-repeat: no-repeat;
+    background-position: 3px 50%;
+} 

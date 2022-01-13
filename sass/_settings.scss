@@ -1,0 +1,396 @@
+@use 'base';
+
+#app-mount {
+    .avatarUploaderInner-Oiob_P { // ??
+        border-color: base.$bg01 !important;
+    }
+    .profileBannerPreview-3_l0Wd { // ??
+        background-color: base.$bg01 !important;
+    }
+    .accountProfileCard-lbN7n- {
+        background-color: base.$bg01 !important;
+
+        .fieldList-in8WkP {
+            background-color: base.$bg02 !important;
+            padding: 15px;
+        }
+
+        .avatar-3mTjvZ {
+            border-color: base.$bg01 !important;
+        }
+    }
+
+    .contentColumn-1C7as6,
+    .customColumn-2n-oKU {
+        max-width: 100%;
+    }
+    .sidebarRegion-1VBisG {
+        justify-content: flex-start;
+        flex: 0 0;
+    }
+
+    .userSettingsVoice-1_dzjw .previewOverlay-2reuWf,
+    .pageActions-1crTQL,
+    .codeRedemptionRedirect-3SBiCp,
+    .paymentPane-ut5qKZ,
+    .connection-107AGH,
+    .accountList-305sx3,
+    .cardPrimaryOutline-1ofwVz,
+    .cardPrimary-3qRT__,
+    .cardPrimaryEditable-2mz_3i{
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+    .previewMessage-2uxBrA,
+    .paginator-1eqD2g,
+    .payment-2bOh4k,
+    .popoutList-10IFAa,
+    .phoneField-3NAPDv .inputField-1iYysB,
+    .phoneField-3NAPDv,
+    .background-3d_SjE {
+        background-color: base.$bg01 !important;
+    }
+    .paymentHeader-2o7Phd,
+    .bottomDivider-ZmTm-j {border: none !important;}
+
+    .expandedInfo-1W31i3,
+    .accountBtn-1YkMgV .accountBtnInner-3XK70s,
+    .integration-1f5IUi,
+    .connectionHeader-2rV1ze {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 10000px rgba($color: #000000, $alpha: 0.3);
+    }
+    .fieldList-in8WkP{
+        background-color: base.$bg02 !important;
+        box-shadow: 0 4px 5px -2px rgba($color: #000000, $alpha: 0.3);
+    }
+
+    .popoutListInput-1w4TxY .inner-2pOSmK {
+        border-radius: 4px;
+        background-color: base.$bg02 !important;
+        padding: 4px;
+    }
+
+    .popoutList-10IFAa {
+        box-shadow: 0 0 5px 5px rgba($color: #000000, $alpha: 0.3);
+    }
+    .selectableItem-3-fmiM:hover {
+        background-color: base.$bg02 !important;
+    }
+
+    .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover { 
+        background-color: base.$accent !important;
+    }
+
+    .side-2ur1Qk .themed-2-lozF.item-3XjbnG[style*='rgb(237, 66, 69)']:hover:not(.disabled-1Hwwfb),
+    .side-2ur1Qk .item-3XjbnG[style*='rgb(237, 66, 69)']:hover {
+        background: rgb(237, 66, 69) !important;
+        color: #fff !important;
+    }
+
+
+    .wrapper-SdcMKg {
+        border-color: base.$accent !important;
+    }
+    .option-1QI4c9:hover,
+    .selected-18Wszc.option-1QI4c9 {
+        background-color: base.$accent !important;
+    }
+    .option-1QI4c9 {
+        background-color: base.$bg01 !important;
+    }
+    .disabled-35mc5w {color: base.$bg01 !important;}
+    .disabled-35mc5w:hover {
+        color: #ed4245 !important;
+    }
+
+    .radioBar-3w9XY- {
+        background-color: base.$bg01 !important;
+
+        svg {
+            path {
+                fill: base.$accent;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: base.$accent;
+            }
+        }
+    }
+
+    .radioBar-3w9XY-[style*='#ed4245'] {
+        svg {
+            path {
+                fill: #ed4245;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #ed4245;
+            }
+        }
+    }
+    .radioBar-3w9XY-[style*='#cb8615'] {
+        svg {
+            path {
+                fill: #cb8615;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #cb8615;
+            }
+        }
+    }
+    .radioBar-3w9XY-[style*='#3ba55c'] {
+        svg {
+            path {
+                fill: #3ba55c;
+                opacity: 0.35;
+            }
+
+            circle {
+                fill: #3ba55c;
+            }
+        }
+    }
+
+
+ 
+    .container-2nx-BQ[style*='rgb'] {
+        background-color: base.$accent !important;
+    }
+    .container-2nx-BQ[style*='rgb(114, 118, 125)'] {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.05);
+    }
+
+    .bd-switch {
+        background-color: transparent !important;
+    }
+    .bd-switch .bd-switch-body {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.05);
+    }
+    .bd-switch input:checked+.bd-switch-body {
+        --switch-color: base.$accent;
+        background-color: base.$accent !important;
+    }
+
+
+    .slider-1NC-Gf {
+        .bar-1Bhnl9 {
+            background: base.$bg01;
+            box-shadow: inset 0 0 0 100px rgba($color: #ffffff, $alpha: 0.01);
+        }
+
+        .barFill-2Bh7CX {
+            background: base.$accent;
+        }
+
+        .defaultValue-19SZ-q .markValue-2U_-UG{
+            color: #fff !important;
+            letter-spacing: 1px;
+        }
+    }
+
+
+    .popout-1KHNAq,
+    .lookFilled-1GseHa.select-1Ia3hD,
+    .bd-search-wrapper,
+    .gameNameInput-3TuPuA:focus,
+    .gameNameInput-3TuPuA:hover {
+        border: none !important;
+        background-color: base.$bg02 !important;
+    }
+    .option-2eIyOn.focused-ODgjnC,
+    .option-2eIyOn:focus,
+    .option-2eIyOn:hover,
+    .option-2eIyOn[aria-selected=true],
+    .addGamePopout-3yePJc {
+        background-color: base.$bg01 !important;
+
+        .select-1YfRS9{
+            margin-bottom: 10px;
+        }
+
+        .css-3vaxre-menu {
+            background-color: base.$bg02 !important;
+            border: none !important;
+
+            
+            .css-rzbxvl-option {
+                background-color: base.$bg02 !important;
+                box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15);
+            }
+        }
+    }
+    .css-3vaxre-menu {
+        background-color: base.$bg01 !important;
+        border: 1px solid rgba($color: #000000, $alpha: 0.5) !important;
+        border-top: none !important;
+    }
+    .css-1ba14n5-option {
+        background-color: base.$bg02 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15);
+    }
+    .row-1Tg75B {
+        box-shadow: none !important;
+    }
+    .bd-select .bd-select-options {
+        background: base.$bg01 !important;
+        box-shadow: none !important;
+    }
+    .bd-select .bd-select-option.selected {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.15) !important;
+    }
+
+    .wrapper-3AZUiP {
+        background-color: base.$bg01 !important;
+    }
+
+
+    .game-3x3aDt {
+        box-shadow: none !important;
+    }
+    .default-1Tkeeg {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+        border: none !important;
+    }
+    .card-2ART2V:before {
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+
+
+    .bd-addon-list .bd-addon-card {
+        background: base.$bg01 !important;
+    }
+    .bd-addon-list .bd-addon-header {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+    }
+
+
+    .cardFolder-3H4uH4,
+    .settingCard-xZSDjS,
+    .descriptionBox-SKGNgB,
+    .tierInProgress-1vFUnw,
+    .tierBody-x9kBBp, // ??
+    .previewContainer-21fFBz,
+    .editButton-2SLR4j,
+    .settingsFormItem-25zW3t,
+    .enableContainer-1J91Aq,
+    .container-2w0lh0, // ???
+    .checklistContainer-12xGp5,
+    .featureCard-3XHbjy,
+    .analyticsCard-2fnrVG,
+    .developerPortalCtaWrapper-2PniQs,
+    .upsellFooter-ZYsio_, // ??
+    .upsellContainer-L9xv7w, // ??
+    .container-3ssFyj,
+    .memberRow-1FhJgR:hover,
+    .roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-),
+    .container-3EtAkD {
+        background-color: base.$bg01 !important;
+    }
+    .scroller-3_YDR2,
+    .welcomeChannel-_Q4qAA,
+    .focused-qp-W9B,
+    .item-1BCeuB:hover,
+    .selected-22ukbQ,
+    .titleContainer-3fPic2,
+    .header-JUTO-g {
+        background-color: base.$bg02 !important;
+    }
+    .settingsFormFieldWrapper-U99c9i {
+        background-color: base.$bg02 !important;
+        border: none !important;
+    }
+    .auditLog-1NVAY0 {
+        border: none !important;
+    }
+    .headerClickable-zGQJz3,
+    .headerDefault-1wrJcN { // ??
+        background-color: base.$bg01 !important;
+        border: none !important;
+    }
+
+    .top-K_jibn .brand-3g5E0C.item-3XjbnG:hover,
+    .top-K_jibn .brand-3g5E0C.item-3XjbnG:active,
+    .top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {
+        border-bottom-color: base.$accent !important;
+    }
+    .primary-38Hs-h:hover:not(.disabled-184-il),
+    .secondary-2bzKEX,
+    .featureIcon-3p1TC_, // ??
+    .icon-2DGsye {
+        background-color: base.$bg02 !important;
+
+        svg {
+            color: base.$accent !important;
+            path {
+                fill: base.$accent !important;
+            }
+        }
+    }
+    .button-YGmtzG:hover,
+    .notice-2olXi7 {
+        background-color: base.$accent !important;
+    }
+    .checklistIcon-D7psvE .checkbox-f1HnKB {
+        background-color: base.$accent !important;
+        border: none !important;
+    }
+    .checkbox-f1HnKB[style*='rgb(114, 137, 218)'] {
+        background-color: base.$accent !important;
+        border: none !important;
+    }
+
+
+    .group-LWHoGI {
+        border: none !important;
+    }
+    .item-4m-12I {
+        background-color: base.$bg01 !important;
+    }
+    .item-4m-12I.deny-1GO6vI.selected-3jieYB {
+        background-color: #ed4245 !important;
+    }
+    .item-4m-12I.allow-1h61-Z.selected-3jieYB {
+        background-color: #4fdc7b !important;
+    }
+
+ 
+    .wrapper-3nSjSv, // ??
+    .tier1-1ttHRY.banner-3Kac2g {// ??
+        background-image: linear-gradient(8.62deg, base.$grd2, base.$grd1 75.25%);
+    }
+
+    .cardWrapper-CyvwQv {
+        background-color: base.$bg01 !important;
+    }
+    .tierHeaderLocked-1a2opw,// ??
+    .enableContainer-6E-puu, // ??
+    .header-2Y0-A-,// ??
+    .checklistHeader-3liG7E,
+    .defaultIndicator-2ndWks,
+    .gemIndicatorContainer-PqApbX {
+        background-color: base.$bg01 !important;
+        box-shadow: inset 0 0 0 100px rgba($color: #000000, $alpha: 0.3);
+    }
+    .tierLock-1oFMOZ { // ??
+        color: base.$accent !important;
+    }
+    .background-3xJH_4,
+    .gemWithoutLabel-1od40y{
+        color: base.$bg01 !important;
+    }
+
+    .premiumIndicator-22GgcZ {
+        background-color: base.$accent !important;
+    }
+}
