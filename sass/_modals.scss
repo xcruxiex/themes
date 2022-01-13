@@ -2,116 +2,116 @@
 
 
 #app-mount {
-    .noiseCancellationPopout-iRK2A0 {
+    .noiseCancellationPopout-2-e5Xz {
         background-color: base.$bg02 !important;
     }
-    .notches-1sAcEM.black-1D3qCv,
-    .notches-1sAcEM.gray-3_LNYR {
+    .notches-2w7UZJ.black-11MaxJ,
+    .notches-2w7UZJ.gray-3wP137 {
         background-image: linear-gradient(to left, base.$bg02, base.$bg02);
         -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
         mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336393f'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
     }
 
-    .progress-1IcQ3A,
-    .tag-2gHSR7,
-    .friendSelected-1sa4bG,
-    .guildSection-1EoFKd,
-    .container-2VW0UT[style="background-color: rgba(32, 34, 37, 0.9);"],
-    .content-mK72R6 .message-2qRu38 {
+    .progress-1S-TDF,
+    .tag-15zcD_,
+    .friendSelected-3cwmD7,
+    .guildSection-2Zyzy8,
+    .container-20TyK0[style="background-color: rgba(32, 34, 37, 0.9);"],
+    .content-38N-4k .message-G6O-Wv {
         background-color: base.$bg01 !important;
     }
 
-    .scroller-zPkAnE,
-    .quickswitcher-3JagVE,
-    .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+    .scroller-2qwVWY,
+    .quickswitcher-pKcM9U,
+    .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .bgScale-1iWuPF {
         background: base.$accent;
     }
 
-    .quickSelectPopoutOption-opKBx9:hover,
-    .input-2VB9rf {
+    .quickSelectPopoutOption-2E2UmS:hover,
+    .input-3r5zZY {
         background-color: base.$bg02;
         color: #fff;
     }
-    .attachedBars-tZDmyV,
-    .quickSelectPopout-X1hvgV,
-    .root-3JVdIJ,
+    .attachedBars-2BCP3l,
+    .quickSelectPopout-2F0PXw,
+    .root-1e2tfc,
     .resultFocused-3aIoYe {
         background-color: base.$bg01;
     }
 
-    .root-1gCeng {
+    .root-g14mjS {
         background: base.$bg02 !important;
         box-shadow: none !important;
 
-        .title-Z_XiOC,
-        .title-LqAd9K,
-        .backButton-iA7KIs,
+        .title-2Giw-4,
+        .title-OdeD-o,
+        .backButton-2Ps-B8,
         .lookBlank-3eh9lL,
-        .footerTitle-2CYZch,
-        .title-3w8xhj {
+        .footerTitle-3Bslxi,
+        .title-1_TkpU {
             color: #fff !important;
         }
 
-        .close-hZ94c6,
-        .colorHeaderSecondary-3Sp3Ft {
+        .close-1mLglB,
+        .colorHeaderSecondary-g5teka {
             color: #ccc !important;
         }
 
-        .footer-2gL1pp {
+        .footer-31IekZ {
             background: base.$bg02 !important;
             box-shadow: none !important;
         }
 
-        .container-UC8Ug1 {
+        .container-x8Y1ix {
             border: none !important;
             background-color: base.$bg01;
 
-            .colorStandard-2KCXvj {
+            .colorStandard-21JIj7 {
                 color: #fff !important;
             }
         }
 
-        .uploadIcon-2IFzZU svg circle {
+        .uploadIcon-2wV7s_ svg circle {
             fill: base.$accent !important;
         }
     }
 
-    .input-cIJ7To {
+    .input-2g-os5 {
         background-color: base.$bg01 !important;
         color: #fff !important;
         border-color: transparent !important;
     }
 
-    .input-cIJ7To:hover,
-    .input-cIJ7To:focus {
+    .input-2g-os5:hover,
+    .input-2g-os5:focus {
         border-color: base.$accent !important;
     }
 
-    .emojiSection-3Fb9ix,
-    .tooltipPrimary-1d1ph4 {
+    .emojiSection-3QtaWO,
+    .tooltipPrimary-3qLMbS {
         background-color: base.$accent !important;
     }
 
-    .tooltipPointer-3ZfirK {
+    .tooltipPointer-3L49xb {
         border-top-color: base.$accent !important;
     }
 
-    .uploadModal-2ifh8j {
+    .uploadModal-2ie9O_{
         background-color: base.$bg02 !important;
     }
-    .footer-3mqk7D {
+    .footer-VCsJQY {
         background-color: base.$bg02 !important;
         box-shadow: inset 0 0 0 1000px rgba($color: #000000, $alpha: 0.3);
     }
 
-    .checkbox-1ix_J3 {
+    .checkbox-f1HnKB {
         border-color: rgba($color: #ffffff, $alpha: 0.15);
     }
-    .checkbox-1ix_J3[style*="rgb(79, 84, 92)"] {
+    .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] {
         border-color: base.$accent !important;
         background-color: base.$accent !important;
     }
-    .checkbox-1ix_J3[style*="rgb(79, 84, 92)"] svg path {
+    .checkbox-f1HnKB[style*="rgb(79, 84, 92)"] svg path {
         fill: #fff !important;
     }
 }
@@ -129,4 +129,4 @@
     background: base.$accent;
     background-repeat: no-repeat;
     background-position: 3px 50%;
-}
+} 

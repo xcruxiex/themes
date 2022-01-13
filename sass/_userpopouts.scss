@@ -1,53 +1,53 @@
 @use 'base';
 
 #app-mount {
-    .divider-ewBQKj {
+    .divider-1wtgZ3 {
         display: none;
     }
-    .bodyInnerWrapper-26fQXj {
+    .bodyInnerWrapper-2bQs1k {
         padding: 0;
     }
-    .bodyTitle-1ySSKn {
+    .bodyTitle-2Az3VQ {
         padding: 0 16px;
     }
-    .body-3HBlXn {
+    .body-2wLx-E {
         padding: 0 !important;
         padding-bottom: 16px !important;
     }
 
-    .aboutMeSection-1Fw5Ia {
+    .aboutMeSection-PUghFQ{
         padding: 16px;
     }
 
-    .avatar-AvHqJA {
+    .avatar-3QF_VA {
         border-color: base.$bg02 !important;
     }
 
-    .topSection-y3p-_D {
+    .topSection-13QKHs {
         background-color: base.$bg02 !important;
         box-shadow: 0 2px 15px rgba(0, 0, 0, .4);
         position: relative;
         z-index: 200;
     }
 
-    .tabBarContainer-37hZsr {
+    .tabBarContainer-sCZC4w{
         border: none !important;
         background-color: rgba(0, 0, 0, .2);
 
-        .selected-3s45Ha.item-PXvHYJ,
-        .selected-3s45Ha.item-PXvHYJ:hover {
+        .selected-g-kMVV.item-3XjbnG,
+        .selected-g-kMVV.item-3XjbnG:hover {
             color: base.$accent;
             border-bottom-color: base.$accent;
         }
     }
 
-    .body-r6_QPy {
+    .body-1Ukv50 {
         background-color: base.$bg01 !important;
     }
-    .infoScroller-1Qu30O {
+    .infoScroller-1QMpon {
         padding: 16px !important;
     }
-    .userInfoSection-q_35fn {
+    .userInfoSection-2u2hir {
         padding: 0 !important;
 
         .note-367eZJ {
@@ -60,49 +60,49 @@
         }
     }
 
-    .userInfoSection-q_35fn+.userInfoSection-q_35fn {
+    .userInfoSection-2u2hir+.userInfoSection-2u2hir {
         border: none !important;
     }
 
-    .connectedAccount-2Jb-Z0 {
+    .connectedAccount-1xKpli {
         border: none !important;
         background-color: rgba(0, 0, 0, .2);
     }
 
-    .listScroller-3GmIYj {
+    .listScroller-entkMk {
         padding: 8px 16px !important;
 
-        .listRow-1iDGel {
+        .listRow-2nO1T6 {
             margin: 0;
         }
-        .listRow-1iDGel:hover {
+        .listRow-2nO1T6:hover {
             background-color: base.$bg02 !important;
             border-radius: 6px;
         }
     }
 
-    .activity-2INFPu {
+    .activity-1gTu-L {
         overflow: hidden;
         position: relative;
         background-color: base.$bg01;
         padding: 16px;
         margin-bottom: 16px;
 
-        .headerText-1HLrL7,
-        .headerText-1HLrL7,
-        .anchor-3Z-8Bb,
-        .executedCommand-2GE3w2 .commandName-1klrjB,
-        .markup-2BOw-j a {
+        .headerText-3g1XK9,
+        .headerText-3g1XK9,
+        .anchor-1MIwyf,
+        .executedCommand-14-SNW .commandName-1KhvGm,
+        .markup-eYLPri a {
             color: #fff !important;
         }
 
-        .lookFilled-1Gx00P.colorGrey-2DXtkV {
+        .lookFilled-1GseHa.colorGrey-2DXtkV {
             background-color: #ffffff !important;
             color: #1DB954 !important;
             box-shadow: 0 2px 10px 0 rgba($color: #000, $alpha: 0.35);
         }
 
-        .bar-3urHkF {
+        .bar-1GpknY {
             background-color: rgba(0, 0, 0, .5);
         }
 
@@ -111,7 +111,7 @@
             z-index: 10;
         }
     }
-    .activity-2INFPu::before {
+    .activity-1gTu-L::before {
         background-color: base.$accent;
         background-image: linear-gradient(-45deg, base.$grd1, base.$grd2);
         opacity: .75;
@@ -134,7 +134,7 @@
         }
     }
 
-    .avatar-37jOim {
+    .avatar-2Vndt_ {
         background-color: base.$bg01 !important;
         border-color: base.$bg01 !important;
     }
@@ -147,8 +147,8 @@
     .activity-fViXj7 {
         padding: 16px !important;
 
-        .anchor-3Z-8Bb,
-        .headerText-1HLrL7 {color: white !important;}
+        .anchor-1MIwyf,
+        .headerText-3g1XK9 {color: white !important;}
 
         >svg {
             top: 16px;
@@ -157,23 +157,23 @@
 
             path {fill: white;}
         }
-        .timeBarUserPopout-AWPFf2 .bar-3urHkF {
+        .timeBarUserPopout-qLXZaR .bar-1GpknY {
             background-color: base.$bg01;
         }
     }
 
-    .customStatus-oN4ZZY {
+    .customStatus-3XAoF9 {
         padding: 0 16px;
     }
 
-    .userPopout-3XzG_A {
+    .userPopout-2j1gM4 {
         background-color: base.$bg01 !important;
         @include base.shadows(0 0 10px 0 rgba(0, 0, 0, .5));
     }
 
-    .footer-3UKYOU,
-    .bodyInnerWrapper-26fQXj,
-    .userPopout-xaxa6l {
+    .footer-3naVBw,
+    .bodyInnerWrapper-2bQs1k,
+    .userPopout-2j1gM4 {
         background-color: base.$bg01 !important;
     }
 
@@ -199,12 +199,12 @@
         }
     }
 
-    .rolesList-1geHY1 {
+    .rolesList-3uZoaa {
         padding: 0 16px;
     }
 
 
-    .note-1oo11U {
+    .note-Go5ZP2 {
         margin: 0 16px !important;
 
         textarea {
@@ -227,34 +227,34 @@
     }
 
 
-    .role-2irmRk {
+    .role-2TIOKu{
         background-color: transparent !important;
         border: 2px solid currentColor;
         border-radius: 50px;
     }
 
-    .addButton-pcyyf6 {
+    .addButton-1_dZYu {
         border: none !important;
     }
 
-    .container-3XJ8ns {
+    .container-2O1UgZ {
         background-color: base.$bg01 !important;
         @include base.shadows(inset 0 0 0 100000px rgba($color: #000, $alpha: 0.3), 0 0 10px 0 rgba(0, 0, 0, .5));
         border: none !important;
 
-        .inner-2P4tQO {
+        .inner-2pOSmK{
             background-color: base.$bg02 !important;
             border: 1px solid rgba(0, 0, 0, .2);
         }
 
-        .focused-dKLoQt,
-        .item-2J2GlB:hover {
+        .focused-qp-W9B,
+        .item-1BCeuB:hover {
             background-color: base.$bg02 !important;
         }
     }
 
 
-    .tabBarContainer-1s1u-z {
+    .tabBarContainer-1IbuvX {
         border: none !important;
         background-color: base.$bg02 !important;
 
@@ -273,11 +273,11 @@
         }
     }
 
-    .userInfoSection-2acyCx:nth-child(2) {
+    .userInfoSection-2u2hir:nth-child(2) {
         border: none !important;
     }
 
-    .connectedAccount-36nQx7 {
+    .connectedAccount-1xKpli {
         background-color: base.$bg02;
         border: none !important;
     }
@@ -296,7 +296,7 @@
         background-color: base.$grd1;
         background-image: linear-gradient(-45deg, base.$grd1, base.$grd2) !important;
 
-        .assets-VMAukC {
+        .assets-3PQvAh {
             @include base.shadows(0 7px 10px -4px rgba(0, 0, 0, .3));
         }
     }
@@ -312,10 +312,10 @@
     }
 
 
-    .aboutMeSection---MkQa {
+    .aboutMeSection-PUghFQ {
         background-color: transparent !important;
     }
-    .newBrand .textBadge-1iylP6[style*="rgb(88, 101, 242)"] {
+    .newBrand .textBadge-1fdDPJ[style*="rgb(88, 101, 242)"] {
         background-color: base.$accent !important;
     }
 }

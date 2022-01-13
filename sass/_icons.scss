@@ -1,64 +1,64 @@
 @use 'base';
 
 #app-mount {
-    .icon-1S6UIr,
-    .icon-1DeIlz,
-    .overlayToggleIconOn-3UNmty .fill-1ugeBG,
-    .actionIcon-PgcMM2,
-    .icon-LYJorE,
-    .iconContainer-2-XQPY,
-    .icon-35-fSh,
-    .linkButtonIcon-Mlm5d6,
-    .button-14-BFJ svg,
-    .addButtonIcon-2CbG1X,
-    .icon-3Gkjwa,
-    .connectedAccountOpenIcon-2cNbq5,
-    .arrow-gKvcEx,
-    .colorDefault-2K3EoJ .checkbox-3s5GYZ,
-    .colorDefault-2K3EoJ .radioSelection-1HmrQS,
-    .colorDefault-2K3EoJ .subtext-13Lvrj,
-    .flowerStar-1GeTsn path,
-    .topSectionNormal-2-vo2m .additionalActionsIcon-1FoUlE,
-    .attachButtonPlus-jWVFah,
-    .colorLink-2vG20E,
-    .icon-ek0zSM,
-    .channelNameIcon-27Cx1g,
-    .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a,
-    .option-96V44q.selected-rZcOL- .plusIcon-v0BTrL,
-    .button-1w5pas,
-    .container-7Unqij svg,
-    .buttonWrapper-1ZmCpA svg,
-    .icon-22AiRD {
+    .icon-3CDcPB,
+    .icon-2W8DHg,
+    .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
+    .actionIcon-2sw4Sl,
+    .icon-E4cW1l,
+    .iconContainer-1-SsTR,
+    .icon-1WVg4I,
+    .linkButtonIcon-7rsZcu,
+    .button-12Fmur svg,
+    .addButtonIcon-3rJeaD,
+    .icon-1zidb7,
+    .connectedAccountOpenIcon-1yfBsb, // Unsure again connectedAccountOpenIcon-1yfBsb | Old connectedAccountOpenIcon-2cNbq5
+    .arrow-2HswgU,
+    .colorDefault-CDqZdO .checkbox-hADx5o,
+    .colorDefault-CDqZdO .radioSelection-1UHp0b,
+    .colorDefault-CDqZdO .subtext-2GlkbE,
+    .flowerStar-2tNFCR path,
+    .topSectionNormal-2-vo2m .additionalActionsIcon-3Cy8UU, // Unsure again additionalActionsIcon-3Cy8UU | O additionalActionsIcon-1FoUlE | Also topSection Doesnt show ?
+    .attachButtonPlus-3IYelE,
+    .colorLink-2apWfY,
+    .icon-3N9zCW,
+    .channelNameIcon-2d0YcP,
+    .resultsGroup-1BPR25 .searchLearnMore-7__o_n a,
+    .option-2KkUJO.selected-rZcOL- .plusIcon-2V7coV,
+    .button-2BMPJJ,
+    .container-7Unqij svg, // Unsure
+    .buttonWrapper-3YFQGJ svg,
+    .icon-2xnN2Y {
         color: base.$accent !important;
         fill: base.$accent !important;
     }
 
-    .colorMuted-HdFt4q,
-    .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
-    .colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS,
-    .colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+    .colorMuted-20987_,
+    .colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
+    .colorDefault-CDqZdO.focused-3qFvc8 .radioSelection-1UHp0b,
+    .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE {
         color: #fff !important;
         fill: #fff !important;
     }
 
-    .botTagRegular-2HEhHi,
-    .wanderingCubesItem-WPXqao {
+    .botTagRegular-kpctgU,
+    .wanderingCubesItem-3Us-UG {
         background-color: base.$accent !important;
     }
 
-    .childContainer-1wxZNh {
+    .childContainer-U_a6Yh {
         top: 1px;
     }
 
-    .check-2by_h9 {
+    .check-K_srvn {
         background: base.$accent !important;
         -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
     }
-    .wordmarkWindows-1v0lYD {
+    .wordmarkWindows-2dq6rw {
         color: base.$accent !important;
     }
 
-    .wordmarkWindows-1v0lYD::after {
+    .wordmarkWindows-2dq6rw::after {
         position: absolute;
         content: 'NOCTURNAL';
         top: 7px;

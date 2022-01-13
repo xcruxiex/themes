@@ -1,37 +1,37 @@
 @use 'base';
 
 #app-mount {
-    .reaction-1hd86g {
+    .reaction-2A2y9y{
         background-color: base.$bg01 !important;
     }
 
-    .reaction-1hd86g.reactionMe-wv5HKu {
+    .reaction-2A2y9y.reactionMe-3I9gFK {
         background-color: base.$accent !important;
         border-color: rgba($color: #ffffff, $alpha: 0.5) !important;
     }
 
-    .root-1gCeng {
-        .reactionSelected-1pqISm,
-        .reactors-Blmlhw {
+    .root-g14mjS {
+        .reactionSelected-1aMb2K,
+        .reactors-1VXca7 {
             background-color: base.$bg01 !important;
         }
 
-        .scroller-1-nKid {
+        .scroller-2GkvCq {
             background-color: base.$bg02 !important;
         }
     }
-    .inspector-S2gM3e,
-    .wrapper-1-Fsb8,
-    .emojiPicker-3PwZFl {
+    .inspector-DFKXwB,
+    .wrapper-1NNaWG,
+    .emojiPicker-6YCk8a {
         background-color: base.$bg01 !important;
     }
-    .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
-    .wrapper-2Gsate,
-    .container-2XeR5Z {
+    .emojiItem-277VFM.emojiItemSelected-2Lg50V,
+    .wrapper-22rqw6,
+    .container-1SX9VC {
         background-color: base.$bg02 !important;
     }
-    .categoryItemDefaultCategorySelected-_HCKoz,
-    .categoryItemDefaultCategorySelected-_HCKoz:hover {
+    .categoryItemDefaultCategorySelected-2YeRUu,
+    .categoryItemDefaultCategorySelected-2YeRUu:hover {
         background-color: base.$accent !important;
     }
-}
+} 

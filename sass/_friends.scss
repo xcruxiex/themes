@@ -1,61 +1,61 @@
 @use 'base';
 
 #app-mount {
-    .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
-    .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
+    .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
         background-color: base.$accent !important;
     }
-    .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb),
-    .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover:not(.disabled-1Hwwfb) {
+    .side-8zPYf6 .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
+    .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
         background-color: base.$bg01 !important;
     }
 
-    .actionButton-uPB8Fs {
+    .actionButton-3-B2x- {
         background-color: base.$bg02 !important;
     }
-    .peopleListItem-2nzedh {
+    .peopleListItem-u6dGxF {
         border: none !important;
     }
 
-    .peopleListItem-2nzedh.active-rhSpJJ,
-    .peopleListItem-2nzedh:hover {
+    .peopleListItem-u6dGxF.active-2UF8Zh,
+    .peopleListItem-u6dGxF:hover {
         background-color: base.$bg01 !important;
 
-        .actionButton-uPB8Fs {
+        .actionButton-3-B2x- {
             background-color: base.$bg01 !important;
         }
     }
 
-    .akaBadge-1M-1Gw {
+    .akaBadge-3i7V3p {
         background-color: base.$accent;
         color: #fff !important;
     }
-    .container-lRFx4q {
+    .container-1oAagU {
         background-color: base.$bg02 !important;
 
-        .scroller-2ZPeAD {
+        .scroller-hE2gWq {
             border: none !important;
             margin-left: 0 !important;
         }
     }
 
-    .divider-3FBTu8 {display: none;}
-    .emptyCard-1RJw8n,
-    .wrapper-3D2qGf {
+    .divider-q3P9HC {display: none;}
+    .emptyCard-KDifrB,
+    .wrapper-2RrXDg {
         background-color: base.$bg01 !important;
         border: none !important;
 
-        .section-2gLsgF,
-        .inset-3sAvek {
+        .section-3G9aLW,
+        .inset-SbsSFp {
             background-color: base.$bg02 !important;
             box-shadow: 0 4px 5px -2px rgba($color: #000000, $alpha: 0.3);
         }
     }
-    .detailsBlock-FoDTGA {
+    .detailsBlock-24pLFz { // detailsBlock-24pLFz Unsure, but might work. (Old v. detailsBlock-FoDTGA)
         background-color: base.$bg01 !important;
     }
 
-    .feature-2w65J5 {
+    .feature-2IUcBI {
         background-color: base.$bg01 !important;
     }
 }

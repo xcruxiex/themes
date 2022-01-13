@@ -1,39 +1,39 @@
 @use 'base';
 
 #app-mount {
-    .container-2wlB3z {
+    .container-2o3qEW {
         background: transparent !important;
         flex-direction: unset;
     }
 
-    .members-1998pB,
-    .members-1998pB>div {
+    .members-3WRCEx,
+    .members-3WRCEx>div {
         background-color: base.$bg02 !important;
     }
 
-    .clickable-1JJAn8.container-2Pjhx- .activity-2Gy-9S {
+    .clickable-28SzVr.container-1oeRFJ .activity-2EQDZv {
         color: rgba($color: #fff, $alpha: 0.5) !important;
     }
 
-    .clickable-1JJAn8.container-2Pjhx-:hover .activity-2Gy-9S {
+    .clickable-28SzVr.container-1oeRFJ:hover .activity-2EQDZv {
         color: rgba($color: #fff, $alpha: 0.9) !important;
     }
 
-    .selected-aXhQR6 .layout-2DM8Md,
-    .clickable-1JJAn8.container-2Pjhx-:hover .layout-2DM8Md {
+    .selected-1-Z6gm .layout-1qmrhw,
+    .clickable-28SzVr.container-1oeRFJ:hover .layout-1qmrhw {
         background-color: base.$bg01 !important;
     }
 
-    .selected-aXhQR6 .activity-2Gy-9S {
+    .selected-1-Z6gm .activity-2EQDZv {
         color: rgba($color: #fff, $alpha: 0.9) !important;
     }
 
-    .layout-2DM8Md {
+    .layout-1qmrhw {
         position: relative;
         overflow: hidden;
     }
 
-    .layout-2DM8Md::after {
+    .layout-1qmrhw::after {
         content: "";
         position: absolute;
         left: 0;
@@ -46,8 +46,8 @@
         @include base.transform(translateX(100%));
     }
 
-    .clickable-1JJAn8.container-2Pjhx-:hover .layout-2DM8Md::after,
-    .selected-aXhQR6 .layout-2DM8Md::after {
+    .clickable-28SzVr.container-1oeRFJ:hover .layout-1qmrhw::after,
+    .selected-1-Z6gm .layout-1qmrhw::after {
         @include base.transform(translateX(0));
     }
 }

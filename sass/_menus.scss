@@ -1,50 +1,50 @@
 @use 'base';
 
 #app-mount {
-    .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
-    .menu-3sdvDG {
+    .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
+    .menu-1QACrS {
         background-color: base.$bg01;
     }
 
-    .colorDefault-2K3EoJ.focused-3afm-j {
+    .colorDefault-CDqZdO.focused-3qFvc8 {
         background-color: base.$accent !important;
     }
 
-    .colorDefault-2K3EoJ.focused-3afm-j .icon-LYJorE {
+    .colorDefault-CDqZdO.focused-3qFvc8 .icon-E4cW1l {
         color: #fff !important;
     }
 
-    .colorDanger-2qLCe1 .icon-LYJorE {
+    .colorDanger-3n-KnP .icon-E4cW1l {
         color: #ed4245 !important;
     }
 
-    .colorDanger-2qLCe1.focused-3afm-j {
+    .colorDanger-3n-KnP.focused-3qFvc8 {
         background-color: #ed4245 !important;
     }
 
 
-    .colorBrand-ROmMP1 .label-22pbtT,
-    .colorBrand-ROmMP1 .icon-LYJorE {
+    .colorBrand-3cPPsm .label-2gNW3x,
+    .colorBrand-3cPPsm .icon-E4cW1l {
         color: rgb(58, 153, 66) !important;
     }
 
-    .colorBrand-ROmMP1.focused-3afm-j {
+    .colorBrand-3cPPsm.focused-3qFvc8 {
         background-color: rgb(58, 153, 66) !important;
     }
 
-    .colorBrand-ROmMP1.focused-3afm-j .label-22pbtT,
-    .colorBrand-ROmMP1.focused-3afm-j .icon-LYJorE {
+    .colorBrand-3cPPsm.focused-3qFvc8 .label-2gNW3x,
+    .colorBrand-3cPPsm.focused-3qFvc8 .icon-E4cW1l {
         color: #fff !important;
     }
 
-    .scroller-3BxosC {
+    .scroller-1bVxF5 {
         padding: 6px 8px !important;
 
-        .separator-2I32lJ {display: none;}
+        .separator-1So4YB {display: none;}
     }
 
-    .clickable-25tGDB .header-2V-4Sw:hover,
-    .selected-31Nl7x .header-2V-4Sw {
+    .clickable-vvKY2q .header-3OsQeK:hover,
+    .selected-1GtAC5 .header-3OsQeK {
         background-color: base.$bg02 !important;
     }
 
@@ -59,41 +59,41 @@
     .autocomplete-3l_oCd {
         background-color: base.$bg01 !important;
 
-        .selected-1Tbx07 {
+        .selected-3H3-RC {
             background-color: base.$bg02 !important;
         }
     }
 
-    .contentWrapper-SvZHNd {
+    .contentWrapper-3vHNP2 {
         background-color: base.$bg01 !important;
 
-        .inspector-S2gM3e,
-        .wrapper-1-Fsb8 {
+        .inspector-DFKXwB,
+        .wrapper-1NNaWG {
             background-color: base.$bg01 !important;
         }
 
-        .navButtonActive-1MkytQ,
-        .container-2XeR5Z,
-        .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+        .navButtonActive-1EqC5l,
+        .container-1SX9VC,
+        .emojiItem-277VFM.emojiItemSelected-2Lg50V {
             background-color: base.$bg02 !important;
         }
 
-        .wrapper-2Gsate {
+        .wrapper-22rqw6 {
             background-color: base.$bg01 !important;
             box-shadow: inset 0 0 0 1000px rgba($color: #000000, $alpha: 0.3);
         }
     }
 
-    .categoryFadeBlurple-1j72_A {
+    .categoryFadeBlurple-1HuV1x {
         background-color: transparent !important;
     }
-    .focused-1En8bG:after,
-    .result-3w1ZcL:hover:after {
+    .focused-q9B2e4:after,
+    .result-3OpoO7:hover:after {
         box-shadow: inset 0 0 0 2px base.$accent,
         inset 0 0 0 3px #2f3136 !important;
     }
 
-    .bar-m8LgSC {
+    .bar-2MWHzg{
         background-color: base.$bg02;
     }
-}
+} 
