@@ -38,7 +38,7 @@
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 
 @import url("https://codedotspectra.github.io/themes/core/hljs.css"); /* Better Hljs */
-@import url("https://discordstyles.github.io/RadialStatus/base.css"); /* Radial Status */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
 :root {
   --backgroundColor01: #1e2731;
   --backgroundColor02: #12171d;
