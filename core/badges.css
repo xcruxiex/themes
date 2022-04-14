@@ -765,3 +765,17 @@
   background-color: transparent;
   color: #d078ff;
 }
+
+/*90gq29*/
+.avatar-2e8lTP[src*="548537815026106390"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
+  background-image: url('https://i.imgur.com/Gw2Rr0E.png');
+  }
+.avatar-2e8lTP[src*="548537815026106390"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
+  content: "Sus?";
+  animation: fadeIn .5s linear 1;
+  color: #ff8080;
+  width: 75px;
+  text-align: center;
+  background-color: transparent;
+  background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+}
