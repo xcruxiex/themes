@@ -765,13 +765,3 @@
   background-color: transparent;
   color: #d078ff;
 }
-
-/* Sypher */
-.avatar-2e8lTP[src*="321332200668790786"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
-  background-image: url('https://i.imgur.com/7kQcv3Q.gif');}
-.avatar-2e8lTP[src*="321332200668790786"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
-  content: "Synergy Development";
-  animation: scaleIn .2s linear 1;
-  background-color: transparent;
-  color: #d078ff;
-}
