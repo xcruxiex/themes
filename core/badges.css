@@ -626,6 +626,50 @@
   animation: scaleIn .2s linear 1;
 }
 
+/* Sypher */
+.avatar-2e8lTP[src*="321332200668790786"]+h2>.headerText-2z4IhQ>.username-h_Y3Us::after {
+  content: "";
+  background-image: url('https://i.imgur.com/7kQcv3Q.gif');
+}
+
+.avatar-2e8lTP[src*="321332200668790786"]+h2>.headerText-2z4IhQ>.username-h_Y3Us:hover::after {
+  content: "Synergy Development";
+  animation: scaleIn .2s linear 1;
+  background-color: transparent;
+  color: #d078ff;
+}
+
+/*90gq29*/
+.avatar-2e8lTP[src*="548537815026106390"]+h2>.headerText-2z4IhQ>.username-h_Y3Us::after {
+  content: "";
+  background-image: url('https://i.imgur.com/Gw2Rr0E.png');
+}
+
+.avatar-2e8lTP[src*="548537815026106390"]+h2>.headerText-2z4IhQ>.username-h_Y3Us:hover::after {
+  content: "Sus?";
+  animation: fadeIn .5s linear 1;
+  color: #ff8080;
+  width: 75px;
+  text-align: center;
+  background-color: transparent;
+  background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+}
+
+/*vatican*/
+.avatar-2e8lTP[src*="531167082243686433"]+h2>.headerText-2z4IhQ>.username-h_Y3Us::after {
+  content: "";
+  background-image: url('https: //cdn.discordapp.com/attachments/840032147444203550/977663573050400878/ring.gif');
+}
+
+.avatar-2e8lTP[src*="531167082243686433"]+h2>.headerText-2z4IhQ>.username-h_Y3Us:hover::after {
+  content: "</>";
+  animation: fadeIn .5s linear 1;
+  color: red;
+  width: 75px;
+  text-align: center;
+  background-color: black;
+}
+
   /*==|STREAMERS|==*/
   /* mesicek */
 .avatar-2e8lTP[src*="812242528677396491"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us::after {
@@ -756,26 +800,15 @@
   color: #fff;
 }
 
-/* Sypher */
-.avatar-2e8lTP[src*="321332200668790786"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
-  background-image: url('https://i.imgur.com/7kQcv3Q.gif');}
-.avatar-2e8lTP[src*="321332200668790786"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
-  content: "Synergy Development";
-  animation: scaleIn .2s linear 1;
-  background-color: transparent;
-  color: #d078ff;
+/* LaunchpadByMike */
+.avatar-2e8lTP[src*="324511224291393538"]+h2>.headerText-2z4IhQ>.username-h_Y3Us::after {
+  content: "";
+  background-image: url('https://i.imgur.com/DgupKzH.png');
 }
 
-/*90gq29*/
-.avatar-2e8lTP[src*="548537815026106390"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
-  background-image: url('https://i.imgur.com/Gw2Rr0E.png');
-  }
-.avatar-2e8lTP[src*="548537815026106390"] + h2 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
-  content: "Sus?";
-  animation: fadeIn .5s linear 1;
-  color: #ff8080;
-  width: 75px;
-  text-align: center;
-  background-color: transparent;
-  background-image: url('https://i.imgur.com/bzmEwnm.png') !important;
+.avatar-2e8lTP[src*="324511224291393538"]+h2>.headerText-2z4IhQ>.username-h_Y3Us:hover::after {
+  content: "twitch.tv/launchpadbymike";
+  animation: scaleIn .2s linear 1;
+  background-color: #6441a5;
+  color: #fff;
 }
