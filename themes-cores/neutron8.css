@@ -659,8 +659,6 @@ body {
 .wrapper-1HIH0j::after {
     content: "";
     position: absolute;
-    width: 110%;
-    height: 110%;
     left: -5%;
     top: -5%;
     background-image: var(--backgroundImage);
