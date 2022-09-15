@@ -2242,3 +2242,115 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     height: 48px;
     width: 48px;
 }
+.addReactButton-3bSQb6, .buttonInner-3aRbcx, .container-2qVG6q:hover, .container-3XgAHv, .iconWrapper-3FqQ75, .interactiveSelected-29CP8y, .pill-3pRQlO, .sidebarCard-1Gn1ch, .theme-dark .container-3wLKDe {
+    background-color: var(--backgroundColor)
+}
+
+.connectContainer-1hylYM, .connection-YOVI9j, .connectionHeader-Ixbb1s, .mainCard-3KBsBI {
+    background-color: #00000080 !important
+}
+
+.chat-1-OBC7, .container-3YcgdM, .ctaBar-Nhk8yY, .scroller-RfJjkV, .theme-dark .perk-19D_HN, .theme-dark .perksModal-CLcR1c, .theme-dark .tierBody-3ju-rc, .theme-dark .tierHeaderLocked-3ItHYn {
+    background-color: transparent;
+}
+
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
+    background-color: var(--backgroundColor);
+    border: 3px solid var(--themeColor1)
+}
+
+.container-3YcgdM {
+    border: none
+}
+
+.divider-AZrXIA {
+    display: none
+}
+
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {
+    background-color: var(--backgroundColor)
+}
+
+.contentColumnWide-2CgNjO {
+    padding: 60px 138px 80px
+}
+
+.overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .userPopoutInnerNonPremium-tEvJkL, .userPopoutInnerPremiumWithoutBanner-na5t_W, .userPopoutInnerWithBanner-wsoegj {
+    background: var(--backgroundColor)
+}
+
+.section-3FmfOT {
+    padding: 12px 13px 0 12px
+}
+
+.option-ayUoaq:after {
+    background: 0 0
+}
+
+.menu-1QACrS{
+    background-color:  var(--backgroundColor);
+}
+
+.list-3YHPPb{
+     background-color:  var(--backgroundColor);
+}
+
+.header-3_zmOb{
+    background-color:  var(--backgroundColor);
+}
+.container-2rzKKA{
+    background-color:  var(--backgroundColor);
+    border: 2px solid var(--themeColor1);
+}
+
+.messageContainer-3VTXBC{
+    border: 2px solid var(--themeColor1);
+}
+
+.reaction-3vwAF2{
+    background-color:  var(--backgroundColor);
+}
+
+.button-1zW0-r{
+    background-color:  var(--backgroundColor);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD{
+    background-color:  var(--backgroundColor);
+}
+
+.wrapper-24fR1R{
+    background-color:  var(--backgroundColor);
+}
+
+.theme-dark .tierBody-1d3UiS{
+    background-color:  var(--backgroundColor);
+}
+
+.tierHeaderContent-2SPBAA{
+    background-color:  var(--backgroundColor);
+}
+
+.featureCard-3XHbjy {
+    background-color:  var(--backgroundColor);
+}
+
+.theme-dark .tooltipPrimary-3qLMbS, .theme-light .tooltipPrimary-3qLMbS{
+    background-color:  var(--backgroundColor);
+}
+
+.card-2xlCYc{
+    background-color:  var(--backgroundColor);
+}
+
+.card-2xlCYc:hover{
+    background-color:  var(--backgroundColor);
+}
+
+.promotionCard-mo7ClH{
+    background-color:  var(--backgroundColor) !important;
+}
+
+.overlayBackground-H1K9ZY, .profileBadges-1GBCVy{
+    background-color:  var(--backgroundColor) !important;
+}
