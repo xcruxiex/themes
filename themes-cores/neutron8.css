@@ -2353,3 +2353,27 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .overlayBackground-H1K9ZY, .profileBadges-1GBCVy{
     background-color:  var(--backgroundColor) !important;
 }
+.container-2nXUah {
+    background-color: var(--backgroundColor);
+}
+.theme-dark .tierBody-1d3UiS {
+    background-color: var(--backgroundColor);
+}
+.theme-dark .subscribersPopoutUser-3Az2Dc, .theme-dark .tierHeaderLocked-30MLlO {
+    background-color: var(--backgroundColor);
+}
+.theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
+    background-color: var(--backgroundColor);
+}
+.theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj {
+    background-color: var(--backgroundColor);
+}
+.xboxUpsellWrapper-3nr36v {
+    background-color: var(--backgroundColor);
+}
+.valueProp-3RkB9k, .valuePropIconContainer-334reN {
+    background-color: var(--backgroundColor);
+}
+.container-2nXUah {
+    background-color: var(--backgroundColor);
+}
