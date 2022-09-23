@@ -2277,6 +2277,25 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .overlayBackground-2Zjm9f, .userPopoutInnerNonPremium-1EOFgI, .userPopoutInnerNonPremium-tEvJkL, .userPopoutInnerPremiumWithoutBanner-1FAP-h, .userPopoutInnerWithBanner-24GX6I {
     background: var(--backgroundColor)
 }
+.userPopoutInner-1v4xcM:before{
+    background: var(--backgroundColor);
+}
+
+.defaultColor-HXu-5n{
+    color: #fff;
+}
+
+.text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv{
+    color: #fff;
+}
+
+.userTagUsernameNoNickname-2e_xaO{
+    color: #fff;
+}
+
+.role-2TIOKu{
+    color: #fff
+}
 
 .section-3FmfOT {
     padding: 12px 13px 0 12px
