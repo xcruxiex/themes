@@ -2274,10 +2274,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     padding: 60px 138px 80px
 }
 
-.overlayBackground-arbZMT, .userPopoutInnerNonPremium-3zrFkp, .userPopoutInnerNonPremium-tEvJkL, .userPopoutInnerPremiumWithoutBanner-na5t_W, .userPopoutInnerWithBanner-wsoegj {
-    background: var(--backgroundColor)
-}
-
 .section-3FmfOT {
     padding: 12px 13px 0 12px
 }
@@ -2356,24 +2352,71 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .container-2nXUah {
     background-color: var(--backgroundColor);
 }
+
 .theme-dark .tierBody-1d3UiS {
     background-color: var(--backgroundColor);
 }
+
 .theme-dark .subscribersPopoutUser-3Az2Dc, .theme-dark .tierHeaderLocked-30MLlO {
     background-color: var(--backgroundColor);
 }
+
 .theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
     background-color: var(--backgroundColor);
 }
+
 .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj {
     background-color: var(--backgroundColor);
 }
+
 .xboxUpsellWrapper-3nr36v {
     background-color: var(--backgroundColor);
 }
+
 .valueProp-3RkB9k, .valuePropIconContainer-334reN {
     background-color: var(--backgroundColor);
 }
+
 .container-2nXUah {
     background-color: var(--backgroundColor);
 }
+
+.userProfileInnerWithBanner-3CJ1Og{
+    background: var(--backgroundColor);
+}
+
+.overlayBackground-1KgwVi{
+    background: var(--backgroundColor) !important;
+}
+
+.userProfileInnerPremiumWithoutBanner-37uB4Q{
+    background: var(--backgroundColor) !important;
+}
+
+.userProfileInnerNonPremium-1XjSjn{
+    background: var(--backgroundColor);
+}
+
+.userPopoutInner-1hXSeY:before{
+    background-color: transparent !important;
+}
+
+.profileBadges-31rDHI{
+    background-color: var(--backgroundColor);
+}
+
+.userTagUsernameBase-3Nfr5j{
+    color: #fff;
+}
+
+.text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv{
+    color: #fff;
+}
+
+.title-1r9MQ6{
+    color: #fff;
+}
+.member-2gU6Ar{
+    background: transparent;
+}
+
