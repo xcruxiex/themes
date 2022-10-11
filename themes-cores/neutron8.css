@@ -10,10 +10,10 @@
     --themeColor2: #5B86E5;
     --customFont: 'Roboto', sans-serif;
     --font-display: var(--customFont);
-    --homeImage: url('https://limeshark.dev/img/bdi/n8h.png');
+    --homeImage: url('https://limeshark.dev/img/n/icon.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://limeshark.dev/img/bdi/n8b.jpg');
+    --backgroundImage: url('https://limeshark.dev/img/n/background.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
