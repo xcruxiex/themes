@@ -2381,24 +2381,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.userProfileInnerWithBanner-3CJ1Og{
+.userProfileInnerThemedNonPremium-1gT-zY{
     background: var(--backgroundColor);
-}
-
-.overlayBackground-1KgwVi{
-    background: var(--backgroundColor) !important;
-}
-
-.userProfileInnerPremiumWithoutBanner-37uB4Q{
-    background: var(--backgroundColor) !important;
-}
-
-.userProfileInnerNonPremium-1XjSjn{
-    background: var(--backgroundColor);
-}
-
-.userPopoutInner-1hXSeY:before{
-    background-color: transparent !important;
 }
 
 .profileBadges-31rDHI{
