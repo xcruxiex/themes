@@ -2429,4 +2429,65 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .friendRequestsButton-77veU7{
     background-color: var(--backgroundColor);
 }
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+    background-color: var(--backgroundColor);
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+    background-color: var(--backgroundColor);
+}
+.lookOutlined-3RTC7c.colorRed-2VFhM4 {
+    background-color: var(--backgroundColor);
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    background-color: var(--backgroundColor);
+}
+.radioBar-1XgZqD {
+    background-color: var(--backgroundColor);
+}
+.formNotice-1JW4h2 {
+    background-color: var(--backgroundColor) !important;
+}
+.theme-dark .bar-2H7Q9u, .theme-dark .markDash-1ATsxA {
+    background: var(--backgroundColor)
+}
+.barFill-3RgCsY {
+    background: var(--gradientColor02)
+}
+.lookFilled-GPyucw.select-Zz0IcO {
+    background-color: var(--backgroundColor);
+}
+.option-Uc12mm {
+    background-color: var(--backgroundColor);
+}
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    background-color: var(--backgroundColor);
+}
+.option-Uc12mm:hover {
+    background-color: var(--backgroundColor);
+}
+.previewMessage-2g_aBv {
+    background-color: var(--backgroundColor);
+}
+.interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
+    background-color: var(--backgroundColor) !important;
+}
+.interactiveSelected-29CP8y {
+    background: var(--backgroundColor) !important;
+}
+.radioBar-1XgZqD.radioPositionLeft-27wZ8M:hover {
+    background-color: var(--backgroundColor);
+}
+.connectContainer-1hylYM, .connectionHeader-Ixbb1s {
+    background-color: var(--backgroundColor);
+}
+.accountButtonInner-33vCDY {
+    background-color: var(--backgroundColor);
+}
+.metadataContainer-35U-On {
+    background-color: var(--backgroundColor);
+    margin: 0px;
+}
+.card-16VQ8C {
+    background-color: var(--backgroundColor);
+}
 
