@@ -6,10 +6,10 @@
     --themeColor2: #5B86E5;
     --customFont: 'Open sans', sans-serif;
     --font-display: var(--customFont);
-    --homeImage: url('https://imgur.com/eItxuAq');
+    --homeImage: url('https://imgur.com/eItxuAq.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://imgur.com/qhBghXt');
+    --backgroundImage: url('https://imgur.com/qhBghXt.png');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
@@ -93,7 +93,7 @@ body {
     background-clip: border-box
 }
 
-.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+
 .tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     background-color: var(--themeColor1) !important;
 }
@@ -2486,4 +2486,3 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .card-16VQ8C {
     background-color: var(--backgroundColor);
 }
-
