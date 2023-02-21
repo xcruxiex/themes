@@ -1,8 +1,8 @@
 # BetterDiscord Themes
 
-All the themes/mini-themes/tools i made for Discord.
+All the themes/mini-themes/tools 'Spectra' made for Discord.
 
-help me to make my themes even better! Join the discord server!
+Help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
 Discord server invite : https://discord.gg/PZdnCVD
@@ -12,7 +12,7 @@ Discord server invite : https://discord.gg/PZdnCVD
 1. Join the discord server : https://discord.gg/PZdnCVD
 2. Read the rules
 3. Check #read-before-asking
-4. Go to #help-channel
+4. Go to #support
 5. Ask
    * Specify the theme
    * Explain your problem clearly

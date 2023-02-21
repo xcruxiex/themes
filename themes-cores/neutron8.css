@@ -1,19 +1,15 @@
-@import url("https://codedotspectra.github.io/themes/core/badges.css");
-@import url("https://codedotspectra.github.io/themes/core/custom-font.css");
-@import url("https://codedotspectra.github.io/themes/core/hljs.css");
-@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
-@import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 
 :root {
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
-    --customFont: 'Roboto', sans-serif;
+    --customFont: 'Open sans', sans-serif;
     --font-display: var(--customFont);
-    --homeImage: url('https://limeshark.dev/img/n/icon.png');
+    --homeImage: url('https://imgur.com/eItxuAq');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://limeshark.dev/img/n/background.jpg');
+    --backgroundImage: url('https://imgur.com/qhBghXt');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
