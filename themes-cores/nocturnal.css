@@ -1,5 +1,3 @@
-@import url(https://xcruxiex.github.io/themes/core/custom-font.css);
-
 :root {
     --backgroundColor01: #1e2731;
     --backgroundColor02: #12171d;
@@ -24,7 +22,6 @@
     --rs-invisible-color: #747f8d;
     --rs-phone-visible: block;
     --rs-phone-color: var(--rs-online-color);
-    --customFont: 'Open sans', sans-serif;
 }
 
 #app-mount .applicationStore-2nk7Lo,

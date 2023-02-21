@@ -1,10 +1,6 @@
-@import url("https://xcruxiex.github.io/themes/core/badges.css");
-@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
-
 :root {
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
-    --customFont: 'Open sans', sans-serif;
     --font-display: var(--customFont);
     --homeImage: url('https://imgur.com/eItxuAq.png');
     --homeImageSize: cover;
