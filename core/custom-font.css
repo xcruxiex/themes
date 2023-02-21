@@ -1,6 +1,6 @@
 :root {
-    --font-primary: var(--customFont) ,"Whitney";
-    --font-display: var(--customFont) ,"Whitney";
+    --font-primary: var(--customFont) ,"gg sans";
+    --font-display: var(--customFont) ,"gg sans";
 }
 ::placeholder, body, button, input, select, textarea{
     font-family: var(--customFont) !important;
