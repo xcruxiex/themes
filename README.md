@@ -46,18 +46,18 @@ Step 3: Change values to your liking
 (you can use .png/.jpg/.jpeg/.gif)
 ◽️ For colors, replace the color code, you can use this website to get color codes (https://www.w3schools.com/colors/colors_picker.asp)
 
-METHOD 2: Using Gibbu's theme editor,this tool let you edit Discord themes without any programming skills required
+METHOD 2: Using Gibbu's theme editor, this tool let you edit Discord themes without any programming skills required
 
 ◽️ [https://bdeditor.dev/themes](https://bdeditor.dev/themes)
 
 # 4. Themes list
-## Neutron v8.2.0
+## Neutron 
 A simple but highly customizable theme, now sugar free!
 
 Download : https://betterdiscord.app/theme/Neutron
 ![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
 
-## Nocturnal v3.0.05
+## Nocturnal 
 For when default discord just isn't dark enough, a theme for those who live a night
 
 Download : https://betterdiscord.app/theme/Nocturnal
