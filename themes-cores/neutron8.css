@@ -2523,3 +2523,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .optionButtonWrapper-2lbogO:hover .text-xs-normal-3O7EaX {
     color: #000 !important;
 }
+.card-8UsK4b{
+    background-color: var(--backgroundColor);border-color: var(--themeColor1);
+}
+.card-8UsK4b:hover{
+    background-color: var(--themeColor1);
+}
+.header-1sd0RU{
+    background-color: var(--backgroundColor);
+}
+.contentContainer-BWAau5{
+    background-color: var(--backgroundColor);
+}

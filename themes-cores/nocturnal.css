@@ -2426,3 +2426,15 @@
 .optionButtonWrapper-2lbogO.selected-KQBgNS {
     background-color: var(--backgroundColor02);
 }
+.card-8UsK4b{
+    background-color: var(--backgroundColor01);border-color: var(--gradientColor01);
+}
+.card-8UsK4b:hover{
+    background-color: var(--backgroundColor02);
+}
+.header-1sd0RU{
+    background-color: var(--backgroundColor02);
+}
+.contentContainer-BWAau5{
+    background-color: var(--backgroundColor02);
+}
