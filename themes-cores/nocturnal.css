@@ -1,4 +1,7 @@
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
+@import url("https://xcruxiex.github.io/themes/core/hljs.css");
+
 :root {
     --backgroundColor01: #1e2731;
     --backgroundColor02: #12171d;
