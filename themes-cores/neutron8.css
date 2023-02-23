@@ -2483,3 +2483,40 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .card-16VQ8C {
     background-color: var(--backgroundColor);
 }
+.channelRow-4X_3fi:not(.disabled-3cfocy) {
+    background-color: var(--backgroundColor);
+}
+.container-27tlK1, .nuxContent-2OA4ud {
+    background-color: var(--backgroundColor);
+}
+.channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
+    background-color: var(--themeColor1);
+}
+.tabBar-1_P75h {
+    background-color: transparent;
+    border-bottom: var(--backgroundColor);
+}
+.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+    background-color: transparent;
+}
+.profileCard-2gVmvm {
+    background-color: var(--backgroundColor);
+}
+.prompt-1sE27N {
+    background-color: var(--backgroundColor);
+}
+.optionButtonWrapper-2lbogO:hover {
+    background-color: var(--themeColor1);
+}
+.optionButtonWrapper-2lbogO {
+    border-color: var(--themeColor1) !important;
+}
+.optionButtonWrapper-2lbogO.selected-KQBgNS {
+    background-color: var(--themeColor1);
+}
+.optionButtonWrapper-2lbogO:hover .text-md-medium-2n7Vn5 {
+    color: #000 !important;
+}
+.optionButtonWrapper-2lbogO:hover .text-xs-normal-3O7EaX {
+    color: #000 !important;
+}
