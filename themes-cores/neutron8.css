@@ -2414,113 +2414,245 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .friendRequestsButton-77veU7{
     background-color: var(--backgroundColor);
 }
+
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
     background-color: var(--backgroundColor);
 }
+
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
     background-color: var(--backgroundColor);
 }
+
 .lookOutlined-3RTC7c.colorRed-2VFhM4 {
     background-color: var(--backgroundColor);
 }
+
 .lookFilled-1H2Jvj.colorBrand-2M3O3N {
     background-color: var(--backgroundColor);
 }
+
 .radioBar-1XgZqD {
     background-color: var(--backgroundColor);
 }
+
 .formNotice-1JW4h2 {
     background-color: var(--backgroundColor) !important;
 }
+
 .theme-dark .bar-2H7Q9u, .theme-dark .markDash-1ATsxA {
     background: var(--backgroundColor)
 }
+
 .barFill-3RgCsY {
     background: var(--gradientColor02)
 }
+
 .lookFilled-GPyucw.select-Zz0IcO {
     background-color: var(--backgroundColor);
 }
+
 .option-Uc12mm {
     background-color: var(--backgroundColor);
 }
+
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
     background-color: var(--backgroundColor);
 }
+
 .option-Uc12mm:hover {
     background-color: var(--backgroundColor);
 }
+
 .previewMessage-2g_aBv {
     background-color: var(--backgroundColor);
 }
+
 .interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
     background-color: var(--backgroundColor) !important;
 }
+
 .interactiveSelected-29CP8y {
     background: var(--backgroundColor) !important;
 }
+
 .radioBar-1XgZqD.radioPositionLeft-27wZ8M:hover {
     background-color: var(--backgroundColor);
 }
+
 .connectContainer-1hylYM, .connectionHeader-Ixbb1s {
     background-color: var(--backgroundColor);
 }
+
 .accountButtonInner-33vCDY {
     background-color: var(--backgroundColor);
 }
+
 .metadataContainer-35U-On {
     background-color: var(--backgroundColor);
     margin: 0px;
 }
+
 .card-16VQ8C {
     background-color: var(--backgroundColor);
 }
+
 .channelRow-4X_3fi:not(.disabled-3cfocy) {
     background-color: var(--backgroundColor);
 }
+
 .container-27tlK1, .nuxContent-2OA4ud {
     background-color: var(--backgroundColor);
 }
+
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
     background-color: var(--themeColor1);
 }
+
 .tabBar-1_P75h {
     background-color: transparent;
     border-bottom: var(--backgroundColor);
 }
+
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
     background-color: transparent;
 }
+
 .profileCard-2gVmvm {
     background-color: var(--backgroundColor);
 }
+
 .prompt-1sE27N {
     background-color: var(--backgroundColor);
 }
+
 .optionButtonWrapper-2lbogO:hover {
     background-color: var(--themeColor1);
 }
+
 .optionButtonWrapper-2lbogO {
     border-color: var(--themeColor1) !important;
 }
+
 .optionButtonWrapper-2lbogO.selected-KQBgNS {
     background-color: var(--themeColor1);
 }
+
 .optionButtonWrapper-2lbogO:hover .text-md-medium-2n7Vn5 {
     color: #000 !important;
 }
+
 .optionButtonWrapper-2lbogO:hover .text-xs-normal-3O7EaX {
     color: #000 !important;
 }
+
 .card-8UsK4b{
     background-color: var(--backgroundColor);border-color: var(--themeColor1);
 }
+
 .card-8UsK4b:hover{
     background-color: var(--themeColor1);
 }
+
 .header-1sd0RU{
     background-color: var(--backgroundColor);
 }
+
 .contentContainer-BWAau5{
+    background-color: var(--backgroundColor);
+}
+
+.editCard-K9Q9mb {
+    background-color: var(--backgroundColor);
+}
+
+.mentionLimitContainer-zBzr5i {
+    background-color: var(--backgroundColor);
+}
+
+.actionContainer-2krsiT {
+    background-color: var(--backgroundColor);
+}
+
+.triggerSettingsContainer--iO5xr {
+    background-color: var(--backgroundColor);
+}
+
+.stepperContainer-i-z0pP {
+    background-color: var(--backgroundColor);
+}
+
+.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV {
+    background-color: var(--backgroundColor);
+}
+
+.mainContainer-yxgti4, .ruleIconContainer-dXW56- {
+    background-color: var(--backgroundColor);
+}
+
+.wrapper-24fR1R {
+    background-color: var(--backgroundColor);
+}
+
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
+    background-color: var(--backgroundColor);
+}
+
+.backgroundContainer-gUNEZU {
+    background-color: var(--backgroundColor);
+}
+
+.fieldBackground-2TpuOY {
+    background-color: var(--backgroundColor);
+}
+
+.containerFooter-3BSQ3U {
+    background-color: var(--backgroundColor);
+}
+
+.fieldFooterContainer-2QTUnl {
+    background-color: var(--backgroundColor);
+}
+
+.backgroundModifierContainer-WjXgb2 {
+    background-color: var(--backgroundColor);
+}
+
+.upsellContent-10YytV {
+    background-color: var(--backgroundColor);
+}
+
+.upsellFooter-3M1V33 {
+    background-color: var(--backgroundColor);
+}
+
+.checklistItem-1gWPPD {
+    background-color: var(--backgroundColor);
+}
+
+.header-Wl8ec- {
+    background-color: var(--backgroundColor);
+}
+
+.previewContainer-29oeA6 {
+    background-color: var(--backgroundColor);
+}
+
+.enableContainer-H2cRts {
+    background-color: var(--backgroundColor);
+}
+
+.descriptionBox-SKGNgB {
+    background-color: var(--backgroundColor);
+}
+
+.analyticsCard-2fnrVG {
+    background-color: var(--backgroundColor);
+}
+
+.developerPortalCtaWrapper-2PniQs {
+    background-color: var(--backgroundColor);
+}
+
+.welcomeChannel-_Q4qAA {
     background-color: var(--backgroundColor);
 }

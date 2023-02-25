@@ -2395,25 +2395,32 @@
 .card-16VQ8C {
     background-color: var(--backgroundColor01);
 }
+
 .channelRow-4X_3fi:not(.disabled-3cfocy) {
     background-color: var(--backgroundColor01);
 }
+
 .container-27tlK1, .nuxContent-2OA4ud {
     background-color: var(--backgroundColor01);
 }
+
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
     background-color: var(--backgroundColor02);
 }
+
 .tabBar-1_P75h {
     background-color: var(--backgroundColor02);
     border-bottom: var(--backgroundColor01);
 }
+
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
     background-color: var(--backgroundColor02);
 }
+
 .profileCard-2gVmvm {
     background-color: var(--backgroundColor01);
 }
+
 .prompt-1sE27N {
     background-color: var(--backgroundColor01);
 }
@@ -2429,15 +2436,115 @@
 .card-8UsK4b{
     background-color: var(--backgroundColor01);border-color: var(--gradientColor01);
 }
+
 .card-8UsK4b:hover{
     background-color: var(--backgroundColor02);
 }
+
 .header-1sd0RU{
     background-color: var(--backgroundColor02);
 }
+
 .contentContainer-BWAau5{
     background-color: var(--backgroundColor02);
 }
+
 .botText-1fD6Qk {
     color: white;
 }
+
+.editCard-K9Q9mb {
+    background-color: var(--backgroundColor01);
+}
+
+.mentionLimitContainer-zBzr5i {
+    background-color: var(--backgroundColor02);
+}
+
+.actionContainer-2krsiT {
+    background-color: var(--backgroundColor02);
+}
+
+.triggerSettingsContainer--iO5xr {
+    background-color: var(--backgroundColor02);
+}
+
+.stepperContainer-i-z0pP {
+    background-color: var(--backgroundColor01);
+}
+
+.editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV {
+    background-color: var(--backgroundColor01);
+}
+
+.mainContainer-yxgti4, .ruleIconContainer-dXW56- {
+    background-color: var(--backgroundColor01);
+}
+
+.wrapper-24fR1R {
+    background-color: var(--backgroundColor01);
+}
+
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
+    background-color: var(--backgroundColor01);
+}
+
+.backgroundContainer-gUNEZU {
+    background-color: var(--backgroundColor01);
+}
+
+.fieldBackground-2TpuOY {
+    background-color: var(--backgroundColor01);
+}
+
+.containerFooter-3BSQ3U {
+    background-color: var(--backgroundColor01);
+}
+
+.fieldFooterContainer-2QTUnl {
+    background-color: var(--backgroundColor01);
+}
+
+.backgroundModifierContainer-WjXgb2 {
+    background-color: var(--backgroundColor01);
+}
+
+.upsellContent-10YytV {
+    background-color: var(--backgroundColor01);
+}
+
+.upsellFooter-3M1V33 {
+    background-color: var(--backgroundColor01);
+}
+
+.checklistItem-1gWPPD {
+    background-color: var(--backgroundColor01);
+}
+
+.header-Wl8ec- {
+    background-color: var(--backgroundColor01);
+}
+
+.previewContainer-29oeA6 {
+    background-color: var(--backgroundColor01);
+}
+
+.enableContainer-H2cRts {
+    background-color: var(--backgroundColor01);
+}
+
+.descriptionBox-SKGNgB{
+    background-color: var(--backgroundColor01);
+}
+.analyticsCard-2fnrVG{
+    background-color: var(--backgroundColor01);
+}
+
+.developerPortalCtaWrapper-2PniQs{
+    background-color: var(--backgroundColor01);
+}
+
+.welcomeChannel-_Q4qAA{
+    background-color: var(--backgroundColor01);
+}
+
