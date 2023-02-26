@@ -2658,7 +2658,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .theme-dark .directoryModal-YJsOMv{
-    background-color: transparent);
+    background-color: transparent;
 }
 
 .card-2xymMp {
@@ -2676,3 +2676,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
+/* Server Boost */
+.guildHeader-1EPPBS {
+    background-color: rgba(0,0,0,.4);
+}
+.guildSubscriptionSlots-1i_C21 {
+    background-color: rgba(0,0,0,.3);
+}
+.guildSubscriptionSlot-1mef6n {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}

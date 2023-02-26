@@ -2570,3 +2570,16 @@
     background-color: var(--backgroundColor02);
 }
 
+/* Server Boost */
+.guild-2Fq4I5 {
+    border: 1px solid var(--backgroundColor01);
+}
+.guildHeader-1EPPBS {
+    background-color: var(--backgroundColor02);
+}
+.guildSubscriptionSlots-1i_C21 {
+    background-color: var(--backgroundColor02);
+}
+.guildSubscriptionSlot-1mef6n {
+    border-bottom: 1px solid var(--backgroundColor01);
+}
