@@ -2691,3 +2691,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
     background-color: var(--backgroundColor);
 }
+
+/* Search */
+.searchBar-jGtisZ, .searchHeader-1r_ZSh, .searchResult-O9NDji {
+    background-color: var(--backgroundColor);
+}

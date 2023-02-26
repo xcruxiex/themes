@@ -13,7 +13,7 @@
     opacity: .8;
     filter: invert(100%)
 }
-.side-2ur1Qk .item-3XjbnG {padding-left: 35px !important;}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG {padding-left: 35px !important;}
 div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 
 .premiumLabel-3HPvdB svg {display: none;}
