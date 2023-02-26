@@ -20,41 +20,41 @@ div[aria-label="GUILD_SETTINGS"] .side-2ur1Qk .item-3XjbnG {padding-left: 10px;}
 .tabBarItemContainer-2HdIlr svg{display:none;}
 
 /* User Settings */
-.side-2ur1Qk .item-3XjbnG:nth-child(2)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/MyAccount.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(3)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Profiles.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(4)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Privacy&Safety.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(5)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/AuthorisedApps.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(6)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Devices.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(7)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Connections.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(8)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/FriendRequests.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(2)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/MyAccount.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(3)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Profiles.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(4)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Privacy&Safety.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(5)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/AuthorisedApps.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(6)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Devices.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(7)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Connections.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(8)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/FriendRequests.svg");}
 /* Payment Settings */
-.side-2ur1Qk .item-3XjbnG:nth-child(11)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Nitro.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(12)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/ServerBoost.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(13)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Subscriptions.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(14):before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GiftInventory.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(15)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Billing.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(11)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Nitro.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(12)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/ServerBoost.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(13)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Subscriptions.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(14):before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GiftInventory.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(15)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Billing.svg");}
 /* App Settings */
-.side-2ur1Qk .item-3XjbnG:nth-child(18)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Appearance.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(19)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Accessibility.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(20)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Voice&Video.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(21)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Text&Images.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(22)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Notifications.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(23)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Keybinds.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(24)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Language.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(25)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/WindowsSettings.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(26)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/StreamerMode.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(27)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Advanced.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(18)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Appearance.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(19)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Accessibility.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(20)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Voice&Video.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(21)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Text&Images.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(22)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Notifications.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(23)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Keybinds.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(24)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Language.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(25)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/WindowsSettings.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(26)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/StreamerMode.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(27)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Advanced.svg");}
 /* Activity Settings */
-.side-2ur1Qk .item-3XjbnG:nth-child(30)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/ActivityPrivacy.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(31)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/RegisteredGames.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(32)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GameOverlay.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(30)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/ActivityPrivacy.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(31)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/RegisteredGames.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(32)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GameOverlay.svg");}
 /* better discord settings */
-.side-2ur1Qk .item-3XjbnG:nth-child(35)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDSettings.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(36)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDUpdates.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(37)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDCustomCSS.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(38)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDPlugins.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(39)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDThemes.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(35)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDSettings.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(36)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDUpdates.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(37)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDCustomCSS.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(38)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDPlugins.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(39)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/BDThemes.svg");}
 /* Misc */
-.side-2ur1Qk .item-3XjbnG:nth-child(41)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/WhatsNew.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(42)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/HypeSquad.svg");}
-.side-2ur1Qk .item-3XjbnG:nth-child(44)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/LogOut.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(41)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/WhatsNew.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(42)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/HypeSquad.svg");}
+.side-2ur1Qk[aria-label="User Settings"] .item-3XjbnG:nth-child(44)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/LogOut.svg");}
