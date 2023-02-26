@@ -2672,3 +2672,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .lastSection-3_1yKt{
     padding-bottom: 22px !important;
 }
+.theme-dark .message-G6O-Wv{
+    background-color: var(--backgroundColor02);
+}
+

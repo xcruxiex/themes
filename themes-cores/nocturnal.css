@@ -2566,3 +2566,7 @@
     border-radius: 8px;
 }
 
+.theme-dark .message-G6O-Wv{
+    background-color: var(--backgroundColor02);
+}
+
