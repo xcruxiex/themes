@@ -46,7 +46,7 @@ Step 3: Change values to your liking
 (you can use .png/.jpg/.jpeg/.gif)
 ◽️ For colors, replace the color code, you can use this website to get color codes (https://www.w3schools.com/colors/colors_picker.asp)
 
-METHOD 2: Using Gibbu's theme editor, this tool let you edit Discord themes without any programming skills required
+METHOD 2: Using Gibbu's theme editor, this tool lets you edit Discord themes without any programming skills required
 
 ◽️ [https://bdeditor.dev/themes](https://bdeditor.dev/themes)
 
