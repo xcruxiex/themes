@@ -2113,6 +2113,9 @@
 .section-3FmfOT {
     padding: 12px 13px 0 12px;
 }
+.lastSection-3_1yKt{
+    padding-bottom: 22px !important;
+}
 
 .option-ayUoaq:after {
     background: none;
@@ -2558,3 +2561,6 @@
 .textContainer-TzRfgH{
     background-color: var(--backgroundColor01);
 }
+
+
+
