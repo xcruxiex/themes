@@ -2686,3 +2686,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .guildSubscriptionSlot-1mef6n {
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
+
+/* Reply Bar */
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+    background-color: var(--backgroundColor);
+}
