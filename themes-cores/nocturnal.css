@@ -2583,3 +2583,8 @@
 .guildSubscriptionSlot-1mef6n {
     border-bottom: 1px solid var(--backgroundColor01);
 }
+
+/* Search */
+.searchBar-jGtisZ {
+    background: var(--backgroundColor01);
+}
