@@ -34,7 +34,7 @@ div[aria-label="GUILD_SETTINGS"] .side-1lrxIh .item-2GWPIy {padding-left: 10px;}
 .side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(11)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Nitro.svg");}
 .side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(12)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/ServerBoost.svg");}
 .side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(13)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Subscriptions.svg");}
-.side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(14):before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GiftInventory.svg");}
+.side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(14)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/GiftInventory.svg");}
 .side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(15)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Billing.svg");}
 /* App Settings */
 .side-1lrxIh[aria-label="User Settings"] .item-2GWPIy:nth-child(18)::before {background-image: url("https://xcruxiex.github.io/themes/core/Settings-Icons/Appearance.svg");}
