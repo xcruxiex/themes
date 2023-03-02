@@ -54,7 +54,7 @@
 #app-mount .scroller-3X7KbA,
 #app-mount .scroller-WSmht3,
 #app-mount .scroller-hE2gWq,
-#app-mount .sidebar-1tnWFu,
+#app-mount .sidebar-nqHbhN,
 #app-mount .sidebarRegionScroller-FXiQOh,
 #app-mount .stageSection-3mAD8V,
 #app-mount .standardSidebarView-E9Pc3j,
@@ -398,13 +398,13 @@
     background-color: var(--mainColor) !important
 }
 
-#app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-#app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+#app-mount .side-1lrxIh .themed-2-lozF.selected-g-kMVV.item-2GWPIy,
+#app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-2GWPIy {
     background-color: var(--mainColor) !important
 }
 
-#app-mount .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),
-#app-mount .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+#app-mount .side-1lrxIh .themed-2-lozF.item-2GWPIy:hover:not(.disabled-1nofHP),
+#app-mount .topPill-3DJJNV .themed-2-lozF.item-2GWPIy:hover:not(.disabled-1nofHP) {
     background-color: var(--backgroundColor01) !important
 }
 
@@ -1334,12 +1334,12 @@
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
+#app-mount .side-1lrxIh .themed-2-lozF.selected-g-kMVV.item-2GWPIy:hover {
     background-color: var(--mainColor) !important
 }
 
-#app-mount .side-2ur1Qk .item-3XjbnG[style*="rgb(237, 66, 69)"]:hover,
-#app-mount .side-2ur1Qk .themed-2-lozF.item-3XjbnG[style*="rgb(237, 66, 69)"]:hover:not(.disabled-1nofHP) {
+#app-mount .side-1lrxIh .item-2GWPIy[style*="rgb(237, 66, 69)"]:hover,
+#app-mount .side-1lrxIh .themed-2-lozF.item-2GWPIy[style*="rgb(237, 66, 69)"]:hover:not(.disabled-1nofHP) {
     background: #ed4245 !important;
     color: #fff !important
 }
@@ -1586,9 +1586,9 @@
     border: none !important
 }
 
-#app-mount .top-K_jibn .brand-3g5E0C.item-3XjbnG:active,
-#app-mount .top-K_jibn .brand-3g5E0C.item-3XjbnG:hover,
-#app-mount .top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-3XjbnG {
+#app-mount .top-K_jibn .brand-3g5E0C.item-2GWPIy:active,
+#app-mount .top-K_jibn .brand-3g5E0C.item-2GWPIy:hover,
+#app-mount .top-K_jibn .brand-3g5E0C.selected-g-kMVV.item-2GWPIy {
     border-bottom-color: var(--mainColor) !important
 }
 
@@ -1736,8 +1736,8 @@
     background-color: rgba(0, 0, 0, .2)
 }
 
-#app-mount .tabBarContainer-sCZC4w .selected-g-kMVV.item-3XjbnG,
-#app-mount .tabBarContainer-sCZC4w .selected-g-kMVV.item-3XjbnG:hover {
+#app-mount .tabBarContainer-sCZC4w .selected-g-kMVV.item-2GWPIy,
+#app-mount .tabBarContainer-sCZC4w .selected-g-kMVV.item-2GWPIy:hover {
     color: var(--mainColor);
     border-bottom-color: var(--mainColor)
 }
