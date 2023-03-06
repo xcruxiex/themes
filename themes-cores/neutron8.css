@@ -2696,3 +2696,49 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .searchBar-jGtisZ, .searchHeader-1r_ZSh, .searchResult-O9NDji {
     background-color: var(--backgroundColor);
 }
+
+.theme-dark .rootWithShadow-2hdL2J {
+    background-color: var(--backgroundColor);
+}
+
+.theme-dark .footerSeparator-3U8YsT {
+    background-color: var(--backgroundColor);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+    background-color: var(--backgroundColor);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day {
+    background-color: var(--backgroundColor);
+}
+
+.input-3O04eu {
+    background-color: var(--backgroundColor);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: var(--backgroundColor);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
+    background-color: var(--backgroundColor);
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: var(--backgroundColor);
+    border: 3px solid var(--backgroundColor);
+}
+
+.panelBanner-13bsBR {
+    border-left: 3px solid var(--backgroundColor);
+}
+
+.welcomeCTAButton-24ZR8d {
+    border: 3px solid var(--backgroundColor);
+    border-radius: 10px;
+}
+
+.container-1A0qQO{
+    background-color: var(--backgroundColor);
+}

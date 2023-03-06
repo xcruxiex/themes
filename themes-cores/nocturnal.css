@@ -2588,3 +2588,49 @@
 .searchBar-jGtisZ {
     background: var(--backgroundColor01);
 }
+
+.theme-dark .rootWithShadow-2hdL2J {
+    background-color: var(--backgroundColor01);
+}
+
+.theme-dark .footerSeparator-3U8YsT {
+    background-color: var(--backgroundColor02);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+    background-color: var(--backgroundColor01);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day {
+    background-color: var(--backgroundColor02);
+}
+
+.input-3O04eu {
+    background-color: var(--backgroundColor02);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: var(--backgroundColor02);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
+    background-color: var(--backgroundColor02);
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: var(--backgroundColor02);
+    border: 3px solid var(--backgroundColor01);
+}
+
+.panelBanner-13bsBR {
+    border-left: 3px solid var(--backgroundColor01);
+}
+
+.welcomeCTAButton-24ZR8d {
+    border: 3px solid var(--backgroundColor01);
+    border-radius: 10px;
+}
+
+.container-1A0qQO{
+    background-color: var(--backgroundColor02);
+}
