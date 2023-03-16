@@ -2635,3 +2635,7 @@
 .container-1A0qQO{
     background-color: var(--backgroundColor02);
 }
+.theme-dark .panel-2ZFCRb {
+    background: none;
+    border-bottom: 1px solid var(--mainColor);
+}
