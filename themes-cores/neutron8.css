@@ -2743,6 +2743,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .container-1A0qQO{
     background-color: var(--backgroundColor);
 }
+
 .theme-dark .panel-2ZFCRb {
     background: none;
+}
+.container-KM8BU6 .reactors-1VXca7 {
+    background: var(--backgroundColor);
+}
+
+.scroller-2GkvCq {
+    background: none;
+    border-right: 2px solid var(--themeColor1);
 }

@@ -2635,7 +2635,21 @@
 .container-1A0qQO{
     background-color: var(--backgroundColor02);
 }
+
 .theme-dark .panel-2ZFCRb {
     background: none;
     border-bottom: 1px solid var(--mainColor);
+}
+
+.container-KM8BU6 .reactors-1VXca7 {
+    background: var(--backgroundColor01);
+}
+
+.scroller-2GkvCq {
+    background: none;
+    border-right: 2px solid var(--mainColor);
+}
+
+.reactionSelected-1aMb2K{
+    background-color: var(--backgroundColor02);
 }
