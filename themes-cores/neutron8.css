@@ -2378,8 +2378,9 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY{
+.userProfileInnerThemedNonPremium-1gT-zY {
     background-color: var(--backgroundColor);
+    background-image: none;
 }
 
 .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv{
