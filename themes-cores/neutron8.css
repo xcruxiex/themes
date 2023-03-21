@@ -2753,6 +2753,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .theme-dark .panel-2ZFCRb {
     background: none;
 }
+
 .container-KM8BU6 .reactors-1VXca7 {
     background: var(--backgroundColor);
 }
@@ -2760,4 +2761,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .scroller-2GkvCq {
     background: none;
     border-right: 2px solid var(--themeColor1);
+}
+
+.overlayBackground-1KgwVi, .input-3O04eu{
+    background-color: var(--backgroundColor);
+    border: none;
+}
+
+.matchingPostsRow-2IiEQ1{
+    background-color: var(--backgroundColor);
 }

@@ -2642,3 +2642,12 @@
 .reactionSelected-1aMb2K{
     background-color: var(--backgroundColor02);
 }
+
+.overlayBackground-1KgwVi, .input-3O04eu{
+    background-color: var(--backgroundColor01);
+    border: none;
+}
+
+.matchingPostsRow-2IiEQ1{
+    background-color: var(--backgroundColor01);
+}
