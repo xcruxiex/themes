@@ -2104,7 +2104,7 @@
 }
 
 .userProfileInnerThemedWithBanner-2624Yx {
-    background: var(--backgroundColor01);
+    background-color: transparent;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
@@ -2209,12 +2209,9 @@
     background-color: var(--backgroundColor01);
 }
 
-.userProfileInnerThemedWithBanner-2624Yx {
-    background: var(--backgroundColor01);
-}
-
-.overlayBackground-1KgwVi {
-    background: var(--backgroundColor02) !important;
+.overlayBackground-1KgwVi, .input-3O04eu {
+    background-color: rgba(1,1,1,0.5);
+    border: 1px solid transparent;
 }
 
 .userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
@@ -2225,12 +2222,8 @@
     background: var(--backgroundColor01);
 }
 
-.userPopoutInner-1hXSeY:before {
-    background-color: transparent !important;
-}
-
 .profileBadges-31rDHI {
-    background-color: var(--backgroundColor01);
+    background-color: rgba(1,1,1,0.5);
 }
 
 .userTagUsernameBase-3Nfr5j {
@@ -2606,10 +2599,6 @@
     background-color: var(--backgroundColor02);
 }
 
-.input-3O04eu {
-    background-color: var(--backgroundColor02);
-}
-
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: var(--backgroundColor02);
 }
@@ -2619,8 +2608,8 @@
 }
 
 .userProfileInner-3F03PX:before {
-    background-color: var(--backgroundColor02);
-    border: 3px solid var(--backgroundColor01);
+    background-color: transparent;
+    border: 3px solid transparent;
 }
 
 .panelBanner-13bsBR {

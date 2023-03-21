@@ -2379,7 +2379,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .userProfileInnerThemedNonPremium-1gT-zY{
-    background: var(--backgroundColor);
+    background-color: var(--backgroundColor);
 }
 
 .text-sm-medium-3Pz3rB, .text-sm-normal-3Zj3Iv{
@@ -2714,8 +2714,9 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.input-3O04eu {
-    background-color: var(--backgroundColor);
+.overlayBackground-1KgwVi, .input-3O04eu {
+    background-color: rgba(1,1,1,0.5);
+    border: 1px solid transparent;
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
@@ -2727,8 +2728,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .userProfileInner-3F03PX:before {
-    background-color: var(--backgroundColor);
-    border: 3px solid var(--backgroundColor);
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.profileBadges-31rDHI {
+    background-color: rgba(1,1,1,0.5);
 }
 
 .panelBanner-13bsBR {
