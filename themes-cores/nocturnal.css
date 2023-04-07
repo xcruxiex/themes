@@ -2099,11 +2099,11 @@
     background: var(--backgroundColor01);
 }
 
-.overlayBackground-arbZMT {
+.overlayBackground-1KgwVi {
     background: var(--backgroundColor02);
 }
 
-.userProfileInnerThemedWithBanner-2624Yx {
+.userProfileInnerThemedWithBanner-25XGmz {
     background-color: transparent;
 }
 
@@ -2214,15 +2214,15 @@
     border: 1px solid transparent;
 }
 
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp {
     background: var(--backgroundColor01) !important;
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H {
     background: var(--backgroundColor01);
 }
 
-.profileBadges-31rDHI {
+.profileBadges-2pItdR {
     background-color: rgba(1,1,1,0.5);
 }
 
@@ -2239,7 +2239,7 @@
     color: #fff;
 }
 
-.activity-E0U09Y:before {
+.activity-3uaYny:before {
     background-color: var(--mainColor);
     background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02));
     opacity: .75;
@@ -2249,7 +2249,8 @@
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 0
+    z-index: 0;
+    border-radius: 8px;
 }
 
 .bodyAlignCenter-3E27PU,
@@ -2267,7 +2268,7 @@
     border-radius: 0px;
 }
 
-.activity-E0U09Y {
+.activity-3uaYny {
     padding: 10px;
 }
 
@@ -2607,7 +2608,7 @@
     background-color: var(--backgroundColor02);
 }
 
-.userProfileInner-3F03PX:before {
+.userPopoutInner-nv9Y92:before {
     background-color: transparent;
     border: 3px solid transparent;
 }
@@ -2643,6 +2644,14 @@
     background-color: var(--backgroundColor02);
 }
 
+<<<<<<< Updated upstream
+=======
+.overlayBackground-1KgwVi, .input-3O04eu {
+    background-color: rgba(1,1,1,0.5);
+    border: 1px solid transparent;
+}
+
+>>>>>>> Stashed changes
 .matchingPostsRow-2IiEQ1{
     background-color: var(--backgroundColor01);
 }
