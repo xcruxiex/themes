@@ -1709,7 +1709,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .wrapper-1ZcZW- {
-    background: var(--themeColor1) !important;
     color: var(--themeColor1);
     box-shadow: inset 0 0 0 1000000px rgba(0, 0, 0, .65);
     border-radius: 8px !important
