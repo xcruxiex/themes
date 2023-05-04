@@ -27,24 +27,24 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 ##########################################################################*/
 :root {
   /* COLORS */
-  --themeColor1: #36D1DC; /* Theme's color 1 */
-  --themeColor2: #5B86E5; /* Theme's color 2 */
+  --themeColor1: #A70000FF; /* Theme's color 1 */
+  --themeColor2: #F25000FF; /* Theme's color 2 */
 
   /* CUSTOM FONT */
   --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
 
   /* HOME BUTTON */
-  --homeImage: url('https://imgur.com/eItxuAq.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImage: url('https://cdn.discordapp.com/attachments/318724890788364288/916831895956901898/world-of-tanks-logo-video-game-png-favpng-e0nPg1E5hyZ4XEv9gTZ4rndSb.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
-  --backgroundColor: #0d0d0d; /* Background color */
-  --backgroundImage: url('https://imgur.com/qhBghXt.png'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundColor: #0D0D0DFF; /* Background color */
+  --backgroundImage: url('https://cdn.discordapp.com/attachments/318724890788364288/1063280367164993536/2Q.png'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
-  --backgroundBlur: 100px; /* Set to 0 to remove blur | Set to 10px for average blur */
-  --backgroundOpacity: .65; /* 0 is transparent */
+  --backgroundBlur: 0px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: 0.4; /* 0 is transparent */
 
   /* CODE BLOCKS */
   --backgroundCode: rgba(0,0,0,.5);
