@@ -1090,16 +1090,7 @@ body {
 }
 
 .sidebarRegion-1VBisG {
-    background-color: rgba(0, 0, 0, .25)
-}
-
-.contentRegion-3HkfJJ {
-    flex: 1 1 100%
-}
-
-.contentColumn-1C7as6,
-.customColumn-2n-oKU {
-    max-width: 95% !important
+    background-color: transparent;
 }
 
 #bd-settings-sidebar .ui-tab-bar-item,

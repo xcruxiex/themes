@@ -1270,16 +1270,6 @@
     border-color: var(--backgroundColor01) !important
 }
 
-#app-mount .contentColumn-1C7as6,
-#app-mount .customColumn-2n-oKU {
-    max-width: 100%
-}
-
-#app-mount .sidebarRegion-1VBisG {
-    justify-content: flex-start;
-    flex: 0 0
-}
-
 #app-mount .accountList-305sx3,
 #app-mount .cardPrimary-3qRT__,
 #app-mount .cardPrimaryEditable-2mz_3i,
