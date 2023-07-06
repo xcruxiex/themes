@@ -153,18 +153,18 @@
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .modeSelected-3DmyhH .content-1gYQeQ,
-#app-mount .modeSelected-3DmyhH:hover .content-1gYQeQ,
-#app-mount .wrapper-NhbLHG:hover .content-1gYQeQ {
+#app-mount .modeSelected-3DmyhH .link-1_kTxV,
+#app-mount .modeSelected-3DmyhH:hover .link-1_kTxV,
+#app-mount .wrapper-NhbLHG:hover .link-1_kTxV {
     background-color: var(--backgroundColor01)
 }
 
-#app-mount .content-1gYQeQ {
+#app-mount .link-1_kTxV {
     position: relative;
     overflow: hidden
 }
 
-#app-mount .content-1gYQeQ::after {
+#app-mount .link-1_kTxV::after {
     content: "";
     position: absolute;
     left: 0;
@@ -185,8 +185,8 @@
     transform: translateX(-100%)
 }
 
-#app-mount .modeSelected-3DmyhH .content-1gYQeQ::after,
-#app-mount .wrapper-NhbLHG:hover .content-1gYQeQ::after {
+#app-mount .modeSelected-3DmyhH .link-1_kTxV::after,
+#app-mount .wrapper-NhbLHG:hover .link-1_kTxV::after {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     -moz-transform: translateX(0);

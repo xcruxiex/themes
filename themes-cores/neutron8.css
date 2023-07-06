@@ -349,22 +349,22 @@ body {
     text-shadow: 0 1.5px 3px rgba(0, 0, 0, .75)
 }
 
-.containerDefault-YUSmu3 .content-1gYQeQ {
+.containerDefault-YUSmu3 .link-1_kTxV {
     transition: all .2s ease
 }
 
-.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH .content-1gYQeQ,
-.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH:hover .content-1gYQeQ,
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ {
+.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH .link-1_kTxV,
+.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH:hover .link-1_kTxV,
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV {
     background-color: rgba(0, 0, 0, .65);
     position: relative;
     padding-left: 15px
 }
 
-.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH .content-1gYQeQ::before,
-.modeSelected-3DmyhH .content-1gYQeQ::before,
-.modeSelected-3DmyhH:hover .content-1gYQeQ::before {
+.containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH .link-1_kTxV::before,
+.modeSelected-3DmyhH .link-1_kTxV::before,
+.modeSelected-3DmyhH:hover .link-1_kTxV::before {
     content: "";
     position: absolute;
     left: -1px;
@@ -378,7 +378,7 @@ body {
     z-index: 0
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ::after {
+.modeSelected-3DmyhH .link-1_kTxV::after {
     content: "";
     position: absolute;
     left: 0;
@@ -390,7 +390,7 @@ body {
     z-index: 1
 }
 
-.containerDefault-YUSmu3 .wrapper-NhbLHG:hover .content-1gYQeQ {
+.containerDefault-YUSmu3 .wrapper-NhbLHG:hover .link-1_kTxV {
     background-color: rgba(0, 0, 0, .45);
     padding-left: 12px
 }
