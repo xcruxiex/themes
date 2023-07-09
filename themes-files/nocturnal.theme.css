@@ -32,31 +32,16 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
 */
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+
 :root {
   --backgroundColor01: #1e2731;
   --backgroundColor02: #12171d;
-  --mainColor: #2275c9;
-  --gradientColor01: #00F260;
-  --gradientColor02: #0575E6;
+  --mainColor: #000099;
+  --gradientColor01: #ffffcc;
+  --gradientColor02: #ffccff;
 
   /* Better Hljs */
   --backgroundCode: #1e2731;
   --backgroundName: rgba(0, 0, 0, .2);
-
-  /* Radial Status */
-  --rs-small-spacing: 2px;
-  --rs-large-spacing: 3px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
-
   --customFont: 'gg sans', sans-serif;
 }
