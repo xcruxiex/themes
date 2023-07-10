@@ -2679,6 +2679,7 @@
 .memberText-2H1zUf{
     color: #fff !important;
 }
+
 .icon-tZV_7s{
     color: var(--gradientColor02);
 }
@@ -2693,8 +2694,13 @@
 .navButtonActive-fwiUKp{
     background-color:var(--backgroundColor02) ;
 }
+
 .controlIcon-10O-4h{
     color: var(--gradientColor02);
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu{
+    background-color: var(--gradientColor02);
 }
 
 
