@@ -2719,3 +2719,10 @@
     color: var(--gradientColor02);
 }
 
+.theme-dark .active-OdlCV-:hover{
+    color: var(--gradientColor02) ;
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover{
+    color: var(--gradientColor02) ;
+}
