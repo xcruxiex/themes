@@ -2726,3 +2726,7 @@
 .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover{
     background-color: var(--gradientColor02) ;
 }
+
+.addReactButton-3bSQb6, .buttonInner-3aRbcx{
+    color: var(--gradientColor02);
+}
