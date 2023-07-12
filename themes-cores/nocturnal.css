@@ -2730,3 +2730,35 @@
 .addReactButton-3bSQb6, .buttonInner-3aRbcx{
     color: var(--gradientColor02);
 }
+
+.controlIcon-1grhw_{
+    color: #fff ;
+}
+
+.durationTimeDisplay-QwCeRr, .durationTimeSeparator-1Cqi9N{
+    color:#fff ;
+}
+
+.controlIcon-10O-4h{
+    color: #fff ;opacity: 1 ;
+}
+
+.controlIcon-1grhw_{
+    opacity: 1;
+}
+
+.controlIcon-1grhw_:hover{
+    opacity: .6;
+}
+
+#app-mount .mediaBarGrabber-FvJKJg, #app-mount .mediaBarProgress-38I317, #app-mount .mediaBarProgress-38I317:after, #app-mount .mediaBarProgress-38I317:before{
+    background-color: #fff !important;
+}
+
+.icon-1q31jb, .reactionBtn-3I19bq{
+    color: var(--gradientColor02);
+}
+
+.reactionBtn-3I19bq:hover .icon-1q31jb{
+    color: var(--gradientColor02);
+}
