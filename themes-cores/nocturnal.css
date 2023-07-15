@@ -2762,3 +2762,19 @@
 .reactionBtn-3I19bq:hover .icon-1q31jb{
     color: var(--gradientColor02);
 }
+
+.buttonColor-_0gSD_{
+    background-color: var(--mainColor);
+    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02));
+    opacity: .75;
+    content: "";
+}
+
+.wrapper .controls{
+    background: transparent !important;
+}
+
+.wrapper .controls .caret{
+    background-color: var(--gradientColor02) !important;
+}
+
