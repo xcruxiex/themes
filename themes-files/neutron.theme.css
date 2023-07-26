@@ -27,8 +27,8 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 ##########################################################################*/
 :root {
   /* COLORS */
-  --themeColor1: #36D1DC; /* Theme's color 1 */
-  --themeColor2: #5B86E5; /* Theme's color 2 */
+  --themeColor1:  #8216F8; /* Theme's color 1 */
+  --themeColor2: #E269F4; /* Theme's color 2 */
 
   /* CUSTOM FONT */
   --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
