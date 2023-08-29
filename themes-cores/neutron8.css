@@ -2773,3 +2773,72 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: #fff !important;
 }
 
+.theme-dark .container-2qjEOK, .theme-dark .page-2dwf_i {
+    background-color: transparent;
+    border-color: var(--themeColor1);
+}
+
+.table-2Z1caJ {
+    background-color: var(--backgroundColor);
+    border-color: var(--themeColor1);
+}
+
+.searchHeader-3Db17t, .searchHeaderContainer-1tLzKm {
+    background-color: var(--backgroundColor);
+    border-color: var(--themeColor1);
+}
+
+.paginationContainer-1LecDm {
+    background-color: var(--backgroundColor);
+    border-color: var(--themeColor1);
+}
+
+.button-2XiUpU {
+    color: #fff;
+    background-color: var(--backgroundColor);
+}
+
+.text-md-normal-2rFCH3 {
+    color: #fff !important;
+}
+
+.button-2XiUpU:hover {
+    background-color: var(--themeColor1);
+    color: var(--backgroundColor);
+}
+
+.container-2oNtJn {
+    background-color: var(--themeColor1);
+}
+
+.mainTableContainer-3Nxvkd, .noResultsContainer-2YrKBF {
+    border: 2px solid var(--themeColor1);
+    border-radius: 0px !important;
+}
+
+.memberRowContainer-ZDlmmA:hover td  {
+    background-color: var(--themeColor1) !important;
+}
+.memberRowContainer-ZDlmmA:hover td .text-sm-medium-2-Xzsi {
+    color: #000 !important;
+}
+
+.memberRowContainer-ZDlmmA:hover .text-sm-normal-AEQz4v{
+    color: #000 !important;
+}
+
+.memberRowContainer-ZDlmmA:hover .username-3_PJ5r{
+    color: #000 !important;
+}
+
+.memberRowContainer-ZDlmmA:hover .text-xs-normal-3O7EaX{
+    color: #000 !important;
+}
+
+.memberRowContainer-ZDlmmA:hover .roleNameOverflow-Xok3NR{
+    color: #000 !important;
+}
+
+.mainTableContainer-3Nxvkd, .noResultsContainer-2YrKBF {
+    background-color: var(--themeColor1);
+}

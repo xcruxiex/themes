@@ -2781,5 +2781,54 @@
 .upload-vLbqu-{
     background-color: var(--backgroundColor02);
 }
+.theme-dark .container-2qjEOK, .theme-dark .page-2dwf_i {
+    background-color: var(--backgroundColor02);
+    border-color: var(--mainColor);
+}
 
+.table-2Z1caJ {
+    background-color: var(--backgroundColor01);
+    border-color: var(--mainColor);
+}
+
+.searchHeader-3Db17t, .searchHeaderContainer-1tLzKm {
+    background-color: var(--backgroundColor01);
+    border-color: var(--mainColor);
+}
+
+.paginationContainer-1LecDm {
+    background-color: var(--backgroundColor01);
+    border-color: var(--mainColor);
+}
+
+.button-2XiUpU {
+    color: #fff;
+    background-color: var(--backgroundColor02);
+}
+
+.text-md-normal-2rFCH3 {
+    color: #fff !important;
+}
+
+.button-2XiUpU:hover {
+    background-color: var(--mainColor);
+    color: var(--backgroundColor02);
+}
+
+.container-2oNtJn {
+    background-color: var(--mainColor);
+}
+
+.mainTableContainer-3Nxvkd, .noResultsContainer-2YrKBF {
+    border: 2px solid var(--mainColor);
+    border-radius: 0px !important;
+}
+
+.memberRowContainer-ZDlmmA:hover td {
+    background-color: var(--backgroundColor02) !important;
+}
+
+.mainTableContainer-3Nxvkd, .noResultsContainer-2YrKBF {
+    background-color: var(--mainColor);
+}
 
