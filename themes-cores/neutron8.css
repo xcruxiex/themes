@@ -2842,3 +2842,23 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .mainTableContainer-3Nxvkd, .noResultsContainer-2YrKBF {
     background-color: var(--themeColor1);
 }
+
+.container-q2_DnH:hover{
+    background-color: #00000080 !important;
+}
+
+.container-3arpDl{
+    background-color: #00000080 !important;
+}
+
+.descriptionContainer-2ylKGk{
+    background-color: #00000080 !important;
+}
+
+.linkContainer-2xEQjX{
+    background-color: #00000080 !important;
+}
+
+.gradient-1SYq38{
+    background: #00000080 !important;
+}
