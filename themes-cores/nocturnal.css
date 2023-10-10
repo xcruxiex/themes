@@ -2851,3 +2851,7 @@
 .gradient-1SYq38{
     background: var(--backgroundColor01);
 }
+
+.members-3WRCEx, .membersListNotices-UstAx3 {
+    width: 100%!important;
+}
