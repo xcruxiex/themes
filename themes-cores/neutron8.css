@@ -35,6 +35,9 @@ body {
     filter: blur(var(--backgroundBlur))
 }
 
+.members-3WRCEx, .membersListNotices-UstAx3 {
+    width: 100%!important;
+}
 .app-2CXKsg,
 .applicationStore-2nk7Lo,
 .chat-2ZfjoI,
