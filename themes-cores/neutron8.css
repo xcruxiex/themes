@@ -2865,3 +2865,27 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .gradient-1SYq38{
     background: #00000080 !important;
 }
+
+.chat-9g_3Xj{
+    background: transparent;
+}
+
+.chatContent-2O4SXb{
+    background: transparent;
+}
+
+.container-2vWgD2, .membersWrap-3GwLFp{
+    background: transparent;
+}
+
+.members-2y1nVj{
+    background: transparent;
+}
+
+.channelTextArea-1deLlK{
+    background: transparent;
+}
+
+.theme-dark .container-1CH86i{
+    background: transparent;
+}
