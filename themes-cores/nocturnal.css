@@ -2855,6 +2855,7 @@
 .members-3WRCEx, .membersListNotices-UstAx3 {
     width: 100%!important;
 }
+
 .chat-9g_3Xj{
     background: transparent;
 }
@@ -2878,4 +2879,10 @@
 .theme-dark .container-1CH86i{
     background: transparent;
 }
+
+.theme-dark .form-3qe0Ni:before{
+    display: none;
+}
+
+
 
