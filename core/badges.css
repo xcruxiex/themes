@@ -47,11 +47,10 @@
 .avatar-2e8lTP[src*="332394843743584256"] + h3 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
   content: "meow";
   animation: fadeIn .5s linear 1;
-  color: #4ce949;
+  color: #3ec23c;
   width: 35px;
   text-align: center;
-  background-color: transparent;
-  background-image: url('https://i.imgur.com/1vjg5WL.png') !important;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* yura */
@@ -804,15 +803,10 @@
 
 /* Airtroops */
 .avatar-2e8lTP[src*="389250525952081921"] + h3 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
-  background-image: url('https://i.imgur.com/gCq2G2o.png');
-  width: 15px;
-  height: 15px;}
+  background-image: url('https://i.imgur.com/gCq2G2o.png');}
 .avatar-2e8lTP[src*="389250525952081921"] + h3 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
-  content: "";
-  background-image: url('https://i.imgur.com/gCq2G2o.png') !important;
-  width: 15px;
-  height: 15px;
-  padding: 0;
-  top: 2px;
-  background-color: transparent;
+  content: "KanmasuEnjoyer";
+  width: 95px;
+  text-shadow: 1px 1px 3px black;
+  background-color: #A96ACE;
 }
