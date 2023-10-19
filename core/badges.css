@@ -195,12 +195,15 @@
 
 /* w1zard*/
 .avatar-2e8lTP[src*="285569855506219018"] + h3 > .headerText-2z4IhQ > .username-h_Y3Us::after {content: "";
-  background-image: url('https://i.imgur.com/ZeJRRH0.gif');}
+  background-image: url('https://i.imgur.com/ZeJRRH0.gif');
+  width: 23px;
+  height: 23px;
+}
 .avatar-2e8lTP[src*="285569855506219018"] + h3 > .headerText-2z4IhQ > .username-h_Y3Us:hover::after {
   content: "";
   background-image: url('https://i.imgur.com/ZeJRRH0.gif') !important;
-  width: 14px;
-  height: 14px;
+  width: 23px;
+  height: 23px;
   padding: 0;
   top: 1px;
 }
