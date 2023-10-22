@@ -2236,7 +2236,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .connectContainer-1hylYM, .connection-YOVI9j, .connectionHeader-Ixbb1s, .mainCard-3KBsBI {
-    background-color: #00000080 !important
+    background-color: #00000080;
 }
 
 .chat-1-OBC7, .container-3YcgdM, .ctaBar-Nhk8yY, .scroller-RfJjkV, .theme-dark .perk-19D_HN, .theme-dark .perksModal-CLcR1c, .theme-dark .tierBody-3ju-rc, .theme-dark .tierHeaderLocked-3ItHYn {
@@ -2910,5 +2910,16 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: transparent;
 }
 
+.theme-dark .container-q2_DnH.isOpen-2Gyel_{
+        background-color: #00000099;
+        border: 2px solid var(--themeColor1);
+}
 
+.messages-23can0{
+    background-color: var(--backgroundColor);
+}
+
+.container-q2_DnH:hover{
+    border: 2px solid var(--themeColor1);
+}
 

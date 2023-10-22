@@ -2896,6 +2896,29 @@
     background: transparent;
 }
 
+.theme-dark .container-q2_DnH.isOpen-2Gyel_{
+    background-color: var(--backgroundColor02);
+}
+
+.chatContent-2O4SXb{
+    background: var(--backgroundColor02);
+}
+
+.base-3bcbY3{
+    background-color: var(--backgroundColor02);
+}
+
+.resizeHandle-2F4Beb{
+    background-color: var(--backgroundColor01);
+}
+
+.auto-2TJ1RH::-webkit-scrollbar-track{
+    background-color: var(--backgroundColor02);
+}
+
+.auto-2TJ1RH::-webkit-scrollbar-thumb{
+    background-color: var(--backgroundColor01);
+}
 
 
 
