@@ -2935,3 +2935,11 @@
 .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca){
     background-color: var(--backgroundColor01) ;
 }
+
+.container_de798d{
+    color: var(--mainColor) !important;
+}
+
+.container_b181b6{
+    background: var(--backgroundColor02);
+}
