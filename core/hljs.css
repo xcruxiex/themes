@@ -2,14 +2,14 @@
   --backgroundCode: #2f3136;
   --backgroundName: #202225;
 }
-.markup-eYLPri pre {
+.markup_a7e664 pre {
     position: relative;
     border-radius: 6px;
 }
-.modalTextContainer-1FUO2W,
-.textContainer-36wgKK,
-.markup-eYLPri code.hljs,
-.markup-eYLPri code.hljs.inline {
+.modalTextContainer_ddfc28,
+.textContainer__709ff,
+.markup_a7e664 code.hljs,
+.markup_a7e664 code.hljs.inline {
     box-sizing: border-box;
     padding-top: 27px;
     position: relative;
@@ -17,17 +17,17 @@
     scrollbar-color: var(--backgroundCode) var(--backgroundName);
     background: var(--backgroundCode) !important;
 }
-.footer-GXWBBp,
-.markup-eYLPri code,
-.markup-eYLPri code.inline {
+.footer__06f4b,
+.markup_a7e664 code,
+.markup_a7e664 code.inline {
     box-sizing: border-box;
     scrollbar-color: var(--backgroundCode) var(--backgroundName);
     background: var(--backgroundCode) !important;
 }
-.textContainer-36wgKK {
+.textContainer__709ff {
     overflow: hidden;
 }
-.languageSelector-2e1IuO {
+.languageSelector_a1c2f3 {
     background: var(--backgroundCode);
 }
 
