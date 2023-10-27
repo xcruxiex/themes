@@ -1,3 +1,34 @@
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
+@import url("https://nyri4.github.io/Discolored/main.css"); 
+@import url("https://xcruxiex.github.io/themes/core/hljs.css");
+
+:root {
+    --backgroundColor01: #1e2731;
+    --backgroundColor02: #12171d;
+    --mainColor: #2275c9;
+    --gradientColor01: #00f260;
+    --gradientColor02: #0575e6;
+    --backgroundCode: #1e2731;
+    --backgroundName: rgba(0, 0, 0, 0.2);
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-visible: block;
+    --rs-phone-color: var(--rs-online-color);
+}
+
 #app-mount .applicationStore_fc7d76,
 #app-mount .bg__12180,
 #app-mount .chat__52833,
