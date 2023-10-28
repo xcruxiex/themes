@@ -485,10 +485,12 @@
     background-color: var(--backgroundColor01) !important
 }
 
+#app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child img,
 #app-mount .tutorialContainer__890ea .childWrapper__01b9c>svg {
     display: none !important
 }
 
+#app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child > .appIconSelection__3c38d,
 #app-mount .tutorialContainer__890ea .childWrapper__01b9c::after {
     position: absolute;
     content: "";
@@ -502,6 +504,11 @@
     background-position: center;
     -webkit-mask-box-image: url("https://i.imgur.com/6gPQfIO.png");
     mask-image: url("https://i.imgur.com/6gPQfIO.png")
+}
+
+#app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child > .appIconSelection__3c38d {
+    top: 12px;
+    left: 12px;
 }
 
 #app-mount .folder__17546 {
