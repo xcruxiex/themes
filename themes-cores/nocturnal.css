@@ -491,7 +491,7 @@
 }
 
 #app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child > .appIconSelection__3c38d,
-#app-mount .tutorialContainer__890ea .childWrapper__01b9c::after {
+#app-mount .tutorialContainer__890ea .childWrapper__01b9c:has(svg)::after {
     position: absolute;
     content: "";
     width: 36px;
@@ -506,9 +506,17 @@
     mask-image: url("https://i.imgur.com/6gPQfIO.png")
 }
 
+
+#app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child {
+    background-color: var(--backgroundColor01);
+    box-shadow: 0 0 2px var(--interactive-normal);
+    border-radius: 50%;
+}
+
 #app-mount .appAsidePanelWrapper__714a6 .presets_c3a603 > .appIconSelectionContainer_aa83b2:first-child > .appIconSelection__3c38d {
     top: 12px;
     left: 12px;
+    border-radius: 0%;
 }
 
 #app-mount .folder__17546 {
