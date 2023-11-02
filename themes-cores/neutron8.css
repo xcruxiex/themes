@@ -310,7 +310,7 @@ body {
 
 .root_a28985,
 .wrapper-2ZbzR9 {
-    background-color: var(--backgroundColor) !important;
+    background-color: var(--backgroundColor);
     box-shadow: none !important
 }
 
@@ -2936,4 +2936,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca){
     background-color: var(--backgroundColor) ;
+}
+
+.carouselModal_c0d5b7{
+    background:transparent!important;
 }

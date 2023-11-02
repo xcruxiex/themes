@@ -867,7 +867,7 @@
 }
 
 #app-mount .root_a28985 {
-    background: var(--backgroundColor02) !important;
+    background: var(--backgroundColor02) ;
     box-shadow: none !important
 }
 
@@ -2942,4 +2942,8 @@
 
 .container_b181b6{
     background: var(--backgroundColor02);
+}
+
+.carouselModal_c0d5b7{
+    background:transparent!important;
 }
