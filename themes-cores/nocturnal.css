@@ -2962,3 +2962,16 @@
 .wrapper__3d460{
     background: transparent;
 }
+
+.reaction_fef95b{
+    background: #00000020;
+}
+
+.reaction_fef95b:hover{
+    background-color: #00000050;
+}
+
+.reaction_fef95b.reactionMe__98f57{
+    background-color: #00000050;
+}
+
