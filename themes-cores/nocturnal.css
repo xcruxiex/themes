@@ -3007,3 +3007,8 @@
 .base__512ed{
     background-color: var(--backgroundColor02);
 }
+
+.codeActions__43b2e {
+    display: contents;
+    z-index: 3;
+}

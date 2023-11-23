@@ -2964,3 +2964,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .reaction_fef95b.reactionMe__98f57{
     background-color: #00000050;
 }
+
+.codeActions__43b2e {
+    display: contents;
+    z-index: 3;
+}
