@@ -2969,3 +2969,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     display: contents;
     z-index: 3;
 }
+
+.modeUnreadImportant_efb53e .name__8d1ec{
+    color: var(--themeColor1);
+
+}
+.icon__62403{
+    color: var(--themeColor1);
+}
+
+.base__512ed{
+    background-color: transparent;
+}

@@ -3012,3 +3012,19 @@
     display: contents;
     z-index: 3;
 }
+
+.modeUnreadImportant_efb53e .name__8d1ec{
+    color: var(--gradientColor02);
+
+}
+.icon__62403{
+    color: var(--gradientColor02);
+}
+
+.base__512ed{
+    background-color: transparent;
+}
+
+#app-mount .unread__48cf4:after{
+    left: -7px;
+}
