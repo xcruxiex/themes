@@ -3013,10 +3013,10 @@
     z-index: 3;
 }
 
-.modeUnreadImportant_efb53e .name__8d1ec{
-    color: var(--gradientColor02);
-
+.modeUnreadImportant_efb53e .name__8d1ec {
+    color: #ccc
 }
+
 .icon__62403{
     color: var(--gradientColor02);
 }
