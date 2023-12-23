@@ -3028,3 +3028,18 @@
 #app-mount .unread__48cf4:after{
     left: -7px;
 }
+
+.container__1b27a{
+    background-color: var(--backgroundColor01);
+}
+
+.descriptionContainer__3814d{
+    background-color: var(--backgroundColor01);
+}
+.linkContainer__32221{
+    background-color: var(--backgroundColor01);
+}
+
+.gradient__03beb{
+    display: none;
+}
