@@ -2998,7 +2998,7 @@
 }
 
 .base__512ed{
-    background: var(--backgroundColor02);
+    background: var(--backgroundColor02) !important;
 }
 
 .codeActions__43b2e {
