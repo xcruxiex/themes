@@ -2933,10 +2933,6 @@
     background: var(--backgroundColor02);
 }
 
-.base__512ed{
-    background-color: var(--backgroundColor02);
-}
-
 .resizeHandle_f1a098{
     background-color: var(--backgroundColor01);
 }
@@ -2980,9 +2976,6 @@
 .callContainer_cbde45{
     background: var(--backgrounColor02);
 }
-.base__512ed{
-    background: var(--backgroundColor02);
-}
 
 .box_dd6d91{
     background: var(--backgroundColor01);
@@ -3005,7 +2998,7 @@
 }
 
 .base__512ed{
-    background-color: var(--backgroundColor02);
+    background: var(--backgroundColor02);
 }
 
 .codeActions__43b2e {
