@@ -3065,3 +3065,7 @@
 .icon_ef4486{
     color: var(--mainColor);
 }
+
+button.button__4f306>.contents_fb6220>svg>path[fill*="var(--interactive-normal)"] {
+    fill: var(--mainColor);
+}
