@@ -3036,3 +3036,32 @@
 .gradient__03beb{
     display: none;
 }
+
+.container__03857{
+    background-color: var(--backgroundColor);
+}
+
+.channelName__9884c{
+    color: var(--mainColor) !important;
+}
+
+.statusText_e0f90b{
+    color: var(--mainColor);
+}
+
+.channelIcon_bf17cb{
+    color: var(--mainColor);
+}
+
+.spotifyButtonLogo__526f7{
+    color: var(--mainColor);
+}
+
+.button_b406e5{
+    color: var(--mainColor);
+}
+
+.spriteGreyscale__7b70f{background-color: var(--mainColor) !important;}
+.icon_ef4486{
+    color: var(--mainColor);
+}
