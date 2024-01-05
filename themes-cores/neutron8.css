@@ -2996,3 +2996,34 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .gradient__03beb{
     display: none;
 }
+
+.iconContainer__8fa9c, .icon_f50f05 { 
+  width: 21px;
+  height: 21px;
+  color: #fff;
+  transition: ease-in-out .3s;
+}
+
+.searchBar_e0c60b { 
+  width: 21px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  transition: ease-in-out 0.3s!important;
+}
+
+.searchBar_e0c60b:hover .iconContainer__8fa9c,
+.searchBar_e0c60b:hover .icon_f50f05,
+.focused_ddee54 .icon_f50f05,
+.focused_ddee54 .iconContainer__8fa9c { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.searchBar_e0c60b:hover,
+.focused_ddee54 .searchBar_e0c60b, .open_d3ab4e .searchBar_e0c60b  { 
+  width: 175px;
+  background: transparent;
+  border: 2px solid #ffffff50;
+}
