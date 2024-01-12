@@ -3037,8 +3037,13 @@
 }
 
 .container__03857{
-    background-color: var(--backgroundColor);
+    background-color: var(--backgroundColor02);
 }
+
+.body__91006{
+    background-color: var(--backgroundColor02);
+}
+
 
 .channelName__9884c{
     color: var(--mainColor) !important;
