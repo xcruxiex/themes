@@ -34,12 +34,12 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
   --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
 
   /* HOME BUTTON */
-  --homeImage: url('https://cdn.discordapp.com/attachments/318724890788364288/916831895956901898/world-of-tanks-logo-video-game-png-favpng-e0nPg1E5hyZ4XEv9gTZ4rndSb.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImage: url('https://cdn.discordapp.com/attachments/440526953947070464/1213158409218826311/world-of-tanks-logo-video-game.png?ex=65f474d0&is=65e1ffd0&hm=a64671afffa09c3188af064a3e87d4da5bd106a236414d60d89ec3ed8994b74b&');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
   --backgroundColor: #0D0D0DFF; /* Background color */
-  --backgroundImage: url('https://cdn.discordapp.com/attachments/318724890788364288/1063280367164993536/2Q.png'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url('https://cdn.discordapp.com/attachments/440526953947070464/1213158410044968980/WoT_wallpaper.png?ex=65f474d0&is=65e1ffd0&hm=d9ff03658e4d7b38f1b1ec169db53c4e2ed7df67be62f5993be57dd24a4e4fe2&'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
