@@ -3104,3 +3104,7 @@ button.button__4f306>.contents_fb6220>svg>path[fill*="var(--interactive-normal)"
   background: transparent;
   border: 2px solid var(--mainColor);
 }
+
+.emojiLockIconContainer_edde9a{
+    display: none;
+}
