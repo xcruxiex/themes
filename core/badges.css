@@ -196,14 +196,14 @@
 /* w1zard*/
 .avatar__08316[src*="285569855506219018"] + h3 > .headerText_bd68ec > .username__0b0e7::after {content: "";
   background-image: url('https://i.imgur.com/ZeJRRH0.gif');
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
 }
 .avatar__08316[src*="285569855506219018"] + h3 > .headerText_bd68ec > .username__0b0e7:hover::after {
   content: "";
   background-image: url('https://i.imgur.com/ZeJRRH0.gif') !important;
-  width: 23px;
-  height: 23px;
+  width: 25px;
+  height: 25px;
   padding: 0;
   top: 1px;
   background-color: transparent;
