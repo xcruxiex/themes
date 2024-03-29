@@ -807,10 +807,12 @@
 
 /* Airtroops */
 .avatar__08316[src*="389250525952081921"] + h3 > .headerText_bd68ec > .username__0b0e7::after {content: "";
-  background-image: url('https://i.imgur.com/gCq2G2o.png');}
-.avatar__08316[src*="389250525952081921"] + h3 > .headerText_bd68ec > .username__0b0e7:hover::after {
+  background-image: url('https://i.imgur.com/gCq2G2o.png');
+  width: 25px; height: 25px;
+  }
+  .avatar__08316[src*="389250525952081921"] + h3 > .headerText_bd68ec > .username__0b0e7:hover::after {
   content: "KanmasuEnjoyer";
-  width: 95px;
-  text-shadow: 1px 1px 3px black;
+  width: 89px;
+  height: 20px;
   background-color: #A96ACE;
 }
