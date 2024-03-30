@@ -3109,3 +3109,8 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .emojiLockIconContainer_ed2f80{
     display: none;
 }
+
+.lottieIcon_c7076c :not(defs *)[fill][fill-opacity]{
+    fill: var(--gradientColor02);
+}
+
