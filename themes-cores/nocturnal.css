@@ -3114,3 +3114,14 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
     fill: var(--gradientColor02);
 }
 
+.container__0bd59{
+    background-color: var(--backgroundColor01);
+}
+
+.scroller_b7f6d8{
+    background-color:var(--backgroundColor02) ;
+}
+
+.container__6e389, .voters_ddbfbc{
+    background-color:var(--backgroundColor02) ;
+}

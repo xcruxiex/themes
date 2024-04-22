@@ -3031,3 +3031,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .emojiLockIconContainer_ed2f80{
     display: none;
 }
+
+.container__0bd59{
+    background-color: #00000050;
+}
+
+.scroller_b7f6d8{
+    background-color:var(--backgroundColor) ;
+}
+
+.container__6e389, .voters_ddbfbc{
+    background-color:var(--backgroundColor) ;
+}
