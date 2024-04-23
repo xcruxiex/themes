@@ -3125,3 +3125,7 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .container__6e389, .voters_ddbfbc{
     background-color:var(--backgroundColor02) ;
 }
+
+.badge_b37eda{
+    background-color: var(--backgroundColor01);
+}
