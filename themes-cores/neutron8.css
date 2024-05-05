@@ -3067,3 +3067,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .categoryList_eac4ac {
     background-color: var(--backgroundColor);
 }
+
+.soundInfo_e6cedd, .soundButton__845c7{
+    background: var(--backgroundColor);
+}
+
+.soundAddButton_bdadae:hover, .soundAddButton_bdadae.focused__5fe02{
+    background: var(--backgroundColor);
+    border: 2px solid var(--themeColor)
+}
