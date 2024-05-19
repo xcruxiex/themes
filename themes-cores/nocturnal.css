@@ -3194,3 +3194,7 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .activityTextContainer__930a7{
     background-color: var(--backgroundColor02) ;
 }
+
+.standardStickerShortcut_e9a698{
+    color: var(--mainColor);
+}
