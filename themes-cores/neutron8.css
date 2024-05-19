@@ -3121,3 +3121,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .activityTextContainer__930a7{
     background-color: var(--backgroundColor) ;
 }
+
+.unicodeShortcut__01a83{
+    color: var(--themeColor01);
+}

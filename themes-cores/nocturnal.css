@@ -3198,3 +3198,11 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .standardStickerShortcut_e9a698{
     color: var(--mainColor);
 }
+
+.unicodeShortcut__01a83{
+    color: var(--mainColor);
+}
+
+.actionIcon_b149a2 path{
+    fill: var(--mainColor);
+}
