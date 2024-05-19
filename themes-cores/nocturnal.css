@@ -3149,3 +3149,11 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .iconWrapper_de6cd1 path{
     fill: var(--mainColor) !important;
 }
+
+.wrapper__45980{
+    background-color: var(--backgroundColor02);
+}
+
+.settingsIcon_e74cf5{
+    color: var(--mainColor);
+}
