@@ -3076,3 +3076,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: var(--backgroundColor);
     border: 2px solid var(--themeColor)
 }
+
+.iconWrapper_de6cd1 path{
+    fill: var(--interactive-active) !important;
+}

@@ -3145,3 +3145,7 @@ button.button_ae40a4>.contents__322f4>svg>path[fill*="var(--interactive-normal)"
 .soundAddButton_bdadae:hover, .soundAddButton_bdadae.focused__5fe02{
     background: var(--backgroundColor02);
 }
+
+.iconWrapper_de6cd1 path{
+    fill: var(--mainColor) !important;
+}
