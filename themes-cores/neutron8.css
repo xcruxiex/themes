@@ -3084,3 +3084,40 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .wrapper__45980{
     background-color: var(--backgroundColor);
 }
+
+.categoryIcon__3e47a[data-list-item-id="NO_LIST___soundboard_guild_0"]{
+    content: "";
+    width: 24px;
+    background-color: transparent !important;
+    height: 24px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("https://imgur.com/eItxuAq.png");
+}
+.categoryIcon__3e47a[data-list-item-id="NO_LIST___soundboard_guild_0"] > .categoryIconIcon__18765{
+    display: none;
+}
+
+.categoryIcon_d0a396{
+    color: var(--themeColor01);
+}
+
+.modalHeader_b1624c{
+    background-color: var(--backgroundColor) ;
+}
+
+.scroller__27542{
+    background-color: var(--backgroundColor) ;
+}
+
+.footer_ecba00{
+    background-color: var(--backgroundColor) ;
+}
+
+.activityTextContainer__930a7{
+    background-color: var(--backgroundColor) ;
+}
