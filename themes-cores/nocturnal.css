@@ -501,17 +501,17 @@
     color: #000 !important
 }
 
-#app-mount .childWrapper_a6ce15 {
+#app-mount .childWrapper__760c6 {
     background-color: var(--backgroundColor01) !important
 }
 
 #app-mount .presets__230dd > .appIconSelectionContainer__197e9:first-child img,
-#app-mount .tutorialContainer_b06ae6 .childWrapper_a6ce15>svg {
+#app-mount .tutorialContainer_b06ae6 .childWrapper__760c6>svg {
     display: none !important
 }
 
 #app-mount .presets__230dd > .appIconSelectionContainer__197e9:first-child > .appIconSelection__88ace,
-#app-mount .tutorialContainer_b06ae6 .childWrapper_a6ce15:has(svg)::after {
+#app-mount .tutorialContainer_b06ae6 .childWrapper__760c6:has(svg)::after {
     position: absolute;
     content: "";
     width: 36px;
