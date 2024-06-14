@@ -87,7 +87,7 @@ body {
     box-shadow: none !important
 }
 
-.tutorialContainer_b06ae6 .childWrapper_a6ce15 {
+.tutorialContainer_b06ae6 .childWrapper__760c6 {
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,12 +97,12 @@ body {
 }
 
 
-.tutorialContainer_b06ae6 .wrapper__8436d:hover .childWrapper_a6ce15 {
+.tutorialContainer_b06ae6 .wrapper__8436d:hover .childWrapper__760c6 {
     background-color: var(--themeColor1) !important;
 }
 
-.tutorialContainer_b06ae6 .childWrapper_a6ce15 > svg,
-.tutorialContainer_b06ae6 .childWrapper_a6ce15 .homeIcon-tEMBK1 {
+.tutorialContainer_b06ae6 .childWrapper__760c6 > svg,
+.tutorialContainer_b06ae6 .childWrapper__760c6 .homeIcon-tEMBK1 {
     display: none
 }
 
@@ -137,11 +137,11 @@ body {
     color: var(--themeColor1)
 }
 
-.childWrapper_a6ce15 {
+.childWrapper__760c6 {
     background-color: rgba(0, 0, 0, .5);
     color: var(--themeColor2)
 }
-.childWrapper_a6ce15:hover {
+.childWrapper__760c6:hover {
     background-color: var(--themeColor2) !important;
     color: #fff;
 }
@@ -2156,7 +2156,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: transparent !important
 }
 
-.childWrapper_a6ce15 .homeIcon-FuNwkv {
+.childWrapper__760c6 .homeIcon-FuNwkv {
     display: none
 }
 
