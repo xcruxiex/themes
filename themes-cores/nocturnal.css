@@ -3326,3 +3326,7 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .box_f70f48 {
 	background-color: var(--backgroundColor01);
 }
+
+.wrapper_b75bb9{
+    background:transparent!important;
+}
