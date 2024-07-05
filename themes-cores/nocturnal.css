@@ -2914,11 +2914,6 @@
     background: var(--backgroundColor01);
 }
 
-.members_cbd271,
-.membersListNotices__0bcb6 {
-    width: 100% !important;
-}
-
 .chat_a7d72e {
     background: transparent;
 }
@@ -3307,10 +3302,6 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 	background-color: var(--backgroundColor01);
 }
 
-.stickerCategoryGenericSelected_a7a485 .stickerCategoryGenericIcon_a7a485 {
-	color: var(--mainColor);
-}
-
 .container_b01337 {
 	background-color: var(--backgroundColor01);
 }
@@ -3329,4 +3320,42 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 
 .wrapper_b75bb9{
     background:transparent!important;
+}
+
+/* Emoji Picker */
+.categoryItemDefaultCategory_dfa278:hover {
+    background-color: var(--mainColor);
+}
+
+/* Sticker Picker */
+.stickerCategoryGeneric_a7a485 {
+    color: #fff;
+}
+.stickerCategoryGeneric_a7a485:hover {
+    color: #fff;
+    background-color: var(--mainColor);
+}
+.stickerCategoryGenericSelected_a7a485, .stickerCategoryGenericSelected_a7a485:hover {
+    background-color: var(--mainColor);
+    color: #fff !important;
+}
+
+/* Built in Emojis/stickers */
+.unicodeShortcut_dfa278 {
+    color: #fff;
+}
+.unicodeShortcut_dfa278:hover {
+    background-color: var(--mainColor);
+    color: #fff !important;
+}
+
+/* HLJS Patch Noc only */
+.markup_f8f345 code{background-color: var(--backgroundCode)}
+.hljs, .hljs::after {
+    padding-top: 20px !important;
+}
+
+/* Channel Permissions: Private Channel box */
+.settingCard_dd864e {
+  background-color: var(--backgroundCode);
 }
