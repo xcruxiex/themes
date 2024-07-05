@@ -3341,10 +3341,10 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 }
 
 /* Built in Emojis/stickers */
-.unicodeShortcut_dfa278 {
+.unicodeShortcut_dfa278,.standardStickerShortcut_a7a485 {
     color: #fff;
 }
-.unicodeShortcut_dfa278:hover {
+.unicodeShortcut_dfa278:hover,.standardStickerShortcut_a7a485:hover {
     background-color: var(--mainColor);
     color: #fff !important;
 }
@@ -3354,8 +3354,23 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .hljs, .hljs::after {
     padding-top: 20px !important;
 }
+.markup_f8f345 .codeActions_f8f345 {
+    top: 20px !important;
+}
+.hljs::after {
+    height: calc(100% - 20px);
+}
 
 /* Channel Permissions: Private Channel box */
 .settingCard_dd864e {
-  background-color: var(--backgroundCode);
+    background-color: var(--backgroundColor01);
+}
+
+/* Boost this server! */
+.content_cc6017 {
+    background-color: var(--backgroundColor01);
+    border-radius: 4px 4px 0px 0px;
+}
+.perks_fcea2f {
+    background-color: rgba(0,0,0,0.3);
 }
