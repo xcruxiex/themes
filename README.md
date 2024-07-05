@@ -21,7 +21,7 @@ Discord server invite : https://discord.gg/PZdnCVD
 ## 2. Installing a theme
 First of all, make sure you have installed [BetterDiscord](https://betterdiscord.app/)
 
-   *  Step 1: Download the theme
+   *  Step 1: Download the theme file
    * Step 2: Save the file somewhere you can find it
    * Step 3: Open the themes folder:
       * Go to your Discord's settings
