@@ -3374,3 +3374,8 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .perks_fcea2f {
     background-color: rgba(0,0,0,0.3);
 }
+
+/*bar on top*/
+.theme-dark .themed_fc4f04,.theme-dark .children_fc4f04:after{
+    background: var(--backgrounColor02);
+}
