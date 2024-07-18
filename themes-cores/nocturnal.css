@@ -3382,3 +3382,11 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .clickable_fc4f04 .icon_fc4f04 {
 	color: var(--mainColor);
 }
+
+.spriteGreyscale_d91a75{
+    background-color: var(--mainColor);
+}
+
+.clickable_fc4f04:hover .icon_fc4f04{
+    color: var(--mainColor);
+}
