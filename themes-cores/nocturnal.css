@@ -3390,3 +3390,7 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .clickable_fc4f04:hover .icon_fc4f04{
     color: var(--mainColor);
 }
+
+.autocomplete_bcc24e{
+    background-color: var(--backgroundColor01);
+}

@@ -3286,3 +3286,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .theme-dark .themed_fc4f04,.theme-dark .children_fc4f04:after{
     background: transparent;
 }
+
+.autocomplete_bcc24e{
+    background-color: var(--backgroundColor);
+}
