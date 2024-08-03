@@ -3314,3 +3314,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .markup_f8f345 code {
     background-color: var(--backgroundColor);
 }
+
+.content_b56bbc{background-color: var(--backgroundColor);}
+.wrapper_ef319f{background-color: var(--backgroundColor);}
+.icon_e986d9{color: var(--themeColor1);}
+.button_ef319f:hover .icon_e986d9{color: var(--backgroundColor);}
