@@ -35,11 +35,11 @@
 #app-mount .container_ee69e0,
 #app-mount .container_c2739c,
 #app-mount .container-7Unqij,
-#app-mount .container_e44302.themed_e44302,
+#app-mount .container_fc4f04.themed_fc4f04,
 #app-mount .contentRegion_c25c6d,
 #app-mount .contentRegionScroller_c25c6d,
 #app-mount .editor_bcfa1e,
-#app-mount .emptyPreview_eb1d8c,
+#app-mount .emptyPreview_a5989d,
 #app-mount .header_f1629a,
 #app-mount .inviteToolbar_c2739c,
 #app-mount .keyboardShortcutsModal_ad95dc,
@@ -84,7 +84,7 @@
 #app-mount .container-S9SaVf,
 #app-mount .editor_bcfa1e .footerButton_bcfa1e,
 #app-mount .themeEditor_c9dda6 .footerButton_c9dda6,
-#app-mount .wrapper_ef319f {
+#app-mount .wrapper_f7e168 {
     background-color: var(--backgroundColor01) !important
 }
 
@@ -94,7 +94,7 @@
 #app-mount .emptyStateImage-2qGUMK,
 #app-mount .icon-1fWS75,
 #app-mount .image__08515,
-#app-mount .image_b06619,
+#app-mount .image_a2a7b5,
 #app-mount .image_ac90a2 {
     mix-blend-mode: soft-light
 }
@@ -164,11 +164,11 @@
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .button_f67531.enabled_f67531:hover {
+#app-mount .button_adca65.enabled_adca65:hover {
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .button_ef319f:hover {
+#app-mount .button_f7e168:hover {
     background-color: var(--backgroundColor02) !important
 }
 
@@ -361,24 +361,24 @@
     background: var(--backgroundColor01) !important
 }
 
-#app-mount .divider_fc5f50:not(.isUnread_fc5f50) {
+#app-mount .divider_c2654d:not(.isUnread_c2654d) {
     border-color: var(--backgroundColor01) !important
 }
 
-#app-mount .content_fc5f50 {
+#app-mount .content_c2654d {
     background: var(--backgroundColor01) !important
 }
 
-#app-mount .attachment_a4623d,
-#app-mount .autocomplete_f23da8,
+#app-mount .attachment_b52bef,
+#app-mount .autocomplete_bcc24e,
 #app-mount .bar-AokMp3,
 #app-mount .bumpBox_ca33de,
 #app-mount .folder-1hbNCn,
-#app-mount .role_deddac,
-#app-mount .role_deddac:hover,
+#app-mount .role_d70de6,
+#app-mount .role_d70de6:hover,
 #app-mount .selected_c9d951,
 #app-mount .selected_c9d951:hover,
-#app-mount .wrapper_b9fe76,
+#app-mount .wrapper_a71a1c,
 #app-mount .wrapperAudio_f316dd {
     background: var(--backgroundColor01) !important;
     border: none !important
@@ -388,13 +388,13 @@
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .embedFull_ad0b71 {
+#app-mount .embedFull_b0068a {
     background: var(--backgroundColor01) !important
 }
 
 #app-mount .anchor-1MIwyf,
-#app-mount .executedCommand_ec86aa .commandName_ec86aa,
-#app-mount .markup_d6076c a {
+#app-mount .executedCommand_f9f2ca .commandName_f9f2ca,
+#app-mount .markup_f8f345 a {
     color: var(--gradientColor01) !important
 }
 
@@ -460,7 +460,7 @@
     margin-left: 0 !important
 }
 
-#app-mount .divider_e44302 {
+#app-mount .divider_fc4f04 {
     display: none
 }
 
@@ -470,9 +470,9 @@
     border: none !important
 }
 
-#app-mount .emptyCard_f02fcf .inset_c0f6a6,
+#app-mount .emptyCard_f02fcf .inset_ac5d22,
 #app-mount .emptyCard_f02fcf .section_cd82a7,
-#app-mount .wrapper_cd82a7 .inset_c0f6a6,
+#app-mount .wrapper_cd82a7 .inset_ac5d22,
 #app-mount .wrapper_cd82a7 .section_cd82a7 {
     background-color: var(--backgroundColor02) !important;
     box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .3)
@@ -490,8 +490,8 @@
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .card_eb1ca6,
-#app-mount .iconMask_eb1ca6 {
+#app-mount .card_e90879,
+#app-mount .iconMask_e90879 {
     background-color: var(--backgroundColor01) !important
 }
 
@@ -554,9 +554,9 @@
 #app-mount .addButtonIcon_a08117,
 #app-mount .arrow_d64d50,
 #app-mount .attachButtonPlus_f298d4,
-#app-mount .button_f67531 svg,
+#app-mount .button_adca65 svg,
 #app-mount .button_a79c58,
-#app-mount .buttonWrapper_cecf00 svg,
+#app-mount .buttonWrapper_f9af59 svg,
 #app-mount .channelNameIcon_a9e225,
 #app-mount .colorDefault-CDqZdO .checkbox-hADx5o,
 #app-mount .colorDefault-CDqZdO .radioSelection-1UHp0b,
@@ -564,11 +564,11 @@
 #app-mount .colorLink-2apWfY,
 #app-mount .connectedAccountOpenIcon-1yfBsb,
 #app-mount .container-7Unqij svg,
-#app-mount .flowerStar_ff7d90 path,
+#app-mount .flowerStar_c91f7d path,
 #app-mount .icon_e01b91,
 #app-mount .icon_a3b500,
 #app-mount .icon_d8bfb3,
-#app-mount .icon_e44302,
+#app-mount .icon_fc4f04,
 #app-mount .icon_fb52f0,
 #app-mount .icon_ca33de,
 #app-mount .icon-E4cW1l,
@@ -595,7 +595,7 @@
     background-color: var(--mainColor) !important
 }
 
-#app-mount .childContainer_ff7d90 {
+#app-mount .childContainer_c91f7d {
     top: 1px
 }
 
@@ -631,29 +631,29 @@
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .clickable_e9f61e.container_e9f61e .activity_a31c43 {
+#app-mount .clickable_d808b0.container_d808b0 .activity_a31c43 {
     color: rgba(255, 255, 255, .5) !important
 }
 
-#app-mount .clickable_e9f61e.container_e9f61e:hover .activity_a31c43 {
+#app-mount .clickable_d808b0.container_d808b0:hover .activity_a31c43 {
     color: rgba(255, 255, 255, .9) !important
 }
 
-#app-mount .clickable_e9f61e.container_e9f61e:hover .layout_e9f61e,
-#app-mount .selected_e9f61e .layout_e9f61e {
+#app-mount .clickable_d808b0.container_d808b0:hover .layout_d808b0,
+#app-mount .selected_d808b0 .layout_d808b0 {
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .selected_e9f61e .activity_a31c43 {
+#app-mount .selected_d808b0 .activity_a31c43 {
     color: rgba(255, 255, 255, .9) !important
 }
 
-#app-mount .layout_e9f61e {
+#app-mount .layout_d808b0 {
     position: relative;
     overflow: hidden
 }
 
-#app-mount .layout_e9f61e::after {
+#app-mount .layout_d808b0::after {
     content: "";
     position: absolute;
     left: 0;
@@ -674,8 +674,8 @@
     transform: translateX(100%)
 }
 
-#app-mount .clickable_e9f61e.container_e9f61e:hover .layout_e9f61e::after,
-#app-mount .selected_e9f61e .layout_e9f61e::after {
+#app-mount .clickable_d808b0.container_d808b0:hover .layout_d808b0::after,
+#app-mount .selected_d808b0 .layout_d808b0::after {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -721,7 +721,7 @@
     border: none !important
 }
 
-#app-mount .base-21yXnu.pro_dcc874[style*="rgb(59, 165, 92)"] {
+#app-mount .base-21yXnu.pro_b5053a[style*="rgb(59, 165, 92)"] {
     color: var(--mainColor) !important
 }
 
@@ -893,7 +893,7 @@
 }
 
 #app-mount .attachedBars_d0696b,
-#app-mount .quickSelectPopout__56a98,
+#app-mount .quickSelectPopout_abbf45,
 #app-mount .resultFocused-3aIoYe,
 #app-mount .root_cbf230 {
     background-color: var(--backgroundColor01)
@@ -1028,7 +1028,7 @@
     background-color: var(--mainColor) !important
 }
 
-#app-mount .children_e44302:after,
+#app-mount .children_fc4f04:after,
 #app-mount .content_a7d72e:before,
 #app-mount .divider_b8ab18,
 #app-mount .form_a7d72e:before,
@@ -1244,14 +1244,14 @@
     display: block
 }
 
-#app-mount .wrapper_b211c6,
+#app-mount .wrapper_b75bb9,
 #app-mount .wrapper-22ayhK {
     background-color: var(--backgroundColor02) !important
 }
 
-#app-mount .attachment_b211c6,
-#app-mount .avatar_b211c6,
-#app-mount .blob_b211c6 {
+#app-mount .attachment_b75bb9,
+#app-mount .avatar_b75bb9,
+#app-mount .blob_b75bb9 {
     background-color: rgba(255, 255, 255, .6) !important
 }
 
@@ -1309,7 +1309,7 @@
 #app-mount .cardPrimaryOutline-1ofwVz,
 #app-mount .codeRedemptionRedirect-3SBiCp,
 #app-mount .connection-107AGH,
-#app-mount .pageActions_cb56ee,
+#app-mount .pageActions_d6a4eb,
 #app-mount .paymentPane_f66684,
 #app-mount .userSettingsVoice-1_dzjw .previewOverlay-2reuWf {
     background-color: var(--backgroundColor01) !important;
@@ -1319,8 +1319,8 @@
 #app-mount .background_b69b77,
 #app-mount .paginator_f66684,
 #app-mount .payment_a28a08,
-#app-mount .phoneField_d4eb58,
-#app-mount .phoneField_d4eb58 .inputField_d4eb58,
+#app-mount .phoneField_f26de7,
+#app-mount .phoneField_f26de7 .inputField_f26de7,
 #app-mount .popoutList-10IFAa,
 #app-mount .previewMessage-2uxBrA {
     background-color: var(--backgroundColor01) !important
@@ -1354,7 +1354,7 @@
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, .3)
 }
 
-#app-mount .selectableItem__5e076:hover {
+#app-mount .selectableItem_d40acf:hover {
     background-color: var(--backgroundColor02) !important
 }
 
@@ -1368,24 +1368,24 @@
     color: #fff !important
 }
 
-#app-mount .wrapper_d2da9c {
+#app-mount .wrapper_b877fa {
     border-color: var(--mainColor) !important
 }
 
-#app-mount .option_d2da9c:hover,
-#app-mount .selected_d2da9c.option_d2da9c {
+#app-mount .option_b877fa:hover,
+#app-mount .selected_b877fa.option_b877fa {
     background-color: var(--mainColor) !important
 }
 
-#app-mount .option_d2da9c {
+#app-mount .option_b877fa {
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .disabled_d2da9c {
+#app-mount .disabled_b877fa {
     color: var(--backgroundColor01) !important
 }
 
-#app-mount .disabled_d2da9c:hover {
+#app-mount .disabled_b877fa:hover {
     color: #ed4245 !important
 }
 
@@ -1483,11 +1483,11 @@
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .addGamePopout-3yePJc .select_fb76b2,
-#app-mount .option-2eIyOn.focused-ODgjnC .select_fb76b2,
-#app-mount .option-2eIyOn:focus .select_fb76b2,
-#app-mount .option-2eIyOn:hover .select_fb76b2,
-#app-mount .option-2eIyOn[aria-selected=true] .select_fb76b2 {
+#app-mount .addGamePopout-3yePJc .select_fbe7b1,
+#app-mount .option-2eIyOn.focused-ODgjnC .select_fbe7b1,
+#app-mount .option-2eIyOn:focus .select_fbe7b1,
+#app-mount .option-2eIyOn:hover .select_fbe7b1,
+#app-mount .option-2eIyOn[aria-selected=true] .select_fbe7b1 {
     margin-bottom: 10px
 }
 
@@ -1534,7 +1534,7 @@
     box-shadow: inset 0 0 0 100px rgba(0, 0, 0, .15) !important
 }
 
-#app-mount .wrapper_b06619 {
+#app-mount .wrapper_a2a7b5 {
     background-color: var(--backgroundColor01) !important
 }
 
@@ -1579,7 +1579,7 @@
 #app-mount .settingCard-xZSDjS,
 #app-mount .settingsFormItem-25zW3t,
 #app-mount .tierBody-x9kBBp,
-#app-mount .tierInProgress_a4fd01,
+#app-mount .tierInProgress_bfac79,
 #app-mount .upsellContainer-L9xv7w,
 #app-mount .upsellFooter-ZYsio_ {
     background-color: var(--backgroundColor01) !important
@@ -1588,7 +1588,7 @@
 #app-mount .focused-qp-W9B,
 #app-mount .header_bd05f1,
 #app-mount .item-1BCeuB:hover,
-#app-mount .scroller_e9196a,
+#app-mount .scroller_ff90b2,
 #app-mount .selected-22ukbQ,
 #app-mount .titleContainer_e87574,
 #app-mount .welcomeChannel_dcd39d {
@@ -1652,19 +1652,19 @@
     border: none !important
 }
 
-#app-mount .group_e3c4bb {
+#app-mount .group_d25d19 {
     border: none !important
 }
 
-#app-mount .item_e3c4bb {
+#app-mount .item_d25d19 {
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .item_e3c4bb.deny_e3c4bb.selected_e3c4bb {
+#app-mount .item_d25d19.deny_d25d19.selected_d25d19 {
     background-color: #ed4245 !important
 }
 
-#app-mount .item_e3c4bb.allow_e3c4bb.selected_e3c4bb {
+#app-mount .item_d25d19.allow_d25d19.selected_d25d19 {
     background-color: #4fdc7b !important
 }
 
@@ -1691,7 +1691,7 @@
     color: var(--mainColor) !important
 }
 
-#app-mount .background_a4fd01,
+#app-mount .background_bfac79,
 #app-mount .gemWithoutLabel__6225b {
     color: var(--backgroundColor01) !important
 }
@@ -1818,9 +1818,9 @@
 }
 
 #app-mount .activity-1gTu-L .anchor-1MIwyf,
-#app-mount .activity-1gTu-L .executedCommand_ec86aa .commandName_ec86aa,
-#app-mount .activity-1gTu-L .headerText_d5089b,
-#app-mount .activity-1gTu-L .markup_d6076c a {
+#app-mount .activity-1gTu-L .executedCommand_f9f2ca .commandName_f9f2ca,
+#app-mount .activity-1gTu-L .headerText_c1d9fd,
+#app-mount .activity-1gTu-L .markup_f8f345 a {
     color: #fff !important
 }
 
@@ -1830,7 +1830,7 @@
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .35)
 }
 
-#app-mount .activity-1gTu-L .bar_aa267a {
+#app-mount .activity-1gTu-L .bar_ec2fa7 {
     background-color: rgba(0, 0, 0, .5)
 }
 
@@ -1877,7 +1877,7 @@
 }
 
 #app-mount .activity-fViXj7 .anchor-1MIwyf,
-#app-mount .activity-fViXj7 .headerText_d5089b {
+#app-mount .activity-fViXj7 .headerText_c1d9fd {
     color: #fff !important
 }
 
@@ -1891,7 +1891,7 @@
     fill: white
 }
 
-#app-mount .activity-fViXj7 .timeBarUserPopout_d5089b .bar_aa267a {
+#app-mount .activity-fViXj7 .timeBarUserPopout_c1d9fd .bar_ec2fa7 {
     background-color: var(--backgroundColor01)
 }
 
@@ -2037,7 +2037,7 @@
     background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02)) !important
 }
 
-#app-mount .topSectionPlaying-1J5E4n .assets_d5089b {
+#app-mount .topSectionPlaying-1J5E4n .assets_c1d9fd {
     -webkit-box-shadow: 0 7px 10px -4px rgba(0, 0, 0, .3);
     -ms-box-shadow: 0 7px 10px -4px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 7px 10px -4px rgba(0, 0, 0, .3);
@@ -2278,13 +2278,13 @@
     border-radius: 8px;
 }
 
-.bodyAlignCenter_d5089b,
-.bodyNormal_d5089b {
+.bodyAlignCenter_c1d9fd,
+.bodyNormal_c1d9fd {
     opacity: .99;
 }
 
-.timeBarUserPopout_d5089b,
-.timeBarUserPopoutV2_d5089b {
+.timeBarUserPopout_c1d9fd,
+.timeBarUserPopoutV2_c1d9fd {
     opacity: .99;
 }
 
@@ -2479,7 +2479,7 @@
     background-color: var(--backgroundColor02);
 }
 
-.botText_a02df3 {
+.botText_a9e77f {
     color: white;
 }
 
@@ -2630,22 +2630,22 @@
     background-color: var(--backgroundColor02);
 }
 
-.theme-dark .calendarPicker__47c85 .react-datepicker {
+.theme-dark .calendarPicker_be05cd .react-datepicker {
     background-color: var(--backgroundColor01);
 }
 
-.theme-dark .calendarPicker__47c85 .react-datepicker__day {
+.theme-dark .calendarPicker_be05cd .react-datepicker__day {
     background-color: var(--backgroundColor02);
 }
 
-.theme-dark .calendarPicker__47c85 .react-datepicker__day--disabled,
-.theme-dark .calendarPicker__47c85 .react-datepicker__day--outside-month,
-.theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled,
-.theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled:hover {
+.theme-dark .calendarPicker_be05cd .react-datepicker__day--disabled,
+.theme-dark .calendarPicker_be05cd .react-datepicker__day--outside-month,
+.theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled:hover {
     background-color: var(--backgroundColor02);
 }
 
-.theme-dark .calendarPicker__47c85 .react-datepicker__header {
+.theme-dark .calendarPicker_be05cd .react-datepicker__header {
     background-color: var(--backgroundColor02);
 }
 
@@ -3033,7 +3033,7 @@
     background: var(--backgroundColor02) !important;
 }
 
-.codeActions_d6076c {
+.codeActions_f8f345 {
     display: contents;
     z-index: 3;
 }
@@ -3042,7 +3042,7 @@
     color: #ccc;
 }
 
-.icon_c47562 {
+.icon_d03bba {
     color: var(--gradientColor02);
 }
 
@@ -3099,7 +3099,7 @@
     color: var(--mainColor);
 }
 
-.spriteGreyscale_af14ca {
+.spriteGreyscale_d91a75 {
     background-color: var(--mainColor) !important;
 }
 
@@ -3107,7 +3107,7 @@
     color: var(--mainColor);
 }
 
-button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"] {
+button.button_adca65>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"] {
     fill: var(--mainColor);
 }
 
@@ -3187,7 +3187,7 @@ button.button_f67531>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
     background: var(--backgroundColor02);
 }
 
-.iconWrapper_e44302 path {
+.iconWrapper_fc4f04 path {
     fill: var(--mainColor) !important;
 }
 
