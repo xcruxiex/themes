@@ -2766,10 +2766,13 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.overlayBackground-1KgwVi,
-.input_f8bc55 {
+.overlayBackground-1KgwVi {
     background-color: rgba(1, 1, 1, 0.5);
     border: 1px solid transparent;
+}
+.input_f8bc55 {
+    background-color: transparent;
+    border: 0px;
 }
 
 .theme-dark .calendarPicker_be05cd .react-datepicker__day--disabled,
@@ -3339,4 +3342,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     opacity: 1;
     margin-left: 0;
     transition: .5s all ease-out;
+}
+
+/* Category Names back to original color */
+.icon_a08117, .mainContent_a08117>.container_a5ad5c, .children_a08117{
+    color: var(--themeColor1) !important;
+}
+.addButtonIcon_a08117:hover, .mainContent_a08117>.container_a5ad5c:hover, .children_a08117:hover{
+    color: var(--themeColor2) !important;
 }
