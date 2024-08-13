@@ -14,7 +14,7 @@
 .markup_f8f345 code.hljs,
 .markup_f8f345 code.hljs.inline {
   box-sizing: border-box;
-  padding-top: 27px;
+  padding-top: 20px;
   position: relative;
   border: none;
   scrollbar-color: var(--backgroundCode) var(--backgroundName);
@@ -27,10 +27,6 @@
   box-sizing: border-box;
   scrollbar-color: var(--backgroundCode) var(--backgroundName);
   background: var(--backgroundCode) !important;
-}
-
-.markup_f8f345 code {
-  padding-top: 20px;
 }
 
 .textContainer_d8e2d0 {
