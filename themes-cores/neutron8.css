@@ -3351,3 +3351,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .addButtonIcon_a08117:hover, .mainContent_a08117>.container_a5ad5c:hover, .children_a08117:hover{
     color: var(--themeColor2) !important;
 }
+/*Animated server banner/server banner transparency*/
+.animatedContainer_fd6364{
+    background-color: transparent;
+}
+
+.bannerImage_fd6364:before{
+    background-color: transparent;
+}
