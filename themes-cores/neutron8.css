@@ -3360,3 +3360,11 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .bannerImage_fd6364:before{
     background-color: transparent;
 }
+/*soundboard*/ 
+.picker_cd703d.refresh_cd703d{
+    background-color: var(--backgroundColor);
+}
+
+.soundButtonInteractiveRefresh_f40049 {
+    background: var(--backgroundColor); opacity: .9;
+}
