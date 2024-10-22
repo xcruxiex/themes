@@ -3425,9 +3425,9 @@ button.button_adca65>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 
 /*soundboard*/ 
 .picker_cd703d.refresh_cd703d{
-    background-color: var(--backgroundColor);
+    background-color: var(--backgroundColor02);
 }
 
 .soundButtonInteractiveRefresh_f40049 {
-    background: var(--backgroundColor); opacity: .9;
+    background: var(--backgroundColor02); opacity: .9;
 }
