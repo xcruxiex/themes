@@ -3372,3 +3372,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .membersGroup_cbd271::before,.membersGroup_cbd271::after{
     box-shadow:none;
 }
+
+[class*="themedBackground"] {
+    background: transparent;
+}
+.container_a47d49{background-color: var(--backgroundColor);}
