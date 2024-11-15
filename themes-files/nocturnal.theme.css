@@ -9,55 +9,55 @@
 */
 @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
 /*
-                                                                                                                                                                     
-                                                                                                                                                                     
-NNNNNNNN        NNNNNNNN                                              tttt                                                                                   lllllll 
-N:::::::N       N::::::N                                           ttt:::t                                                                                   l:::::l 
-N::::::::N      N::::::N                                           t:::::t                                                                                   l:::::l 
-N:::::::::N     N::::::N                                           t:::::t                                                                                   l:::::l 
-N::::::::::N    N::::::N   ooooooooooo       ccccccccccccccccttttttt:::::ttttttt    uuuuuu    uuuuuu rrrrr   rrrrrrrrr   nnnn  nnnnnnnn      aaaaaaaaaaaaa    l::::l 
-N:::::::::::N   N::::::N oo:::::::::::oo   cc:::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r::::rrr:::::::::r  n:::nn::::::::nn    a::::::::::::a   l::::l 
-N:::::::N::::N  N::::::No:::::::::::::::o c:::::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r:::::::::::::::::r n::::::::::::::nn   aaaaaaaaa:::::a  l::::l 
-N::::::N N::::N N::::::No:::::ooooo:::::oc:::::::cccccc:::::ctttttt:::::::tttttt    u::::u    u::::u rr::::::rrrrr::::::rnn:::::::::::::::n           a::::a  l::::l 
-N::::::N  N::::N:::::::No::::o     o::::oc::::::c     ccccccc      t:::::t          u::::u    u::::u  r:::::r     r:::::r  n:::::nnnn:::::n    aaaaaaa:::::a  l::::l 
-N::::::N   N:::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r     rrrrrrr  n::::n    n::::n  aa::::::::::::a  l::::l 
-N::::::N    N::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r              n::::n    n::::n a::::aaaa::::::a  l::::l 
-N::::::N     N:::::::::No::::o     o::::oc::::::c     ccccccc      t:::::t    ttttttu:::::uuuu:::::u  r:::::r              n::::n    n::::na::::a    a:::::a  l::::l 
+
+
+NNNNNNNN        NNNNNNNN                                              tttt                                                                                   lllllll
+N:::::::N       N::::::N                                           ttt:::t                                                                                   l:::::l
+N::::::::N      N::::::N                                           t:::::t                                                                                   l:::::l
+N:::::::::N     N::::::N                                           t:::::t                                                                                   l:::::l
+N::::::::::N    N::::::N   ooooooooooo       ccccccccccccccccttttttt:::::ttttttt    uuuuuu    uuuuuu rrrrr   rrrrrrrrr   nnnn  nnnnnnnn      aaaaaaaaaaaaa    l::::l
+N:::::::::::N   N::::::N oo:::::::::::oo   cc:::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r::::rrr:::::::::r  n:::nn::::::::nn    a::::::::::::a   l::::l
+N:::::::N::::N  N::::::No:::::::::::::::o c:::::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r:::::::::::::::::r n::::::::::::::nn   aaaaaaaaa:::::a  l::::l
+N::::::N N::::N N::::::No:::::ooooo:::::oc:::::::cccccc:::::ctttttt:::::::tttttt    u::::u    u::::u rr::::::rrrrr::::::rnn:::::::::::::::n           a::::a  l::::l
+N::::::N  N::::N:::::::No::::o     o::::oc::::::c     ccccccc      t:::::t          u::::u    u::::u  r:::::r     r:::::r  n:::::nnnn:::::n    aaaaaaa:::::a  l::::l
+N::::::N   N:::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r     rrrrrrr  n::::n    n::::n  aa::::::::::::a  l::::l
+N::::::N    N::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r              n::::n    n::::n a::::aaaa::::::a  l::::l
+N::::::N     N:::::::::No::::o     o::::oc::::::c     ccccccc      t:::::t    ttttttu:::::uuuu:::::u  r:::::r              n::::n    n::::na::::a    a:::::a  l::::l
 N::::::N      N::::::::No:::::ooooo:::::oc:::::::cccccc:::::c      t::::::tttt:::::tu:::::::::::::::uur:::::r              n::::n    n::::na::::a    a:::::a l::::::l
 N::::::N       N:::::::No:::::::::::::::o c:::::::::::::::::c      tt::::::::::::::t u:::::::::::::::ur:::::r              n::::n    n::::na:::::aaaa::::::a l::::::l
 N::::::N        N::::::N oo:::::::::::oo   cc:::::::::::::::c        tt:::::::::::tt  uu::::::::uu:::ur:::::r              n::::n    n::::n a::::::::::aa:::al::::::l
 NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttttt      uuuuuuuu  uuuurrrrrrr              nnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll
-                                                                                                                                                                     
-                                                                                                                                                                     
+
+
 */
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
 @import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
 :root {
-  --backgroundColor01: #1e2731;
-  --backgroundColor02: #12171d;
-  --mainColor: #2275c9;
-  --gradientColor01: #00F260;
-  --gradientColor02: #0575E6;
+    --backgroundColor01: #1e2731;
+    --backgroundColor02: #12171d;
+    --mainColor: #2275c9;
+    --gradientColor01: #00f260;
+    --gradientColor02: #0575e6;
 
-  /* Better Hljs */
-  --backgroundCode: #1e2731;
-  --backgroundName: rgba(0, 0, 0, .2);
+    /* Better Hljs */
+    --backgroundCode: #1e2731;
+    --backgroundName: rgba(0, 0, 0, 0.2);
 
-  /* Radial Status */
-  --rs-small-spacing: 2px;
-  --rs-large-spacing: 3px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
+    /* Radial Status */
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 3px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-visible: block;
+    --rs-phone-color: var(--rs-online-color);
 
-  --customFont: 'gg sans', sans-serif;
+    --customFont: "gg sans", sans-serif;
 }
