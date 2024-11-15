@@ -63,7 +63,7 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
     none -> static point.
     pulse -> pulsating point
     */
-    --unread-animation: none;
+    --unread-animation: pulse;
 
     --customFont: "gg sans", sans-serif;
 }
