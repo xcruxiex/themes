@@ -3436,5 +3436,14 @@ button.button_adca65>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
     background: transparent;
 }
 
-.container_a47d49{background-color: var(--backgroundColor02);}
-.container_a47d49:hover{background-color: var(--backgroundColor01);}
+.container_a47d49{
+    background-color: var(--backgroundColor02);
+}
+
+.container_a47d49:hover{
+    background-color: var(--backgroundColor01);
+}
+
+.footer_f8ec41{
+    display: none;
+}

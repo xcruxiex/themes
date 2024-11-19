@@ -3376,4 +3376,10 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 [class*="themedBackground"] {
     background: transparent;
 }
-.container_a47d49{background-color: var(--backgroundColor);}
+.container_a47d49{
+    background-color: var(--backgroundColor);
+}
+
+.footer_f8ec41{
+    display: none;
+}
