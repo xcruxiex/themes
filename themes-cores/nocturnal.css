@@ -3447,3 +3447,11 @@ button.button_adca65>.contents_dd4f85>svg>path[fill*="var(--interactive-normal)"
 .footer_d71945{
     display: none;
 }
+
+.scrollerContainer_c90ddb{
+    background-color: var(--backgroundColor01);
+}
+
+.theme-dark .bannedUser_c90ddb{
+    background-color: var(--backgroundColor02)
+}
