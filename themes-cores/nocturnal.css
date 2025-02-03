@@ -3455,3 +3455,11 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .theme-dark .bannedUser_cdb2b0{
     background-color: var(--backgroundColor02)
 }
+
+[class*="scrollbarGhostHairline"] {
+    padding-top: 1.2rem;
+}
+
+.file__0ccae{
+    background-color: var(--backgroundColor01);
+}
