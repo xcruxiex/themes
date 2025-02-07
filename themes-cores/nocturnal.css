@@ -3464,12 +3464,14 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--backgroundColor01);
 }
 
-/* Applied to Game activity */
-/*
-It still has the default color when hovering
-I'm not sure what color would fit for the hover
-*/
+
+/* Applied to Game activity card */
 .container__0f2e8 {
+    border: 2px solid;
+    border-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor02);
+}
+.container__0f2e8:hover {
     background-color: var(--backgroundColor01);
 }
 
@@ -3484,7 +3486,21 @@ I'm not sure what color would fit for the hover
 }
 
 /* Applied to app and commands drawer */
-/* I'm not sure what color to put for the buttons inside of it */
 .slideContent__9c62c{
+    background-color: var(--backgroundColor02);
+}
+
+/* Applied to app and commands drawer buttons */
+.container_cb32c7 {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to the app and commands search */
+.inner_a45028 {
+    background-color: var(--backgroundColor01) ;
+}
+
+/* Applied to the app and commands questions row */
+.container__19cf2{
     background-color: var(--backgroundColor01);
 }
