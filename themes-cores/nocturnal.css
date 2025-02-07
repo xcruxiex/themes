@@ -3423,7 +3423,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--backgroundColor02);
 }
 
-/*soundboard*/ 
+/*soundboard*/
 .picker__09f65.refresh__09f65{
     background-color: var(--backgroundColor02);
 }
@@ -3461,5 +3461,42 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 .file__0ccae{
+    background-color: var(--backgroundColor01);
+}
+
+
+/* Applied to Game activity card */
+.container__0f2e8 ,
+.container__0f2e8:hover{
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to Authed App cards */
+.authedApp__50a54 {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to app activity launcher button */
+.button_e6e74f {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to app and commands drawer */
+.slideContent__9c62c{
+    background-color: var(--backgroundColor02);
+}
+
+/* Applied to app and commands drawer buttons */
+.container_cb32c7 {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to the app and commands search */
+.inner_a45028 {
+    background-color: var(--backgroundColor01) ;
+}
+
+/* Applied to the app and commands questions row */
+.container__19cf2{
     background-color: var(--backgroundColor01);
 }
