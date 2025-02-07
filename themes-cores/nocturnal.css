@@ -3466,12 +3466,8 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 
 
 /* Applied to Game activity card */
-.container__0f2e8 {
-    border: 2px solid;
-    border-color: var(--backgroundColor01);
-    background-color: var(--backgroundColor02);
-}
-.container__0f2e8:hover {
+.container__0f2e8 ,
+.container__0f2e8:hover{
     background-color: var(--backgroundColor01);
 }
 
