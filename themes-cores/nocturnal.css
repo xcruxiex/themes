@@ -367,6 +367,9 @@
 #app-mount .content__908e2 {
     background: var(--backgroundColor01) !important
 }
+#app-mount .content__99f8c {
+    background: var(--backgroundColor02) !important
+}
 
 #app-mount .fileWrapper__0ccae,
 #app-mount .autocomplete__13533,
@@ -805,8 +808,7 @@
     display: none
 }
 
-#app-mount .clickable_f37cb1 .header_f37cb1:hover,
-#app-mount .selected_f37cb1 .header_f37cb1 {
+#app-mount  .header_f37cb1 {
     background-color: var(--backgroundColor02) !important
 }
 
@@ -1306,6 +1308,7 @@
 #app-mount .cardPrimary-3qRT__,
 #app-mount .cardPrimaryEditable-2mz_3i,
 #app-mount .cardPrimaryOutline-1ofwVz,
+#app-mount .cardPrimary__73069,
 #app-mount .codeRedemptionRedirect-3SBiCp,
 #app-mount .connection-107AGH,
 #app-mount .pageActions__2d021,
@@ -2150,7 +2153,7 @@
 }
 
 .mainCard_f369db {
-    background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01) !important;
 }
 
 .sidebarCard-1Gn1ch {
@@ -2310,10 +2313,6 @@
 }
 
 .theme-dark .scrollableContainer__74017 {
-    background: transparent;
-}
-
-.chatContent_f75fb0 {
     background: transparent;
 }
 
@@ -2759,8 +2758,9 @@
     color: var(--gradientColor02);
 }
 
-.sidebar_c48ade {
-    background-color: var(--backgroundColor02);
+.sidebar_c48ade,
+.sidebar_c48ade::after {
+    background-color: var(--backgroundColor02) !important;
 }
 
 .active__34c2c {
@@ -2916,10 +2916,6 @@
     background: transparent;
 }
 
-.chatContent_f75fb0 {
-    background: transparent;
-}
-
 .container_c8ffbb,
 .membersWrap_c8ffbb {
     background: transparent;
@@ -2958,11 +2954,11 @@
 }
 
 .chatContent_f75fb0 {
-    background: var(--backgroundColor02);
+    background: var(--backgroundColor02) !important;
 }
 
 .resizeHandle__01ae2 {
-    background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor01) !important;
 }
 
 .auto__99f8c::-webkit-scrollbar-track {
@@ -3423,7 +3419,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--backgroundColor02);
 }
 
-/*soundboard*/ 
+/*soundboard*/
 .picker__09f65.refresh__09f65{
     background-color: var(--backgroundColor02);
 }
@@ -3462,4 +3458,9 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 
 .file__0ccae{
     background-color: var(--backgroundColor01);
+}
+
+
+.peopleColumn__133bf{
+    background-color: var(--backgroundColor02);
 }
