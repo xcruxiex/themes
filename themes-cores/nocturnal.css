@@ -3423,7 +3423,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--backgroundColor02);
 }
 
-/*soundboard*/ 
+/*soundboard*/
 .picker__09f65.refresh__09f65{
     background-color: var(--backgroundColor02);
 }
@@ -3464,6 +3464,27 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--backgroundColor01);
 }
 
+/* Applied to Game activity */
+/*
+It still has the default color when hovering
+I'm not sure what color would fit for the hover
+*/
 .container__0f2e8 {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to Authed App cards */
+.authedApp__50a54 {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to app activity launcher button */
+.button_e6e74f {
+    background-color: var(--backgroundColor01);
+}
+
+/* Applied to app and commands drawer */
+/* I'm not sure what color to put for the buttons inside of it */
+.slideContent__9c62c{
     background-color: var(--backgroundColor01);
 }
