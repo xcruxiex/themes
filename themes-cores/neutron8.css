@@ -3392,3 +3392,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .theme-dark .bannedUser_cdb2b0{
     background-color: var(--backgroundColor)
 }
+
+/*channels and roles*/
+.pageBody__5d7c9, .scroller__5d7c9{
+    background-color:transparent ;
+}
+
+.theme-dark .container__0b563, .theme-dark .header__0b563{
+    background-color:transparent !important;
+}

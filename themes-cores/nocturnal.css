@@ -3500,3 +3500,11 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .container__19cf2{
     background-color: var(--backgroundColor01);
 }
+/*channels and roles*/
+.pageBody__5d7c9, .scroller__5d7c9{
+    background-color:var(--backgroundColor02) ;
+}
+
+.theme-dark .container__0b563, .theme-dark .header__0b563{
+    background-color:var(--backgroundColor02) !important;
+}
