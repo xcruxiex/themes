@@ -3508,3 +3508,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .theme-dark .container__0b563, .theme-dark .header__0b563{
     background-color:var(--backgroundColor02) !important;
 }
+
+    background-color: transparent;
+}
