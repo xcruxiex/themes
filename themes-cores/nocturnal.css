@@ -3509,5 +3509,16 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color:var(--backgroundColor02) !important;
 }
 
+
+.theme-dark .content__37e49{
     background-color: transparent;
+}
+
+.pageBody__41ed7{
+    background:var(--backgroundColor1);
+
+}
+
+.channelRow_e4503a{
+    background:var(--backgroundColor2);
 }
