@@ -3426,3 +3426,17 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{
     background-color: transparent;
 }
+
+
+
+/*yep cock*/
+.selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{background-color: transparent;}
+.visual-refresh .bg__960e4{background: var(--backgroundImage);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    background-image: var(--backgroundImage);
+    opacity: var(--backgroundOpacity);
+    filter: blur(var(--backgroundBlur))
+}
+.visual-refresh .chatContent_f75fb0{background: transparent;}
+.visual-refresh .container__7641b{background: transparent;}
