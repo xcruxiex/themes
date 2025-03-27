@@ -3440,3 +3440,20 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 .visual-refresh .chatContent_f75fb0{background: transparent;}
 .visual-refresh .container__7641b{background: transparent;}
+
+.visual-refresh .channelAttachmentArea_b77158{background-color: transparent;margin: none;}
+.visual-refresh .upload_aa605f{background-color: var(--backgroundColor);}
+.button_f7ecac{background-color: var(--backgroundColor);}
+.spoilerContainer__54ab5{background-color: var(--backgroundColor);}
+.file__0ccae{background-color: var(--backgroundColor);}
+.visual-refresh .tabBody__133bf{background-color: transparent}
+.visual-refresh .sidebar_c48ade:after{display: none;}
+:where(.visual-refresh) .lookFilled__201d5.colorPrimary__201d5{display: none;}
+.visual-refresh .sidebarList_c48ade{border: none;}
+.visual-refresh .wrapper_d852db{background-color: transparent}
+.visual-refresh .activityText__5d473{color: #fff;}
+:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: var(--themeColor1);}
+.visual-refresh .brand_b3f026.item_b3f026, .visual-refresh .themed_b3f026.item_b3f026{color: #fff;}
+.visual-refresh .container_f369db{background-color: transparent}
+.visual-refresh .messageContainer__95796,.visual-refresh .channelHeader__35a7e{background-color: var(--backgroundColor);}
+.visual-refresh .messageContainer__95796{border: 1px solid var(--themeColor1);}
