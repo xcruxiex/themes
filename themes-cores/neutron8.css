@@ -3461,3 +3461,5 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .visual-refresh .mainCard_f369db{background-color: var(--backgroundColor);}
 .visual-refresh .header_c0e32c{background-color: var(--backgroundColor);}
 .visual-refresh .channelTextArea_f75fb0{background-color: var(--backgroundColor);}
+.wrapper_c0e32c, .wrapper_c0e32c.isBurstReactionPicker_c0e32c{background-color: var(--backgroundColor);}
+.visual-refresh .header_fed6d3{background-color: var(--backgroundColor);}

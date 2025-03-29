@@ -3555,3 +3555,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .visual-refresh .mainCard_f369db{background-color: var(--backgroundColor1);}
 .visual-refresh .header_c0e32c{background-color: var(--backgroundColor1);}
 .visual-refresh .channelTextArea_f75fb0{background-color: var(--backgroundColor1);}
+.wrapper_c0e32c, .wrapper_c0e32c.isBurstReactionPicker_c0e32c{background-color: var(--backgroundColor1);}
+.visual-refresh .container_faa96b:hover{background-color: var(--backgroundColor2);border: 2px solid var(--mainColor);}
+.overlayBackground-1KgwVi, .input__0f084{background-color: var(--backgroundColor2);}
+.visual-refresh .header_fed6d3{background-color: var(--backgroundColor2);}
