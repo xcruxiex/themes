@@ -3542,11 +3542,10 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .file__0ccae{background-color: var(--backgroundColor01);}
 .visual-refresh .tabBody__133bf{background-color: transparent}
 .visual-refresh .sidebar_c48ade:after{display: none;}
-:where(.visual-refresh) .lookFilled__201d5.colorPrimary__201d5{display: none;}
 .visual-refresh .sidebarList_c48ade{border: none;}
 .visual-refresh .wrapper_d852db{background-color: transparent}
 .visual-refresh .activityText__5d473{color: #fff;}
-:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: var(--mainColor);}
+:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: #fff;}
 .visual-refresh .brand_b3f026.item_b3f026, .visual-refresh .themed_b3f026.item_b3f026{color: #fff;}
 .visual-refresh .container_f369db{background-color: transparent}
 .visual-refresh .messageContainer__95796,.visual-refresh .channelHeader__35a7e{background-color: var(--backgroundColor01);}
