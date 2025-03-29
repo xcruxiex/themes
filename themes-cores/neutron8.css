@@ -3464,8 +3464,5 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .wrapper_c0e32c, .wrapper_c0e32c.isBurstReactionPicker_c0e32c{background-color: var(--backgroundColor);}
 .visual-refresh .header_fed6d3{background-color: var(--backgroundColor);}
 
-.svg_cc5dd2{width: 70px;height: 70px;}
-.wrapper_cc5dd2{height: 75px;}
-:root .wrapper_cc5dd2 foreignObject mask {display: none !important;}
-.visual-refresh .svg_cc5dd2{left: -10px;}
+
 .visual-refresh .scroller_ef3116{width: 83px;}
