@@ -56,11 +56,11 @@ A simple but highly customizable theme, now sugar free!
 
 Download : https://betterdiscord.app/theme/Neutron
 
-![Neutron Demo](https://i.imgur.com/5YhoRtf.jpg)
+![](https://i.imgur.com/5YhoRtf.jpg)
 
 ## Nocturnal 
 For when default discord just isn't dark enough, a theme for those who live a night
 
 Download : https://betterdiscord.app/theme/Nocturnal
 
-![Nocturnal Demo](https://i.imgur.com/yITlAjo.png)
+![](https://i.imgur.com/yITlAjo.png)
