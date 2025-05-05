@@ -3431,7 +3431,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /*yep cock*/
 .selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{background-color: transparent;}
-.visual-refresh .appMount__51fd7, .visual-refresh body{background: var(--backgroundImage);
+.visual-refresh .bg__960e4{background: var(--backgroundImage);
     background-repeat: var(--backgroundRepeat);
     background-size: var(--backgroundSize);
     background-image: var(--backgroundImage);
