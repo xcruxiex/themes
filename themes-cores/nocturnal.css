@@ -600,7 +600,7 @@
 
 #app-mount .check__5621e {
     background: var(--mainColor) !important;
-    -webkit-mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg)
+    mask-image: url(/assets/1c0a5d38bdeaaad433b68cf6092ed510.svg);
 }
 
 #app-mount .wordmarkWindows__421ed {
