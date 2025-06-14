@@ -3569,3 +3569,4 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .visual-refresh .container_c8ffbb{border: none !important;}
 .visual-refresh .container__01ae2{background-color: transparent;}
 .field__1fed1{background-color: var(--backgroundColor);}
+.theme-dark.mouse-mode.full-motion.visual-refresh .message__5126c:hover, .theme-dark.visual-refresh .message__5126c.selected__5126c{background-color: var(--backgroundColor01)}
