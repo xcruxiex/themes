@@ -243,7 +243,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -379,7 +379,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -1035,7 +1035,7 @@ body {
 
 .lookInverted-2mDUMi .contents-3ca1mk {
     background: -webkit-linear-gradient(var(--themeColor1), var(--themeColor2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
@@ -1538,7 +1538,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .bda-name {
     text-transform: uppercase;
     background: -webkit-linear-gradient(80deg, var(--themeColor1), var(--themeColor2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
