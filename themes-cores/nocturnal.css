@@ -26,7 +26,16 @@
     --rs-phone-color: var(--rs-online-color);
 }
 
+/* added backend color changes to support user module theming */
+.theme-dark, .theme-amoled, .visual-refresh .theme-dark{
+	
+	--background-surface-high: var(--backgroundColor01) !important;
+	--background-base-lowest: var(--backgroundColor01) !important;
+	--background-mod-subtle: var(--backgroundColor01) !important;
+	
+}
 
+	
 #app-mount .applicationStore_f07d62,
 #app-mount .bg__960e4,
 #app-mount .chat_f75fb0,
@@ -511,15 +520,15 @@
 #app-mount .tutorialContainer__1f388 .childWrapper__6e9f8:has(svg)::after {
     position: absolute;
     content: "";
-    width: 36px;
-    height: 36px;
-    top: 6px;
-    left: 6px;
+    width: 32px;
+    height: 32px;
+    top: 5px;
+    left: 4px;
     background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02));
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    -webkit-mask-box-image: url("https://i.imgur.com/6gPQfIO.png");
+    -webkit-mask-box-image: url("https://raw.githubusercontent.com/xcruxiex/themes/refs/heads/master/themes-cores/NocturnalMoonImage.png");
 }
 
 
@@ -636,7 +645,7 @@
 
 #app-mount .clickable__91a9d.container__91a9d:hover .layout__91a9d,
 #app-mount .selected__91a9d .layout__91a9d {
-    background-color: var(--backgroundColor01) !important
+    background-color: transparent !important
 }
 
 #app-mount .selected__91a9d .activity__5d473 {
@@ -3114,13 +3123,14 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     transition: ease-in-out .3s;
 }
 
-.searchBar__97492 {
+/* disabled cuz i dont think anyone cares for it rn */
+/* .searchBar__97492 {
     width: 21px;
     height: 24px;
     padding: 0;
     background: none;
     transition: ease-in-out 0.3s !important;
-}
+} */
 
 .searchBar__97492:hover .iconContainer_fea832,
 .searchBar__97492:hover .icon_fea832,
@@ -3134,7 +3144,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .searchBar__97492:hover,
 .focused__97492 .searchBar__97492,
 .open__97492 .searchBar__97492 {
-    width: 175px;
+    width: 400px;
     background: transparent;
     border: 2px solid var(--mainColor);
 }
@@ -3527,7 +3537,16 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     width: unset;
 }
 
+/* fix for server-member-list background color when hovering on a member */
+.clickable__91a9d:hover .childContainer__91a9d{
+	background-color: var(--backgroundName);
+}
 
+/* fix for the chat scroll bottom gradient */
+.chatTypingGradientNotAtBottom__36d07 {
+    background: linear-gradient(to bottom, transparent, var(--backgroundColor02) 72px, var(--backgroundColor02) 100%);
+    height: 96px;
+}
 
 .visual-refresh .chatContent_f75fb0{background: transparent;}
 .visual-refresh .container__7641b{background: transparent;}
