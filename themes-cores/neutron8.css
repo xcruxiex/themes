@@ -5,10 +5,10 @@
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
     --font-display: var(--customFont);
-    --homeImage: url('https://imgur.com/eItxuAq.png');
+    --homeImage: url('themes-cores\8HomeIcon.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://imgur.com/qhBghXt.png');
+    --backgroundImage: url('themes-cores\8NeutronBackground.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
