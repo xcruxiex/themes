@@ -5,10 +5,10 @@
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
     --font-display: var(--customFont);
-    --homeImage: url('themes-cores\8HomeIcon.png');
+    --homeImage: url('https://raw.githubusercontent.com/xcruxiex/themes/refs/heads/master/themes-cores/8HomeIcon.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('themes-cores\8NeutronBackground.jpg');
+    --backgroundImage: url('https://raw.githubusercontent.com/xcruxiex/themes/refs/heads/master/themes-cores/8NeutronBackground.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
