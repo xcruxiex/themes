@@ -3456,6 +3456,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .chatGradient__36d07,.chatTypingGradientAtBottom__36d07{background:none}
 .clickable_c99c29{color:#fff}
 .privateChannels_e6b769,.sidebar__5e434:after{background:transparent;}
+.visual-refresh .channelTextArea_f75fb0, .channelTextArea_f75fb0{background-color: var(--backgroundCode);border-color: var(--backgroundColor);}
 
 /* Round servers icon */
 .icon__6e9f8,.childWrapper__6e9f8 {
