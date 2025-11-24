@@ -523,7 +523,8 @@ body {
     width: 100%;
     height: 25px;
     background: radial-gradient(var(--themeColor1), var(--themeColor2), transparent 70%);
-    opacity: .1
+    opacity: .1;
+    pointer-events: none;
 }
 
 .winButton__421ed svg * {
