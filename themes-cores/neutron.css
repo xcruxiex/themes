@@ -3556,3 +3556,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 /* Settings Sidebar */
 .side_aa8da2 .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {background-color: var(--themeColor2);}
 .side_aa8da2 .themed_aa8da2.selected_aa8da2.item_aa8da2 {background-color: var(--themeColor1);}
+
+/* Under Message Bar, could see messages */
+.scrollerSpacer__36d07{display: none;}
+.scroller__36d07 {bottom: 30px;}
