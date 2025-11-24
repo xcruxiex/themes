@@ -3511,6 +3511,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .pillItemSelected__9e06a{background-color: var(--themeColor1);}
 .pillItem__9e06a:not(.pillItemSelected__9e06a):hover{background-color: var(--themeColor2);}
 .source_febe19:hover:not(.selectedSource_febe19) .sourcePreviewContainer_febe19:before {border-color: var(--themeColor2);}
+.wrapper_e131a9 {background-color: var(--backgroundColor);border-radius:  5px 5px 0px 0px;}
+.panels__5e434 {background-color: transparent;}
 
 /* emoji Picker Search bar box */
 .header__8ef02 {background-color: transparent;border: none;}
