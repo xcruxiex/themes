@@ -1,7 +1,5 @@
 # Discord Themes
 
-All the themes/mini-themes/tools 'Spectra' made for Discord.
-
 Help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
@@ -56,7 +54,7 @@ A simple but highly customizable theme, now sugar free!
 
 Download : https://betterdiscord.app/theme/Neutron
 
-![](https://i.imgur.com/5YhoRtf.jpg)
+![](https://i.vgy.me/S44Py5.png)
 
 ## Nocturnal 
 For when default discord just isn't dark enough, a theme for those who live a night
