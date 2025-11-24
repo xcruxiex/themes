@@ -61,4 +61,4 @@ For when default discord just isn't dark enough, a theme for those who live a ni
 
 Download : https://betterdiscord.app/theme/Nocturnal
 
-![](https://i.imgur.com/yITlAjo.png)
+![]([https://i.imgur.com/yITlAjo.png](https://i.vgy.me/HNdQUl.png))
