@@ -2285,15 +2285,16 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: 0 0
 }
 /* User Profile */
-.outer_c0bea0{background-color: transparent;}
+.outer_c0bea0{background-color: rgba(1, 1, 1, 0.6);}
 .secondary_a22cb0:hover{background-color: var(--themeColor2);}
+.profile__9c3be {background-color: rgba(1, 1, 1, 0.2);outline: none;}
+.root__49fc1.root__49fc1 {border: 1px solid var(--themeColor1);}
 
 /* User Popout */
-#popout_5778 > div > div > div, .focusLock__49fc1 {
-  background-color: var(--backgroundColor);
-}
+.user-profile-popout .inner_c0bea0{background-color: var(--backgroundColor);}
 .card__39ec2{background-color: var(--backgroundColor);}
 .clickableContainer__39ec2:hover>.card__39ec2{background-color: var(--themeColor2);}
+
 /* Popout */
 .menu_c1e9c4 {background-color: var(--backgroundColor);}
 .menu_c1e9c4 {border-color: var(--backgroundColor);}
@@ -2422,10 +2423,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .member__5d473 {
-    background: transparent;
-}
-
-.theme-dark .container__37e49 {
     background: transparent;
 }
 
@@ -2945,10 +2942,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .members_c8ffbb {
-    background: transparent;
-}
-
-.theme-dark .container__37e49 {
     background: transparent;
 }
 
