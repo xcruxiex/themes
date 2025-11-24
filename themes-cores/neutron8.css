@@ -3535,10 +3535,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 /* Borders around Channel list */
 .sidebarList__5e434, .header_f37cb1 {border: none}
 
-/* Under Message Bar, could see messages */
-.scrollerSpacer__36d07{display: none;}
-.scroller__36d07 {bottom: 30px;}
-
 /* Unread Pill in channel list */
 .bar__7aaec {background-color: var(--themeColor1);border:none;}
 .bar__7aaec:hover {background-color: var(--themeColor2);}
