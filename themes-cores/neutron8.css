@@ -1,15 +1,14 @@
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://xcruxiex.github.io/themes/core/hljs.css");
 
 :root {
     --themeColor1: #36D1DC;
     --themeColor2: #5B86E5;
     --font-display: var(--customFont);
-    --homeImage: url('https://imgur.com/eItxuAq.png');
+    --homeImage: url('https://raw.githubusercontent.com/xcruxiex/themes/refs/heads/master/themes-cores/8HomeIcon.png');
     --homeImageSize: cover;
     --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://imgur.com/qhBghXt.png');
+    --backgroundImage: url('https://raw.githubusercontent.com/xcruxiex/themes/refs/heads/master/themes-cores/8NeutronBackground.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
@@ -243,7 +242,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -379,7 +378,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    mask: linear-gradient(to right, #000, Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -1036,7 +1035,7 @@ body {
 
 .lookInverted-2mDUMi .contents-3ca1mk {
     background: -webkit-linear-gradient(var(--themeColor1), var(--themeColor2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
@@ -1539,7 +1538,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .bda-name {
     text-transform: uppercase;
     background: -webkit-linear-gradient(80deg, var(--themeColor1), var(--themeColor2));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
@@ -3421,5 +3420,57 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .membersGroup_c8ffbb{
-    width: 20px;
+    width: unset;
 }
+
+.selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{
+    background-color: transparent;
+}
+
+
+
+/*yep cock*/
+.selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{background-color: transparent;}
+.visual-refresh .bg__960e4{background: var(--backgroundImage);
+    background-repeat: var(--backgroundRepeat);
+    background-size: var(--backgroundSize);
+    background-image: var(--backgroundImage);
+    opacity: var(--backgroundOpacity);
+    filter: blur(var(--backgroundBlur));
+}
+.visual-refresh .chatContent_f75fb0{background: transparent;}
+.visual-refresh .container__7641b{background: transparent;}
+
+.visual-refresh .channelAttachmentArea_b77158{background-color: transparent;margin: none;}
+.visual-refresh .upload_aa605f{background-color: var(--backgroundColor);}
+.button_f7ecac{background-color: var(--backgroundColor);}
+.spoilerContainer__54ab5{background-color: var(--backgroundColor);}
+.file__0ccae{background-color: var(--backgroundColor);}
+.visual-refresh .tabBody__133bf{background-color: transparent}
+.visual-refresh .sidebar_c48ade:after{display: none;}
+.visual-refresh .sidebarList_c48ade{border: none;}
+.visual-refresh .wrapper_d852db{background-color: transparent}
+.visual-refresh .activityText__5d473{color: #fff;}
+:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4{color: var(--themeColor1);}
+.visual-refresh .brand_b3f026.item_b3f026, .visual-refresh .themed_b3f026.item_b3f026{color: #fff;}
+.visual-refresh .container_f369db{background-color: transparent}
+.visual-refresh .messageContainer__95796,.visual-refresh .channelHeader__35a7e{background-color: var(--backgroundColor);}
+.visual-refresh .messageContainer__95796{border: 1px solid var(--themeColor1);}
+.visual-refresh .contentWrapper__08434,.visual-refresh .emojiPickerHasTabWrapper_c0e32c .header_c0e32c,.visual-refresh .wrapper__14245{background-color: var(--backgroundColor);}
+.visual-refresh .mainCard_f369db{background-color: var(--backgroundColor);}
+.visual-refresh .header_c0e32c{background-color: var(--backgroundColor);}
+.visual-refresh .channelTextArea_f75fb0{background-color: var(--backgroundColor);}
+.wrapper_c0e32c, .wrapper_c0e32c.isBurstReactionPicker_c0e32c{background-color: var(--backgroundColor);}
+.visual-refresh .header_fed6d3{background-color: var(--backgroundColor);}
+#app-mount .applicationStore_f07d62, #app-mount .bg__960e4, #app-mount .chat_f75fb0, #app-mount .container__2637a, #app-mount .container__133bf, #app-mount .container-7Unqij, #app-mount .container__9293f.themed__9293f, #app-mount .contentRegion__23e6b, #app-mount .contentRegionScroller__23e6b, #app-mount .editor__2a891, #app-mount .emptyPreview__48b20, #app-mount .header_adb41f, #app-mount .inviteToolbar__133bf, #app-mount .keyboardShortcutsModal_f061f6, #app-mount .layer__960e4, #app-mount .members_c8ffbb, #app-mount .members_c8ffbb>div, #app-mount .modalTitle_f061f6, #app-mount .nowPlayingColumn__133bf, #app-mount .panels_c48ade, #app-mount .privateChannels__35e86, #app-mount .scroller_fb04e1, #app-mount .scroller__244e5, #app-mount .scroller__4a84a, #app-mount .scroller_ef3116, #app-mount .scroller__99e7c, #app-mount .scroller__7d20c, #app-mount .sidebar__23e6b, #app-mount .sidebarRegionScroller__23e6b, #app-mount .stageSection-3mAD8V, #app-mount .standardSidebarView__23e6b, #app-mount .themeEditor_cf6da1, #app-mount .threadSidebar-1o3BTy, #app-mount .tile__90dc5, #app-mount .titleBar__421ed, #app-mount .videoWrapper__2f4f7, #app-mount .wrapper_ef3116, #app-mount .wrapper_cb9592 
+{border: none !important;}
+.visual-refresh .container_c8ffbb{border: none !important;}
+.visual-refresh .footer__4d95d,.visual-refresh .textContainer__4d95d,.visual-refresh .container__34c2c, .visual-refresh .header__34c2c,.visual-refresh .hljs{background-color: transparent;}
+.visual-refresh .wrapper__44df5{background-color: var(--backgroundColor);}
+.visual-refresh .container__9293f,.bar_c38106{border: none !important;}
+.visual-refresh .scroller_ef3116{width: 83px;}
+.visual-refresh .container__01ae2{background-color: transparent;}
+.field__1fed1{background-color: var(--backgroundColor);}
+.chatGradient__36d07,.chatTypingGradientAtBottom__36d07{background:none}
+.clickable_c99c29{color:#fff}
+.privateChannels_e6b769,.panels__5e434,.sidebar__5e434:after{background:transparent;}
