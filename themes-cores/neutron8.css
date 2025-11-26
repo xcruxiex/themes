@@ -2733,7 +2733,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 /* Reply Bar */
-.replyBar__841c8,
 .threadSuggestionBar__841c8 {
     background-color: var(--backgroundColor);
 }
@@ -3534,7 +3533,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .bar__7aaec:hover {background-color: var(--themeColor2);}
 
 /* Stream Preview */
-.streamPreview__6da2d {background: var(--backgroundColor); border:none;}
+.streamPreview__6da2d {background: var(--backgroundColor); border:none; box-shadow: none;}
 
 /* Account Settings */
 .badgeList__1fed1 {background-color: transparent;}
@@ -3554,3 +3553,42 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 /* Under Message Bar, could see messages */
 .scrollerSpacer__36d07{display: none;}
 .scroller__36d07 {bottom: 30px;}
+
+/* Bot / command pillar */
+.wrapper_b1e4f3 {background-color: transparent;}
+
+/* Pinned Messages */
+.header_e8b59c, .messagesPopoutWrap_e8b59c,.footer_e8b59c {background-color: var(--backgroundColor);border: none;box-shadow: 0px 0px 1px 1px var(--themeColor1);}
+.messageGroupWrapper_e8b59c {background-color: transparent;border-color: var(--themeColor1);}
+.messageGroupWrapper_e8b59c:hover {background-color: var(--backgroundColor);border-color: var(--themeColor2);}
+
+/* Quick Reply */
+.stackedBars__74017,.replyBar__841c8{background-color: transparent;}
+.stackedBars__74017:not(:last-child){border:none;}
+
+/* You're Viewing Older Messages */
+.bottomBar__0f481 {background-color: var(--backgroundColor);border-color: var(--themeColor1);}
+.primary_a22cb0 {background-color: var(--themeColor1);}
+.primary_a22cb0:hover {background-color: var(--themeColor2);}
+
+/* Save Server Settings */
+.container__9a9f9 {background-color: var(--backgroundColor);border-color: var(--themeColor1);}
+.lookFilled__201d5.colorGreen__201d5 {background-color: var(--themeColor1);}
+.lookFilled__201d5.colorGreen__201d5:hover {background-color: var(--themeColor2);}
+
+/* More Active Posts Channel Hover */
+.popout__76f04 {background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
+.row__76f04:hover{background-color: var(--themeColor2);}
+
+/* Emoji Reaction Info Hover */
+.reactionTooltip_b49891{background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
+.reactionTooltip_b49891:hover{background-color: var(--themeColor2); border: 1px solid var(--themeColor2);}
+
+/* Emoji Reaction Module */
+.scroller_b7f4b4,.reactors_b7f4b4{background-color: var(--backgroundColor);}
+
+/* Empty Channel Hashtag */
+.emptyChannelIcon__00de6{background-color: transparent;}
+
+/* Voice Channel Overview */
+.container__4e30a,.container_b1bfd4{background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
