@@ -3592,3 +3592,15 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /* Voice Channel Overview */
 .container__4e30a,.container_b1bfd4{background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
+
+/* Settings Module */
+.fixedContent__409aa:after{display: none;}
+.content_e9e3ed,.contentHeader_e9e3ed {background-color: transparent;}
+.section__409aa,.sidebar__409aa,.contentHeader_e9e3ed{border:none}
+.item_caf372.active_caf372{background-color: var(--themeColor1);}
+
+/* Scrolled Up Typing below */
+.chatTypingGradientNotAtBottom__36d07{display:none;}
+
+/* Steal Status in VC */
+.popover_d6f39b, .popoverGradientWrapper_d6f39b{background-color: var(--backgroundColor);border:1px solid var(--themeColor1)}
