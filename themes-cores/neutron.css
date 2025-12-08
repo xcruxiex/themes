@@ -2797,10 +2797,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.theme-dark .panel__5dec7 {
-    background: none;
-}
-
 .container_cc2dff .reactors_cc2dff {
     background: var(--backgroundColor);
 }
@@ -2953,7 +2949,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .theme-dark .panel__5dec7 {
-    background: transparent;
+    background: var(--backgroundColor);
+    border:none;
 }
 
 /* Forum Post */
@@ -3504,7 +3501,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .pillItemSelected__9e06a{background-color: var(--themeColor1);}
 .pillItem__9e06a:not(.pillItemSelected__9e06a):hover{background-color: var(--themeColor2);}
 .source_febe19:hover:not(.selectedSource_febe19) .sourcePreviewContainer_febe19:before {border-color: var(--themeColor2);}
-.wrapper_e131a9 {background-color: var(--backgroundColor);border-radius:  5px 5px 0px 0px;}
+.wrapper_e131a9 {background-color: var(--backgroundColor);border-radius:0px;}
 .panels__5e434 {background-color: transparent;}
 
 /* emoji Picker Search bar box */
@@ -3604,3 +3601,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /* Steal Status in VC */
 .popover_d6f39b, .popoverGradientWrapper_d6f39b{background-color: var(--backgroundColor);border:1px solid var(--themeColor1)}
+
+/* Spotify Player background */
+.theme-dark #vc-spotify-player {background-color: var(--backgroundColor);border-radius: 0px;}
