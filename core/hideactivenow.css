@@ -1,11 +1,11 @@
-.nowPlayingColumn_c2739c {
+._133bf5eea8e33a34-nowPlayingColumn {
     position: relative;
     left: 350px ;
     opacity: 1;
     margin-left: -350px;
     transition: .3s all ease-out;
 }
-.nowPlayingColumn_c2739c:hover {
+._133bf5eea8e33a34-nowPlayingColumn:hover {
     left: 0 ;
     opacity: 1;
     margin-left: 0;
