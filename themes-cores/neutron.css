@@ -3609,3 +3609,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .ab86098b36386ff7-inner{background: var(--backgroundColor);}
 ._39ec2e3dfb4fd2f2-card{background-color: unset;}
 .dca174a2baed7ac1-container{background: rgba(0, 0, 0, .9);}
+
+/* Slight See through vc activity + name plate etc */
+._2637a2609f343032-container {
+    padding-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) - 2px);
+}
