@@ -564,7 +564,7 @@
 #app-mount ._67645e1530f1195d-button svg,
 #app-mount .button__353c4,
 #app-mount ._24af7f4d0326ba4f-buttonWrapper svg,
-#app-mount .c68065c20f8328a7-channelNameIcon,
+#app-mount .a7e67f4ddd7c6bb2-channelNameIcon,
 #app-mount .colorDefault-CDqZdO .checkbox-hADx5o,
 #app-mount .colorDefault-CDqZdO .radioSelection-1UHp0b,
 #app-mount .colorDefault-CDqZdO .subtext-2GlkbE,
@@ -1274,14 +1274,14 @@
     background-color: var(--backgroundColor02) !important
 }
 
-._02a39cb2980ceaaf-button,
+._80bf8435713f6adb-button,
 .channelName-3w2Y3c,
-.f3b986a284a18c78-searchHeader,
-.a9e7064fdee8e9b0-searchResultsWrap {
+.ae7890a1b8e75804-searchHeader,
+.a98f3b020416ad54-searchResultsWrap {
     background-color: var(--backgroundColor02) !important
 }
 
-._02a39cb2980ceaaf-searchResult,
+._80bf8435713f6adb-searchResult,
 .tab_e864e6.selected-2LAck8 {
     background-color: var(--backgroundColor01) !important
 }
@@ -1552,7 +1552,7 @@
     border: none !important
 }
 
-#app-mount ._4bb93312e84f332e-card:before {
+#app-mount .b846e57d7dad7f1a-card:before {
     background-color: var(--backgroundColor01) !important;
     border: none !important
 }
@@ -2146,7 +2146,7 @@
     padding-bottom: 22px !important;
 }
 
-._56fec8e8b8048fe0-option:after {
+._16eb0bfd5c5a90d1-option:after {
     background: none;
 }
 
@@ -2622,7 +2622,7 @@
 }
 
 /* Search */
-._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
     background: var(--backgroundColor01);
 }
 
@@ -3124,7 +3124,7 @@ button._67645e1530f1195d-button>._201d5e8a3c09670a-contents>svg>path[fill*="var(
 }
 
 /* disabled cuz i dont think anyone cares for it rn */
-/* ._974928fe84ca9647-searchBar {
+/* .c322aadb96ff59c9-searchBar {
     width: 21px;
     height: 24px;
     padding: 0;
@@ -3132,18 +3132,18 @@ button._67645e1530f1195d-button>._201d5e8a3c09670a-contents>svg>path[fill*="var(
     transition: ease-in-out 0.3s !important;
 } */
 
-._974928fe84ca9647-searchBar:hover .iconContainer_fea832,
-._974928fe84ca9647-searchBar:hover .icon_fea832,
-._974928fe84ca9647-focused .icon_fea832,
-._974928fe84ca9647-focused .iconContainer_fea832 {
+.c322aadb96ff59c9-searchBar:hover .iconContainer_fea832,
+.c322aadb96ff59c9-searchBar:hover .icon_fea832,
+.c322aadb96ff59c9-focused .icon_fea832,
+.c322aadb96ff59c9-focused .iconContainer_fea832 {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-._974928fe84ca9647-searchBar:hover,
-._974928fe84ca9647-focused ._974928fe84ca9647-searchBar,
-._974928fe84ca9647-open ._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar:hover,
+.c322aadb96ff59c9-focused .c322aadb96ff59c9-searchBar,
+.c322aadb96ff59c9-open .c322aadb96ff59c9-searchBar {
     width: 400px;
     background: transparent;
     border: 2px solid var(--mainColor);
