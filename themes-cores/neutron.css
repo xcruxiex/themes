@@ -3309,20 +3309,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 .button_f7ecac:hover {color: var(--backgroundColor);}
 
-/* Hide Playing Now */
-.nowPlayingColumn__133bf {
-    position: relative;
-    left: 350px ;
-    opacity: 1;
-    margin-left: -350px;
-    transition: .5s all ease-out;
-}
-.nowPlayingColumn__133bf:hover {
-    left: 0 ;
-    opacity: 1;
-    margin-left: 0;
-    transition: .5s all ease-out;
-}
 
 /* Category Names back to original color */
 .icon__29444, .mainContent__29444>.container__13cf1, .children__29444{
