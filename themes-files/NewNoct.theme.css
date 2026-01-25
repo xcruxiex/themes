@@ -32,15 +32,15 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.css"); /* Radial Status */
 
-/*COLORS, PUT /* AT THE START AND */ AT THE END OF ALL THE COLORS YOU DONTTTTT WANT TO USE */
 
 
-@import url("https://github.com/xcruxiex/themes/blob/master/core/colors/Blue.css");
-@import url("https://github.com/xcruxiex/themes/blob/master/core/colors/Purple.css");
-@import url("https://github.com/xcruxiex/themes/blob/master/core/colors/charcoal.css");
-@import url("https://github.com/xcruxiex/themes/blob/master/core/colors/red.css");
 
-/*COLORS, PUT /* AT THE START AND */ AT THE END OF ALL THE COLORS YOU DONTTTTT WANT TO USE */
+@import url("https://github.com/xcruxiex/themes/blob/master/core/colors/Blue.css") */
+/* @import url("https://github.com/xcruxiex/themes/blob/master/core/colors/Purple.css"); */
+/* @import url("https://github.com/xcruxiex/themes/blob/master/core/colors/charcoal.css"); */
+/* @import url("https://github.com/xcruxiex/themes/blob/master/core/colors/red.css"); */
+
+
 :root {
     /* Better Hljs */
     --backgroundCode: #1e2731;
