@@ -4,15 +4,15 @@
   --backgroundName: #202225;
 }
 
-.markup_f8f345 pre {
+.markup__75297 pre {
   position: relative;
   border-radius: 6px;
 }
 
-.modalTextContainer_d8e2d0,
-.textContainer_d8e2d0,
-.markup_f8f345 code.hljs,
-.markup_f8f345 code.hljs.inline {
+.modalTextContainer__4d95d,
+.textContainer__4d95d,
+.markup__75297 code.hljs,
+.markup__75297 code.hljs.inline {
   box-sizing: border-box;
   padding-top: 20px;
   position: relative;
@@ -21,19 +21,19 @@
   background: var(--backgroundCode) !important;
 }
 
-.footer_d8e2d0,
-.markup_f8f345 code,
-.markup_f8f345 code.inline {
+.footer__4d95d,
+.markup__75297 code,
+.markup__75297 code.inline {
   box-sizing: border-box;
   scrollbar-color: var(--backgroundCode) var(--backgroundName);
   background: var(--backgroundCode) !important;
 }
 
-.textContainer_d8e2d0 {
+.textContainer__4d95d {
   overflow: hidden;
 }
 
-.languageSelector_d8e2d0 {
+.languageSelector__4d95d {
   background: var(--backgroundCode);
 }
 

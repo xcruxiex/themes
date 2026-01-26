@@ -1,11 +1,11 @@
-._133bf5eea8e33a34-nowPlayingColumn {
+.nowPlayingColumn__133bf {
     position: relative;
     left: 350px ;
     opacity: 1;
     margin-left: -350px;
     transition: .3s all ease-out;
 }
-._133bf5eea8e33a34-nowPlayingColumn:hover {
+.nowPlayingColumn__133bf:hover {
     left: 0 ;
     opacity: 1;
     margin-left: 0;
