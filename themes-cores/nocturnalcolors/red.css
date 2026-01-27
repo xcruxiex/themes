@@ -3592,4 +3592,12 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .panels__5e434{background-color:var(--backgroundColor01);}
 .visual-refresh .wrapper_ef3116{transition:.1s ease;width:10px;display:flex}
 .visual-refresh .wrapper_ef3116:hover{width:72px}
-
+/*spotify player tab*/
+#vc-spotify-player{background-color: var(--backgroundColor02);}
+/*boost progress*/
+.progressContainer__0d0f9{background-color: var(--backgroundColor01);}
+/*settings main splash screen*/
+.contentHeader_e9e3ed,.content_e9e3ed,.sidebar__409aa{background: var(--backgroundColor02) !important;}
+.fixedContent__409aa:after{display: none;}
+/*Search*/
+.itemContainer__971b5:active, .itemContainer__971b5:hover, .itemContainer__971b5[aria-selected=true]{background-color: rgba(13, 13, 13, 0.5);}
