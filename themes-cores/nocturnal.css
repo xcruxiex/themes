@@ -3589,3 +3589,12 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .clickable_c99c29{color:var(--mainColor)}
 .chat_f02135{background-color:var(--backgroundColor02)}
 .panels__5e434{background-color:var(--backgroundColor01);}
+
+/* Settings Menu */
+.content_e9e3ed,.contentHeader_e9e3ed,
+.modal_e44912{background-color: var(--backgroundColor02);border: none;}
+.item_caf372.active_caf372{background-color: var(--backgroundColor01);}
+.fixedContent__409aa:after{background:none;}
+/* Vencord Settings */
+.vc-card-base,.vc-settings-quickActions-pill,.vc-addon-card{background-color: var(--backgroundColor01);border: none;}
+.vc-settings-quickActions-pill:hover,.vc-switch-checked {background-color: var(--mainColor);}
