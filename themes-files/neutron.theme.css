@@ -38,7 +38,7 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |      $$ |
   --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
-  --backgroundImage: url('https://i.vgy.me/LZ0hAv.jpg');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url('https://i.vgy.me/nRrqd7.jpg');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --backgroundColor: rgba(13, 13, 13, 0.5); /* Background color */
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
   --backgroundSize: Cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
