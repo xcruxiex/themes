@@ -3151,10 +3151,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     display: none;
 }
 
-.lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
-    fill: var(--mainColor);
-}
-
 .container__0be77 {
     background-color: var(--backgroundColor01);
 }
