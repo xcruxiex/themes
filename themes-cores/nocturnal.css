@@ -3604,6 +3604,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor02);}
 
 /* SoundBoard */
-.picker__09f65 {background-color: var(--backgroundColor02);border: 1px solid var(--themeColor1);}
-.buttonOverlayBackground__9be63,.soundAddButton_da9eb2:hover, .soundAddButton_da9eb2.focused_da9eb2  {background: var(--themeColor2);}
-.sectionContainer__61424,.soundButtonWrapper__9be63,.soundInfo__9be63,.scroller_affa7e {background-color: var(--backgroundColor02);}
+.picker__09f65 {background-color: var(--backgroundColor01);border: 1px solid var(--themeColor1);}
+.buttonOverlayBackground__9be63,.soundAddButton_da9eb2:hover, .soundAddButton_da9eb2.focused_da9eb2  {background: var(--mainColor);}
+.sectionContainer__61424,.soundButtonWrapper__9be63,.soundInfo__9be63,.scroller_affa7e {background-color: var(--backgroundColor01);}
