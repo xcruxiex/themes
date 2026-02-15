@@ -884,8 +884,6 @@
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .quickswitcher_ac6cb0,
-#app-mount .scroller_ac6cb0,
 #app-mount .uploadModalIn_b78547 .uploadDropModal_b78547 .bgScale_b78547 {
     background: var(--mainColor)
 }
@@ -3598,3 +3596,13 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /* Vencord Settings */
 .vc-card-base,.vc-settings-quickActions-pill,.vc-addon-card{background-color: var(--backgroundColor01);border: none;}
 .vc-settings-quickActions-pill:hover,.vc-switch-checked {background-color: var(--mainColor);}
+
+/* Right Click Danger Options */
+.colorDanger_c1e9c4 .label_c1e9c4 {
+    color: var(--text-feedback-critical);
+}
+
+/* Ctrl K Menu */
+.result__71961:hover, .result__71961[aria-selected=true] {
+    background-color: var(--mainColor);
+}
