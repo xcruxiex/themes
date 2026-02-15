@@ -3610,3 +3610,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
     background-color: var(--backgroundColor);
 }
+
+/* Dm Profile Tab */
+.overlay_c0bea0 {background-color: rgba(1,1,1,0.3);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor02);}
