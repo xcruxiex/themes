@@ -3592,3 +3592,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .container__16eb0 {background-color: var(--backgroundColor);border: 1px solid var(--themeColor1);}
 .itemContainer__971b5:active, .itemContainer__971b5:hover {background-color: var(--themeColor2);}
 .answerPill__971b5, .filterPill__971b5{background-color: var(--themeColor1);}
+
+/* Dm Profile Tab */
+.overlay_c0bea0 {background-color: rgba(1,1,1,0.3);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor);}
