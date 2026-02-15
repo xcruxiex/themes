@@ -3601,3 +3601,28 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .fixedContent__409aa:after{display: none;}
 /*Search*/
 .itemContainer__971b5:active, .itemContainer__971b5:hover, .itemContainer__971b5[aria-selected=true]{background-color: rgba(13, 13, 13, 0.5);}
+/* Settings Menu */
+.content_e9e3ed,.contentHeader_e9e3ed,
+.modal_e44912{background-color: var(--backgroundColor02);border: none;}
+.item_caf372.active_caf372{background-color: var(--backgroundColor01);}
+.fixedContent__409aa:after{background:none;}
+/* Vencord Settings */
+.vc-card-base,.vc-settings-quickActions-pill,.vc-addon-card{background-color: var(--backgroundColor01);border: none;}
+.vc-settings-quickActions-pill:hover,.vc-switch-checked {background-color: var(--mainColor);}
+
+/* Right Click Danger Options */
+.colorDanger_c1e9c4 .label_c1e9c4 {
+    color: var(--text-feedback-critical);
+}
+
+/* Ctrl K Menu */
+.result__71961:hover, .result__71961[aria-selected=true] {
+    background-color: var(--mainColor);
+}
+/*profiles in dm \ */
+.overlay_c0bea0 {
+    background-color: rgba(1,1,1,0.3);
+}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
+    background-color: var(--backgroundColor);
+}

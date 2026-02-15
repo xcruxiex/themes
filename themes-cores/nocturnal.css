@@ -3594,22 +3594,15 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .vc-settings-quickActions-pill:hover,.vc-switch-checked {background-color: var(--mainColor);}
 
 /* Right Click Danger Options */
-.colorDanger_c1e9c4 .label_c1e9c4 {
-    color: var(--text-feedback-critical);
-}
+.colorDanger_c1e9c4 .label_c1e9c4 {color: var(--text-feedback-critical);}
 
 /* Ctrl K Menu */
-.result__71961:hover, .result__71961[aria-selected=true] {
-    background-color: var(--mainColor);
-}
+.result__71961:hover, .result__71961[aria-selected=true] {background-color: var(--mainColor);}
 
 /* Dm Profile Tab */
-.overlay_c0bea0 {
-    background-color: rgba(1,1,1,0.3);
-}
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
-    background-color: var(--backgroundColor02);
-}
+.overlay_c0bea0 {background-color: rgba(1,1,1,0.3);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor02);}
+
 /* SoundBoard */
 .picker__09f65 {background-color: var(--backgroundColor02);border: 1px solid var(--themeColor1);}
 .buttonOverlayBackground__9be63,.soundAddButton_da9eb2:hover, .soundAddButton_da9eb2.focused_da9eb2  {background: var(--themeColor2);}
