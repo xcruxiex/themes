@@ -3745,3 +3745,11 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .overlayBackground-1KgwVi, .input__0ed4f{
     background-color: transparent;
 }
+/*Buttons*/
+.primary_a22cb0{background-color: var(--backgroundColor02);}
+/*Unthemed profile game thingies*/
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .container__62dd3, .outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0{background: var(--backgroundColor01);}
+.overlay_c0bea0{background: transparent;}
+.user-profile-modal-v2 .card__39ec2{border: 2px solid #000;}
+/*Discovery tab*/
+.navItem__551b0.selected__551b0, .navItem__551b0:active{background-color: var(--backgroundColor02);}
