@@ -3740,3 +3740,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .sectionContainer__61424, .soundButtonWrapper__9be63, .soundInfo__9be63, .scroller_affa7e {
     background-color: var(--backgroundColor01);
 }
+/*notes*/
+.overlayBackground-1KgwVi, .input__0ed4f{
+    background-color: transparent;
+}
