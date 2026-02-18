@@ -12,12 +12,6 @@ body {
     opacity: var(--backgroundOpacity);
     filter: blur(var(--backgroundBlur))
 }
-
-.members_c8ffbb,
-.membersListNotices__0bcb6 {
-    width: 100% !important;
-}
-
 .app__160d8,
 .applicationStore_f07d62,
 .chat_f75fb0,
