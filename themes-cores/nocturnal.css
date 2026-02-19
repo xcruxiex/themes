@@ -1,13 +1,11 @@
-@import url("https://nyri4.github.io/Discolored/main.css");
-
 :root {
-    --backgroundColor01: #1e2731;
+    --backgroundColor01: #161d25;
     --backgroundColor02: #12171d;
     --mainColor: #2275c9;
     --gradientColor01: #00f260;
     --gradientColor02: #0575e6;
-    --backgroundCode: #1e2731;
-    --backgroundName: rgba(0, 0, 0, 0.2);
+    --backgroundCode: #1e273173;
+    --backgroundName: rgba(0, 0, 0, .1);
     --rs-small-spacing: 2px;
     --rs-medium-spacing: 3px;
     --rs-large-spacing: 4px;
@@ -29,13 +27,30 @@
 /* added backend color changes to support user module theming */
 .theme-dark, .theme-amoled, .visual-refresh .theme-dark{
 	
-	--background-surface-high: var(--backgroundColor01) !important;
-	--background-base-lowest: var(--backgroundColor01) !important;
-	--background-mod-subtle: var(--backgroundColor01) !important;
+	--background-surface-high: var(--backgroundColor02) !important;
+	--background-base-lowest: var(--backgroundColor02) !important;
+	--background-mod-subtle: var(--backgroundColor02) !important;
+
+    --control-secondary-background-default: var(--backgroundColor01);
+	--control-secondary-background-hover: var(--backgroundName);
+
+    --background-base-lower: var(--backgrounColor02) !important;
+
+    --background-mod-muted: var(--backgroundCode);
+    --background-mod-normal: var(--backgroundCode);
+
+    --primary-500: white;
+
+    /* custom status bubble theme */
+	--background-surface-highest: color-mix(in oklab, var(--backgroundColor02) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 	
 }
 
-	
+.custom-profile-theme.theme-dark .outer_ab8609, .theme-dark .outer_ab8609{
+	border: 1px solid transparent !important;
+}
+
+
 #app-mount .applicationStore_f07d62,
 #app-mount .bg__960e4,
 #app-mount .chat_f75fb0,
@@ -55,7 +70,6 @@
 #app-mount .members_c8ffbb>div,
 #app-mount .modalTitle_f061f6,
 #app-mount .nowPlayingColumn__133bf,
-#app-mount .panels__5e434,
 #app-mount .privateChannels_e6b769,
 #app-mount .scroller_fb04e1,
 #app-mount .scroller__244e5,
@@ -76,6 +90,146 @@
 #app-mount .wrapper_cb9592 {
     background: var(--backgroundColor02) !important
 }
+
+
+
+
+/* ---------------------- some additions ---------------------- */
+
+#app-mount .childWrapper__6e9f8
+{
+    background-color: var(--backgroundColor02) !important;
+}
+
+.leading_c38106, .title_c38106{
+    background-color: var(--backgroundColor01);
+}
+
+#app-mount .scroller_ef3116, .sidebar__5e434{
+    background: var(--backgroundColor01) !important
+}
+
+
+
+.wrapper__72c38:not([data-read-only=true]):has(input:focus,textarea:focus) {
+	outline: 2px solid transparent;
+}
+
+
+.wrapper__72c38:not([data-read-only=true]), .wrapper__72c38:not([data-read-only=true]):has(input:focus,textarea:focus), .wrapper__72c38:not([data-read-only=true]):not([data-disabled=true]):not(:focus-within):hover{ /* gets rid of stupid out of place blue box and grey outline when selecting an input box */
+	--custom-input-border-color: transparent;
+}
+
+.primary_a22cb0, .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf{ /* add some gradient buttons */
+	background: linear-gradient(to top left,var(--gradientColor01),var(--gradientColor02));
+	background-clip: padding-box;
+	isolation: isolate;
+}
+
+ .primary_a22cb0::after,.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf::after { 
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: -1;
+  background: linear-gradient(to top right, var(--gradientColor01), var(--gradientColor02)); /* Hover Gradient */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: var(--radius-sm);
+  background-clip: padding-box;
+}
+
+.primary_a22cb0:hover::after, .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:hover:after {
+  opacity: 1;
+}
+
+.tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected=true]
+{
+    color: white;
+}
+
+
+.note_eb110a textarea, .note_eb110a textarea:focus{ /* notes fix */
+    background-color: transparent;
+}
+
+.voiceCallWrapper_a21736{
+    background-color: var(--backgroundColor01);
+}
+
+#app-mount .panels__5e434{
+    background-color: var(--backgroundColor02);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    border-color: transparent;
+}
+
+/* unloaded chat theme fix */
+.wrapper_fc8177{
+	background-color: var(--backgrounColor02) !important;
+}
+.wrapper_d852db{
+	background-color: var(--backgrounColor02) !important;
+}
+
+
+.reaction__23977.reactionMe__23977{
+    background-color: color-mix(in srgb, var(--mainColor), transparent 30%) !important;
+    border-color: transparent;
+    opacity: 0;
+}
+
+.reaction__23977:hover{
+    background-color: color-mix(in srgb, var(--mainColor), transparent 70%);
+    border-color: transparent;
+}
+
+.reaction__23977:hover, .reactionBtn__23977:hover{
+    background-color: var(--backgroundCode);
+    border-color: transparent;
+}
+
+
+.container__8061a{
+	border: 2px solid var(--backgroundName);
+	border-radius: 6px;
+}
+
+.scroller__36d07{
+    background-color: var(--backgroundColor01);
+}
+
+.scrollerContent__36d07{
+    background-color: var(--backgroundColor02);
+}
+
+.visual-refresh .topicsPillContainer__0f481, .topicsScroller__0f481{
+	background: var(--backgroundColor01);
+    border-color: transparent;
+}
+.newTopicsBarContainer__0f481{
+	background-color: var(--mainColor) !important;
+}
+.newMessagesBar__0f481{
+	background-color: var(--mainColor) !important;
+}
+
+
+.buttonSection__1405b{
+    border-color: transparent;
+}
+
+
+.menu_c1e9c4{
+    border-color: transparent;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+
+.sectionDivider_e6b769{
+    background-color: transparent;
+}
+
 
 #app-mount .editor__2a891,
 #app-mount .themeEditor_cf6da1 {
@@ -361,7 +515,6 @@
 #app-mount .folderGroupBackground__48112:not(.collapsed__48112),
 #app-mount .inner__999f6,
 #app-mount .replyBar__841c8,
-#app-mount .scrollableContainer__74017,
 #app-mount .searchBar_e6b769 .searchBarComponent__35e86,
 #app-mount .searchBar-zdmu7v,
 #app-mount .threadSuggestionBar__841c8 {
@@ -374,6 +527,10 @@
 
 #app-mount .content__908e2 {
     background: var(--backgroundColor01) !important
+}
+
+.searchBar_e6b769{
+    border-bottom: 1px solid transparent;
 }
 
 #app-mount .fileWrapper__0ccae,
@@ -436,11 +593,12 @@
 }
 
 #app-mount .actionButton_f8fa06 {
-    background-color: var(--backgroundColor02) !important
+    background-color: var(--backgroundColor01) !important
 }
 
 #app-mount .peopleListItem_cc6179 {
-    border: none !important
+    border-bottom: 1px solid transparent;
+    border-top: 2px solid var(--backgroundColor01);
 }
 
 #app-mount .peopleListItem_cc6179.active_cc6179,
@@ -450,7 +608,14 @@
 
 #app-mount .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06,
 #app-mount .peopleListItem_cc6179:hover .actionButton_f8fa06 {
-    background-color: var(--backgroundColor01) !important
+    background-color: var(--backgroundColor02) !important
+}
+
+.actionButton_f8fa06.highlight_f8fa06 {
+
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+    box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .45) !important;
+
 }
 
 #app-mount .akaBadge__27cd4 {
@@ -481,7 +646,7 @@
 #app-mount .emptyCard__7e549 .section__00943,
 #app-mount .wrapper__00943 .inset_bf1984,
 #app-mount .wrapper__00943 .section__00943 {
-    background-color: var(--backgroundColor02) !important;
+    background-color: var(--backgroundCode) !important;
     box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .3)
 }
 
@@ -508,7 +673,7 @@
 }
 
 #app-mount .childWrapper__6e9f8 {
-    background-color: var(--backgroundColor01) !important
+    background-color: var(--backgroundColor02) !important
 }
 
 #app-mount .presets_a00e6e>.appIconSelectionContainer__8a3d7:first-child img,
@@ -652,15 +817,39 @@
     color: rgba(255, 255, 255, .9) !important
 }
 
-#app-mount .layout__91a9d {
-    position: relative;
-    overflow: hidden
+/* hover animations on dm list returns */
+.interactive__972a0::after{
+	content: "";
+	height: 2px;
+	width: 100%;
+	border-radius: 50px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	background-color: rgba(0,0,0,.45) !important;
+	background-image: linear-gradient(to right,var(--gradientColor01),var(--gradientColor02));
+	transform: translateX(-353px);
+	transition: all .2s ease
+	
 }
 
-#app-mount .layout__91a9d::after {
+
+.interactive__972a0:hover::after, .channel__972a0 .interactiveSelected__972a0::after{
+	transform: translateX(0px)
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+
+
+.childContainer__91a9d {
+    position: relative;
+}
+
+.childContainer__91a9d::after {
     content: "";
     position: absolute;
-    left: 0;
+    border-radius: 50px;
+    left: 0px;
     bottom: 0;
     height: 2px;
     width: 100%;
@@ -676,6 +865,10 @@
     -moz-transform: translateX(100%);
     -o-transform: translateX(100%);
     transform: translateX(100%)
+}
+
+.childContainer__91a9d:hover:after,.selected__91a9d .childContainer__91a9d:after {
+	transform: translateX(0)
 }
 
 #app-mount .clickable__91a9d.container__91a9d:hover .layout__91a9d::after,
@@ -813,6 +1006,10 @@
 #app-mount .clickable_f37cb1 .header_f37cb1:hover,
 #app-mount .selected_f37cb1 .header_f37cb1 {
     background-color: var(--backgroundColor02) !important
+}
+
+.header_f37cb1{
+    border: 1px solid transparent;
 }
 
 #app-mount .bf-toolbar::before {
@@ -1065,18 +1262,15 @@
 #app-mount .messagesPopout_e8b59c::-webkit-scrollbar,
 #app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar,
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar,
-#app-mount .scroller__629e4::-webkit-scrollbar,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar,
 #app-mount .scroller__36d07::-webkit-scrollbar,
 #app-mount .scroller::-webkit-scrollbar,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar,
 #app-mount .templatesList-uohY49::-webkit-scrollbar {
     width: 5px;
-    display: none;
-    background: 0 0 !important
 }
 
-#app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-track,
+/* #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-track,
 #app-mount .container__133bf .scrollerBase-_bVAAt::-webkit-scrollbar-track,
 #app-mount .contentWrapper__08434 .scroller-2FKFPG::-webkit-scrollbar-track,
 #app-mount .infoScroller-1QMpon::-webkit-scrollbar-track,
@@ -1092,7 +1286,7 @@
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-track,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-track {
     margin: 0
-}
+} */
 
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-track-piece,
 #app-mount .container__133bf .scrollerBase-_bVAAt::-webkit-scrollbar-track-piece,
@@ -1105,12 +1299,10 @@
 #app-mount .regionSelectModalOptions-2TWQOB::-webkit-scrollbar-track-piece,
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-track-piece,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-track-piece,
-#app-mount .scroller__36d07::-webkit-scrollbar-track-piece,
 #app-mount .scroller::-webkit-scrollbar-track-piece,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-track-piece,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-track-piece {
-    background: 0 0 !important;
-    border-color: transparent !important
+    background: var(--backgroundCode) !important;
 }
 
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-thumb,
@@ -1125,14 +1317,10 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb,
-#app-mount .scroller__36d07::-webkit-scrollbar-thumb,
 #app-mount .scroller::-webkit-scrollbar-thumb,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb,
-#app-mount .templatesList-uohY49::-webkit-scrollbar-thumb {
-    background-color: var(--backgroundColor01);
-    border-radius: 0;
-    border-radius: 50px;
-    border: none
+#app-mount .templatesList-uohY49::-webkit-scrollbar-thumb,.scrollerBase_d125d2::-webkit-scrollbar-thumb {
+    background-color: var(--backgroundCode);
 }
 
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-thumb:hover,
@@ -1147,11 +1335,10 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb:hover,
-#app-mount .scroller__36d07::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller::-webkit-scrollbar-thumb:hover,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:hover,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:hover {
-    background-color: var(--backgroundColor01)
+    background-color: var(--backgroundCode);
 }
 
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-thumb:active,
@@ -1166,14 +1353,13 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb:active,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb:active,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb:active,
-#app-mount .scroller__36d07::-webkit-scrollbar-thumb:active,
 #app-mount .scroller::-webkit-scrollbar-thumb:active,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:active,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:active {
-    background-color: var(--backgroundColor01)
+    background-color: var(--backgroundCode)
 }
 
-#app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-button,
+/* #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-button,
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-corner,
 #app-mount .container__133bf .scrollerBase-_bVAAt::-webkit-scrollbar-button,
 #app-mount .container__133bf .scrollerBase-_bVAAt::-webkit-scrollbar-corner,
@@ -1206,9 +1392,9 @@
 #app-mount .templatesList-uohY49::-webkit-scrollbar-button,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-corner {
     display: none !important
-}
+} */
 
-#app-mount .autocompleteScroller-13i2_Y:hover,
+/* #app-mount .autocompleteScroller-13i2_Y:hover,
 #app-mount .container__133bf .scrollerBase-_bVAAt:hover,
 #app-mount .contentWrapper__08434 .scroller-2FKFPG:hover,
 #app-mount .infoScroller-1QMpon:hover,
@@ -1225,9 +1411,9 @@
 #app-mount .scrollerBase-_bVAAt:hover,
 #app-mount .templatesList-uohY49:hover {
     overflow: overlay !important
-}
+} */
 
-#app-mount .autocompleteScroller-13i2_Y:hover::-webkit-scrollbar,
+/* #app-mount .autocompleteScroller-13i2_Y:hover::-webkit-scrollbar,
 #app-mount .container__133bf .scrollerBase-_bVAAt:hover::-webkit-scrollbar,
 #app-mount .contentWrapper__08434 .scroller-2FKFPG:hover::-webkit-scrollbar,
 #app-mount .infoScroller-1QMpon:hover::-webkit-scrollbar,
@@ -1244,6 +1430,11 @@
 #app-mount .scrollerBase-_bVAAt:hover::-webkit-scrollbar,
 #app-mount .templatesList-uohY49:hover::-webkit-scrollbar {
     display: block
+} */
+
+
+.scroller__36d07::-webkit-scrollbar-thumb{
+    background: var(--backgroundColor02) !important;
 }
 
 #app-mount .wrapper_fc8177,
@@ -2666,7 +2857,7 @@
 
 .theme-dark .panel__5dec7 {
     background: none;
-    border-bottom: 1px solid var(--mainColor);
+    border-bottom: 1px solid transparent;
 }
 
 .container_b7f4b4 .reactors_b7f4b4 {
@@ -2775,7 +2966,12 @@
 }
 
 .lookFilled__201d5.colorBrand__201d5:hover {
-    background-color: var(--gradientColor02);
+    background-color: var(--backgroundName);
+    border-color: transparent;
+}
+
+.lookFilled__201d5.colorBrand__201d5{
+    border-color: transparent;
 }
 
 .addReactButton__34c2c,
@@ -3023,17 +3219,17 @@
     background: #00000020;
 }
 
-.reaction__23977:hover {
+/* .reaction__23977:hover {
     background-color: #00000050;
-}
+} */
 
 .reaction__23977.reactionMe__23977 {
     background-color: #00000050;
 }
 
-.base_b88801 {
+/* .base_b88801 {
     background: var(--backgroundColor02) !important;
-}
+} */
 
 .codeActions__75297 {
     display: contents;
@@ -3105,6 +3301,10 @@
     background-color: var(--mainColor) !important;
 }
 
+.lottieIcon__5eb9b svg{
+    color: var(--mainColor);
+}
+
 .icon__29444 {
     color: var(--mainColor);
 }
@@ -3122,13 +3322,11 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 /* disabled cuz i dont think anyone cares for it rn */
-/* .searchBar_c322aa {
-    width: 21px;
-    height: 24px;
-    padding: 0;
+.searchBar_c322aa {
+    width: 30px;
     background: none;
     transition: ease-in-out 0.3s !important;
-} */
+}
 
 .searchBar_c322aa:hover .iconContainer_fea832,
 .searchBar_c322aa:hover .icon_fea832,
@@ -3139,12 +3337,16 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     height: 0;
 }
 
-.searchBar_c322aa:hover,
+.searchBar_c322aa{
+    border-color: transparent;
+}
+
+
 .focused_c322aa .searchBar_c322aa,
 .open_c322aa .searchBar_c322aa {
-    width: 400px;
-    background: transparent;
-    border: 2px solid var(--mainColor);
+    width: 250px;
+    background: var(--backgroundColor01);
+    border: 1px solid var(--mainColor);
 }
 
 .emojiLockIconContainer_d982c2 {
@@ -3536,6 +3738,10 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 	background-color: var(--backgroundName);
 }
 
+.selected__91a9d .childContainer__91a9d{
+    background-color: var(--backgroundColor01);
+}
+
 /* fix for the chat scroll bottom gradient */
 .chatTypingGradientNotAtBottom__36d07 {
     background: linear-gradient(to bottom, transparent, var(--backgroundColor02) 72px, var(--backgroundColor02) 100%);
@@ -3572,12 +3778,12 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .visual-refresh .wrapper__44df5{background-color: var(--backgroundColor01);}
 .visual-refresh .container__9293f,.bar_c38106{border: none !important;}
 
-#app-mount .applicationStore_f07d62, #app-mount .bg__960e4, #app-mount .chat_f75fb0, #app-mount .container__2637a, #app-mount .container__133bf, #app-mount .container-7Unqij, #app-mount .container__9293f.themed__9293f, #app-mount .contentRegion__23e6b, #app-mount .contentRegionScroller__23e6b, #app-mount .editor__2a891, #app-mount .emptyPreview__48b20, #app-mount .header_adb41f, #app-mount .inviteToolbar__133bf, #app-mount .keyboardShortcutsModal_f061f6, #app-mount .layer__960e4, #app-mount .members_c8ffbb, #app-mount .members_c8ffbb>div, #app-mount .modalTitle_f061f6, #app-mount .nowPlayingColumn__133bf, #app-mount .panels__5e434, #app-mount .privateChannels_e6b769, #app-mount .scroller_fb04e1, #app-mount .scroller__244e5, #app-mount .scroller__4a84a, #app-mount .scroller_ef3116, #app-mount .scroller__99e7c, #app-mount .scroller__7d20c, #app-mount .sidebar__23e6b, #app-mount .sidebarRegionScroller__23e6b, #app-mount .stageSection-3mAD8V, #app-mount .standardSidebarView__23e6b, #app-mount .themeEditor_cf6da1, #app-mount .threadSidebar-1o3BTy, #app-mount .tile__90dc5, #app-mount .titleBar__421ed, #app-mount .videoWrapper__2f4f7, #app-mount .wrapper_ef3116, #app-mount .wrapper_cb9592 
+#app-mount .applicationStore_f07d62, #app-mount .bg__960e4, #app-mount .chat_f75fb0, #app-mount .container__2637a, #app-mount .container__133bf, #app-mount .container-7Unqij, #app-mount .container__9293f.themed__9293f, #app-mount .contentRegion__23e6b, #app-mount .contentRegionScroller__23e6b, #app-mount .editor__2a891, #app-mount .emptyPreview__48b20, #app-mount .header_adb41f, #app-mount .inviteToolbar__133bf, #app-mount .keyboardShortcutsModal_f061f6, #app-mount .layer__960e4, #app-mount .members_c8ffbb, #app-mount .members_c8ffbb>div, #app-mount .modalTitle_f061f6, #app-mount .nowPlayingColumn__133bf, #app-mount .privateChannels_e6b769, #app-mount .scroller_fb04e1, #app-mount .scroller__244e5, #app-mount .scroller__4a84a, #app-mount .scroller_ef3116, #app-mount .scroller__99e7c, #app-mount .scroller__7d20c, #app-mount .sidebar__23e6b, #app-mount .sidebarRegionScroller__23e6b, #app-mount .stageSection-3mAD8V, #app-mount .standardSidebarView__23e6b, #app-mount .themeEditor_cf6da1, #app-mount .threadSidebar-1o3BTy, #app-mount .tile__90dc5, #app-mount .titleBar__421ed, #app-mount .videoWrapper__2f4f7, #app-mount .wrapper_ef3116, #app-mount .wrapper_cb9592 
 {border: none !important;}
 .visual-refresh .container_c8ffbb{border: none !important;}
 .visual-refresh .container__01ae2{background-color: transparent;}
 .field__1fed1{background-color: var(--backgroundColor);}
-.theme-dark.mouse-mode.full-motion.visual-refresh .message__5126c:hover, .theme-dark.visual-refresh .message__5126c.selected__5126c{background-color: var(--backgroundColor01)}
+.theme-dark.mouse-mode.full-motion.visual-refresh .message__5126c:hover, .theme-dark.visual-refresh .message__5126c.selected__5126c{background-color: var(--backgroundCode)}
 .chatGradient__36d07,.chatTypingGradientAtBottom__36d07{background:none}
 .clickable_c99c29{color:var(--mainColor)}
 .chat_f02135{background-color:var(--backgroundColor02)}
@@ -3599,8 +3805,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .result__71961:hover, .result__71961[aria-selected=true] {background-color: var(--mainColor);}
 
 /* Dm Profile Tab */
-.overlay_c0bea0 {background-color: rgba(1,1,1,0.3);}
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor02);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor01);}
 
 /* SoundBoard */
 .picker__09f65 {background-color: var(--backgroundColor01);border: 1px solid var(--themeColor1);}
@@ -3610,8 +3815,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /*Buttons*/
 .primary_a22cb0{background-color: var(--backgroundColor02);}
 /*Unthemed profile game thingies*/
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .container__62dd3, .outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0{background: var(--backgroundColor01);}
-.overlay_c0bea0{background: transparent;}
-.user-profile-modal-v2 .card__39ec2{border: 2px solid #000;}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .container__62dd3, .outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0{background: var(--backgroundColor02);}
 /*Discovery tab*/
 .navItem__551b0.selected__551b0, .navItem__551b0:active{background-color: var(--backgroundColor02);}
