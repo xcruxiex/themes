@@ -170,7 +170,7 @@
     width: auto;
     border-radius: 4px;
     padding: 2px 5px;
-    background: linear-gradient(to top left, var(--gradientColor01, #00f260), var(--gradientColor02, #0575e6));
+    background: linear-gradient(to top left, var(--gradientColor01, #00f260), var(--gradientColor02, #0575e6)) !important;
     color: white;
     font-size: 12px;
     top: -1px;
