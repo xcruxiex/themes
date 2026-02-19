@@ -156,13 +156,33 @@
 }
 
 /* Gaming4thefuture */
-.avatar_c19a55[src*="531292687345778709"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {content: "";
+.avatar_c19a55[src*="531292687345778709"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
+    content: "Nocturnal > Neutron";
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+    width: auto;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background: linear-gradient(to top left, var(--gradientColor01, #00f260), var(--gradientColor02, #0575e6));
+    color: white;
+    font-size: 12px;
+    top: -1px;
+    font-weight: bolder;
+}
+/* .avatar_c19a55[src*="531292687345778709"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {content: "";
   background-image: url('https://cdn.discordapp.com/attachments/633906616747687937/845138486474571776/YLG.gif');}
 .avatar_c19a55[src*="531292687345778709"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "</>";
   color: black;
   background-color: gold;
-}
+} */
 
 /* vanillaspace */
 .avatar_c19a55[src*="227648235097817089"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {content: "";
