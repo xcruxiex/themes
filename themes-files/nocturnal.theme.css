@@ -1,8 +1,8 @@
 /**
 * @name Nocturnal
-* @version 3.1.0
+* @version 3.0.1
 * @description For when default discord just isn't dark enough, a theme for those who live a night
-* @author Spectra, Cruxie, W1zard & G4TF
+* @author Spectra
 * @invite PZdnCVD
 * @source https://github.com/xcruxiex/themes
 * @website https://betterdiscord.app/theme/Nocturnal
@@ -33,60 +33,36 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.css"); /* Radial Status */
-
 :root {
-    --backgroundColor01: #161d25;
+    --backgroundColor01: #1e2731;
     --backgroundColor02: #12171d;
     --mainColor: #2275c9;
     --gradientColor01: #00f260;
     --gradientColor02: #0575e6;
 
     /* Better Hljs */
-    --backgroundCode: rgba(30, 39, 49, 0.5);
-    --backgroundName: rgba(0, 0, 0, 0.25);
-
-
+    --backgroundCode: #1e2731;
+    --backgroundName: rgba(0, 0, 0, 0.2);
 
     /* Radial Status */
-    /*
-        * Spacing
-        */
-    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-    /*
-        * Widths
-        */
-    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-    /*
-        * Shape
-        */
-    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-    /*
-        * Colours
-        */
-    --rs-online-color: #43b581; /* Colour for online status */
-    --rs-idle-color: #faa61a; /* Colour for idle status */
-    --rs-dnd-color: #f04747; /* Colour for dnd status */
-    --rs-offline-color: #636b75; /* Colour for offline status */
-    --rs-streaming-color: #643da7; /* Colour for streaming status */
-    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-    --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
-    --rs-phone-color: var(--rs-online-color); /* Colour of the ring & phone icon  */
-    /*
-        * Others
-        */
-    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-
-
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 3px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-visible: block;
+    --rs-phone-color: var(--rs-online-color);
 
     /* Unread Animation :
     none -> static point.
     pulse -> pulsating point
     */
-    --unread-animation: none;
+    --unread-animation: pulse;
 
     --customFont: "gg sans", sans-serif;
 }
