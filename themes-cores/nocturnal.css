@@ -102,11 +102,11 @@
 }
 
 .leading_c38106, .title_c38106{
-    background-color: var(--backgroundColor01);
+    background-color: var(--backgroundColor02);
 }
 
 #app-mount .scroller_ef3116, .sidebar__5e434{
-    background: var(--backgroundColor01) !important
+    background: var(--backgroundColor02) !important;
 }
 
 
