@@ -195,10 +195,12 @@
 
 .scroller__36d07{
     background-color: var(--backgroundColor01);
+    z-index: -2;
 }
 
 .scrollerContent__36d07{
     background-color: var(--backgroundColor02);
+    z-index: -2;
 }
 
 .visual-refresh .topicsPillContainer__0f481, .topicsScroller__0f481{
@@ -928,13 +930,13 @@
     border-radius: 8px 0 0 8px
 }
 
-#app-mount .mentioned__5126c {
+.mentioned__5126c {
     background-color: transparent !important;
     border-radius: 0 8px 8px 0;
     position: relative
 }
 
-#app-mount .mentioned__5126c::after {
+.mentioned__5126c::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -946,7 +948,7 @@
     right: 0;
     z-index: -1;
     opacity: .15;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 #app-mount .message__5126c.mentioned__5126c.selected__5126c,
