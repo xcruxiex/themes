@@ -34,7 +34,7 @@
     --control-secondary-background-default: var(--backgroundColor01);
 	--control-secondary-background-hover: var(--backgroundName);
 
-    --background-base-lower: var(--backgrounColor02) !important;
+    --background-base-lower: var(--backgroundColor02) !important;
 
     --background-mod-muted: var(--backgroundCode);
     --background-mod-normal: var(--backgroundCode);
