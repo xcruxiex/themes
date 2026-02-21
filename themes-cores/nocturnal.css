@@ -3840,5 +3840,8 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .switchIndicator_a28278{
     background-color: var(--mainColor)!important;
 }
-
+/*spotify bar*/
+.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+    background: var(--mainColor) !important;
+}
 

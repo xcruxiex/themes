@@ -1,11 +1,11 @@
 @import url("https://nyri4.github.io/Discolored/main.css");
 
 :root {
-    --backgroundColor01: #36454f;
-    --backgroundColor02: #2b3740;
-    --mainColor: #4c6273;
-    --gradientColor01: #35444f;
-    --gradientColor02: #35444f;
+    --mainColor: #a3c7d9 ;
+    --gradientColor01: #a3c7d9 ;
+    --gradientColor02: #2275c9  ;
+    --backgroundColor01: #181e21 ;
+    --backgroundColor02: #0f1214 ;
     --backgroundCode: #1e2731;
     --backgroundName: rgba(0, 0, 0, 0.2);
     --rs-small-spacing: 2px;
@@ -3154,7 +3154,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
-    fill: var(--gradientColor02);
+    fill: var(--mainColor);
 }
 
 .container__0be77 {
@@ -3786,4 +3786,12 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 
 .icon__0c4c4{
     color: var(--mainColor);
+}
+
+#app-mount .anchor-1MIwyf, #app-mount .executedCommand_c19a55 .commandName_c19a55, #app-mount .markup__75297 a {
+    color: #597285 !important;font-weight: 900;
+}
+/*spotify bar*/
+.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+    background: var(--mainColor) !important;
 }

@@ -3154,7 +3154,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 
 .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
-    fill: var(--gradientColor02);
+    fill: var(--mainColor);
 }
 
 .container__0be77 {
@@ -3786,4 +3786,8 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 
 .icon__0c4c4{
     color: var(--mainColor);
+}
+/*spotify bar*/
+.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+    background: var(--mainColor) !important;
 }
