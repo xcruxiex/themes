@@ -4,9 +4,9 @@
 :root {
     --backgroundColor01: #110022;
     --backgroundColor02: #0a0014;
-    --mainColor: #47018c;
-    --gradientColor01: #3b0175;
-    --gradientColor02: #3b0175;
+    --mainColor: #6900d1;
+    --gradientColor01: #6900d1;
+    --gradientColor02: #6900d1;
     --backgroundCode: #0a0014;
     --backgroundName: rgba(0, 0, 0, 0.2);
     --rs-small-spacing: 2px;
@@ -3753,3 +3753,42 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .user-profile-modal-v2 .card__39ec2{border: 2px solid #000;}
 /*Discovery tab*/
 .navItem__551b0.selected__551b0, .navItem__551b0:active{background-color: var(--backgroundColor02);}
+/*First to message in forum thingy*/
+.container__93db4{
+    background-color: var(--backgroundColor02);
+}
+/*Reply Color*/
+.replying__5126c:before{
+    background: var(--mainColor);
+}
+
+.highlighted__5126c, .replying__5126c{
+    background: rgba(34, 117, 201, .2);
+}
+/*Checklist check color*/
+.checkboxOption__714a9[data-selected] .checkboxIndicator__714a9{
+    background-color: var(--mainColor);
+}
+
+.switchIndicator_a28278{
+    background-color: var(--mainColor)!important;
+}
+
+
+
+/*Settings border*/
+.container__8a031{
+    box-shadow: 0px 0px 1px 1px var(--mainColor);
+}
+/*Server Tab thingy*/
+.item__58105{
+    background-color: var(--mainColor);
+}
+
+.icon__0c4c4{
+    color: var(--mainColor);
+}
+/*links*/
+#app-mount .anchor-1MIwyf, #app-mount .executedCommand_c19a55 .commandName_c19a55, #app-mount .markup__75297 a {
+    color: #6900d1!important;font-weight: 900;
+}
