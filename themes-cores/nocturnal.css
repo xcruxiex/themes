@@ -5,6 +5,7 @@
     --gradientColor01: #00f260;
     --gradientColor02: #0575e6;
     --backgroundCode: #1e273173;
+    --linkcolor: #00f260;
     --backgroundName: rgba(0, 0, 0, .1);
     --rs-small-spacing: 2px;
     --rs-medium-spacing: 3px;
@@ -3806,18 +3807,24 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /* Ctrl K Menu */
 .result__71961:hover, .result__71961[aria-selected=true] {background-color: var(--mainColor);}
 
-/* Dm Profile Tab */
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {background-color: var(--backgroundColor01);}
+
+/*profiles in dm \ */
+.overlay_c0bea0 {background-color: rgba(1, 1, 1, 0.3);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
+ background-color: var(--backgroundColor02);}
 
 /* SoundBoard */
 .picker__09f65 {background-color: var(--backgroundColor01);border: 1px solid var(--themeColor1);}
 .buttonOverlayBackground__9be63,.soundAddButton_da9eb2:hover, .soundAddButton_da9eb2.focused_da9eb2  {background: var(--mainColor);}
 .sectionContainer__61424,.soundButtonWrapper__9be63,.soundInfo__9be63,.scroller_affa7e {background-color: var(--backgroundColor01);}
-
+/*notes*/
+.overlayBackground-1KgwVi,
+.input__0ed4f {
+ background-color: transparent;}
 /*Buttons*/
 .primary_a22cb0{background-color: var(--backgroundColor02);}
 /*Unthemed profile game thingies*/
-.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .container__62dd3, .outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0{background: var(--backgroundColor02);}
+.outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 .container__62dd3, .outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0{background: transparent;}.user-profile-modal-v2 .card__39ec2 {border: 2px solid #000;}
 /*Discovery tab*/
 .navItem__551b0.selected__551b0, .navItem__551b0:active{background-color: var(--backgroundColor02);}
 /*First to message in forum thingy*/
@@ -3862,4 +3869,45 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /*spotify bar*/
 .mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+.icon__0c4c4{
+    color: var(--mainColor);
+}
+
+/*Settings border*/
+
+.container__8a031 {
+
+ box-shadow: 0px 0px 1px 1px var(--mainColor);
+
+}
+
+/*Server Tab thingy*/
+
+.item__58105 {
+
+ background-color: var(--mainColor);
+
+}
+
+
+
+.icon__0c4c4 {
+
+ color: var(--mainColor);
+
+}
+
+/*links*/
+
+#app-mount .anchor-1MIwyf,
+
+#app-mount .executedCommand_c19a55 .commandName_c19a55,
+
+#app-mount .markup__75297 a {
+
+ color: var(--linkcolor) !important;
+
+ font-weight: 900;
+
 }
