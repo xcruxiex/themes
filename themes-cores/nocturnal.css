@@ -3896,3 +3896,28 @@ color: var(--mainColor);
 #vc-spotify-player {
     background-color: var(--backgroundColor02);
 }
+.top_aa8da2 .item_aa8da2.selected_aa8da2:after, .top_aa8da2 .item_aa8da2:hover:after{
+    background:var(--mainColor);
+}
+.tab_f8303a.vertical_f8303a.selected_f8303a{
+    border-color: var(--mainColor);
+}
+.radioGroupOption__64e61[data-selected] .outerRadioFill__64e61, .standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61,
+.radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioBase__64e61, .radioGroupOption__64e61[data-selected]:not([data-disabled]):hover .outerRadioFill__64e61{
+    fill: var(--mainColor);
+}
+.anchor_edefb8{
+    color: var(--mainColor);
+}
+.itemIcon__971b5{
+    color: var(--mainColor);
+}
+.vc-btn-primary{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+.categoryFadeBlurple_d02962{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+.header__14245{
+    color: var(--mainColor);
+}
