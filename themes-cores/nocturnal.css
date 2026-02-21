@@ -3873,41 +3873,26 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .icon__0c4c4{
     color: var(--mainColor);
 }
-
 /*Settings border*/
-
 .container__8a031 {
-
  box-shadow: 0px 0px 1px 1px var(--mainColor);
-
 }
-
+/*boost progress*/
+.progressContainer__0d0f9 {
+    background-color: var(--backgroundColor01);
+}
 /*Server Tab thingy*/
-
 .item__58105 {
-
  background-color: var(--mainColor);
-
 }
-
-
-
 .icon__0c4c4 {
-
- color: var(--mainColor);
-
+color: var(--mainColor);
 }
-
 /*links*/
-
 #app-mount .anchor-1MIwyf,
-
 #app-mount .executedCommand_c19a55 .commandName_c19a55,
-
-#app-mount .markup__75297 a {
-
- color: var(--linkcolor) !important;
-
- font-weight: 900;
-
+#app-mount .markup__75297 a {color: var(--linkcolor) !important;font-weight: 900;
+}
+#vc-spotify-player {
+    background-color: var(--backgroundColor02);
 }
