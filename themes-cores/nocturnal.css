@@ -3845,3 +3845,6 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background: var(--mainColor) !important;
 }
 
+.itemContainer__971b5:active, .itemContainer__971b5:hover, .itemContainer__971b5[aria-selected=true] {
+    background-color: rgba(13, 13, 13, 0.5);
+}
