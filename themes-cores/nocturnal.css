@@ -3848,3 +3848,18 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 .itemContainer__971b5:active, .itemContainer__971b5:hover, .itemContainer__971b5[aria-selected=true] {
     background-color: rgba(13, 13, 13, 0.5);
 }
+.item__58105{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+
+#app-mount .contentWrapper__08434 .container_fea832, #app-mount .contentWrapper__08434 .emojiItem_fc7141.emojiItemSelected_fc7141, #app-mount .contentWrapper__08434 .navButtonActive__08434{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+.expressive_c2b88c{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+    color: #fff;
+}
+/*spotify bar*/
+.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}

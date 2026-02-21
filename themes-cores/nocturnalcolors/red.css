@@ -3790,7 +3790,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 }
 /*links*/
 #app-mount .anchor-1MIwyf, #app-mount .executedCommand_c19a55 .commandName_c19a55, #app-mount .markup__75297 a {
-    color: #910101!important;font-weight: 900;
+    color: var(--linkcolor)!important;font-weight: 900;
 }
 /*spotify bar*/
 .mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
