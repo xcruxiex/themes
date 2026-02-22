@@ -3924,3 +3924,24 @@ color: var(--mainColor);
 .fakeLink_ada32f{
     color: var(--linkcolor);
 }
+.icon_c1e9c4{
+    color: var(--mainColor);
+}
+.theme-dark .staticToolbar_bba883,.card__73069:not(.outline__73069){
+    background-color: var(--backgroundColor01);
+}
+.joinOptionContent__959cb.active__959cb{
+    background-color: var(--backgroundColor01);border-color: var(--mainColor);
+}
+.inviteButton_f37cb1{
+    color: var(--mainColor);
+}
+.item_caf372.active_caf372, .item_caf372:hover{
+    background-color: var(--backgroundColor01);
+}
+.card__88264{
+    background-color: var(--backgroundColor01);border-color: var(--mainColor);
+}
+.overlay-primary_a22cb0{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
