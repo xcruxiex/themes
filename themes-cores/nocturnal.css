@@ -3945,3 +3945,6 @@ color: var(--mainColor);
 .overlay-primary_a22cb0{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
 }
+.colorDefault_c1e9c4.focused_c1e9c4{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
