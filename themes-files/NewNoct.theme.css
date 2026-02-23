@@ -39,36 +39,64 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
 
 /* <<<< To change colors, add the symbols that are at the start and end of each line and remove/add them to activate/deactivate colors >>>> */
 
-@import url("https://xcruxiex.github.io/themes/themes-cores/nocturnalcolors/Blue.css");
-/* @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnalcolors/Purple.css"); */
-/* @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnalcolors/bluegray.css"); */
-/* @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnalcolors/red.css"); */
-
-
+*/
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
 :root {
-    /* Better Hljs */
-    --backgroundCode: #1e2731;
-    --backgroundName: rgba(0, 0, 0, 0.2);
 
-    /* Radial Status */
-    --rs-small-spacing: 2px;
-    --rs-large-spacing: 3px;
-    --rs-width: 2px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #747f8d;
-    --rs-phone-visible: block;
-    --rs-phone-color: var(--rs-online-color);
+/* -- COLORS PRESETS -- *//*
+Enable or disable each color preset: Remove the last `/*` after the name of each preset. 
+The enabled preset by default is an example of how to do this.
+*/
 
-    /* Unread Animation :
-    none -> static point.
-    pulse -> pulsating point
-    */
-    --unread-animation: pulse;
+/* Nocturnal 3.0 */  /*
+  --backgroundColor01: #1e2731;
+  --backgroundColor02: #12171d;
+  --mainColor: #2275c9;
+  --rs-online-color: #2275c9;
+  --rs-phone-color: #2275c9;
+  --gradientColor01: #00F260;
+  --gradientColor02: #0575E6;
 
-    --customFont: "gg sans", sans-serif;
+/* Bluey */  
+  --mainColor: #a3c7d9; 
+  --rs-online-color: #a3c7d9;
+  --rs-phone-color: #a3c7d9;
+  --gradientColor01: #a3c7d9; 
+  --gradientColor02: #2275c9;
+  --backgroundColor01: #181e21;
+  --backgroundColor02: #0f1214;
+  --linkcolor: #597285;
+  --backgroundCode: #162329;
+
+/* Purple   
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
+  --mainColor: #6900d1;
+  --rs-online-color: #6900d1;
+  --rs-phone-color: #6900d1;
+  --gradientColor01: #7800f1;
+  --gradientColor02: #bb00c5;
+  --linkcolor: #6900d1;
+  --backgroundCode: #120024;
+
+
+  /* Better Hljs */
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+
+  /* Custom Font */
+  --customFont: 'gg sans', sans-serif;
 }
