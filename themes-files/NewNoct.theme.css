@@ -50,7 +50,7 @@ Enable or disable each color preset: Remove the last `/*` after the name of each
 The enabled preset by default is an example of how to do this.
 */
 
-/* Nocturnal 3.0 */  /*
+/* Nocturnal 3.0 */  
   --backgroundColor01: #1e2731;
   --backgroundColor02: #12171d;
   --mainColor: #2275c9;
@@ -59,7 +59,7 @@ The enabled preset by default is an example of how to do this.
   --gradientColor01: #00F260;
   --gradientColor02: #0575E6;
 
-/* Bluey */  
+/* Bluey */  /*
   --mainColor: #a3c7d9; 
   --rs-online-color: #a3c7d9;
   --rs-phone-color: #a3c7d9;
