@@ -71,7 +71,7 @@ The enabled preset by default is an example of how to do this.
   --linkcolor: #597285;
   --backgroundCode: #162329;
 
-/* Purple   
+/* Purple */  /* 
   --backgroundColor01: #110022; 
   --backgroundColor02: #0a0014;
   --mainColor: #6900d1;
@@ -84,6 +84,7 @@ The enabled preset by default is an example of how to do this.
 
 
   /* Better Hljs */
+  --backgroundCode: #1e2731;
   --backgroundName: rgba(0, 0, 0, .2);
 
   /* Radial Status */
