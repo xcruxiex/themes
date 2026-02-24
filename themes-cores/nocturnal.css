@@ -3942,3 +3942,8 @@ color: var(--mainColor);
 .spine__5b40b{
     color: var(--mainColor);
 }
+
+/* Clan Tag */
+.chipletContainerInner__10651 {
+    background-color: var(--backgroundColor01);
+}
