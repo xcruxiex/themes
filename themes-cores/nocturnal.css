@@ -3558,7 +3558,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     padding-top: 7px !important;
 }
 .markup__75297 .codeActions__75297 {
-    top: 20px !important;
+    top: 7px !important;
 }
 .hljs::after {
     height: calc(100% - 20px);
@@ -3950,4 +3950,11 @@ color: var(--mainColor);
 }
 .defaultKeybindGroup__740f2{
     background-color: var(--backgroundColor01);
+}
+/*forum spines*/
+.spineBorder__5b40b{
+    background: var(--mainColor);
+}
+.spine__5b40b{
+    color: var(--mainColor);
 }
