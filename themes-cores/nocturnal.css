@@ -3952,3 +3952,13 @@ color: var(--mainColor);
 .container__8a031 {
     background-color: var(--backgroundColor01);
 }
+
+/* Discovery */
+.theme-dark .card__84e3e {
+  background-color: var(--backgroundColor01);
+  border: 1px solid transparent;
+}
+.theme-dark .card__84e3e:hover {
+  background-color: var(--backgroundColor02);
+  border: 1px solid var(--gradientColor02);
+}
