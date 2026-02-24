@@ -13,6 +13,28 @@
   padding-top: 14px !important;
 }
 
+/* File Viewer */
+.hljs {
+    background-color: rgba(1, 1, 1, 0.2);
+}
+.newMosaicStyle__4d95d .codeView__4d95d {
+  line-height: 1.128rem;
+}
+.textContainer__4d95d pre > .hljs::after {
+  padding: 38px 15px;
+}
+
+/* File Viewer Module */
+.modalContent__4d95d .codeView__4d95d {
+    background-color: rgba(1, 1, 1, 0.2);
+}
+.codeView__4d95d {
+  line-height: 1.128rem;
+}
+.modalContent__4d95d pre > .hljs::after {
+  padding: 42px 5px;
+}
+
 .modalTextContainer__4d95d,
 .textContainer__4d95d,
 .markup__75297 code.hljs,

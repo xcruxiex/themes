@@ -3591,3 +3591,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .picker__09f65 {background-color: var(--backgroundColor);border: 1px solid var(--themeColor1);}
 .buttonOverlayBackground__9be63,.soundAddButton_da9eb2:hover, .soundAddButton_da9eb2.focused_da9eb2  {background: var(--themeColor2);}
 .sectionContainer__61424,.soundButtonWrapper__9be63,.soundInfo__9be63 {background-color: transparent;}
+
+/* HLJS Minor patch */
+.modalContent__4d95d pre > .hljs::after {
+    padding: 30px 5px;
+}
