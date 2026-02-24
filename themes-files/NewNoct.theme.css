@@ -57,7 +57,6 @@ The enabled preset by default is an example of how to do this.
   --backgroundColor01: #181e21;
   --backgroundColor02: #0f1214;
   --linkcolor: #597285;
-  --backgroundCode: #162329;
 
 /* Purple */  
   --mainColor: #6900d1;
@@ -66,8 +65,6 @@ The enabled preset by default is an example of how to do this.
   --backgroundColor01: #110022; 
   --backgroundColor02: #0a0014;
   --linkcolor: #6900d1;
-  --backgroundCode: #120024;
-
 
   /* Better Hljs */
   --backgroundCode: var(--backgroundColor01);
