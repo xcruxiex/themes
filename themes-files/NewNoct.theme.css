@@ -84,7 +84,7 @@ The enabled preset by default is an example of how to do this.
 
 
   /* Better Hljs */
-  --backgroundCode: #1e2731;
+  --backgroundCode: var(--backgroundColor01);
   --backgroundName: rgba(0, 0, 0, .2);
 
   /* Radial Status */
