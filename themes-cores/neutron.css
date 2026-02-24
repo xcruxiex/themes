@@ -3357,6 +3357,10 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     width: auto;
 }
 
+.membersGroup_c8ffbb{
+    width: unset;
+}
+
 .selected__91a9d .childContainer__91a9d,.clickable__91a9d:hover .childContainer__91a9d{
     background-color: transparent;
 }
@@ -3458,7 +3462,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .header__8ef02 {background-color: transparent;border: none;}
 
 /* Nitro Background */
-.mainPageScroller_ca1a02, .homeWrapper__0920e {background-color: transparent;}
+.mainPageScroller__80907, .homeWrapper__0920e {background-color: transparent;}
 
 /* Shop Background */
 .shop__6db1d, .shopScroll__08415, .shop__08415 {background-color: transparent;}

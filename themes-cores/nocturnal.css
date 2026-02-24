@@ -1232,7 +1232,7 @@
 
 #app-mount .children__9293f:after,
 #app-mount .content_f75fb0:before,
-#app-mount .divider__44f7f,
+#app-mount .divider__1de9c,
 #app-mount .form_f75fb0:before,
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader__5a895:before,
@@ -3555,7 +3555,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /* HLJS Patch Noc only */
 .markup__75297 code{background-color: var(--backgroundCode)}
 .hljs, .hljs::after {
-    padding-top: 20px !important;
+    padding-top: 7px !important;
 }
 .markup__75297 .codeActions__75297 {
     top: 20px !important;
@@ -3828,7 +3828,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 /*Discovery tab*/
 .navItem__551b0.selected__551b0, .navItem__551b0:active{background-color: var(--backgroundColor02);}
 /*First to message in forum thingy*/
-.container__93db4{
+.container__5a2c6{
     background-color: var(--backgroundColor02);
 }
 /*Reply Color*/
