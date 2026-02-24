@@ -49,6 +49,8 @@ The enabled preset by default is an example of how to do this.
   --gradientColor02: #0575E6;
   --backgroundColor01: #1e2731;
   --backgroundColor02: #12171d;
+  --linkcolor: #00F260;
+  --backgroundCode: #191f25; 
 
 /* Bluey */  /*
   --mainColor: #a3c7d9; 
@@ -57,6 +59,7 @@ The enabled preset by default is an example of how to do this.
   --backgroundColor01: #181e21;
   --backgroundColor02: #0f1214;
   --linkcolor: #597285;
+  --backgroundCode: #12191d;
 
 /* Purple */  
   --mainColor: #6900d1;
@@ -65,9 +68,9 @@ The enabled preset by default is an example of how to do this.
   --backgroundColor01: #110022; 
   --backgroundColor02: #0a0014;
   --linkcolor: #6900d1;
+  --backgroundCode: #10021f;
 
   /* Better Hljs */
-  --backgroundCode: var(--backgroundColor01);
   --backgroundName: rgba(0, 0, 0, .2);
 
   /* Radial Status */
