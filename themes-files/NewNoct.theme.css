@@ -1,8 +1,8 @@
 /**
 * @name NewNoct
-* @version 3.0.2
-* @description For when default discord just isn't dark enough, a theme for those who live a night
-* @author Spectra and w1zard and cruxie
+* @version 4.0.0
+* @description For when default discord just isn't dark enough, a theme for those who live a night. Now with extra spice!
+* @author w1zard and cruxie
 * @invite PZdnCVD
 * @source https://xcruxiex.github.io//themes
 * @website https://betterdiscord.app/theme/Nocturnal
@@ -34,16 +34,8 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
-@import url("https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css");
-@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.css"); /* Radial Status */
+@import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
 
-
-/* <<<< To change colors, add the symbols that are at the start and end of each line and remove/add them to activate/deactivate colors >>>> */
-
-
-@import url("https://xcruxiex.github.io/themes/core/badges.css");
-@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
 :root {
 
 /* -- COLORS PRESETS -- *//*
@@ -51,19 +43,15 @@ Enable or disable each color preset: Remove the last `/*` after the name of each
 The enabled preset by default is an example of how to do this.
 */
 
-/* Nocturnal 3.0 */  
-  --backgroundColor01: #1e2731;
-  --backgroundColor02: #12171d;
+/* Nocturnal 3.0 */  /*
   --mainColor: #2275c9;
-  --rs-online-color: #2275c9;
-  --rs-phone-color: #2275c9;
   --gradientColor01: #00F260;
   --gradientColor02: #0575E6;
+  --backgroundColor01: #1e2731;
+  --backgroundColor02: #12171d;
 
 /* Bluey */  /*
   --mainColor: #a3c7d9; 
-  --rs-online-color: #a3c7d9;
-  --rs-phone-color: #a3c7d9;
   --gradientColor01: #a3c7d9; 
   --gradientColor02: #2275c9;
   --backgroundColor01: #181e21;
@@ -71,14 +59,12 @@ The enabled preset by default is an example of how to do this.
   --linkcolor: #597285;
   --backgroundCode: #162329;
 
-/* Purple */  /* 
-  --backgroundColor01: #110022; 
-  --backgroundColor02: #0a0014;
+/* Purple */  
   --mainColor: #6900d1;
-  --rs-online-color: #6900d1;
-  --rs-phone-color: #6900d1;
   --gradientColor01: #7800f1;
   --gradientColor02: #bb00c5;
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
   --linkcolor: #6900d1;
   --backgroundCode: #120024;
 
@@ -92,6 +78,8 @@ The enabled preset by default is an example of how to do this.
   --rs-large-spacing: 3px;
   --rs-width: 2px;
   --rs-avatar-shape: 50%;
+  --rs-online-color: var(--mainColor);
+  --rs-phone-color: var(--mainColor);
   --rs-idle-color: #faa61a;
   --rs-dnd-color: #f04747;
   --rs-offline-color: #636b75;
