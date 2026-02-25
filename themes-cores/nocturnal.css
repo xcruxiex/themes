@@ -3945,7 +3945,7 @@ color: var(--mainColor);
 
 /* Clan Tag */
 .chipletContainerInner__10651 {
-    background-color: var(--backgroundColor01);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 /* File Viewer */
