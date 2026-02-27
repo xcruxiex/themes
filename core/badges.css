@@ -49,6 +49,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   background-image: none;
+  border-radius: 5px;
 }
 .avatar_c19a55[src*="332394843743584256"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Bo'ole of Wo'er Mate?";
