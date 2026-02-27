@@ -42,15 +42,22 @@
 
 /*cruxie*/
 .avatar_c19a55[src*="332394843743584256"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {content: "";
-  background-image: url('https://i.imgur.com/D9NgKJs.png');
-  }
-.avatar_c19a55[src*="332394843743584256"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
-  content: "meow";
+  content: "Bri'ish";
   animation: fadeIn .5s linear 1;
-  color: #3ec23c;
-  width: 35px;
+  color: #a3c7d9;
+  width: 46px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
+  background-image: none;
+}
+.avatar_c19a55[src*="332394843743584256"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
+  content: "Bo'ole of Wo'er Mate?";
+  animation: none;
+  color: #2275c9;
+  width: 121px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: none;
 }
 
 /* yura */
@@ -64,11 +71,11 @@
 }
 
 /*limesharkbot*/
-.avatar_c19a55[src*="828009658403913768"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="828009658403913768"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/D9NgKJs.png');
   }
-.avatar_c19a55[src*="828009658403913768"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="828009658403913768"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "bip boop";
   color: #4ce949;
 }
@@ -461,11 +468,11 @@
 }
 
 /* Vince */
-.avatar_c19a55[src*="723977420364840970"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="723977420364840970"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/808009671423164437/808328899166863400/697995591921172532.gif');
 }
-.avatar_c19a55[src*="723977420364840970"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="723977420364840970"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Don't do anything";
   color: black;
   background-color: #fff;
@@ -473,11 +480,11 @@
 }
 
 /* Please? */
-.avatar_c19a55[src*="723055594403004458"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="723055594403004458"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://ch3rry.red/images/mufUFttb1.png');
 }
-.avatar_c19a55[src*="723055594403004458"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="723055594403004458"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Heartbeat";
   color: black;
   background-color: #e85656;
@@ -485,11 +492,11 @@
 }
 
 /* ebullience */
-.avatar_c19a55[src*="755163362400403507"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="755163362400403507"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/755167341024641175/827913766733479936/YhTayI1.gif');
 }
-.avatar_c19a55[src*="755163362400403507"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="755163362400403507"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "UGB Admin";
   background-color: #000;
   color: red;
@@ -497,12 +504,12 @@
 }
 
 /* slaplog */
-.avatar_c19a55[src*="470265348260757511"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="470265348260757511"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/emojis/796627278507278367.png');
 }
 
-.avatar_c19a55[src*="470265348260757511"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="470265348260757511"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Bruh Cult";
   background-color: rgb(29, 87, 233);
   color: white;
@@ -510,11 +517,11 @@
 }
 
 /* potatoking */
-.avatar_c19a55[src*="265400036509220866"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="265400036509220866"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://media.discordapp.net/attachments/512011694310948877/829859789538197524/yentThonkThinkSpin.gif');
 }
-.avatar_c19a55[src*="265400036509220866"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="265400036509220866"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Potato";
   background-color: #eeeeee;
   color: #00aa7f;
@@ -522,12 +529,12 @@
 }
 
 /* blazerod */
-.avatar_c19a55[src*="766759403365597235"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="766759403365597235"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://teamcofh.com/assets/images/thermal-foundation-2/basalz-powder.gif');
 }
 
-.avatar_c19a55[src*="766759403365597235"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="766759403365597235"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Exist";
   background-color: #ff0400;
   color: #FFD700;
@@ -535,12 +542,12 @@
 }
 
 /* germ */
-.avatar_c19a55[src*="769719386407567360"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="769719386407567360"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/842194096848371727/842195197101342776/32ce812355e09cd9b958b7da9f6269ba.png');
 }
 
-.avatar_c19a55[src*="769719386407567360"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="769719386407567360"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "sOb";
   background-color: #001cff;
   color: #000000;
@@ -548,12 +555,12 @@
 }
 
 /* Keiretsu */
-.avatar_c19a55[src*="514436990234656779"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="514436990234656779"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/B4GXxr2.gif');
 }
 
-.avatar_c19a55[src*="514436990234656779"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="514436990234656779"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "chika";
   background-color: #181c25;
   color: #ffffff;
@@ -561,12 +568,12 @@
 }
 
 /* The Flamer */
-.avatar_c19a55[src*="462658397951623168"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="462658397951623168"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.ibb.co/T1gYqYX/The-Flamer-Logo.png');
 }
 
-.avatar_c19a55[src*="462658397951623168"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="462658397951623168"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "The Flamer";
   background-color: #000000;
   color: #FF0000;
@@ -574,12 +581,12 @@
 }
 
 /* wolfie */
-.avatar_c19a55[src*="282978672711827456"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="282978672711827456"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/emojis/842827641824477225.gif');
 }
 
-.avatar_c19a55[src*="282978672711827456"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="282978672711827456"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Best dev u will meet";
   background-color: #03ffea;
   color: #ffffff;
@@ -587,12 +594,12 @@
 }
 
 /* kusakave */
-.avatar_c19a55[src*="153617374388551680"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="153617374388551680"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/843498694149013506/852992322023194634/Primogem.png');
 }
 
-.avatar_c19a55[src*="153617374388551680"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="153617374388551680"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Always a Leviathan";
   background-color: #9932CC;
   color: #ffffff;
@@ -600,12 +607,12 @@
 }
 
 /* hola peter */
-.avatar_c19a55[src*="721831770173079554"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="721831770173079554"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/793127494806798387/875061390652624906/codedotspectrabadge.png');
 }
 
-.avatar_c19a55[src*="721831770173079554"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="721831770173079554"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Absolute Queen";
   background-color: #fcd400;
   color: #000;
@@ -613,12 +620,12 @@
 }
 
 /* madmagic */
-.avatar_c19a55[src*="401795293797941290"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="401795293797941290"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://media.discordapp.net/attachments/851706940673359873/886279724119236639/1631375796596.png');
 }
 
-.avatar_c19a55[src*="401795293797941290"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="401795293797941290"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Shark King";
   background-color: #0071fd;
   color: #000;
@@ -626,12 +633,12 @@
 }
 
 /* christian */
-.avatar_c19a55[src*="226447651917266944"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="226447651917266944"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/4HFMrJ3.png');
 }
 
-.avatar_c19a55[src*="226447651917266944"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="226447651917266944"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "swag";
   background-color: #252628;
   color: #fff;
@@ -639,12 +646,12 @@
 }
 
 /* Sypher */
-.avatar_c19a55[src*="321332200668790786"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="321332200668790786"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/7kQcv3Q.gif');
 }
 
-.avatar_c19a55[src*="321332200668790786"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="321332200668790786"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Synergy Development";
   animation: scaleIn .2s linear 1;
   background-color: transparent;
@@ -652,12 +659,12 @@
 }
 
 /*90gq29*/
-.avatar_c19a55[src*="548537815026106390"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="548537815026106390"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/Gw2Rr0E.png');
 }
 
-.avatar_c19a55[src*="548537815026106390"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="548537815026106390"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "Sus?";
   animation: fadeIn .5s linear 1;
   color: #ff8080;
@@ -668,12 +675,12 @@
 }
 
 /*vatican*/
-.avatar_c19a55[src*="531167082243686433"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="531167082243686433"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://cdn.discordapp.com/attachments/840032147444203550/977663573050400878/ring.gif');
 }
 
-.avatar_c19a55[src*="531167082243686433"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="531167082243686433"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "</>";
   animation: fadeIn .5s linear 1;
   color: red;
@@ -813,12 +820,12 @@
 }
 
 /* LaunchpadByMike */
-.avatar_c19a55[src*="324511224291393538"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78)::after {
+.avatar_c19a55[src*="324511224291393538"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78)::after {
   content: "";
   background-image: url('https://i.imgur.com/DgupKzH.png');
 }
 
-.avatar_c19a55[src*="324511224291393538"]~h3>c19a557985eb7793-headerText>.username_c19a55:not(.usernameGradient_e5de78):hover::after {
+.avatar_c19a55[src*="324511224291393538"] ~ h3 > .headerText_c19a55 > .username_c19a55:not(.usernameGradient_e5de78):hover::after {
   content: "twitch.tv/launchpadbymike";
   animation: scaleIn .2s linear 1;
   background-color: #6441a5;
