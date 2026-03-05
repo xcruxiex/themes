@@ -3984,6 +3984,13 @@ color: var(--mainColor);
 }
 
 /* I never thought noise suppression was going to be so bad */
+.noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(1) > g > g > g > g:nth-child(5) > path,
+.noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(1) > g > g > g > g:nth-child(4) > path,
+.noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(1) > g > g > g > g:nth-child(3) > path,
+.noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(1) > g > g > g > g:nth-child(2) > path,
+.noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(1) > g > g > g > g:nth-child(1) > path {
+    fill: var(--gradientColor01);
+}
 .noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(2) > g > g > g > g:nth-child(5) > path,
 .noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(2) > g > g > g > g:nth-child(4) > path,
 .noWrap_abf706.voiceButtonsContainer_e131a9 > button:nth-child(1) > div > div > svg > g > g > g:nth-child(2) > g > g > g > g:nth-child(3) > path,
