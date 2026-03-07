@@ -3980,15 +3980,15 @@ color: var(--mainColor);
 
 /* Disconnect  Buttons */
 .voiceButtonsContainer_e131a9 .button__67645:nth-child(2) path {
-  fill: var(--gradientColor01);
+  fill: var(--mainColor);
 }
 
 /* Noise Suppression */
 .voiceButtonsContainer_e131a9 .button__67645:nth-child(1) path {
-    fill: var(--gradientColor01);
+    fill: var(--mainColor);
 }
 .voiceButtonsContainer_e131a9 .button__67645:nth-child(1) path {
-  stroke: var(--gradientColor01);
+  stroke: var(--mainColor);
 }
 
 /* Vc Active in Server icon */
