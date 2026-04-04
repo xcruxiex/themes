@@ -4033,3 +4033,4 @@ background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientC
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.header__095fe path {fill: var(--gradientColor01)}
