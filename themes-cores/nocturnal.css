@@ -4028,3 +4028,8 @@ background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientC
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.header__095fe,.membersGroupName_c8ffbb{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
