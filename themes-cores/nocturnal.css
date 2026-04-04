@@ -4000,8 +4000,30 @@ color: var(--mainColor);
 .headerContainer__7db08{
     background-color: var(--backgroundColor020),
 }
-/*role headers*/
-.membersGroup_c8ffbb span{ background: #000;
+/*gradient color titles :)*/
+.name_f37cb1,.text-lg\/semibold_cf4812{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.titleContainer_e8b59c path{fill: var(--gradientColor02) ;}
+.inboxIcon_ab6641{color: var(--gradientColor02) ;}
+.title_edbb22{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32, .modeSelected__2ea32 .name__2ea32, .modeSelected__2ea32:hover .name__2ea32{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.headerText__99e7c{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+ .wrapperCommon__29444 .overflow_b0dfc2{ background: #000;
 background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
