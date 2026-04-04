@@ -4000,3 +4000,9 @@ color: var(--mainColor);
 .headerContainer__7db08{
     background-color: var(--backgroundColor020),
 }
+/*role headers*/
+.membersGroup_c8ffbb span{ background: #000;
+background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
