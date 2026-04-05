@@ -4007,7 +4007,7 @@ background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientC
 }
 .titleContainer_e8b59c path{fill: var(--gradientColor02) ;}
 .inboxIcon_ab6641{color: var(--gradientColor02) ;}
-.title_edbb22{ background: #000;
+.container__13cf1 span { background: #000;
 background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
