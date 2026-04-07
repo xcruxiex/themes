@@ -73,6 +73,9 @@ The enabled preset by default is an example of how to do this.
   /* Better Hljs */
   --backgroundName: rgba(0, 0, 0, .2);
 
+  /* Gradients */
+  --toggle-gradient: true;
+
   /* Radial Status */
   --rs-small-spacing: 2px;
   --rs-large-spacing: 3px;

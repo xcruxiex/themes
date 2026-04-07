@@ -41,6 +41,9 @@ NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttt
     --gradientColor01: #00f260;
     --gradientColor02: #0575e6;
 
+    /* Gradients */
+    --toggle-gradient: true;
+
     /* Better Hljs */
     --backgroundCode: #1e2731;
     --backgroundName: rgba(0, 0, 0, 0.2);

@@ -4000,36 +4000,51 @@ color: var(--mainColor);
 .headerContainer__7db08{
     background-color: var(--backgroundColor020),
 }
-.name_f37cb1,.text-lg\/semibold_cf4812{ background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+/* Gradient Rule */
+@container style(--toggle-gradient: true) {
+	body {
+        --toggle-gradient: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+        --background-clip: text;
+        --text-fill-color: transparent;
+	}
 }
-.titleContainer_e8b59c path{fill: var(--gradientColor02) ;}
-.inboxIcon_ab6641{color: var(--gradientColor02) ;}
-.container__13cf1 span { background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+/* Gradients */
+.titleWrapper__9293f {
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
 }
-.modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32, .modeSelected__2ea32 .name__2ea32, .modeSelected__2ea32:hover .name__2ea32{ background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.name_f37cb1,.text-lg\/semibold_cf4812{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
 }
-.headerText__99e7c{ background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.titleContainer_e8b59c path{fill: var(--gradientColor02);}
+.inboxIcon_ab6641{color: var(--gradientColor02);}
+.container__13cf1 span {
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
 }
- .wrapperCommon__29444 .overflow_b0dfc2{ background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32, .modeSelected__2ea32 .name__2ea32, .modeSelected__2ea32:hover .name__2ea32{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
 }
-.header__095fe,.membersGroupName_c8ffbb{ background: #000;
-background: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.headerText__99e7c{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
 }
-.header__095fe path {fill: var(--gradientColor01)}
+ .wrapperCommon__29444 .overflow_b0dfc2{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__095fe,.membersGroupName_c8ffbb{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__095fe path {fill: var(--gradientColor01);}
