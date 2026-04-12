@@ -1,14 +1,15 @@
 /**
 * @name Nocturnal
-* @version 3.0.1
-* @description For when default discord just isn't dark enough, a theme for those who live a night
-* @author Spectra
+* @version 4.0.0
+* @description For when default discord just isn't dark enough, a theme for those who live a night. Now with extra spice!
+* @author w1zard and cruxie
 * @invite PZdnCVD
 * @source https://github.com/xcruxiex/themes
 * @website https://betterdiscord.app/theme/Nocturnal
 */
 @import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
 /*
+
 
 
 NNNNNNNN        NNNNNNNN                                              tttt                                                                                   lllllll
@@ -26,47 +27,69 @@ N::::::N     N:::::::::No::::o     o::::oc::::::c     ccccccc      t:::::t    tt
 N::::::N      N::::::::No:::::ooooo:::::oc:::::::cccccc:::::c      t::::::tttt:::::tu:::::::::::::::uur:::::r              n::::n    n::::na::::a    a:::::a l::::::l
 N::::::N       N:::::::No:::::::::::::::o c:::::::::::::::::c      tt::::::::::::::t u:::::::::::::::ur:::::r              n::::n    n::::na:::::aaaa::::::a l::::::l
 N::::::N        N::::::N oo:::::::::::oo   cc:::::::::::::::c        tt:::::::::::tt  uu::::::::uu:::ur:::::r              n::::n    n::::n a::::::::::aa:::al::::::l
-NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttttt      uuuuuuuu  uuuurrrrrrr              nnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll
+NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttttt      uuuuuuuu  uuuurrrrrrr              nnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll 2
 
 
 */
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
-@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.css"); /* Radial Status */
+@import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
+
 :root {
-    --backgroundColor01: #1e2731;
-    --backgroundColor02: #12171d;
-    --mainColor: #2275c9;
-    --gradientColor01: #00f260;
-    --gradientColor02: #0575e6;
 
-    /* Gradients */
-    --toggle-gradient: true;
+/* -- COLORS PRESETS -- *//*
+Enable or disable each color preset: Remove the last `/*` after the name of each preset. 
+The enabled preset by default is an example of how to do this.
+*/
 
-    /* Better Hljs */
-    --backgroundCode: #1e2731;
-    --backgroundName: rgba(0, 0, 0, 0.2);
+/* Nocturnal 3.0 */  /*
+  --mainColor: #2275c9;
+  --gradientColor01: #00F260;
+  --gradientColor02: #0575E6;
+  --backgroundColor01: #1e2731;
+  --backgroundColor02: #12171d;
+  --linkcolor: #00F260;
+  --backgroundCode: #191f25; 
 
-    /* Radial Status */
-    --rs-small-spacing: 2px;
-    --rs-large-spacing: 3px;
-    --rs-width: 2px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #747f8d;
-    --rs-phone-visible: block;
-    --rs-phone-color: var(--rs-online-color);
+/* Bluey */  /*
+  --mainColor: #a3c7d9; 
+  --gradientColor01: #a3c7d9; 
+  --gradientColor02: #2275c9;
+  --backgroundColor01: #181e21;
+  --backgroundColor02: #0f1214;
+  --linkcolor: #597285;
+  --backgroundCode: #12191d;
 
-    /* Unread Animation :
-    none -> static point.
-    pulse -> pulsating point
-    */
-    --unread-animation: pulse;
+/* Purple */  
+  --mainColor: #6900d1;
+  --gradientColor01: #7800f1;
+  --gradientColor02: #bb00c5;
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
+  --linkcolor: #6900d1;
+  --backgroundCode: #10021f;
 
-    --customFont: "gg sans", sans-serif;
+  /* Better Hljs */
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Gradients */
+  --toggle-gradient: true;
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: var(--mainColor);
+  --rs-phone-color: var(--mainColor);
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+
+  /* Custom Font */
+  --customFont: 'gg sans', sans-serif;
 }
