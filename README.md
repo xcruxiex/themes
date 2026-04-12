@@ -56,10 +56,11 @@ For when default discord just isn't dark enough, a theme for those who live a ni
 
 Download : https://betterdiscord.app/theme/Nocturnal
 
-Purple | Bluey 
-:-------------------------:|:-------------------------:
-![](https://i.vgy.me/RLiNXU.png)  |  ![](https://i.vgy.me/1TCBCA.png)  |  
 
-Nocturnal 3.0 |
+Purple |
 :-------------------------:
-![](https://i.vgy.me/Tf8edr.png)
+![](https://i.vgy.me/RLiNXU.png)
+
+Bluey |  Nocturnal 3.0
+:-------------------------:|:-------------------------:
+![](https://i.vgy.me/1TCBCA.png)  |  ![](https://i.vgy.me/Tf8edr.png)  |  
