@@ -4048,3 +4048,7 @@ color: var(--mainColor);
     -webkit-text-fill-color: var(--text-fill-color);
 }
 .header__095fe path {fill: var(--gradientColor01);}
+/*VC BACKGROUND*/
+.root_bfe55a{
+    background: transparent;
+}
