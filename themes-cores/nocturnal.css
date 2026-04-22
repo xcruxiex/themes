@@ -4052,3 +4052,8 @@ color: var(--mainColor);
 .root_bfe55a{
     background: transparent;
 }
+
+/*For spotify controls*/
+.theme-dark #vc-spotify-player{
+    background: transparent;
+}

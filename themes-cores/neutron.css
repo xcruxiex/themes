@@ -3600,3 +3600,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .root_bfe55a{
     background: transparent;
 }
+
+/*For spotify controls*/
+.theme-dark #vc-spotify-player{
+    background: transparent;
+}
