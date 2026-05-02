@@ -175,7 +175,7 @@
 .reaction__23977.reactionMe__23977{
     background-color: color-mix(in srgb, var(--mainColor), transparent 30%) !important;
     border-color: transparent;
-    opacity: 0;
+    opacity: 1;
 }
 
 .reaction__23977:hover{
