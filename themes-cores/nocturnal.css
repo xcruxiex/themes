@@ -1232,7 +1232,7 @@
 
 #app-mount .children__9293f:after,
 #app-mount .content_f75fb0:before,
-#app-mount .divider__44f7f,
+#app-mount .divider__1de9c,
 #app-mount .form_f75fb0:before,
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader__5a895:before,
@@ -1486,16 +1486,16 @@
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .accountProfileCard__1fed1 {
+#app-mount .accountProfileCard_a27e58 {
     background-color: var(--backgroundColor01) !important
 }
 
-#app-mount .accountProfileCard__1fed1 .fieldList__1fed1 {
+#app-mount .accountProfileCard_a27e58 .fieldList_a27e58 {
     background-color: var(--backgroundColor02) !important;
     padding: 15px
 }
 
-#app-mount .accountProfileCard__1fed1 .avatar__1fed1 {
+#app-mount .accountProfileCard_a27e58 .avatar_a27e58 {
     border-color: var(--backgroundColor01) !important
 }
 
@@ -1512,7 +1512,7 @@
     border: none !important
 }
 
-#app-mount .background__1fed1,
+#app-mount .background_a27e58,
 #app-mount .paginator__01014,
 #app-mount .payment_e9cb00,
 #app-mount .phoneField_a0c54f,
@@ -1535,7 +1535,7 @@
     box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, .3)
 }
 
-#app-mount .fieldList__1fed1 {
+#app-mount .fieldList_a27e58 {
     background-color: var(--backgroundColor02) !important;
     box-shadow: 0 4px 5px -2px rgba(0, 0, 0, .3)
 }
@@ -3773,7 +3773,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
 {border: none !important;}
 .visual-refresh .container_c8ffbb{border: none !important;}
 .visual-refresh .container__01ae2{background-color: transparent;}
-.field__1fed1{background-color: var(--backgroundColor);}
+.field_a27e58{background-color: var(--backgroundColor);}
 .theme-dark.mouse-mode.full-motion.visual-refresh .message__5126c:hover, .theme-dark.visual-refresh .message__5126c.selected__5126c{background-color: var(--backgroundColor01);}
 .chatGradient__36d07,.chatTypingGradientAtBottom__36d07{background:none}
 .clickable_c99c29{color:var(--mainColor)}
@@ -3888,7 +3888,7 @@ color: var(--mainColor);
 .top_aa8da2 .item_aa8da2.selected_aa8da2:after, .top_aa8da2 .item_aa8da2:hover:after{
     background:var(--mainColor);
 }
-.tab_f8303a.vertical_f8303a.selected_f8303a{
+.tab_eeedb9.vertical_eeedb9.selected_eeedb9{
     border-color: var(--mainColor);
 }
 .radioGroupOption__64e61[data-selected] .outerRadioFill__64e61, .standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61,
@@ -3937,7 +3937,7 @@ color: var(--mainColor);
 .colorDefault_c1e9c4.focused_c1e9c4{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
 }
-.defaultKeybindGroup__740f2{
+.defaultKeybindGroup__57111{
     background-color: var(--backgroundColor01);
 }
 /*forum spines*/

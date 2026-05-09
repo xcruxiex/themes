@@ -1222,7 +1222,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .connectionHeader-2rV1ze,
 .expandedInfo_e9cb00,
-.fieldList__1fed1,
+.fieldList_a27e58,
 .integration-1f5IUi,
 .pageButtonNext__2d021,
 .pageButtonPrev__2d021,
@@ -2160,16 +2160,16 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: var(--themeColor2);
 }
 
-.avatar__1fed1,
+.avatar_a27e58,
 .subscriptionsRedirectContainer-zD3U79,
 .notice-2OK8bw,
-.accountProfileCard__1fed1,
+.accountProfileCard_a27e58,
 .noItemsCard__70151 {
     background-color: rgba(0, 0, 0, .35) !important;
 }
 
-.fieldList__1fed1,
-.background__1fed1 {
+.fieldList_a27e58,
+.background_a27e58 {
     background-color: transparent !important;
 }
 
@@ -2361,7 +2361,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.promotionCard_d4883c {
+.promotionCard__70dc3 {
     background-color: var(--backgroundColor) !important;
 }
 
@@ -3483,7 +3483,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .streamPreview__6da2d {background: var(--backgroundColor); border:none; box-shadow: none;}
 
 /* Account Settings */
-.badgeList__1fed1 {background-color: transparent;}
+.badgeList_a27e58 {background-color: transparent;}
 .container__3f21e.checked__3f21e{background-color: var(--themeColor1) !important;}
 .container__3f21e.checked__3f21e:hover{background-color: var(--themeColor2) !important;}
 
@@ -3528,8 +3528,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .row__76f04:hover{background-color: var(--themeColor2);}
 
 /* Emoji Reaction Info Hover */
-.reactionTooltip_b49891{background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
-.reactionTooltip_b49891:hover{background-color: var(--themeColor2); border: 1px solid var(--themeColor2);}
+.reactionTooltip_bbcccb{background-color: var(--backgroundColor); border: 1px solid var(--themeColor1);}
+.reactionTooltip_bbcccb:hover{background-color: var(--themeColor2); border: 1px solid var(--themeColor2);}
 
 /* Emoji Reaction Module */
 .scroller_b7f4b4,.reactors_b7f4b4{background-color: var(--backgroundColor);}
