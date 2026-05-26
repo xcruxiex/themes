@@ -1222,7 +1222,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .connectionHeader-2rV1ze,
 .expandedInfo_e9cb00,
-.fieldList_a27e58,
+.fieldList_a9178b,
 .integration-1f5IUi,
 .pageButtonNext__2d021,
 .pageButtonPrev__2d021,
@@ -2160,16 +2160,16 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: var(--themeColor2);
 }
 
-.avatar_a27e58,
+.avatar_a9178b,
 .subscriptionsRedirectContainer-zD3U79,
 .notice-2OK8bw,
-.accountProfileCard_a27e58,
+.accountProfileCard_a9178b,
 .noItemsCard__70151 {
     background-color: rgba(0, 0, 0, .35) !important;
 }
 
-.fieldList_a27e58,
-.background_a27e58 {
+.fieldList_a9178b,
+.background_a9178b {
     background-color: transparent !important;
 }
 
@@ -2361,7 +2361,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.promotionCard__70dc3 {
+.promotionCard_f5f9ed {
     background-color: var(--backgroundColor) !important;
 }
 
@@ -3482,7 +3482,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .streamPreview__6da2d {background: var(--backgroundColor); border:none; box-shadow: none;}
 
 /* Account Settings */
-.badgeList_a27e58 {background-color: transparent;}
+.badgeList_a9178b {background-color: transparent;}
 .container__3f21e.checked__3f21e{background-color: var(--themeColor1) !important;}
 .container__3f21e.checked__3f21e:hover{background-color: var(--themeColor2) !important;}
 
