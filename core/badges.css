@@ -45,7 +45,7 @@
   content: "Bri'ish";
   animation: fadeIn .5s linear 1;
   color: #a3c7d9;
-  width: 46px;
+  width: fit-content;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   background-image: none;
@@ -55,7 +55,7 @@
   content: "Bo'ole of Wo'er Mate?";
   animation: none;
   color: #2275c9;
-  width: 121px;
+  width: fit-content;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
   background-image: none;
