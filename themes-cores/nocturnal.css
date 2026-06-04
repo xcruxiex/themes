@@ -4057,3 +4057,8 @@ color: var(--mainColor);
 .theme-dark #vc-spotify-player{
     background: transparent;
 }
+
+/* Search Empty Box */ 
+.search__49676 {
+    min-width: unset;
+}
