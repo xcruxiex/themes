@@ -3612,3 +3612,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     color: #fff;
     background-color: var(--themeColor2);
 }
+
+/* Search Empty Box */ 
+.search__49676 {
+    min-width: unset;
+}
