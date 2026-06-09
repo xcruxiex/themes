@@ -3615,5 +3615,5 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 /* Search Empty Box */ 
 .search__49676 {
-    min-width: unset;
+    width: unset;
 }
