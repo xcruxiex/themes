@@ -89,7 +89,7 @@
 #app-mount .videoWrapper__2f4f7,
 #app-mount .wrapper_ef3116,
 #app-mount .wrapper_cb9592 {
-    background: var(--backgroundColor02) !important
+    background: var(--backgroundColor02) 
 }
 
 
@@ -4055,7 +4055,7 @@ color: var(--mainColor);
 
 /*For spotify controls*/
 .theme-dark #vc-spotify-player{
-    background: transparent;
+    background: transparent !important;
 }
 
 /* Search Empty Box */ 
