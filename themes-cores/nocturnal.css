@@ -1232,7 +1232,7 @@
 
 #app-mount .children__9293f:after,
 #app-mount .content_f75fb0:before,
-#app-mount .divider__1de9c,
+#app-mount .divider__44f7f,
 #app-mount .form_f75fb0:before,
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader__5a895:before,
@@ -2584,8 +2584,8 @@
     background-color: var(--backgroundColor01);
 }
 
-.interactive_bf202d:focus-within,
-.interactive_bf202d:hover {
+.interactive_f88cfd:focus-within,
+.interactive_f88cfd:hover {
     background-color: var(--backgroundColor01) !important;
 }
 
@@ -3916,7 +3916,7 @@ color: var(--mainColor);
 .icon_c1e9c4{
     color: var(--mainColor);
 }
-.theme-dark .staticToolbar_bba883,.card__73069:not(.outline__73069){
+.theme-dark .staticToolbar_bba883,.card_b5dd01:not(.outline__73069){
     background-color: var(--backgroundColor01);
 }
 .joinOptionContent__959cb.active__959cb{

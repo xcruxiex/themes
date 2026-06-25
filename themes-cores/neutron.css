@@ -2497,8 +2497,8 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.interactive_bf202d:focus-within,
-.interactive_bf202d:hover {
+.interactive_f88cfd:focus-within,
+.interactive_f88cfd:hover {
     background-color: var(--backgroundColor) !important;
 }
 
