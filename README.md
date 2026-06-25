@@ -6,7 +6,6 @@ Suggestions and bugs reports are welcome
 Discord server invite : https://discord.gg/PZdnCVD
 
 ##  1. How to ask for help
-0. First, read the  documentation down below.
 1. Join the [discord server](https://discord.gg/PZdnCVD)
 2. Read the [#rules](https://discord.com/channels/499348536534761473/564631764765769751)
 3. Check [#read-before-asking](https://discord.com/channels/499348536534761473/564629861679759403)
@@ -14,7 +13,7 @@ Discord server invite : https://discord.gg/PZdnCVD
 5. Ask
    * Specify the theme
    * Explain your problem clearly
-   * add a screenshot if needed
+   * Add a screenshot if needed
 
 ## 2. Installing a theme
 First of all, make sure you have installed [BetterDiscord](https://betterdiscord.app/)
@@ -41,8 +40,8 @@ All themes are provided with images & color, but you can easily customize your t
    * For images, replace the link, it must be a direct link (www.website.com/exemple-img.png) (you can use .png/.jpg/.jpeg/.gif)
    * For colors, replace the color code, you can use this website to get color codes(https://www.w3schools.com/colors/colors_picker.asp)
 
-# 4. Themes list
-## Neutron Nova
+# Theme list
+## Neutron 
 A highly customizable Vibrant Purple Space Theme, now sugar free!
 
 Download : https://betterdiscord.app/theme/Neutron
