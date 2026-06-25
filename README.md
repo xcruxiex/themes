@@ -55,7 +55,6 @@ For when default discord just isn't dark enough, a theme for those who live a ni
 
 Download : https://betterdiscord.app/theme/Nocturnal
 
-
 Purple |
 :-------------------------:
 ![](https://i.vgy.me/RLiNXU.png)
