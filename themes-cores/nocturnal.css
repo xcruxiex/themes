@@ -4062,3 +4062,8 @@ color: var(--mainColor);
 .search__49676 {
     width: unset;
 }
+
+/* Channel Role Permissions */ 
+.scroller__53543 {
+    background-color: transparent;
+}
