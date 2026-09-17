@@ -1320,6 +1320,7 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb,
+#app-mount .scroller__36d07::-webkit-scrollbar-thumb,
 #app-mount .scroller::-webkit-scrollbar-thumb,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb,.scrollerBase_d125d2::-webkit-scrollbar-thumb {
@@ -1338,6 +1339,7 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb:hover,
+#app-mount .scroller__36d07::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller::-webkit-scrollbar-thumb:hover,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:hover,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:hover {
@@ -1356,6 +1358,7 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb:active,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb:active,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb:active,
+#app-mount .scroller__36d07::-webkit-scrollbar-thumb:active,
 #app-mount .scroller::-webkit-scrollbar-thumb:active,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:active,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:active {
@@ -1434,11 +1437,6 @@
 #app-mount .templatesList-uohY49:hover::-webkit-scrollbar {
     display: block
 } */
-
-
-.scroller__36d07::-webkit-scrollbar-thumb{
-    background: var(--backgroundColor02) !important;
-}
 
 #app-mount .wrapper_fc8177,
 #app-mount .wrapper-22ayhK {
