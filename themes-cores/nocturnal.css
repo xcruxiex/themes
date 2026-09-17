@@ -194,16 +194,6 @@
 	border-radius: 6px;
 }
 
-.scroller__36d07{
-    background-color: var(--backgroundColor01);
-    z-index: -2;
-}
-
-.scrollerContent__36d07{
-    background-color: var(--backgroundColor02);
-    z-index: -2;
-}
-
 .visual-refresh .topicsPillContainer__0f481, .topicsScroller__0f481{
 	background: var(--backgroundColor01);
     border-color: transparent;
@@ -1339,7 +1329,7 @@
 #app-mount .rolesList-3uZoaa::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller__629e4::-webkit-scrollbar-thumb:hover,
 #app-mount .scroller_ac6cb0::-webkit-scrollbar-thumb:hover,
-#app-mount .scroller__36d07::-webkit-scrollbar-thumb:hover,
+#app-mount .scroller__36d07:hover::-webkit-scrollbar-thumb,
 #app-mount .scroller::-webkit-scrollbar-thumb:hover,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:hover,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:hover {
