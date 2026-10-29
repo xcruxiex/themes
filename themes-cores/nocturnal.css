@@ -1222,7 +1222,7 @@
 
 #app-mount .children__9293f:after,
 #app-mount .content_f75fb0:before,
-#app-mount .divider__44f7f,
+#app-mount .divider__1de9c,
 #app-mount .form_f75fb0:before,
 #app-mount .guildSeparator-33mFX6,
 #app-mount .libraryHeader__5a895:before,
@@ -2543,12 +2543,12 @@
     background-color: var(--backgroundColor01) !important;
 }
 
-.theme-dark .bar_a562c8,
-.theme-dark .markDash_a562c8 {
+.theme-dark .bar_ec237e,
+.theme-dark .markDash_ec237e {
     background: var(--backgroundColor01)
 }
 
-.barFill_a562c8 {
+.barFill_ec237e {
     background: var(--gradientColor02)
 }
 
@@ -3825,7 +3825,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     background-color: var(--mainColor) !important;
 }
 /*spotify bar*/
-.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+.mini_ec237e .barFill_ec237e, .slider_ec237e .barFill_ec237e{
     background: var(--mainColor) !important;
 }
 
@@ -3844,7 +3844,7 @@ button.button__67645>.contents__201d5>svg>path[fill*="var(--interactive-normal)"
     color: #fff;
 }
 /*spotify bar*/
-.mini_a562c8 .barFill_a562c8, .slider_a562c8 .barFill_a562c8{
+.mini_ec237e .barFill_ec237e, .slider_ec237e .barFill_ec237e{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
 }
 .icon__0c4c4{

@@ -2468,12 +2468,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor) !important;
 }
 
-.theme-dark .bar_a562c8,
-.theme-dark .markDash_a562c8 {
+.theme-dark .bar_ec237e,
+.theme-dark .markDash_ec237e {
     background: var(--backgroundColor)
 }
 
-.barFill_a562c8 {
+.barFill_ec237e {
     background: var(--gradientColor02)
 }
 
