@@ -4084,3 +4084,11 @@ color: var(--mainColor);
     background: transparent;
     border: 3px solid var(--mainColor);
 }
+
+/*Emote hover bg in small reaction menu*/
+#app-mount .container_fea832, #app-mount .emojiItem_fc7141.emojiItemSelected_fc7141, #app-mount .wrapper_dc0b29{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+.button_f563df:hover{
+    background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
