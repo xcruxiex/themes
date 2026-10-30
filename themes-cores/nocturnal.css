@@ -4079,3 +4079,7 @@ color: var(--mainColor);
 .premiumPillText__9f7e5.premiumPillTextTier2__9f7e5 {
     color: var(--premium-tier-2-purple-for-gradients);
 }
+/*gif selector not being fully transparent*/
+.result__2dc39:hover:after, .result__2dc39[data-focused=true]:after{
+    background: transparent;
+}
