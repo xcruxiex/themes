@@ -4079,16 +4079,22 @@ color: var(--mainColor);
 .premiumPillText__9f7e5.premiumPillTextTier2__9f7e5 {
     color: var(--premium-tier-2-purple-for-gradients);
 }
-/*gif selector not being fully transparent and a border*/
+
+/* Gif selector not being fully transparent and a border*/
 .result__2dc39:hover:after, .result__2dc39[data-focused=true]:after{
     background: transparent;
     border: 3px solid var(--mainColor);
 }
 
-/*Emote hover bg in small reaction menu*/
+/* Emote hover bg in small reaction menu */
 #app-mount .container_fea832, #app-mount .emojiItem_fc7141.emojiItemSelected_fc7141, #app-mount .wrapper_dc0b29{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
 }
 .button_f563df:hover{
     background: linear-gradient(to top left, var(--gradientColor01), var(--gradientColor02)) !important;
+}
+
+/* Tab Option Scrolling */
+.focus-rings-ring {
+    box-shadow: 0 0 0 3px var(--mainColor);
 }
