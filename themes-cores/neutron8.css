@@ -29,7 +29,7 @@ body {
 .messages-3amgkR,
 .notice_ZTKX02,
 .nowPlayingColumn_zrUwGA,
-.pageWrapper_a3a4ce,
+.pageWrapper_4Qm5zV,
 .panels_pog62O,
 .privateChannels_u88IQl,
 .scroller_0GMCuY,
@@ -607,15 +607,15 @@ body {
     background-color: var(--backgroundColor) !important
 }
 
-.audioControls_f316dd,
+.audioControls_FJ99sr,
 .videoControls_f316dd {
     background-color: rgba(0, 0, 0, .75)
 }
 
-.mediaBarGrabber_f7877e,
-.mediaBarProgress_f7877e,
-.mediaBarProgress_f7877e:after,
-.mediaBarProgress_f7877e:before {
+.mediaBarGrabber_s1cr3c,
+.mediaBarProgress_s1cr3c,
+.mediaBarProgress_s1cr3c:after,
+.mediaBarProgress_s1cr3c:before {
     background-image: linear-gradient(to top right, var(--themeColor1), var(--themeColor2))
 }
 
@@ -928,7 +928,7 @@ body {
 .container_fea832,
 .container__33507,
 .searchBar-zdmu7v,
-.searchBar_u88IQl .searchBarComponent__35e86 {
+.searchBar_u88IQl .searchBarComponent_6mnjB2 {
     background-color: rgba(0, 0, 0, .4)
 }
 
@@ -1216,7 +1216,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: rgba(0, 0, 0, .5) !important;
 }
 
-.phoneField_sz0S3U .inputField_a0c54f {
+.phoneField_sz0S3U .inputField_ZFr6bW {
     background: 0 0
 }
 
@@ -1391,7 +1391,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     border-radius: 50px
 }
 
-.notches_e5cdf3.gray_e5cdf3 {
+.notches_0EQxEk.gray_0EQxEk {
     display: none
 }
 
@@ -1537,12 +1537,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor)
 }
 
-.notches_e5cdf3.black_e5cdf3 {
+.notches_0EQxEk.black_0EQxEk {
     background-image: none !important
 }
 
 .copyInput_cZux1n,
-.copyInputDefault_e19ebf,
+.copyInputDefault_cZux1n,
 .input-2g-os5 {
     background-color: var(--backgroundColor) !important
 }
@@ -1582,12 +1582,12 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .attachPopout__5c634,
 .footer_b78547,
-.uploadModal_b78547 {
+.uploadModal_gjsCOP {
     background-color: var(--backgroundColor) !important;
     box-shadow: none !important
 }
 
-.uploadModal_b78547 .scrollableContainer__74017 {
+.uploadModal_gjsCOP .scrollableContainer__74017 {
     background-color: rgba(0, 0, 0, .5);
     border: 1px solid rgba(0, 0, 0, .5)
 }
@@ -1737,7 +1737,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .botTagInvert_feVUtO,
-.botTagRegular_c89c9a {
+.botTagRegular_feVUtO {
     background-color: var(--themeColor1);
     border-radius: 50px !important;
     color: #fff
@@ -1773,7 +1773,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor) !important
 }
 
-.akaBadge__27cd4,
+.akaBadge_AAMT29,
 .enabled-1t_Gxm:hover,
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
 .side_6zZYhF .themed-2-lozF.item_6zZYhF:hover,
@@ -2113,7 +2113,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .active__05fbc,
-.hover_d0ebf2:hover {
+.hover_AFi54G:hover {
     background-color: var(--themeColor1);
     border-radius: 50% !important
 }
@@ -2155,7 +2155,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     border: none !important;
 }
 
-.circleIconButton_d4e182 {
+.circleIconButton_g8YUxD {
     background-color: rgba(0, 0, 0, .5);
     color: var(--themeColor2);
 }
@@ -2233,7 +2233,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .connectContainer_c7f964,
 .connection_c7f964,
-.connectionHeader_c7f964,
+.connectionHeader_UpEWJT,
 .mainCard_BkGrJJ {
     background-color: #00000080;
 }
@@ -2440,7 +2440,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor)
 }
 
-.friendRequestsButton__523aa {
+.friendRequestsButton_QwUPp6 {
     background-color: var(--backgroundColor);
 }
 
@@ -2477,7 +2477,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background: var(--gradientColor02)
 }
 
-.lookFilled__3f413.select_uFkqU2 {
+.lookFilled_9OQtot.select_uFkqU2 {
     background-color: var(--backgroundColor);
 }
 
@@ -2493,7 +2493,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.previewMessage__5d148 {
+.previewMessage_PMtXxb {
     background-color: var(--backgroundColor);
 }
 
@@ -2511,7 +2511,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .connectContainer_c7f964,
-.connectionHeader_c7f964 {
+.connectionHeader_UpEWJT {
     background-color: var(--backgroundColor);
 }
 
@@ -2519,7 +2519,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.metadataContainer_c7f964 {
+.metadataContainer_PLU3Jy {
     background-color: var(--backgroundColor);
     margin: 0px;
 }
@@ -2629,7 +2629,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) {
+.roleRow_a930f1:hover:not(.roleRowDisableHover_YEKbw3) {
     background-color: var(--backgroundColor);
 }
 
@@ -2649,7 +2649,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.backgroundModifierContainer_e5c5d5 {
+.backgroundModifierContainer_zYsR7a {
     background-color: var(--backgroundColor);
 }
 
@@ -2994,7 +2994,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-color: var(--backgroundColor);
 }
 
-.carouselModal_d2b9a1 {
+.carouselModal_7QK1F9 {
     background: transparent !important;
 }
 
@@ -3459,7 +3459,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .mainPageScroller_IRnLy8, .homeWrapper_8iSxT3 {background-color: transparent;}
 
 /* Shop Background */
-.shop_Mqg79R, .shopScroll__08415, .shop_XBXDcd {background-color: transparent;}
+.shop_Mqg79R, .shopScroll_4Qm5zV, .shop_XBXDcd {background-color: transparent;}
 
 /* Quest Background */
 .scroller_jkJlMe {background-color: transparent;}
@@ -3481,7 +3481,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .streamPreview__6da2d {background: var(--backgroundColor); border:none; box-shadow: none;}
 
 /* Account Settings */
-.badgeList_a9178b {background-color: transparent;}
+.badgeList_JZRLB9 {background-color: transparent;}
 .container__3f21e.checked__3f21e{background-color: var(--themeColor1) !important;}
 .container__3f21e.checked__3f21e:hover{background-color: var(--themeColor2) !important;}
 
