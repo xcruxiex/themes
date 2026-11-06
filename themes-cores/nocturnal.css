@@ -4098,3 +4098,13 @@ color: var(--mainColor);
 .focus-rings-ring {
     box-shadow: 0 0 0 3px var(--mainColor);
 }
+/*fucking goddamn scrollbars*/
+.thin_tqapBM::-webkit-scrollbar-thumb {
+    background-color: var(--mainColor);
+}
+.thin_tqapBM::-webkit-scrollbar{
+    width: 3px;
+}
+/*title bar on top*/
+.defaultColor_MMUIw6{color: var(--mainColor);}
+.title_LnjVAX svg path{fill: var(--mainColor);}
