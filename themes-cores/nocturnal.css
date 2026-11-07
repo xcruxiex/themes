@@ -4108,3 +4108,44 @@ color: var(--mainColor);
 /*title bar on top*/
 .defaultColor_MMUIw6{color: var(--mainColor);}
 .title_LnjVAX svg path{fill: var(--mainColor);}
+
+/*fixing broken gradients, sorry cork I can't be bothered to find where all these are, they were being a bitch*/
+.name_XH4OpX,.text-lg\/semibold_cf4812{ background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.titleContainer_6bgemo path{fill: var(--gradientColor01) ;}
+.inboxIcon_ab6641{color: var(--gradientColor01) ;}
+.title_LnjVAX{ background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.modeConnected_TNyK-N .name_TNyK-N, .modeConnected_TNyK-N:hover .name_TNyK-N, .modeSelected_TNyK-N .name_TNyK-N, .modeSelected_TNyK-N:hover .name_TNyK-N { background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.headerText_Bce46W{ background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+ .wrapperCommon_yOdhm_ .overflow__WDjet{ background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.header__195fe,.membersGroupName_86es1{ background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.header__195fe path {fill: var(--gradientColor02)}
+.modeMuted_TNyK-N:hover .name_TNyK-N, .wrapper_TNyK-N:hover .name_TNyK-N { background: #111;
+background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.icon_yOdhm_{color: var(--mainColor)!important;}
