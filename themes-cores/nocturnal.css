@@ -47,6 +47,102 @@
 	
 }
 
+/* --------- Gradient Rule --------- */
+@container style(--toggle-gradient: true) {
+	body {
+        --toggle-gradient: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
+        --background-clip: text;
+        --text-fill-color: transparent;
+	}
+}
+/* Gradients *//*
+.titleWrapper_ybUK7Z {
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.name_XH4OpX,.text-lg\/semibold_cf4812{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.titleContainer_6bgemo path{fill: var(--gradientColor02);}
+.inboxIcon_ab6641{color: var(--gradientColor02);}
+.container__13cf1 span {
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.modeConnected_TNyK-N .name_TNyK-N, .modeConnected_TNyK-N:hover .name_TNyK-N, .modeSelected_TNyK-N .name_TNyK-N, .modeSelected_TNyK-N:hover .name_TNyK-N{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.headerText_Bce46W{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+ .wrapperCommon__29444 .overflow__WDjet{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__095fe,.membersGroupName_86es0b{
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__095fe path {fill: var(--gradientColor01);} 
+*/
+
+/*fixing broken gradients, sorry cork I can't be bothered to find where all these are, they were being a bitch*/
+.name_XH4OpX,.text-lg\/semibold_cf4812{ 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.titleContainer_6bgemo path{fill: var(--gradientColor01) ;}
+.inboxIcon_ab6641{color: var(--gradientColor01) ;}
+.title_LnjVAX { 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.modeConnected_TNyK-N .name_TNyK-N, 
+.modeConnected_TNyK-N:hover .name_TNyK-N, 
+.modeSelected_TNyK-N .name_TNyK-N, 
+.modeSelected_TNyK-N:hover .name_TNyK-N { 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.headerText_Bce46W { 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+ .wrapperCommon_yOdhm_ .overflow__WDjet{ 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__195fe,.membersGroupName_86es1{ 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.header__195fe path {fill: var(--gradientColor02)}
+.modeMuted_TNyK-N:hover .name_TNyK-N, 
+.wrapper_TNyK-N:hover .name_TNyK-N { 
+	background: var(--toggle-gradient);
+    -webkit-background-clip: var(--background-clip);
+    -webkit-text-fill-color: var(--text-fill-color);
+}
+.icon_yOdhm_{color: var(--mainColor)!important;}
+
+/* --------- Back to the regulary scehduled tv program --------- */
+
 .custom-profile-theme.theme-dark .outer_rmCN9_, .theme-dark .outer_rmCN9_{
 	border: 1px solid transparent !important;
 }
@@ -3989,53 +4085,6 @@ color: var(--mainColor);
     background-color: var(--backgroundColor020),
 }
 
-/* Gradient Rule */
-@container style(--toggle-gradient: true) {
-	body {
-        --toggle-gradient: linear-gradient(to right, var(--gradientColor02) 0%, var(--gradientColor01) 100%);
-        --background-clip: text;
-        --text-fill-color: transparent;
-	}
-}
-/* Gradients */
-.titleWrapper_ybUK7Z {
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.name_XH4OpX,.text-lg\/semibold_cf4812{
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.titleContainer_6bgemo path{fill: var(--gradientColor02);}
-.inboxIcon_ab6641{color: var(--gradientColor02);}
-.container__13cf1 span {
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.modeConnected_TNyK-N .name_TNyK-N, .modeConnected_TNyK-N:hover .name_TNyK-N, .modeSelected_TNyK-N .name_TNyK-N, .modeSelected_TNyK-N:hover .name_TNyK-N{
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.headerText_Bce46W{
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
- .wrapperCommon__29444 .overflow__WDjet{
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.header__095fe,.membersGroupName_86es0b{
-	background: var(--toggle-gradient);
-    -webkit-background-clip: var(--background-clip);
-    -webkit-text-fill-color: var(--text-fill-color);
-}
-.header__095fe path {fill: var(--gradientColor01);}
 /*VC BACKGROUND*/
 .root_bfe55a{
     background: transparent;
@@ -4108,44 +4157,3 @@ color: var(--mainColor);
 /*title bar on top*/
 .defaultColor_MMUIw6{color: var(--mainColor);}
 .title_LnjVAX svg path{fill: var(--mainColor);}
-
-/*fixing broken gradients, sorry cork I can't be bothered to find where all these are, they were being a bitch*/
-.name_XH4OpX,.text-lg\/semibold_cf4812{ background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.titleContainer_6bgemo path{fill: var(--gradientColor01) ;}
-.inboxIcon_ab6641{color: var(--gradientColor01) ;}
-.title_LnjVAX{ background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.modeConnected_TNyK-N .name_TNyK-N, .modeConnected_TNyK-N:hover .name_TNyK-N, .modeSelected_TNyK-N .name_TNyK-N, .modeSelected_TNyK-N:hover .name_TNyK-N { background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.headerText_Bce46W{ background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
- .wrapperCommon_yOdhm_ .overflow__WDjet{ background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.header__195fe,.membersGroupName_86es1{ background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.header__195fe path {fill: var(--gradientColor02)}
-.modeMuted_TNyK-N:hover .name_TNyK-N, .wrapper_TNyK-N:hover .name_TNyK-N { background: #111;
-background: linear-gradient(to right, var(--gradientColor01) 1%, var(--gradientColor02) 111%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.icon_yOdhm_{color: var(--mainColor)!important;}
