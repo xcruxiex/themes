@@ -4157,3 +4157,20 @@ color: var(--mainColor);
 /*title bar on top*/
 .defaultColor_MMUIw6{color: var(--mainColor);}
 .title_LnjVAX svg path{fill: var(--mainColor);}
+/*server koin notice*/
+.notice_ZTKX02{
+    background-color: var(--backgroundColor01);
+}
+.lookOutlined_9OQtot.colorWhite_9OQtot{
+    border-color: var(--mainColor);color: var(--mainColor);
+}
+/*server join menu stuff*/
+.prompt_8Ei6w_{
+    background-color: var(--backgroundColor01);
+}
+.optionButtonWrapper_87WSWY{
+    background-color: var(--backgroundColor02);
+}
+.optionButtonWrapper_87WSWY.selected_87WSWY{
+    background-color: var(--backgroundColor01);border-color: var(--mainColor) !important;
+}
