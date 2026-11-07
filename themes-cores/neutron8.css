@@ -112,16 +112,6 @@ body {
     color: var(--themeColor1)
 }
 
-.childWrapper_JJ-hgR {
-    background-color: rgba(0, 0, 0, .5);
-    color: var(--themeColor2)
-}
-
-.childWrapper_JJ-hgR:hover {
-    background-color: var(--themeColor2) !important;
-    color: #fff;
-}
-
 .circleIconButton-1QV--U {
     background-color: rgba(0, 0, 0, .5);
     color: var(--themeColor1)
