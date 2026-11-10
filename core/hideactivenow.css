@@ -1,11 +1,11 @@
-.nowPlayingColumn__133bf {
+.nowPlayingColumn_zrUwGA {
     position: relative;
     left: 350px ;
     opacity: 1;
     margin-left: -350px;
     transition: .3s all ease-out;
 }
-.nowPlayingColumn__133bf:hover {
+.nowPlayingColumn_zrUwGA:hover {
     left: 0 ;
     opacity: 1;
     margin-left: 0;
