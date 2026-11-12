@@ -949,11 +949,11 @@
     -o-transition: transform .2s ease;
     -moz-transition: transform .2s ease;
     transition: transform .2s ease;
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    -moz-transform: translateX(100%);
-    -o-transform: translateX(100%);
-    transform: translateX(100%)
+    -webkit-transform: translateX(105%);
+    -ms-transform: translateX(105%);
+    -moz-transform: translateX(105%);
+    -o-transform: translateX(105%);
+    transform: translateX(105%)
 }
 
 .childContainer_J1Adu_:hover:after,.selected_J1Adu_ .childContainer_J1Adu_:after {
@@ -4179,8 +4179,14 @@ color: var(--mainColor);
     background-color: var(--backgroundColor01);border-color: var(--mainColor) !important;
 }
 
-/* new Shop tag */ 
+/* 'New' Shop tag */ 
 .newBadge_SMljHk .defaultColor_MMUIw6 {
     color: white;
     -webkit-text-fill-color: white;
+}
+
+/* Emoji/Sticker Description Text */
+.emojiSection_Gl3WZ2 .defaultColor_MMUIw6 {
+  color: white;
+  -webkit-text-fill-color: white;
 }
