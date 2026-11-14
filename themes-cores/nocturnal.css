@@ -1429,7 +1429,7 @@
 #app-mount .scroller::-webkit-scrollbar-thumb:hover,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:hover,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:hover {
-    background: var(--backgroundCode) !important;
+    background: var(--backgroundCode) ;
 }
 
 #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-thumb:active,
@@ -1448,7 +1448,7 @@
 #app-mount .scroller::-webkit-scrollbar-thumb:active,
 #app-mount .scrollerBase-_bVAAt::-webkit-scrollbar-thumb:active,
 #app-mount .templatesList-uohY49::-webkit-scrollbar-thumb:active {
-    background: var(--backgroundCode) !important;
+    background: var(--backgroundCode) ;
 }
 
 /* #app-mount .autocompleteScroller-13i2_Y::-webkit-scrollbar-button,
